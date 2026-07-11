@@ -320,8 +320,12 @@
     - name: Copy Homepage config files
       copy:
         src: files/homepage/services.yaml
-        dest: "{{ docker_compose_dir }}/config/services.yaml"
+        dest: "{{ docker_compose_dir }}/config/{{ item }}"
         owner: "{{ app_user }}"
+      loop:
+        - services.yaml
+        - widgets.yaml
+        - bookmarks.yaml
     - name: Write docker-compose.yml
       copy:
         dest: "{{ docker_compose_dir }}/docker-compose.yml"
