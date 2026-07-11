@@ -1,0 +1,4 @@
+ansible/secrets.yml
+ansible/*.secret
+*.env
+
