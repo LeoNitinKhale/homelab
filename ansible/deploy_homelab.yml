@@ -1,0 +1,353 @@
+---
+# Homelab Deployment Playbook
+# Usage: ansible-playbook -i ansible/inventory.ini ansible/deploy_homelab.yml
+
+# =============================================================
+# PLAY 1: Base server setup
+# =============================================================
+- name: Base server setup
+  hosts: homelab
+  become: true
+
+  tasks:
+
+    # -------------------------
+    # Swap
+    # -------------------------
+    - name: Create swapfile
+      command: fallocate -l 2G /swapfile
+      args:
+        creates: /swapfile
+
+    - name: Set swapfile permissions
+      file:
+        path: /swapfile
+        mode: '0600'
+
+    - name: Format swapfile
+      command: mkswap /swapfile
+      args:
+        creates: /proc/swaps
+
+    - name: Enable swap
+      command: swapon /swapfile
+      ignore_errors: true
+
+    - name: Add swap to fstab
+      lineinfile:
+        path: /etc/fstab
+        line: '/swapfile none swap sw 0 0'
+        state: present
+
+    # -------------------------
+    # System packages
+    # -------------------------
+    - name: Update apt cache
+      apt:
+        update_cache: true
+
+    - name: Install base packages
+      apt:
+        name:
+          - ufw
+          - git
+          - curl
+          - python3
+          - python3-pip
+          - python3-venv
+          - python3-psycopg2
+        state: present
+
+    # -------------------------
+    # UFW firewall
+    # -------------------------
+    - name: Allow SSH
+      ufw:
+        rule: allow
+        name: OpenSSH
+
+    - name: Allow HTTP
+      ufw:
+        rule: allow
+        port: '80'
+        proto: tcp
+
+    - name: Allow HTTPS
+      ufw:
+        rule: allow
+        port: '443'
+        proto: tcp
+
+    - name: Enable UFW
+      ufw:
+        state: enabled
+        policy: deny
+
+    # -------------------------
+    # SSH hardening
+    # -------------------------
+    - name: Disable password authentication
+      lineinfile:
+        path: /etc/ssh/sshd_config
+        regexp: '^#?PasswordAuthentication'
+        line: 'PasswordAuthentication no'
+      notify: Restart SSH
+
+    - name: Disable root login
+      lineinfile:
+        path: /etc/ssh/sshd_config
+        regexp: '^#?PermitRootLogin'
+        line: 'PermitRootLogin no'
+      notify: Restart SSH
+
+  handlers:
+    - name: Restart SSH
+      service:
+        name: ssh
+        state: restarted
+
+
+# =============================================================
+# PLAY 2: Install Docker
+# =============================================================
+- name: Install Docker
+  hosts: homelab
+  become: true
+
+  tasks:
+
+    - name: Install Docker dependencies
+      apt:
+        name:
+          - ca-certificates
+          - curl
+          - gnupg
+        state: present
+
+    - name: Add Docker GPG key
+      shell: >
+        curl -fsSL https://download.docker.com/linux/ubuntu/gpg |
+        gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+      args:
+        creates: /usr/share/keyrings/docker-archive-keyring.gpg
+
+    - name: Add Docker repository
+      apt_repository:
+        repo: >
+          deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg]
+          https://download.docker.com/linux/ubuntu
+          {{ ansible_distribution_release }} stable
+        state: present
+
+    - name: Install Docker
+      apt:
+        name:
+          - docker-ce
+          - docker-ce-cli
+          - containerd.io
+          - docker-compose-plugin
+        state: present
+        update_cache: true
+
+    - name: Add user to docker group
+      user:
+        name: "{{ app_user }}"
+        groups: docker
+        append: true
+
+    - name: Enable Docker
+      service:
+        name: docker
+        state: started
+        enabled: true
+
+
+# =============================================================
+# PLAY 3: Install Caddy
+# =============================================================
+- name: Install Caddy
+  hosts: homelab
+  become: true
+
+  tasks:
+
+    - name: Install Caddy dependencies
+      apt:
+        name:
+          - debian-keyring
+          - debian-archive-keyring
+          - apt-transport-https
+        state: present
+
+    - name: Add Caddy GPG key
+      shell: >
+        curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' |
+        gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
+      args:
+        creates: /usr/share/keyrings/caddy-stable-archive-keyring.gpg
+
+    - name: Add Caddy repository
+      shell: >
+        curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' |
+        tee /etc/apt/sources.list.d/caddy-stable.list
+      args:
+        creates: /etc/apt/sources.list.d/caddy-stable.list
+
+    - name: Install Caddy
+      apt:
+        name: caddy
+        state: present
+        update_cache: true
+
+    - name: Write Caddyfile
+      copy:
+        dest: /etc/caddy/Caddyfile
+        content: |
+          khale.net {
+              reverse_proxy localhost:3000
+          }
+
+          tasks.khale.net {
+              reverse_proxy localhost:3456
+          }
+      notify: Restart Caddy
+
+    - name: Enable Caddy
+      service:
+        name: caddy
+        state: started
+        enabled: true
+
+  handlers:
+    - name: Restart Caddy
+      service:
+        name: caddy
+        state: restarted
+
+
+# =============================================================
+# PLAY 4: PostgreSQL
+# =============================================================
+- name: Install PostgreSQL
+  hosts: homelab
+  become: true
+
+  tasks:
+
+    - name: Install PostgreSQL
+      apt:
+        name:
+          - postgresql
+          - postgresql-contrib
+          - python3-psycopg2
+        state: present
+        update_cache: true
+
+    - name: Ensure PostgreSQL is started
+      service:
+        name: postgresql
+        state: started
+        enabled: true
+
+    - name: Create database user
+      become_user: postgres
+      postgresql_user:
+        name: "{{ db_user }}"
+        password: "{{ db_password }}"
+        role_attr_flags: NOSUPERUSER,NOCREATEDB
+
+    - name: Create core database
+      become_user: postgres
+      postgresql_db:
+        name: "{{ db_name_core }}"
+        owner: "{{ db_user }}"
+
+    - name: Create ops database
+      become_user: postgres
+      postgresql_db:
+        name: "{{ db_name_ops }}"
+        owner: "{{ db_user }}"
+
+
+# =============================================================
+# PLAY 5: Redis
+# =============================================================
+- name: Install Redis
+  hosts: homelab
+  become: true
+
+  tasks:
+
+    - name: Install Redis
+      apt:
+        name: redis-server
+        state: present
+
+    - name: Enable Redis
+      service:
+        name: redis-server
+        state: started
+        enabled: true
+
+
+# =============================================================
+# PLAY 6: Deploy containers
+# =============================================================
+- name: Deploy Docker containers
+  hosts: homelab
+  become: true
+
+  tasks:
+
+    - name: Create docker compose directory
+      file:
+        path: "{{ docker_compose_dir }}"
+        state: directory
+        owner: "{{ app_user }}"
+        mode: '0755'
+
+    - name: Create vikunja subdirectories
+      file:
+        path: "{{ docker_compose_dir }}/{{ item }}"
+        state: directory
+        owner: "1000"
+        group: "1000"
+        mode: '0755'
+      loop:
+        - vikunja/files
+        - vikunja/db
+
+    - name: Write docker-compose.yml
+      copy:
+        dest: "{{ docker_compose_dir }}/docker-compose.yml"
+        owner: "{{ app_user }}"
+        content: |
+          services:
+            homepage:
+              image: ghcr.io/gethomepage/homepage:latest
+              container_name: homepage
+              volumes:
+                - ./config:/app/config
+                - /var/run/docker.sock:/var/run/docker.sock:ro
+              restart: unless-stopped
+              environment:
+                HOMEPAGE_ALLOWED_HOSTS: khale.net,tasks.khale.net
+              ports:
+                - 127.0.0.1:3000:3000
+            vikunja:
+              image: vikunja/vikunja
+              container_name: vikunja
+              environment:
+                VIKUNJA_DATABASE_TYPE: sqlite
+                VIKUNJA_SERVICE_PUBLICURL: https://tasks.khale.net
+              ports:
+                - 127.0.0.1:3456:3456
+              volumes:
+                - ./vikunja/files:/app/vikunja/files
+                - ./vikunja/db:/db
+              restart: unless-stopped
+
+    - name: Start containers
+      community.docker.docker_compose_v2:
+        project_src: "{{ docker_compose_dir }}"
+        state: present
