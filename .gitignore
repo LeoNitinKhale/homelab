@@ -1,4 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Django
+/staticfiles/
+/media/
+*.log
+
+# Environment / secrets — never commit real values
+.env
+*.env
+!.env.example
 ansible/secrets.yml
 ansible/*.secret
-*.env
 
+# Database dumps / backups (per CLAUDE.md — never commit these)
+/backups/
+*.sql
+*.sql.gz
+*.dump
+*.pg_dump
+*.sqlite3
+
+# Personal source-data exports kept out of the repo
+original_data/*.xlsx
+original_data/*.xlsm
+original_data/*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/settings.local.json

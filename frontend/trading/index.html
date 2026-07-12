@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trading — Homelab</title>
+  <link rel="stylesheet" href="/static/shared/css/app.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="backlink" href="/">&larr; Homelab</a>
+    <h1>Trading</h1>
+    <span class="spacer"></span>
+    <a class="navlink" href="/admin/trading/trade/">Edit in admin</a>
+  </header>
+
+  <main class="page">
+    <p class="lead">Trades and performance. Realised P&amp;L is summed over closed trades.</p>
+
+    <div class="stats">
+      <div class="stat"><div class="value" id="stat-total">—</div><div class="label">Trades</div></div>
+      <div class="stat"><div class="value" id="stat-open">—</div><div class="label">Open</div></div>
+      <div class="stat"><div class="value" id="stat-pnl">—</div><div class="label">Realised P&amp;L</div></div>
+    </div>
+
+    <table class="data">
+      <thead>
+        <tr>
+          <th>Symbol</th><th>Dir</th><th>Qty</th><th>Entry</th><th>Exit</th><th>P&amp;L</th><th>Opened</th>
+        </tr>
+      </thead>
+      <tbody id="rows"><tr><td colspan="7" class="empty">Loading…</td></tr></tbody>
+    </table>
+  </main>
+
+  <script src="/static/trading/js/trading.js"></script>
+</body>
+</html>

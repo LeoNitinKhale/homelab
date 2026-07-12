@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Homelab</title>
+  <link rel="stylesheet" href="/static/shared/css/app.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Homelab</h1>
+    <span class="status" id="health" title="Backend health">checking…</span>
+    <span class="spacer"></span>
+    <a class="navlink" href="/admin/">Admin</a>
+  </header>
+
+  <main class="grid">
+    <!-- App areas -->
+    <section class="card">
+      <h2>Mnemonics</h2>
+      <p>Memory pegs, images and phrases — storage, learning &amp; review.</p>
+      <a class="btn" href="/mnemonics/">Open</a>
+    </section>
+
+    <section class="card">
+      <h2>Trading</h2>
+      <p>Trades and performance tracking.</p>
+      <a class="btn" href="/trading/">Open</a>
+    </section>
+
+    <section class="card muted">
+      <h2>Health</h2>
+      <p>Dashboard — coming soon.</p>
+      <span class="btn disabled">TBD</span>
+    </section>
+
+    <!-- IT admin links -->
+    <section class="card">
+      <h2>IT Admin</h2>
+      <ul class="links">
+        <li><a href="http://192.168.1.2:5000" target="_blank" rel="noopener">Synology</a></li>
+        <li><a href="https://console.hetzner.cloud/" target="_blank" rel="noopener">Hetzner</a></li>
+        <li><a href="https://www.idrive.com/idrive/login/" target="_blank" rel="noopener">iDrive</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="/static/portal/js/portal.js"></script>
+</body>
+</html>
