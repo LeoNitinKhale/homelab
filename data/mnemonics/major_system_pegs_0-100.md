@@ -43,12 +43,34 @@ Vowels, W, H and Y are silent — ignore them when checking a word's code.
 
 **A separate system from everything below.** These encode by *shape*, not by sound — a trident is 3 because it has three prongs, not because of its consonants (T,R,T,N,T would be 41214). Never mix the two in one lookup, and flag any instance entry that uses a visual peg so it isn't read phonetically. Currently used by Hooke's death peg (instances #23).
 
-| # | Object |
-|---|--------|
-| 0 |  |
-| 1 |  |
-| 2 | Swan |
-| 3 | Trident |
+Candidate visual pegs for 0–20 below — **suggestions / alternatives to pick from**, not
+locked. Shape is the encoding basis; **Swan (2)** and **Trident (3)** are the ones
+currently in use. The extra columns collect parallel association aids the same numbers can
+hang off — a body-part list and a colour/design scheme.
+
+| # | Shape / object suggestions | Body part | Colour / design |
+|---|---|---|---|
+| 0 | Noose, floatie, donut, football, ring, plate, letter "O", severed head | Anus | black & white circle |
+| 1 | Candle, flute, tall horn, unicorn, staff/stick, numeral "1", arrow, bat | Finger | pale green (dollar) |
+| 2 | **Swan** *(in use)*, socks, bicycle, hook, two heads, spiral shell, yin-yang | Feet | — |
+| 3 | **Trident** / fork *(in use — 3 prongs)*, traffic lights, pyramid, triceratops/trike, triangle, handcuffs | Buttocks | azure & white (clouds) |
+| 4 | Four-leaf clover, swastika, car, quad bike, square, diamond | Head (pointy) | diamond |
+| 5 | Five-point star, hand, Olympic rings, beehive, white glove, pentagon, "V" | Hand | yellow & black stripes |
+| 6 | Six-pack, Star of David, ants/anthill, Rubik's cube, artic truck, hexagon, snowflake | Abdomen | — |
+| 7 | Rainbow, bow tie (007), calendar, wax-seal rosette, hockey stick, seal (seven seals), boomerang | Nose (upside-down) | rainbow |
+| 8 | Octopus/spider, cobweb, handcuffs, round glasses, crawler bot | Eyes | red & deep blue |
+| 9 | Cat, fireman/police helmet, baton, Moses' staff, police car, balloon, monocle | Ear | Belgian flag (black/yellow/red) |
+| 10 | Toes, Ravana (ten heads), hen, oversized keeper gloves, stone tablet, letter "X" | Toes | blue & silver (pharaoh) |
+| 11 | Skis, toy rocket (Apollo 11), chopsticks, stilts, giant legs, numeral "11" | Legs | silver |
+| 12 | Calendar, Indian headdress, buffalo, dozen yellow crocuses | Ribs | — |
+| 13 | Witch's hat, devil horns, broken mirror, black cat | — | fiery red & orange |
+| 14 | Bouquet of red roses, crystal carriage, heart | — | pink |
+| 15 | Gold bar, umpire's chair (15-1), 3-step podium, strawberries & cream / tennis racquet | — | green & purple |
+| 16 | Cake, sweets, Latymer badge/tie, big red bus | — | blue & black stripes |
+| 17 | Magazine / lip gloss, wand, wizard hat, Zac Efron (17 Again) | — | — |
+| 18 | Golf club, bunker & flag, plus-fours, golf buggy | — | — |
+| 19 | Machine gun, helicopter, dog tags / soldier's hat | — | military green & yellow |
+| 20 | Dartboard, giant pint, dart-shaped car | — | red & black segmented circle |
 
 
 ---
