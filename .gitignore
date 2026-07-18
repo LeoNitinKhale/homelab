@@ -31,6 +31,14 @@ original_data/*.xlsx
 original_data/*.xlsm
 original_data/*.csv
 
+# Raw mnemonics source imports (docx/xlsx/pdf/images) — bulky personal binaries,
+# kept out of the repo; the curated figures.yaml + *.md are the source of truth.
+data/mnemonics/original_data/
+Thumbs.db
+
+# YouTrack seed state — local map of figure id -> issue id (per-instance, not source)
+data/mnemonics/.youtrack_map.json
+
 # IDE
 .vscode/
 .idea/

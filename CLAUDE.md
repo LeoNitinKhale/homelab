@@ -41,6 +41,10 @@ Durable domains are separate Django apps so tables stay cleanly namespaced (`tra
 - `scripts/` - operational scripts for e.g. backups
 - `ansible/` - playbook + inventory for provisioning `dev`/`staging` targets; real secrets in `ansible/secrets.yml` (gitignored, copy from `ansible/secrets.yml.example`) — see `docs/DEPLOYMENT.md`
 
+### Database structure
+Currently single mnemonics database for memory pegs and person instances
+Later may add trading tables or a separate database for this
+
 ### Documentation
 Suggested, for review:
 ├── docs/
@@ -49,6 +53,7 @@ Suggested, for review:
 │   ├── TECHNICAL.md
 │   ├── SPECIFICATION.md
 │   └── RUNBOOK.md
+|   └── mnemonics
 
 ## Constraints
 Rules Claude must follow:
@@ -58,3 +63,6 @@ Rules Claude must follow:
 - New models needing `created_at`/`updated_at` must inherit the abstract bases in `common` (`CreatedModel`/`UpdatedModel`/`TimestampedModel`) rather than declaring those fields directly
 - New models need a migration. Each app needs at least a smoke test; any model with real logic gets its own test
 - Never overwrite a migration that has been applied to the Hetzner (production) database. Pre-launch local migrations may be squashed or regenerated freely
+
+## Main Feature Areas
+The biggest area is a mnemonics portal to help with memorisation of historical dates, initially specifically birth/death dates. See C:\dev\personal\homelab\docs\mnemonics\mnemonics_structure.md whenever discussing mnemonics during a session
