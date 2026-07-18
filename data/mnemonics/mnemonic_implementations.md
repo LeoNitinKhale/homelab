@@ -24,10 +24,10 @@ Every entry carries five metadata fields, each on its own line, so the set can b
 
 | Field | Values | Cardinality |
 |---|---|---|
-| **Role** | writer, poet, playwright, composer, artist, philosopher, mathematician, astronomer, physicist, chemist, naturalist, physician, engineer, architect, inventor, historian, lawyer, clergyman, politician, statesman, ruler, king-emperor, queen, general, revolutionary, explorer, businessman | many |
+| **Role** | writer, poet, playwright, composer, artist, philosopher, mathematician, astronomer, physicist, chemist, naturalist, physician, nurse, engineer, architect, inventor, historian, statistician, economist, lawyer, clergyman, politician, statesman, ruler, king-emperor, queen, general, revolutionary, explorer, businessman | many |
 | **Field** | science, arts, music, literature, power, military, exploration, philosophy | many |
 | **Era** | ancient, medieval, renaissance, early-modern, enlightenment, industrial, modern | one |
-| **Region** | british, french, italian, german, austrian, american, dutch, polish, serbian, egyptian, roman, mongol, genoese | one |
+| **Region** | british, french, italian, german, austrian, american, dutch, polish, serbian, egyptian, roman, greek, macedonian, mongol, genoese, indian, south-african | one |
 | **End** | natural, illness, assassinated, executed, suicide, battle, uncertain | one |
 
 **Two rules that keep the set usable:**
@@ -211,7 +211,6 @@ Every entry carries five metadata fields, each on its own line, so the set can b
 - Scene: Henry on a small boat crowded with his six wives, casting off. A monk hurls a rock that smashes into the boat as it sinks.
 - Position: casting off — birth action, above waterline, front. The rock smashing the boat — listed death action, correct position. Clean.
 - The monk is an emotional trigger and carries the Reformation, so the death image has historical weight.
-- 🟡 Sitting with the visual before calling it final.
 
 ---
 
@@ -307,11 +306,8 @@ Every entry carries five metadata fields, each on its own line, so the set can b
 - Era: modern
 - Region: serbian
 - End: natural
-- Scene: Baby Tesla on an electrified leash, crackling with sparks. Later, he raises his arm and blasts through the hotel window into the clouds for one last lightning storm, then falls back and dies.
-- Position: leash on the baby, above waist — birth, clean. **The arm breaks the rule**: raising it is a lifting action, held high and in front — every signal says birth, but it carries the death number.
-- **Fix options**: (a) the arm *falls* — the storm passes, the arm drops limp at his side and stays there, so the last image is low and dropping; (b) swap to Ram, Room or Rim.
-- Leash is shared with Mozart (1). Lash or Leech would clear it.
-- 🟡 Open on the arm position.
+- Scene: Baby Tesla on an electrified leash, crackling with sparks. Later, sitting up in bed, he drops his arm from beside his head down to horizontal and blasts through the hotel window into the clouds for one last lightning storm, then falls back and dies.
+- Position: leash on the baby, above the waist — birth, clean. Sitting up in bed, he drops his arm from beside his head down to horizontal — a dropping, death-type action — then blasts out through the window and falls back dead; the arm carries 43 in the death position.
 - He died 7 Jan 1943, alone in the Hotel New Yorker — the hotel window is real.
 
 ---
@@ -536,6 +532,23 @@ Every entry carries five metadata fields, each on its own line, so the set can b
 
 ---
 
+## 30. René Descartes 🟢 (1596–1650)
+
+- Birth peg: **96 → Badge / Beach**
+- Death peg: **50 → Lasso**
+- Role: philosopher, mathematician
+- Field: philosophy, science
+- Era: early-modern
+- Region: french
+- End: illness
+- Scene: On a warm beach, standing up from a recliner. A bright red-orange **badge** on his chest shows the sun and the words "Cogito ergo *Sun*"; he says "I'm pink therefore I am" — red and tanned. Queen Christina appears as the Snow Queen from Narnia and catches him with a huge white **lasso**, dragging him to the floor and into the cold.
+- Position: the sun **badge** on his chest — above the waist, front — carries 96, worn as he rises from the recliner on the warm beach (a birth-type action). The white lasso drags him down to the floor and into the cold — pulling down, death action, low position; carries 50. Clean.
+- Badge and Beach both encode 96 (Badge = B·J; Beach = B·CH); the chest badge is the number-carrier, the beach is the setting.
+- The puns ("sun"; "I'm pink therefore I am") are spoken cues, not pegs. Christina-as-Snow-Queen is an emotional trigger, carrying no number.
+- Historically anchored: Descartes died in Stockholm of pneumonia in February 1650, blamed on the cold and Queen Christina's 5am tutorials.
+
+---
+
 ## Open items
 
 - **Faraday (26)** — birth peg mis-encoded (pin/pan = 92, not 91); Pot proposed, needs confirming.
@@ -545,18 +558,13 @@ Every entry carries five metadata fields, each on its own line, so the set can b
 - **Curie (14), Van Gogh (17)** — death objects not clearly low or behind.
 - **Pascal (21)** — death peg was mis-encoded (notch/niche/gnash = 26, not 62), provisionally corrected to Chain. Confirm or pick Chin/Genie.
 - **Dickens (25)** — goose is held, not dropped; needs the low/falling fix.
-- **Nightingale (27)** — Role uses `nurse` and `statistician`, neither of which is in the Fields table yet. Add them or remap.
+- **Nightingale (27)** — Role uses `nurse` and `statistician`; both now added to the Role vocabulary.
 - **Duplicate object pegs across scenes**: Ink (Newton 2 / Genghis 4), Ape (Darwin 8 / Lincoln 9 — same year, so defensible), Leash (Mozart 1 / Tesla 16), Tin/Ton (Dickens 25 / Turing 28 — same year-ending, distinct words), Mice (Cleopatra 13 / Mark Antony 29 — same death year, deliberate).
 - **Century marker crowding**: six figures sit in the 1800s and the key offers only Tim Vine and David Frost for 18. Markers are selective — drop them where the century is obvious.
 
 ## Backlog
 
 Dates and candidate peg words; no scenes yet. Word lists are options to pick from, not decisions. Facts line is there to spark the hook — the strongest scenes come from something the figure actually did.
-
-**René Descartes** — 1596 / 1650
-Birth **96**: Beach, Peach, Bush, Badge, Bosch · Death **50**: Lace, Lice, Lasso, Listerine
-*Cogito ergo sum. Claimed his philosophy came from three dreams in a stove-heated room. Died in Sweden, killed by Queen Christina's 5am tutorials in the cold. Mind–body dualism; Cartesian coordinates.*
-
 
 **Gottfried Leibniz** — 1646 / 1716
 Birth **46**: Roach, Ridge · Death **16**: Dish, Dash, Ditch

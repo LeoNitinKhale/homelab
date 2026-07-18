@@ -41,6 +41,31 @@ SOURCE_REF = "data/mnemonics/mnemonic_implementations.md"
 
 STATUS_EMOJI = {"green": "🟢", "amber": "🟡", "red": "🔴", "none": "⚪"}
 
+# YouTrack lifecycle State per figure. Only a locked (green) scene is "done";
+# amber = drafted but needs polish, red = real gap, backlog = no scene yet.
+STATE_FOR_STATUS = {"green": "Verified", "amber": "In Progress", "red": "Open"}
+
+
+def youtrack_state(fig: dict) -> str:
+    if fig.get("state") == "backlog":
+        return "Open"
+    return STATE_FOR_STATUS.get(fig.get("status"), "Open")
+
+
+def custom_fields(fig: dict) -> list[dict]:
+    return [
+        {
+            "name": "State",
+            "$type": "StateIssueCustomField",
+            "value": {"name": youtrack_state(fig), "$type": "StateBundleElement"},
+        },
+        {
+            "name": "Type",
+            "$type": "SingleEnumIssueCustomField",
+            "value": {"name": "Task", "$type": "EnumBundleElement"},
+        },
+    ]
+
 
 # --------------------------------------------------------------------------- #
 # YouTrack REST client (stdlib urllib)
@@ -81,18 +106,26 @@ class YouTrack:
         avail = ", ".join(f"{p['shortName']} ({p['name']})" for p in projects)
         raise SystemExit(f"Project {wanted!r} not found. Available: {avail}")
 
-    def create_issue(self, project_id: str, summary: str, description: str) -> dict:
+    def create_issue(
+        self, project_id: str, summary: str, description: str, fields: list | None = None
+    ) -> dict:
         body = {
             "project": {"id": project_id},
             "summary": summary,
             "description": description,
         }
+        if fields:
+            body["customFields"] = fields
         return self.post(
             "/api/issues?fields=id,idReadable,summary", body
         )
 
-    def update_issue(self, issue_id: str, summary: str, description: str) -> dict:
+    def update_issue(
+        self, issue_id: str, summary: str, description: str, fields: list | None = None
+    ) -> dict:
         body = {"summary": summary, "description": description}
+        if fields:
+            body["customFields"] = fields
         return self.post(
             f"/api/issues/{issue_id}?fields=id,idReadable,summary", body
         )
@@ -115,6 +148,32 @@ class YouTrack:
             self.post(f"/api/issues/{issue_id}/tags?fields=id", {"id": tag_id})
         except SystemExit:
             pass
+
+    # ---- review-loop helpers -------------------------------------------- #
+    def find_issues(self, query: str, fields: str, top: int = 200) -> list:
+        q = urllib.parse.quote(query)
+        return self.get(f"/api/issues?query={q}&$top={top}&fields={fields}")
+
+    def get_issue(self, issue: str, fields: str) -> dict:
+        return self.get(f"/api/issues/{issue}?fields={fields}")
+
+    def set_state(self, issue: str, state_name: str) -> dict:
+        body = {
+            "customFields": [
+                {
+                    "name": "State",
+                    "$type": "StateIssueCustomField",
+                    "value": {"name": state_name, "$type": "StateBundleElement"},
+                }
+            ]
+        }
+        return self.post(
+            f"/api/issues/{issue}?fields=idReadable,customFields(name,value(name))",
+            body,
+        )
+
+    def add_comment(self, issue: str, text: str) -> dict:
+        return self.post(f"/api/issues/{issue}/comments?fields=id,text", {"text": text})
 
 
 # --------------------------------------------------------------------------- #
@@ -145,11 +204,34 @@ def _joined(value) -> str:
     return str(value)
 
 
+# Marker showing exactly where content still needs to be added/chosen.
+TC = "##TO COMPLETE##"
+
+
+def _metadata_block(fig: dict) -> list[str]:
+    def val(key, joined=False):
+        v = fig.get(key)
+        if v in (None, "", [], ()):
+            return TC
+        return _joined(v) if joined else v
+
+    return [
+        "### Metadata",
+        f"- **Role:** {val('role', joined=True)}",
+        f"- **Field:** {val('field', joined=True)}",
+        f"- **Era:** {val('era')}",
+        f"- **Region:** {val('region')}",
+        f"- **End:** {val('end')}",
+    ]
+
+
 def description_completed(fig: dict) -> str:
     emoji = STATUS_EMOJI.get(fig.get("status", "none"), "")
     lines = [
-        f"**Status:** {emoji} {fig.get('status', '')}  ·  **State:** completed",
+        f"**Status:** {emoji} {fig.get('status', '')}  ·  **Scene:** drafted",
         f"**Dates:** {date_span(fig)}",
+        "",
+        *_metadata_block(fig),
         "",
         "### Pegs",
         f"- **Birth peg:** {fig.get('birth_peg', '')}",
@@ -158,13 +240,6 @@ def description_completed(fig: dict) -> str:
     if fig.get("century"):
         lines.append(f"- **Century:** {fig['century']}")
     lines += [
-        "",
-        "### Metadata",
-        f"- **Role:** {_joined(fig.get('role', ''))}",
-        f"- **Field:** {_joined(fig.get('field', ''))}",
-        f"- **Era:** {fig.get('era', '')}",
-        f"- **Region:** {fig.get('region', '')}",
-        f"- **End:** {fig.get('end', '')}",
         "",
         "### Scene",
         fig.get("scene", ""),
@@ -179,28 +254,25 @@ def description_completed(fig: dict) -> str:
     return "\n".join(lines)
 
 
-TASK_BRIEF = (
-    "## Task\n"
-    "Build a green-quality birth–death scene following the template in\n"
-    f"`{SOURCE_REF}`:\n"
-    "- object pegs carry the numbers — birth above waist / in front, "
-    "death below / behind\n"
-    "- pick one birth peg + one death peg from the candidates (or a stronger word)\n"
-    "- fill Role / Field / Era / Region / End\n"
-    "- write Scene + Position; connect to the figure's real life or legacy"
-)
-
-
 def description_backlog(fig: dict) -> str:
     lines = [
-        f"**Status:** ⚪ no scene yet  ·  **State:** backlog",
+        "**Status:** ⚪ no scene yet  ·  **Scene:** not started",
         f"**Dates:** {date_span(fig)}",
         "",
-        "### Candidate pegs",
-        f"- **Birth ({fig.get('birth_peg_num', '?')}):** "
-        f"{_joined(fig.get('birth_peg_candidates', ''))}",
-        f"- **Death ({fig.get('death_peg_num', '?')}):** "
-        f"{_joined(fig.get('death_peg_candidates', ''))}",
+        *_metadata_block(fig),
+        "",
+        "### Pegs",
+        f"- **Birth peg ({fig.get('birth_peg_num', '?')}):** {TC}  ·  "
+        f"suggestions: {_joined(fig.get('birth_peg_candidates', ''))}",
+        f"- **Death peg ({fig.get('death_peg_num', '?')}):** {TC}  ·  "
+        f"suggestions: {_joined(fig.get('death_peg_candidates', ''))}",
+        "- **Century:** _(optional — add only if the birth century is ambiguous)_",
+        "",
+        "### Scene",
+        TC,
+        "",
+        "### Position",
+        "_(Claude derives from the scene)_",
         "",
         "### Facts / hooks",
         fig.get("facts", ""),
@@ -208,7 +280,6 @@ def description_backlog(fig: dict) -> str:
     notes = fig.get("notes") or []
     if notes:
         lines += ["", "### Notes"] + [f"- {n}" for n in notes]
-    lines += ["", TASK_BRIEF]
     lines += ["", "---", f"_Source: {SOURCE_REF} · backlog · figure #{fig['id']}_"]
     return "\n".join(lines)
 
@@ -240,6 +311,16 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Seed YouTrack from figures.yaml")
     parser.add_argument("--dry-run", action="store_true", help="preview only")
     parser.add_argument("--update", action="store_true", help="update existing tickets")
+    parser.add_argument(
+        "--set-state",
+        action="store_true",
+        help="on update, also force State/Type from status (re-baseline; off by default)",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="update even tickets in a working state (AI Proposed/In Progress/Submitted/Reopened)",
+    )
     parser.add_argument(
         "--only", choices=["completed", "backlog", "all"], default="all"
     )
@@ -275,6 +356,22 @@ def main() -> int:
     print(f"Project: {project['shortName']} ({project['name']})  id={project['id']}")
 
     id_map = load_map()
+
+    # A ticket being drafted/reviewed carries a "working" State; refreshing its
+    # description from figures.yaml would wipe the in-flight scene. Skip those on
+    # update unless --force. (Verified refreshes keep the canon view in sync.)
+    WORKING_STATES = {"AI Proposed", "In Progress", "Submitted", "Reopened"}
+    state_by_id = {}
+    if args.update and not args.force:
+        fields_q = "idReadable,customFields(name,value(name))"
+        for iss in yt.find_issues(f"project: {{{project['name']}}}", fields_q, top=1000):
+            st = next(
+                (cf["value"]["name"] for cf in iss["customFields"]
+                 if cf["name"] == "State" and cf.get("value")),
+                None,
+            )
+            state_by_id[iss["idReadable"]] = st
+
     created = updated = skipped = 0
     touched = 0
 
@@ -290,24 +387,44 @@ def main() -> int:
             skipped += 1
             continue
 
+        if existing and args.update and not args.force:
+            cur = state_by_id.get(existing.get("idReadable"))
+            if cur in WORKING_STATES:
+                skipped += 1
+                print(f"  skipped {existing.get('idReadable')} (working: {cur})")
+                continue
+
         touched += 1
         if args.dry_run:
             action = "UPDATE" if existing else "CREATE"
             print(f"  [{action}] {summary}")
             continue
 
+        fields = custom_fields(fig)
         if existing:
-            res = yt.update_issue(existing["id"], summary, description)
+            # On update, refresh summary/description only. State/Type are owned by
+            # the review loop (youtrack_review.py) once a ticket exists — clobbering
+            # them here would knock, e.g., a Verified amber entry back to In Progress.
+            # Pass --set-state to force the status→State mapping (e.g. a re-baseline).
+            upd_fields = fields if args.set_state else None
+            res = yt.update_issue(existing["id"], summary, description, upd_fields)
             updated += 1
             tag_target = existing["id"]
-            print(f"  updated {existing.get('idReadable', existing['id'])}: {summary}")
+            state_note = f"[{youtrack_state(fig)}]" if args.set_state else "[desc only]"
+            print(
+                f"  updated {existing.get('idReadable', existing['id'])} "
+                f"{state_note}: {summary}"
+            )
         else:
-            res = yt.create_issue(project["id"], summary, description)
+            res = yt.create_issue(project["id"], summary, description, fields)
             id_map[key] = {"id": res["id"], "idReadable": res.get("idReadable")}
             save_map(id_map)  # save incrementally so a crash never re-creates
             created += 1
             tag_target = res["id"]
-            print(f"  created {res.get('idReadable', res['id'])}: {summary}")
+            print(
+                f"  created {res.get('idReadable', res['id'])} "
+                f"[{youtrack_state(fig)}]: {summary}"
+            )
 
         if args.tags:
             status = fig.get("status", "none")

@@ -1,3 +1,17 @@
+# Controlled vocabulary — the standard values used across all figures. Mirrors the
+# Fields table in mnemonic_implementations.md. role/field are many-valued per figure;
+# era/region/end are single-valued.
+vocabulary:
+  role: [writer, poet, playwright, composer, artist, philosopher, mathematician,
+    astronomer, physicist, chemist, naturalist, physician, nurse, engineer, architect,
+    inventor, historian, statistician, economist, lawyer, clergyman, politician,
+    statesman, ruler, king-emperor, queen, general, revolutionary, explorer, businessman]
+  field: [science, arts, music, literature, power, military, exploration, philosophy]
+  era: [ancient, medieval, renaissance, early-modern, enlightenment, industrial, modern]
+  region: [british, french, italian, german, austrian, american, dutch, polish,
+    serbian, egyptian, roman, greek, macedonian, mongol, genoese, indian, south-african]
+  end: [natural, illness, assassinated, executed, suicide, battle, uncertain]
+
 figures:
   - id: 1
     name: "Mozart"
@@ -187,7 +201,7 @@ figures:
     end: "illness"
     scene: "Henry on a small boat crowded with his six wives, casting off. A monk hurls a rock that smashes into the boat as it sinks."
     position: "casting off — birth action, above waterline, front. The rock smashing the boat — listed death action, correct position. Clean."
-    notes: ["The monk is an emotional trigger and carries the Reformation, so the death image has historical weight.", "🟡 Sitting with the visual before calling it final."]
+    notes: ["The monk is an emotional trigger and carries the Reformation, so the death image has historical weight."]
 
   - id: 11
     name: "Leonardo da Vinci"
@@ -299,9 +313,9 @@ figures:
     era: "modern"
     region: "serbian"
     end: "natural"
-    scene: "Baby Tesla on an electrified leash, crackling with sparks. Later, he raises his arm and blasts through the hotel window into the clouds for one last lightning storm, then falls back and dies."
-    position: "leash on the baby, above waist — birth, clean. **The arm breaks the rule**: raising it is a lifting action, held high and in front — every signal says birth, but it carries the death number."
-    notes: ["**Fix options**: (a) the arm *falls* — the storm passes, the arm drops limp at his side and stays there, so the last image is low and dropping; (b) swap to Ram, Room or Rim.", "Leash is shared with Mozart (1). Lash or Leech would clear it.", "🟡 Open on the arm position.", "He died 7 Jan 1943, alone in the Hotel New Yorker — the hotel window is real."]
+    scene: "Baby Tesla on an electrified leash, crackling with sparks. Later, sitting up in bed, he drops his arm from beside his head down to horizontal and blasts through the hotel window into the clouds for one last lightning storm, then falls back and dies."
+    position: "Leash on the baby, above the waist — birth, clean. Sitting up in bed, he drops his arm from beside his head down to horizontal — a dropping, death-type action — then blasts out through the window and falls back dead; the arm carries 43 in the death position."
+    notes: ["He died 7 Jan 1943, alone in the Hotel New Yorker — the hotel window is real."]
 
   - id: 17
     name: "Vincent van Gogh"
@@ -552,17 +566,21 @@ figures:
 
   - id: 30
     name: "René Descartes"
-    state: backlog
-    status: none
+    state: completed
+    status: green
     birth_year: 1596
     death_year: 1650
     era_bc: false
-    birth_peg_num: 96
-    birth_peg_candidates: ["Beach", "Peach", "Bush", "Badge", "Bosch"]
-    death_peg_num: 50
-    death_peg_candidates: ["Lace", "Lice", "Lasso", "Listerine"]
-    facts: "Cogito ergo sum. Claimed his philosophy came from three dreams in a stove-heated room. Died in Sweden, killed by Queen Christina's 5am tutorials in the cold. Mind–body dualism; Cartesian coordinates."
-    notes: []
+    role: ["philosopher", "mathematician"]
+    field: ["philosophy", "science"]
+    era: "early-modern"
+    region: "french"
+    end: "illness"
+    birth_peg: "96 → Badge / Beach"
+    death_peg: "50 → Lasso"
+    scene: "On a warm beach, standing up from a recliner. A bright red-orange badge on his chest shows the sun and the words 'Cogito ergo Sun'; he says 'I'm pink therefore I am' — red and tanned. Queen Christina appears as the Snow Queen from Narnia and catches him with a huge white lasso, dragging him to the floor and into the cold."
+    position: "The sun badge on his chest — above the waist, front — carries 96, worn as he rises from the recliner on the warm beach (a birth-type action). The white lasso drags him down to the floor and into the cold — pulling down, death action, low position; carries 50. Clean."
+    notes: ["Badge and Beach both encode 96 (Badge = B·J; Beach = B·CH); the chest badge is the number-carrier, the beach is the setting.", "The puns ('sun'; 'I'm pink therefore I am') are spoken cues, not pegs. Christina-as-Snow-Queen is an emotional trigger, carrying no number.", "Historically anchored: Descartes died in Stockholm of pneumonia in February 1650, blamed on the cold and Queen Christina's 5am tutorials."]
 
   - id: 31
     name: "Gottfried Leibniz"
@@ -571,6 +589,11 @@ figures:
     birth_year: 1646
     death_year: 1716
     era_bc: false
+    role: ["mathematician", "philosopher"]
+    field: ["science", "philosophy"]
+    era: "early-modern"
+    region: "german"
+    end: "illness"
     birth_peg_num: 46
     birth_peg_candidates: ["Roach", "Ridge"]
     death_peg_num: 16
@@ -585,6 +608,11 @@ figures:
     birth_year: 1473
     death_year: 1543
     era_bc: false
+    role: ["astronomer", "clergyman"]
+    field: ["science"]
+    era: "renaissance"
+    region: "polish"
+    end: "natural"
     birth_peg_num: 73
     birth_peg_candidates: ["Comb", "Gum", "Camel", "Camel *(cigs)*"]
     death_peg_num: 43
@@ -599,6 +627,11 @@ figures:
     birth_year: -100
     death_year: -44
     era_bc: true
+    role: ["ruler", "general", "statesman"]
+    field: ["power", "military"]
+    era: "ancient"
+    region: "roman"
+    end: "assassinated"
     birth_peg_num: 0
     birth_peg_candidates: ["Sauce"]
     death_peg_num: 44
@@ -613,6 +646,11 @@ figures:
     birth_year: -470
     death_year: -399
     era_bc: true
+    role: ["philosopher"]
+    field: ["philosophy"]
+    era: "ancient"
+    region: "greek"
+    end: "executed"
     birth_peg_num: 70
     birth_peg_candidates: ["Case", "Goose", "Gauze", "Casio"]
     death_peg_num: 99
@@ -627,6 +665,11 @@ figures:
     birth_year: -356
     death_year: -323
     era_bc: true
+    role: ["king-emperor", "general", "ruler"]
+    field: ["power", "military"]
+    era: "ancient"
+    region: "macedonian"
+    end: "uncertain"
     birth_peg_num: 56
     birth_peg_candidates: ["Leash", "Leech", "Lash", "Lush"]
     death_peg_num: 23
@@ -641,6 +684,11 @@ figures:
     birth_year: 1564
     death_year: 1642
     era_bc: false
+    role: ["astronomer", "physicist", "mathematician"]
+    field: ["science"]
+    era: "renaissance"
+    region: "italian"
+    end: "natural"
     birth_peg_num: 64
     birth_peg_candidates: ["Chair", "Shore", "Cherry"]
     death_peg_num: 42
@@ -655,6 +703,11 @@ figures:
     birth_year: 1685
     death_year: 1750
     era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "enlightenment"
+    region: "german"
+    end: "illness"
     birth_peg_num: 85
     birth_peg_candidates: ["Foil", "File", "Volvo"]
     death_peg_num: 50
@@ -669,6 +722,11 @@ figures:
     birth_year: 1770
     death_year: 1827
     era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "enlightenment"
+    region: "german"
+    end: "illness"
     birth_peg_num: 70
     birth_peg_candidates: ["Case", "Goose", "Gauze", "Casio"]
     death_peg_num: 27
@@ -683,6 +741,11 @@ figures:
     birth_year: 1775
     death_year: 1817
     era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "enlightenment"
+    region: "british"
+    end: "uncertain"
     birth_peg_num: 75
     birth_peg_candidates: ["Coal", "Coil", "Eagle", "Gold", "Colgate"]
     death_peg_num: 17
@@ -697,6 +760,11 @@ figures:
     birth_year: 1819
     death_year: 1901
     era_bc: false
+    role: ["queen", "ruler"]
+    field: ["power"]
+    era: "industrial"
+    region: "british"
+    end: "natural"
     birth_peg_num: 19
     birth_peg_candidates: ["Tub", "Tape", "Tip", "Tuba", "Toblerone"]
     death_peg_num: 1
@@ -711,6 +779,11 @@ figures:
     birth_year: 1818
     death_year: 1883
     era_bc: false
+    role: ["philosopher", "economist", "revolutionary"]
+    field: ["philosophy"]
+    era: "industrial"
+    region: "german"
+    end: "illness"
     birth_peg_num: 18
     birth_peg_candidates: ["Dove", "Toffee", "Diva", "Staff", "Tefal"]
     death_peg_num: 83
@@ -725,6 +798,11 @@ figures:
     birth_year: 1815
     death_year: 1852
     era_bc: false
+    role: ["mathematician"]
+    field: ["science"]
+    era: "industrial"
+    region: "british"
+    end: "illness"
     birth_peg_num: 15
     birth_peg_candidates: ["Tail", "Dial", "Doll", "Tile", "Towel", "Tilda"]
     death_peg_num: 52
@@ -739,6 +817,11 @@ figures:
     birth_year: 1856
     death_year: 1939
     era_bc: false
+    role: ["physician"]
+    field: ["science"]
+    era: "modern"
+    region: "austrian"
+    end: "illness"
     birth_peg_num: 56
     birth_peg_candidates: ["Leash", "Leech", "Lash", "Lush"]
     death_peg_num: 39
@@ -753,6 +836,11 @@ figures:
     birth_year: 1869
     death_year: 1948
     era_bc: false
+    role: ["revolutionary", "lawyer", "politician"]
+    field: ["power"]
+    era: "modern"
+    region: "indian"
+    end: "assassinated"
     birth_peg_num: 69
     birth_peg_candidates: ["Ship", "Shop", "Sheep", "Chip", "Chop", "Jeep"]
     death_peg_num: 48
@@ -767,6 +855,11 @@ figures:
     birth_year: 1918
     death_year: 2013
     era_bc: false
+    role: ["statesman", "politician", "revolutionary", "lawyer"]
+    field: ["power"]
+    era: "modern"
+    region: "south-african"
+    end: "natural"
     birth_peg_num: 18
     birth_peg_candidates: ["Dove", "Toffee", "Diva", "Staff", "Tefal"]
     death_peg_num: 13
@@ -781,6 +874,11 @@ figures:
     birth_year: 1412
     death_year: 1431
     era_bc: false
+    role: ["general"]
+    field: ["military"]
+    era: "medieval"
+    region: "french"
+    end: "executed"
     birth_peg_num: 12
     birth_peg_candidates: ["Tin", "Den", "Dawn", "Ton", "Down", "Tango"]
     death_peg_num: 31
@@ -795,6 +893,11 @@ figures:
     birth_year: 1728
     death_year: 1779
     era_bc: false
+    role: ["explorer"]
+    field: ["exploration"]
+    era: "enlightenment"
+    region: "british"
+    end: "battle"
     birth_peg_num: 28
     birth_peg_candidates: ["Knife", "Nephew", "Navy", "Nivea"]
     death_peg_num: 79
@@ -809,6 +912,11 @@ figures:
     birth_year: 1606
     death_year: 1669
     era_bc: false
+    role: ["artist"]
+    field: ["arts"]
+    era: "early-modern"
+    region: "dutch"
+    end: "natural"
     birth_peg_num: 6
     birth_peg_candidates: ["Sash"]
     death_peg_num: 69
@@ -823,6 +931,11 @@ figures:
     birth_year: 1755
     death_year: 1793
     era_bc: false
+    role: ["queen"]
+    field: ["power"]
+    era: "enlightenment"
+    region: "austrian"
+    end: "executed"
     birth_peg_num: 55
     birth_peg_candidates: ["Lily", "Lolly", "Lilac", "Lyle's"]
     death_peg_num: 93
@@ -837,6 +950,11 @@ figures:
     birth_year: 1889
     death_year: 1951
     era_bc: false
+    role: ["philosopher"]
+    field: ["philosophy"]
+    era: "modern"
+    region: "austrian"
+    end: "illness"
     birth_peg_num: 89
     birth_peg_candidates: ["Fob", "Fop", "Fibre-optic", "Fab"]
     death_peg_num: 51
@@ -851,6 +969,11 @@ figures:
     birth_year: 1858
     death_year: 1928
     era_bc: false
+    role: ["revolutionary"]
+    field: ["power"]
+    era: "modern"
+    region: "british"
+    end: "illness"
     birth_peg_num: 58
     birth_peg_candidates: ["Leaf", "Elf", "Olive", "Loaf", "Levi's"]
     death_peg_num: 28
