@@ -122,10 +122,10 @@ hang off — a body-part list and a colour/design scheme.
 | 40 | RS | Rose, Rice | Rice Krispies |
 | 41 | RT | Root, Rat, Rod | Ritz |
 | 42 | RN | Rhino, Wren, Rain, Orange *(rlx)* | Renault |
-| 43 | RM | Ram, Arm, Rum, Room, Rim | Rimmel |
+| 43 | RM | Ram, Arm, Rum, Room, Rim, Roman *(rlx)*, Rambo *(rlx)* | Rimmel |
 | 44 | RR | Rear, Aurora, Warrior | — |
 | 45 | RL | Reel, Rail, Roll, Aerial | Rolex, Rolls-Royce |
-| 46 | RJ/RSH/RCH | Roach, Ridge | — |
+| 46 | RJ/RSH/RCH | Roach, Ridge, Raja | — |
 | 47 | RK | Rock, Rack, Rake, Rag, Rug | Ricola |
 | 48 | RF | Roof, Reef, Roofer *(rlx)* | Ryvita |
 | 49 | RP | Rope, Robe, Rib, Ruby | Reebok, Ribena |
