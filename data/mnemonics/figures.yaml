@@ -10,7 +10,7 @@ vocabulary:
   era: [ancient, medieval, renaissance, early-modern, enlightenment, industrial, modern]
   region: [british, french, italian, german, austrian, american, dutch, polish,
     serbian, egyptian, roman, greek, macedonian, mongol, genoese, indian, south-african,
-    chinese, russian, portuguese, norwegian]
+    chinese, russian, portuguese, norwegian, spanish, turkish, carthaginian]
   end: [natural, illness, assassinated, executed, suicide, battle, uncertain]
 
 figures:
@@ -1732,4 +1732,289 @@ figures:
     death_peg_candidates: ["Sauce"]
     facts: "Friedrich Nietzsche was a dazzling young classical scholar — a professor at just twenty-four — before ill health drove him from academia into a wandering life of writing in Alpine boarding houses. In a torrent of aphoristic, explosive books (Thus Spoke Zarathustra, Beyond Good and Evil) he declared that 'God is dead', attacked conventional morality as a trap for the weak, and urged humanity to create its own values and rise toward the 'Übermensch', or Superman.\n\nAlmost unread in his own lifetime, he suffered a total mental collapse in Turin in 1889 — the popular story has him throwing his arms around a horse being flogged in the street — and spent his last eleven years insane, cared for by his family. His sister then edited and distorted his work to fit her own antisemitic, nationalist views, letting the Nazis later hijack his name — a grotesque betrayal of a thinker who had in fact despised both antisemitism and German nationalism."
     notes: ["'God is dead'; the Übermensch; collapsed into insanity in Turin in 1889, died in 1900."]
+
+  - id: 90
+    name: "J.M.W. Turner"
+    state: backlog
+    status: none
+    birth_year: 1775
+    death_year: 1851
+    era_bc: false
+    role: ["artist"]
+    field: ["arts"]
+    era: "industrial"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 75
+    birth_peg_candidates: ["Coal", "Coil", "Eagle", "Gold"]
+    death_peg_num: 51
+    death_peg_candidates: ["Light", "Lad", "Lady", "Ladder"]
+    facts: "Joseph Mallord William Turner was a barber's son from Covent Garden who became the greatest and strangest of British landscape painters — the 'painter of light'. Fiercely private and famously miserly, he exhibited at the Royal Academy from his teens and grew obsessed with capturing the sublime power of nature: storms, fire, fog and above all sunlight, dissolving solid objects into shimmering colour that anticipated Impressionism by decades.\n\nHe is said to have had himself lashed to a ship's mast in a snowstorm so he could paint it truthfully, and to have added the vivid red buoy to 'The Fighting Temeraire' at the last moment. He spent his final years living semi-secretly under a false name in Chelsea, and died there in 1851; his reported last words were 'The Sun is God.' He left his fortune and hundreds of works to the nation."
+    notes: ["'The Sun is God' were reputedly among his last words; the supreme British painter of light and weather."]
+
+  - id: 91
+    name: "Louis Pasteur"
+    state: backlog
+    status: none
+    birth_year: 1822
+    death_year: 1895
+    era_bc: false
+    role: ["chemist", "naturalist"]
+    field: ["science"]
+    era: "industrial"
+    region: "french"
+    end: "illness"
+    birth_peg_num: 22
+    birth_peg_candidates: ["Nun", "Onion", "Neon"]
+    death_peg_num: 95
+    death_peg_candidates: ["Ball", "Bell", "Pal", "Pill"]
+    facts: "Louis Pasteur was a French chemist whose work saved untold millions of lives by proving that microscopic germs — not 'bad air' or spontaneous generation — cause disease and fermentation. He showed that gently heating liquids killed the microbes that spoiled them, a process now called pasteurisation, and rescued the French wine, beer and silk industries in the process.\n\nHe went on to develop vaccines by weakening the germs themselves, most dramatically saving a nine-year-old boy bitten by a rabid dog with the first rabies vaccine in 1885 — a huge public gamble that made him a national hero. Half-paralysed by strokes for much of his later life, he kept working, and died in 1895; the Pasteur Institute continues his fight against disease to this day."
+    notes: ["Founder of germ theory and vaccination; 'pasteurisation' bears his name."]
+
+  - id: 92
+    name: "Gregor Mendel"
+    state: backlog
+    status: none
+    birth_year: 1822
+    death_year: 1884
+    era_bc: false
+    role: ["naturalist", "clergyman"]
+    field: ["science"]
+    era: "industrial"
+    region: "austrian"
+    end: "illness"
+    birth_peg_num: 22
+    birth_peg_candidates: ["Nun", "Onion", "Neon"]
+    death_peg_num: 84
+    death_peg_candidates: ["Fire", "Fur", "Ferry"]
+    facts: "Gregor Mendel was an Augustinian friar in Brno (then in the Austrian Empire) who, in the monastery garden, ran one of the most careful scientific experiments in history — breeding some 28,000 pea plants over years and tracking how traits like height, colour and shape passed down the generations. From the neat mathematical ratios he saw, he deduced the existence of discrete units of inheritance, what we now call genes.\n\nHe published his findings in 1866 to near-total silence; the world simply wasn't ready, and he died in 1884 as a respected abbot but an unknown scientist. Worse, much of his paperwork was burned after his death. Only around 1900 did other biologists rediscover his laws and realise that a quiet monk had, decades earlier, founded the entire science of genetics."
+    notes: ["An Augustinian friar; his laws of inheritance founded genetics but were ignored until decades after his death."]
+
+  - id: 93
+    name: "Charles Babbage"
+    state: backlog
+    status: none
+    birth_year: 1791
+    death_year: 1871
+    era_bc: false
+    role: ["inventor", "mathematician"]
+    field: ["science"]
+    era: "industrial"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 91
+    birth_peg_candidates: ["Boat", "Bat", "Bud", "Pot", "Pad", "Boot"]
+    death_peg_num: 71
+    death_peg_candidates: ["Cat", "Coat", "Kite", "Goat", "Kid"]
+    facts: "Charles Babbage was a brilliant, cantankerous English mathematician who conceived the first programmable computer more than a hundred years before the electronic age. His Difference Engine was to calculate mathematical tables automatically, banishing the human errors that plagued navigation and science; his even grander Analytical Engine, with its 'store', 'mill' and punch-card programs, was a true general-purpose computer in all but electricity.\n\nNeither was completed in his lifetime — the engineering was at the very limit of what Victorian workshops could build, and his government funding collapsed amid quarrels. He grew famously irritable in old age, waging a public war against London's street musicians. He died in 1871 with his great engines unbuilt, his true importance recognised only when modern computing finally caught up with his vision."
+    notes: ["Designed the Difference and Analytical Engines — mechanical computers a century before electronics; worked with Ada Lovelace."]
+
+  - id: 94
+    name: "Johann Wolfgang von Goethe"
+    state: backlog
+    status: none
+    birth_year: 1749
+    death_year: 1832
+    era_bc: false
+    role: ["writer", "poet", "philosopher"]
+    field: ["literature", "science"]
+    era: "enlightenment"
+    region: "german"
+    end: "natural"
+    birth_peg_num: 49
+    birth_peg_candidates: ["Rope", "Robe", "Rib", "Ruby"]
+    death_peg_num: 32
+    death_peg_candidates: ["Moon", "Money", "Mine", "Mane"]
+    facts: "Johann Wolfgang von Goethe was the towering figure of German literature and, arguably, the last true 'universal genius'. His early novel The Sorrows of Young Werther made him an overnight European sensation and reportedly triggered a wave of copycat suicides; his masterpiece, the two-part drama Faust, about a scholar who bargains with the devil, occupied him for some sixty years.\n\nBut he was far more than a poet: he served for decades as a minister at the court of Weimar (overseeing, among much else, its mines), conducted serious scientific research into plants, anatomy and colour, and mentored a generation of Romantics. He died in 1832, aged 82; his reputed last words, 'Mehr Licht!' ('More light!'), have become famous, though he may simply have been asking someone to open the shutters."
+    notes: ["Author of Faust; also a statesman, scientist and mining administrator; last words reputedly 'More light!'"]
+
+  - id: 95
+    name: "Ivan the Terrible"
+    state: backlog
+    status: none
+    birth_year: 1530
+    death_year: 1584
+    era_bc: false
+    role: ["king-emperor", "ruler"]
+    field: ["power"]
+    era: "renaissance"
+    region: "russian"
+    end: "natural"
+    birth_peg_num: 30
+    birth_peg_candidates: ["Mouse", "Mice", "Moose", "Maze"]
+    death_peg_num: 84
+    death_peg_candidates: ["Fire", "Fur", "Ferry"]
+    facts: "Ivan IV of Russia — 'the Terrible', better rendered as 'the Formidable' or 'Awe-inspiring' — was the first ruler crowned Tsar of all Russia. He began as an energetic reformer who expanded the realm enormously, but the death of his beloved wife and a near-fatal illness seem to have tipped him into savage paranoia.\n\nHe created the oprichnina, a state-within-a-state policed by black-clad enforcers who terrorised and slaughtered the nobility, and personally oversaw the brutal sack of Novgorod. In one notorious fit of rage he struck and killed his own son and heir with an iron staff. Increasingly ill and tormented, he died in 1584, reportedly collapsing just as he sat down to a game of chess."
+    notes: ["First crowned Tsar of Russia; killed his own son in a rage; died (of a stroke) reportedly as he sat down to chess."]
+
+  - id: 96
+    name: "Hannibal"
+    state: backlog
+    status: none
+    birth_year: -247
+    death_year: -183
+    era_bc: true
+    role: ["general"]
+    field: ["military"]
+    era: "ancient"
+    region: "carthaginian"
+    end: "suicide"
+    birth_peg_num: 47
+    birth_peg_candidates: ["Rock", "Rack", "Rake", "Rag", "Rug"]
+    death_peg_num: 83
+    death_peg_candidates: ["Foam", "Femur", "Vomit"]
+    facts: "Hannibal Barca of Carthage was Rome's most feared enemy, a general who as a boy reputedly swore an eternal oath of hostility to Rome. In 218 BC he did the unthinkable, leading an army — complete with war elephants — across the Pyrenees and the snowbound Alps to strike at Italy from the north, catching the Romans completely off guard.\n\nFor fifteen years he rampaged almost unbeaten through Italy, annihilating a vast Roman army at Cannae in one of the most studied battles in history. Yet he could never take Rome itself, was recalled to defend Carthage, and lost at Zama, spending his last years as a hunted exile advising Rome's other enemies. Rather than be captured and paraded through the streets of the city he had sworn to destroy, he took poison, around 183 BC."
+    notes: ["Crossed the Alps with elephants to invade Italy; won crushing victories but never took Rome; took poison to avoid capture."]
+
+  - id: 97
+    name: "Mary Shelley"
+    state: backlog
+    status: none
+    birth_year: 1797
+    death_year: 1851
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "industrial"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 97
+    birth_peg_candidates: ["Book", "Pig", "Bike", "Pack", "Peak"]
+    death_peg_num: 51
+    death_peg_candidates: ["Light", "Lad", "Lady", "Ladder"]
+    facts: "Mary Shelley was the daughter of two radical thinkers — the pioneering feminist Mary Wollstonecraft, who died giving birth to her, and the philosopher William Godwin. At sixteen she eloped with the married poet Percy Bysshe Shelley, and two years later, during a wet, gloomy summer at Lord Byron's Villa Diodati on Lake Geneva, the group challenged one another to write ghost stories.\n\nFrom a waking nightmare, the teenage Mary produced Frankenstein — the tale of a scientist who assembles and reanimates a creature, then recoils in horror from it — often called the first true science-fiction novel and a profound meditation on ambition and responsibility. Her later life was marked by tragedy: the drowning of Percy and the deaths of three of her four children. She kept writing, guarded her husband's legacy, and died of a brain tumour in 1851."
+    notes: ["Wrote Frankenstein at 18 after a ghost-story challenge at the Villa Diodati; daughter of Mary Wollstonecraft."]
+
+  - id: 98
+    name: "Arthur Conan Doyle"
+    state: backlog
+    status: none
+    birth_year: 1859
+    death_year: 1930
+    era_bc: false
+    role: ["writer", "physician"]
+    field: ["literature"]
+    era: "modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 59
+    birth_peg_candidates: ["Lobe", "Lip", "Lab", "Loop"]
+    death_peg_num: 30
+    death_peg_candidates: ["Mouse", "Mice", "Moose", "Maze"]
+    facts: "Arthur Conan Doyle was a struggling young Scottish doctor, waiting for patients who rarely came, when he began writing stories about a coldly logical 'consulting detective' modelled on one of his old medical professors. Sherlock Holmes, with his deerstalker, pipe and dazzling deductions, became a global phenomenon — so beloved that when Doyle killed him off to write 'serious' books, the public outcry forced him to bring Holmes back from the dead.\n\nDoyle himself was an adventurer, sportsman and campaigner who twice helped overturn real-life miscarriages of justice. Devastated by losses in the First World War, he poured his final years and fortune into spiritualism, earnestly defending séances and even the famously faked 'Cottingley Fairies' photographs. He died of a heart attack in 1930, insisting to the last that the dead could speak."
+    notes: ["Created Sherlock Holmes; a trained doctor; devoted his later years to spiritualism."]
+
+  - id: 99
+    name: "Suleiman the Magnificent"
+    state: backlog
+    status: none
+    birth_year: 1494
+    death_year: 1566
+    era_bc: false
+    role: ["king-emperor", "ruler"]
+    field: ["power"]
+    era: "renaissance"
+    region: "turkish"
+    end: "natural"
+    birth_peg_num: 94
+    birth_peg_candidates: ["Bear", "Pear", "Boar", "Beer"]
+    death_peg_num: 66
+    death_peg_candidates: ["Judge", "Jujube"]
+    facts: "Suleiman I ruled the Ottoman Empire for forty-six years at the very peak of its power and splendour, which is why Europeans called him 'the Magnificent'. Under him the Ottomans took Belgrade and Rhodes, crushed the Hungarians at Mohács, besieged Vienna, and dominated the Mediterranean, ruling a vast, wealthy and cosmopolitan empire spanning three continents.\n\nTo his own subjects, though, he was Kanuni — 'the Lawgiver' — for his sweeping overhaul of the Ottoman legal, educational and tax systems. A poet and patron who filled Istanbul with the masterpieces of the architect Sinan, he was also ruthless in power, having his own able son and heir strangled on suspicion of plotting. He died in 1566 in his tent during yet another Hungarian campaign, his death kept secret from the army for weeks to preserve morale."
+    notes: ["The longest-reigning Ottoman sultan; known to his own people as 'the Lawgiver' (Kanuni); died on campaign in Hungary."]
+
+  - id: 100
+    name: "Saladin"
+    state: backlog
+    status: none
+    birth_year: 1137
+    death_year: 1193
+    era_bc: false
+    role: ["general", "ruler"]
+    field: ["military", "power"]
+    era: "medieval"
+    region: "egyptian"
+    end: "illness"
+    birth_peg_num: 37
+    birth_peg_candidates: ["Mug", "Mic", "Mac", "Mocha"]
+    death_peg_num: 93
+    death_peg_candidates: ["Bomb", "Beam", "Puma", "Pom"]
+    facts: "Saladin (Salah ad-Din) was a Kurdish general who rose to become Sultan of Egypt and Syria and the great unifier of the Muslim world against the Crusader states. In 1187 he crushed the Crusaders at the Battle of Hattin and retook Jerusalem after nearly ninety years of Christian rule — but, unlike the massacre when the Crusaders had first taken the city, he did so with a restraint that astonished even his enemies.\n\nHis chivalry became legendary in Europe as well as the Islamic world: during the Third Crusade he reportedly sent his sick rival Richard the Lionheart fresh fruit and snow to bring down a fever. Personally pious and famously generous, he gave away so much of his wealth that when he died of fever in Damascus in 1193 there was scarcely enough money left to pay for his own funeral."
+    notes: ["Reconquered Jerusalem (1187); famed for chivalry toward Richard the Lionheart; died having given his fortune to the poor."]
+
+  - id: 101
+    name: "Hernán Cortés"
+    state: backlog
+    status: none
+    birth_year: 1485
+    death_year: 1547
+    era_bc: false
+    role: ["general", "explorer"]
+    field: ["military", "exploration"]
+    era: "renaissance"
+    region: "spanish"
+    end: "illness"
+    birth_peg_num: 85
+    birth_peg_candidates: ["Foil", "File"]
+    death_peg_num: 47
+    death_peg_candidates: ["Rock", "Rack", "Rake", "Rag", "Rug"]
+    facts: "Hernán Cortés was a minor Spanish nobleman and adventurer who, in 1519, led a few hundred men into the heart of Mexico and, within two years, brought down the mighty Aztec Empire. To stop his nervous men from turning back, he famously scuttled his own ships on the coast. Exploiting native resentment of Aztec rule, superior steel and gunpowder, and the diseases the Europeans carried, he captured the emperor Moctezuma and razed the great island-capital Tenochtitlán.\n\nThe conquest opened Mexico to three centuries of Spanish rule and unleashed catastrophe on its indigenous peoples. Cortés grew rich but never won the lasting power or recognition he craved; sidelined by the Spanish crown and mired in lawsuits, he died near Seville in 1547, wealthy but resentful and largely forgotten by the court he had made so much richer."
+    notes: ["Conquered the Aztec Empire; scuttled his own fleet to prevent retreat; died out of favour in Spain."]
+
+  - id: 102
+    name: "George Frideric Handel"
+    state: backlog
+    status: none
+    birth_year: 1685
+    death_year: 1759
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "enlightenment"
+    region: "german"
+    end: "illness"
+    birth_peg_num: 85
+    birth_peg_candidates: ["Foil", "File"]
+    death_peg_num: 59
+    death_peg_candidates: ["Lobe", "Lip", "Lab", "Loop"]
+    facts: "George Frideric Handel was a German-born composer who made his career and his fortune in London, becoming so thoroughly British that he is buried in Westminster Abbey. A flamboyant, quick-tempered man of huge appetite, he dominated the London stage with Italian operas until public taste turned, then reinvented himself with grand English oratorios.\n\nThe greatest of these, Messiah, he reportedly composed in a white-hot burst of just three to four weeks; at its 'Hallelujah' chorus, by tradition, King George II rose to his feet, and audiences have stood ever since. Like Bach, he was blinded late in life by botched surgery from the same travelling quack. He kept performing to the end, and died in 1759, days after collapsing at a performance of Messiah itself."
+    notes: ["German-born, naturalised British; wrote Messiah in ~24 days; blinded by the same quack who blinded Bach."]
+
+  - id: 103
+    name: "Henry Ford"
+    state: backlog
+    status: none
+    birth_year: 1863
+    death_year: 1947
+    era_bc: false
+    role: ["businessman", "inventor"]
+    field: ["science"]
+    era: "modern"
+    region: "american"
+    end: "natural"
+    birth_peg_num: 63
+    birth_peg_candidates: ["Chime", "Gem", "Chum", "Jam", "Chimney"]
+    death_peg_num: 47
+    death_peg_candidates: ["Rock", "Rack", "Rake", "Rag", "Rug"]
+    facts: "Henry Ford didn't invent the car, but he did more than anyone to put the world on wheels. By perfecting the moving assembly line at his Michigan factories, he slashed the time to build a car from over twelve hours to about ninety minutes, making the Model T cheap enough for ordinary workers — whom he also famously paid the then-generous $5 a day, both to cut staff turnover and to create customers who could afford his cars.\n\nHe sold some 15 million Model Ts and became one of the richest and most influential industrialists in history, reshaping cities, work and daily life. But his legacy is deeply stained: he was a virulent antisemite who published and promoted vicious propaganda and was admired by the Nazis. Autocratic and set in his ways to the end, he died of a stroke in 1947."
+    notes: ["Pioneered the moving assembly line and the affordable Model T, putting the world on wheels; also a notorious antisemite."]
+
+  - id: 104
+    name: "Vasco da Gama"
+    state: backlog
+    status: none
+    birth_year: 1460
+    death_year: 1524
+    era_bc: false
+    role: ["explorer"]
+    field: ["exploration"]
+    era: "renaissance"
+    region: "portuguese"
+    end: "illness"
+    birth_peg_num: 60
+    birth_peg_candidates: ["Shoes", "Chess", "Juice", "Cheese"]
+    death_peg_num: 24
+    death_peg_candidates: ["Nurse", "Snare"]
+    facts: "Vasco da Gama was the Portuguese navigator who, in 1497–98, achieved what Columbus had only dreamed of: a genuine sea route from Europe to Asia, sailing around the Cape of Good Hope at the southern tip of Africa and on across the Indian Ocean to the spice ports of India. It was a staggering feat of navigation and endurance, and it broke the Muslim and Venetian stranglehold on the fabulously lucrative spice trade.\n\nIt also had a brutal side: on later voyages da Gama used ferocious violence to force open Indian trade, bombarding cities and slaughtering crews and pilgrims. Immensely rich and ennobled, he was finally sent out again as Portuguese viceroy of India in 1524 — but caught malaria and died within months, at Cochin, that Christmas. His voyages made tiny Portugal, for a time, a global maritime empire."
+    notes: ["Opened the sea route from Europe to India around the Cape of Good Hope (1498); died of malaria in Cochin."]
 
