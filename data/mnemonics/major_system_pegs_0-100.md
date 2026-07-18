@@ -127,7 +127,7 @@ hang off — a body-part list and a colour/design scheme.
 | 45 | RL | Reel, Rail, Roll, Aerial | Rolex, Rolls-Royce |
 | 46 | RJ/RSH/RCH | Roach, Ridge, Raja | — |
 | 47 | RK | Rock, Rack, Rake, Rag, Rug | Ricola |
-| 48 | RF | Roof, Reef, Roofer *(rlx)* | Ryvita |
+| 48 | RF | Roof, Reef, Ref, Ruff, RAF, Roofer *(rlx)*, Rifle *(rlx)*, Raft *(rlx)*, Rover *(rlx)*, Refugee *(rlx)*, Reverend *(rlx)*, Ravioli *(rlx)* | Ryvita, Revlon, Revels |
 | 49 | RP | Rope, Robe, Rib, Ruby | Reebok, Ribena |
 | 50 | LS | Lace, Lice, Lasso | Listerine |
 | 51 | LT | Light, Lad, Lady, Ladder *(rlx)* | Lidl |

@@ -319,7 +319,7 @@ def main() -> int:
     parser.add_argument(
         "--force",
         action="store_true",
-        help="update even tickets in a working state (AI Proposed/In Progress/Submitted/Reopened)",
+        help="update even tickets in a working state (AI Proposed/In Progress/Finalising/Submitted/Reopened)",
     )
     parser.add_argument(
         "--only", choices=["completed", "backlog", "all"], default="all"
@@ -360,7 +360,7 @@ def main() -> int:
     # A ticket being drafted/reviewed carries a "working" State; refreshing its
     # description from figures.yaml would wipe the in-flight scene. Skip those on
     # update unless --force. (Verified refreshes keep the canon view in sync.)
-    WORKING_STATES = {"AI Proposed", "In Progress", "Submitted", "Reopened"}
+    WORKING_STATES = {"AI Proposed", "In Progress", "Finalising", "Submitted", "Reopened"}
     state_by_id = {}
     if args.update and not args.force:
         fields_q = "idReadable,customFields(name,value(name))"
