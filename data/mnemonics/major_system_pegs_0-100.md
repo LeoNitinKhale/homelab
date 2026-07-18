@@ -98,7 +98,7 @@ hang off — a body-part list and a colour/design scheme.
 | 16 | TSH/TCH | Dish, Dash, Ditch, Dutch | — |
 | 17 | TK | Tack, Duck, Dog, Deck, Tag | TK Maxx |
 | 18 | TF | Dove, Toffee, Diva, Staff *(rlx)* | Tefal |
-| 19 | TP | Tub, Tape, Tip, Tuba *(rlx)* | Toblerone |
+| 19 | TP | Tub, Tape, Tip, Tuba *(rlx)*, Tap | Toblerone |
 | 20 | NS | Nose, Noose, Ounce, Niece | Nescafé, Nissan *(rlx)* |
 | 21 | NT | Knot, Net, Note, Aunt | Nutella |
 | 22 | NN | Nun, Onion, Neon | — |
@@ -151,7 +151,7 @@ hang off — a body-part list and a colour/design scheme.
 | 69 | SHP/CHP | Ship, Shop, Sheep, Chip, Chop, Jeep | Chupa Chups |
 | 70 | KS/GS | Case, Goose, Gauze | Casio |
 | 71 | KT/GT | Cat, Coat, Kite, Goat, Kid | Kit Kat |
-| 72 | KN/GN | Cane, Coin, Gun, Can, Queen | Canon |
+| 72 | KN/GN | Cane, Coin, Gun, Can, Queen, Canoe | Canon |
 | 73 | KM/GM | Comb, Gum, Camel *(rlx)* | Camel *(cigarettes)* |
 | 74 | KR/GR | Car, Core, Gear, Choir, Screw *(rlx)* | Corona, Carlsberg |
 | 75 | KL/GL | Coal, Coil, Eagle, Gold *(rlx)* | Colgate, Kellogg's |

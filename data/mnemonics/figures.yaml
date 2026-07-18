@@ -31,6 +31,7 @@ figures:
     end: "illness"
     scene: "A leash around Mozart's neck, his overbearing father on the other end, controlling him. He wears cricket pads on his legs and holds a bat down at his side."
     position: "leash at the neck, above waist, front. Pads and bat both below waist — death position. Clean."
+    facts: "Wolfgang Amadeus Mozart was a freak of nature — a child prodigy playing the keyboard blindfolded and composing at five, paraded around the courts of Europe by his ambitious father Leopold like a performing miracle. He grew into perhaps the most naturally gifted composer who ever lived, able to write out whole works already finished in his head, with barely a correction.\n\nYet fame and money slipped through his fingers. He chafed against his stingy Salzburg employers, went freelance in Vienna, and swung between triumph and debt, firing off begging letters to friends. He died at just thirty-five while writing his Requiem, and was buried in a common grave — the cause (rheumatic fever, kidney failure, or something else) still argued over two centuries later."
     notes: ["The father is an emotional trigger, not a number-carrier."]
 
   - id: 2
@@ -50,6 +51,7 @@ figures:
     end: "natural"
     scene: "An orange falls on Newton's head; the juice drips down as orange ink into an inkwell. A book, \"PrINKipia Mathematica,\" sits by his feet."
     position: "ink dripping down to the well, book at his feet — death action, death position, death number. The orange *falls* (a death-type action) while sitting on his head (birth position) carrying the birth number. **Accepted exception**: the falling-fruit/gravity tie is worth the mismatch."
+    facts: "Isaac Newton was a solitary, secretive and famously prickly genius who, sent home from Cambridge during a plague year, used the isolation to invent calculus, split white light into the spectrum, and begin working out universal gravitation — the falling apple, literal or not, belongs to this period. His Principia Mathematica set out the laws of motion and gravity that ruled physics for two centuries.\n\nHe was also a man of strange obsessions, spending as much time on alchemy and biblical prophecy as on physics, and feuding venomously with rivals like Hooke and Leibniz. As Master of the Royal Mint he personally hunted down counterfeiters and sent them to the gallows. He died unmarried and rich in 1727, and was buried in Westminster Abbey."
     notes: ["Ink is shared with Genghis (4)."]
 
   - id: 3
@@ -69,6 +71,7 @@ figures:
     end: "uncertain"
     scene: "Plucks a cherry from a tree hung with oversize cherries and scrolls, inking his fingers. Writes on an unravelled scroll, lays it on a dish, kneels and presents it low: \"a fine dish for her majesty.\""
     position: "plucking from a tree — birth action, birth position. The dish presented low from a kneel — death position. Clean."
+    facts: "William Shakespeare is the most famous writer in the English language, yet we know maddeningly little about him — a glover's son from Stratford-upon-Avon who married at eighteen, surfaced in London as an actor and playwright, and produced some 38 plays and 154 sonnets that have never left the stage since. He gave English roughly 1,700 new words and phrases still in daily use.\n\nHe wrote for the Globe, a round open-air playhouse packed with rowdy 'groundlings', ran his company as a profit-sharing shareholder, and grew wealthy enough to retire to the second-grandest house in Stratford. He died at 52 on (by tradition) his own birthday; the cause is unknown, and a curse carved on his gravestone still warns anyone against moving his bones."
     notes: ["The spoken line fixes the word as *dish*. \"Plate\" is P,L,T = 951."]
 
   - id: 4
@@ -88,6 +91,7 @@ figures:
     end: "uncertain"
     scene: "Wrapped in chains — early-life struggle. Breaks free. Sweats uncontrollably and keels over saying 'Just screw it!' Feet have Nikes on represent his historical victory/conquest."
     position: "chains/breaking free reads birth-consistent, above/front. Keeling over and the Nikes on his feet — death position, below waist. Clean."
+    facts: "Temüjin was born into a fractured, feuding steppe world — his father poisoned when he was a boy, his family cast out to near-starvation. From that he clawed his way up to unite the warring Mongol tribes and forge, through terrifying discipline and mobility, the largest contiguous land empire in history, from the Pacific almost to the gates of Europe.\n\nHe was both a genocidal conqueror who razed cities that resisted and a surprising moderniser — instituting written law, religious tolerance, a horse-relay postal system and protected Silk Road trade. He died on campaign in 1227; the cause is genuinely uncertain (illness, or injuries from a fall), and his burial place was hidden so completely that it has never been found."
     notes: ["🔴 Cause of death open. The record is genuinely uncertain — illness or fever, possibly plague, following a fall from his horse the year before. The nosebleed story belongs to Attila. The sweating/collapse imagery is compatible with the fever reading without committing to it.", "Nike (27) replaces Ink, clearing the duplicate with Newton (2). \"Just screw it\" is a spoken cue, not a peg — Screw is 74."]
 
   - id: 5
@@ -107,6 +111,7 @@ figures:
     end: "illness"
     scene: "Wearing a cap with \"E=MC²\" on it. Looks down and touches water with lilies floating on it; ripples radiate out like spacetime ripples."
     position: "cap on his head — birth position, front. Looking down to the water — death position. \"Touches\" isn't a listed death verb; mild looseness, not a conflict."
+    facts: "Albert Einstein was an obscure patent clerk in Bern, turned down for academic posts, when in his 'miracle year' of 1905 he published four papers that overturned physics — including special relativity and E=mc². A decade later general relativity reimagined gravity as the bending of space and time itself, confirmed when starlight was seen to bend around the sun during the 1919 eclipse, making him the world's first scientific superstar.\n\nA lifelong pacifist and, from 1933, a refugee from Nazi Germany, he settled at Princeton and reluctantly signed the letter that spurred the atomic bomb — a step he later regretted. He spent his last decades chasing a unified theory he never found, declined the presidency of Israel, and died in 1955 of an aortic aneurysm, refusing surgery."
     notes: []
 
   - id: 6
@@ -126,6 +131,7 @@ figures:
     end: "natural"
     scene: "Eating M&Ms, which contrast against her famously white face. They fall to the floor, where she tries to sum them to balance the country's finances."
     position: "eating near her face — birth. Falling to the floor — death action and position. Clean."
+    facts: "Elizabeth I survived a perilous youth — her mother Anne Boleyn beheaded when she was two, herself imprisoned in the Tower under her half-sister Mary — to become one of England's greatest monarchs. The 'Virgin Queen' never married, dangling rival suitors and powers against one another for forty-five years while insisting she was wedded only to her country.\n\nHer reign became a golden age: the defeat of the Spanish Armada in 1588, the flowering of Shakespeare and Marlowe, and the first stirrings of English sea power. Vain, shrewd and formidably educated, she died in 1603 as the last of the Tudors, having steered a Protestant England through decades of religious and dynastic danger."
     notes: ["Sum is abstract, retained as an accepted exception for the finance pun."]
 
   - id: 7
@@ -145,6 +151,7 @@ figures:
     end: "illness"
     scene: "A physical chip on his shoulder falls down into a net — a fryer basket, but a net — full of other chips. It all fizzles and dissolves."
     position: "chip on the shoulder — birth position, front. Falling into the net below — death action and position. Clean."
+    facts: "Napoleon Bonaparte was a minor Corsican noble who rose on the chaos of the French Revolution to become, by his mid-thirties, Emperor of the French and master of most of Europe. A military genius who reshaped the art of war, he also left a deeper civilian legacy in the Napoleonic Code, still the backbone of law in much of the world.\n\nHis ambition finally overreached in the frozen catastrophe of the 1812 invasion of Russia; after a brief comeback he was crushed at Waterloo in 1815. Exiled to the remote Atlantic island of St Helena, he died there in 1821 — officially of stomach cancer, though arsenic poisoning has been rumoured ever since."
     notes: []
 
   - id: 8
@@ -164,6 +171,7 @@ figures:
     end: "illness"
     scene: "Inflating an inflatable ape — evolution. A giant fan blows it away — the controversy and pushback."
     position: "inflating — birth action, above/front. The fan blowing it away — dispersal, death-consistent."
+    facts: "Charles Darwin was a comfortably-off young naturalist, all but destined to become a country parson, when a five-year voyage aboard HMS Beagle changed everything. Studying the finches and giant tortoises of the Galápagos and fossils across South America, he slowly assembled the theory of evolution by natural selection — then sat on it, terrified of the uproar, for some twenty years.\n\nHe finally published On the Origin of Species in 1859, prompted only when a rival, Alfred Russel Wallace, hit on the same idea. It transformed biology and set off a culture war that still smoulders. A gentle, chronically ill family man, he died in 1882 and — despite his lost faith — was buried in Westminster Abbey near Newton."
     notes: ["**Accepted exception**: Ape is a single-sound word (P), so it doesn't carry the tens-place zero the 00–09 range otherwise requires. Since you only ever peg isolated two-digit year-endings in context, never freeform digit strings, there's no reading of Ape other than 09."]
 
   - id: 9
@@ -183,6 +191,7 @@ figures:
     end: "assassinated"
     scene: "An ape in a stovepipe hat, inflated by a young Lincoln. He's shot at the theatre; the balloon pops, and a shell bearing the American flag closes around him — the Union preserved."
     position: "inflating — birth action, above/front. The pop-to-shell is a single continuous beat rather than two, matching the pattern elsewhere (orange-to-ink, cherry-to-dish, M&Ms-to-sum)."
+    facts: "Abraham Lincoln rose from a one-room Kentucky log cabin and almost no formal schooling to become, largely self-taught, a lawyer, congressman and the sixteenth President of the United States. His election triggered the secession of the southern slave states and plunged the nation into the Civil War, which he was determined to fight to preserve the Union.\n\nHe issued the Emancipation Proclamation freeing the enslaved, and distilled the war's higher purpose into the few immortal sentences of the Gettysburg Address. Just days after the war ended in Union victory, he was shot in the head by the actor John Wilkes Booth at Ford's Theatre, and died the next morning — the first American president to be assassinated."
     notes: ["🟡 Visual not strong enough. Open.", "Shares the birth peg with Darwin (8) — same birth year, in fact the same day, 12 Feb 1809. A linked pair of scenes is an option if the separate ones stay thin."]
 
   - id: 10
@@ -202,6 +211,7 @@ figures:
     end: "illness"
     scene: "Henry on a small boat crowded with his six wives, casting off. A monk hurls a rock that smashes into the boat as it sinks."
     position: "casting off — birth action, above waterline, front. The rock smashing the boat — listed death action, correct position. Clean."
+    facts: "Henry VIII began as a golden Renaissance prince — athletic, musical, learned — and curdled into one of England's most fearsome kings. His obsessive hunt for a male heir, and for Anne Boleyn, led him to break with the Pope, declare himself Supreme Head of the Church of England, and dissolve the monasteries, reshaping the country's religion forever.\n\nHe married six times — 'divorced, beheaded, died; divorced, beheaded, survived' — executing two wives and a string of former friends and ministers along the way. Grown vast, gout-ridden and paranoid from a festering jousting wound, he died in 1547, leaving a contested succession and a transformed nation."
     notes: ["The monk is an emotional trigger and carries the Reformation, so the death image has historical weight."]
 
   - id: 11
@@ -221,6 +231,7 @@ figures:
     end: "natural"
     scene: "Baby Leonardo born in a lion's den. He grabs the lion's tail like a paintbrush and starts painting. Later his head sticks out of a tuba, King Francis I supporting him almost like cradling his neck."
     position: "born in the den, painting — creating, above/front. Head-in-tuba with the king's embrace reads reclining/low — death-consistent."
+    facts: "Leonardo da Vinci was the archetypal 'Renaissance man' — painter, anatomist, engineer, inventor and insatiable observer of everything. The illegitimate son of a Tuscan notary, he painted the two most famous pictures in the world, the Mona Lisa and The Last Supper, while filling thousands of mirror-written notebook pages with flying machines, war engines, dissections and studies of water and light.\n\nHe left much unfinished, forever chasing the next question, and carried the Mona Lisa around with him for years. He spent his final years in France under the patronage of King Francis I, and died there in 1519 — the famous deathbed scene of him cradled in the king's arms is a lovely legend rather than fact."
     notes: ["\"Leonardo\" → \"Leo\" → lion is a personal hook, and the tail-as-paintbrush ties the number-carrier into the action rather than leaving it a static prop.", "**Historical flag**: the Francis I deathbed scene is legend, not fact. Royal records place Francis at Saint-Germain-en-Laye on the day Leonardo died (2 May 1519), not at Amboise. The story comes from Vasari, writing 30 years later. Kept because the image is strong."]
 
   - id: 12
@@ -240,6 +251,7 @@ figures:
     end: "illness"
     scene: "The Statue of Liberty — the lady in the light — rises into view and lights up in the distance. Columbus falls, lies down, a red/white/blue sash draped over him."
     position: "rising and lighting up — both listed birth actions, high and in front. Falling, lying down, sash draped over the body — death action, death position. Clean."
+    facts: "Christopher Columbus was a Genoese weaver's son and self-taught mariner who spent years hawking a wildly optimistic — and geographically mistaken — plan to reach Asia by sailing west. When Spain's monarchs finally backed him, he crossed the Atlantic in 1492 and made landfall in the Caribbean, convinced to his dying day that he had reached the Indies.\n\nHis voyages opened the Americas to European colonisation and its catastrophic consequences for indigenous peoples, whom he enslaved and brutalised — even his own patrons once had him arrested for misrule. He died in 1506 in Valladolid, wealthy but embittered, still insisting he had found a new route to the East rather than an entire new world."
     notes: ["The number is carried by *lady* and *light*. \"Liberty\" is L,B,R,T = 5941."]
 
   - id: 13
@@ -259,6 +271,7 @@ figures:
     end: "suicide"
     scene: "Cleopatra opens a shop, window packed with sacks of grain and gold, \"open for business\". Mice run in, drawn by the grain; a snake follows the mice and bites her."
     position: "opening the shop — creating, front. Mice at floor level, snake striking low — death position. Clean."
+    facts: "Cleopatra VII was the last pharaoh of Egypt, a Greek-descended Ptolemy who — unlike her forebears — actually learned Egyptian and presented herself as the living goddess Isis. Brilliant, multilingual and politically ruthless, she secured her throne and her country's independence by allying herself with, and bearing children to, the two most powerful Romans of the age: Julius Caesar and then Mark Antony.\n\nWhen she and Antony lost the sea battle of Actium to Octavian in 31 BC, their cause collapsed. Rather than be paraded through Rome as a trophy, she took her own life the next year — famously, though disputedly, by the bite of an asp — and Egypt was swallowed into the Roman Empire."
     notes: ["**BC caution**: the numbers run backwards — birth 69 is the larger, death 30 the smaller. The only entry where birth > death. Worth a fixed BC cue in the scene so you know to flip.", "The asp is Plutarch's account and is disputed; poison is the alternative reading."]
 
   - id: 14
@@ -278,6 +291,7 @@ figures:
     end: "illness"
     scene: "A radioactive glowing baby immediately grabs the chalk and scribbles physics equations on a blackboard. Later, three gift boxes — \"gifts for the wise woman,\" echoing the three wise men — she opens the third, myrrh, and the fumes overcome her."
     position: "grabbing chalk, writing on the board — birth action, above waist, front. The myrrh box is the weak point: *opening* is a birth-type action, and nothing places it low or behind. **Fix**: put the box on the floor, drop the lid, have the fumes rise from below her."
+    facts: "Marie Curie, born Maria Skłodowska in Russian-occupied Poland, studied in a clandestine 'flying university' before escaping to Paris, where she often worked hungry and freezing in a garret. With her husband Pierre she discovered the elements polonium (named for her homeland) and radium, and coined the very word 'radioactivity'.\n\nShe became the first woman to win a Nobel Prize, the first person to win two, and the only person ever to win in two different sciences — physics and chemistry. She carried tubes of glowing radium in her pockets, unaware of the danger; the radiation she pioneered eventually killed her in 1934, and her notebooks remain so radioactive they are kept in lead-lined boxes."
     notes: ["She died of aplastic anaemia from radiation exposure, not from inhaling anything — the fumes are a number-carrier, not history."]
 
   - id: 15
@@ -297,6 +311,7 @@ figures:
     end: "natural"
     scene: "Baby Churchill, bulldog-faced, cigar in mouth, driven up in a car. Later, General Patton leads him into a jail cell, bars closing behind him."
     position: "arriving in the car, cigar at the mouth — birth position, front. Bars closing *behind* him — death position. Clean."
+    facts: "Winston Churchill packed several lifetimes into one — cavalry officer, war correspondent who escaped a Boer prison camp, painter, bricklayer, Nobel-winning historian, and a politician written off as finished more than once. Then, in 1940, at sixty-five, he became Prime Minister at Britain's darkest hour and, through sheer defiance and thunderous oratory, rallied the country to fight on alone against Nazi Germany.\n\nBulldog-stubborn, cigar-chomping and prone to the black moods he called his 'black dog', he was voted out almost as soon as the war was won, returned as PM in the 1950s, and lived to be given a state funeral in 1965. His reputation is shadowed by his diehard imperialism, but his wartime leadership remains legendary."
     notes: ["The peg is *jail* (J,L = 65). \"Cell\" is S,L = 05 — the more natural word for the image, so say jail.", "Patton is an emotional trigger, carrying no number: he's there to motivate the jailing."]
 
   - id: 16
@@ -316,6 +331,7 @@ figures:
     end: "natural"
     scene: "Baby Tesla on an electrified leash, crackling with sparks. Later, sitting up in bed, he drops his arm from beside his head down to horizontal and blasts through the hotel window into the clouds for one last lightning storm, then falls back and dies."
     position: "Leash on the baby, above the waist — birth, clean. Sitting up in bed, he drops his arm from beside his head down to horizontal — a dropping, death-type action — then blasts out through the window and falls back dead; the arm carries 43 in the death position."
+    facts: "Nikola Tesla was a Serbian-American inventor of dazzling, eccentric genius who pioneered the alternating-current (AC) system that powers the modern world, winning the 'War of the Currents' against Thomas Edison's direct current. He claimed to see his inventions fully formed in vivid flashes, and demonstrated wireless power, radio and remote control decades ahead of their time.\n\nBrilliant but hopeless at business, he was repeatedly out-manoeuvred and died alone and broke in a New York hotel in 1943, obsessed in his final years with pigeons and with schemes for transmitting free energy through the air. Long overshadowed by rivals, he has since become a cult hero, and the unit of magnetic flux density — the tesla — bears his name."
     notes: ["He died 7 Jan 1943, alone in the Hotel New Yorker — the hotel window is real."]
 
   - id: 17
@@ -335,6 +351,7 @@ figures:
     end: "suicide"
     scene: "Born in a basket of lemons and limes; he squeezes the lemons to make yellow ink and paints sunflowers. In a wheat field, a swarm of buzzing bees pours out of the sunflowers — speech bubble: \"I can't 'ear them\" (dropped H, and the missing ear)."
     position: "born in the basket, squeezing, painting — creating, above/front. Clean. The bees *pour out* and swarm at head height, which reads as emergence rather than a death action. **Fix**: have them pour downward and settle behind/below him as he falls in the field."
+    facts: "Vincent van Gogh came to painting late and sold, famously, almost nothing in his lifetime — kept afloat financially and emotionally by his devoted brother Theo, to whom he poured out his soul in hundreds of letters. In barely a decade he produced some 2,000 works of blazing colour and feeling, from the Sunflowers to The Starry Night, all but inventing the language of modern expressive painting.\n\nHe was tormented by mental illness, most notoriously cutting off part of his own ear during a breakdown in Arles. In 1890, at thirty-seven, he shot himself in a wheat field and died two days later. His fame — and astronomical prices — came only after his death, making him the archetype of the misunderstood genius."
     notes: ["The \"I can't 'ear them\" pun refers to cutting off his ear.", "He shot himself in a wheat field at Auvers (29 July 1890, dying two days later), so the field is right. The bees carry the number but have no historical hook — the weakest part of an otherwise strong scene."]
 
   - id: 18
@@ -354,6 +371,7 @@ figures:
     end: "illness"
     scene: "Ben Jonson with **Ben Johnson the sprinter's face** — memory hook, not history. He crawls onstage chasing coins, scrabbling after them: his satires on greed (*Volpone*, *The Alchemist*). Later he grabs a mug, drinks heavily, drops it and dies."
     position: "chasing the coins, reaching forward — front, birth-consistent. The mug is dropped — listed death action, falls below. Clean."
+    facts: "Ben Jonson was Shakespeare's great friend, rival and drinking companion — a bricklayer's stepson who became the leading playwright and poet of his age, a brawler who killed a man in a duel and escaped hanging by pleading 'benefit of clergy'. His satirical comedies such as Volpone and The Alchemist mercilessly skewered human greed and folly.\n\nLearned, combative and hugely self-confident, he became in effect England's first Poet Laureate and gathered a circle of younger admirers, the 'Tribe of Ben'. He fell into poverty and ill health late in life, and died in 1637; he is buried upright in Westminster Abbey under the terse epitaph 'O Rare Ben Jonson'."
     notes: ["The sprinter's face is an emotional trigger, carrying no number. It brings the doping association free, which is on-theme for a satirist of fraud."]
 
   - id: 19
@@ -373,6 +391,7 @@ figures:
     end: "illness"
     scene: "A boar carries him in on its back; he quips \"I've never been a *bore*.\" Later the devil leads him away by the cuffs, down into Devil's Cove."
     position: "carried in, up on the boar's back — birth position, front. Led away and down into the cove — death position, behind. Clean."
+    facts: "Voltaire — pen name of François-Marie Arouet — was the sharpest wit and fiercest campaigner of the French Enlightenment: playwright, historian and philosopher who wielded satire as a weapon against tyranny, religious intolerance and injustice. His scorching little novel Candide demolished blind optimism, ending with the advice that we must simply 'cultivate our garden'.\n\nHis pen made him rich and famous but also landed him in the Bastille twice and in years of exile. A tireless defender of free speech and of victims of injustice, he grew into the revered sage of Europe, and died in Paris in 1778 at 83, shortly after a rapturous return to the city that had once banished him."
     notes: ["The Bastille imprisonment is real (twice). The deathbed line \"this is no time to make new enemies\" is almost certainly apocryphal — good imagery, not history."]
 
   - id: 20
@@ -392,6 +411,7 @@ figures:
     end: "illness"
     scene: "Young Milton shakes a sieve above two or three baby girls below him, only scraps getting through — his daughters read aloud to him in languages he never taught them to understand. Later, blind Milton crashes a car, shouting \"Where's Paradise? I'm lost!\""
     position: "sieve held up and shaken, above the waist — birth action, birth position. The car crashes — smashing, a listed death action. Clean."
+    facts: "John Milton was a prodigiously learned Puritan poet and pamphleteer who threw himself into the English Civil War on Parliament's side, serving Cromwell's government and defending both the execution of Charles I and the freedom of the press (in Areopagitica). The relentless work helped ruin his eyesight, and by his early forties he was completely blind.\n\nBlind and out of favour after the monarchy was restored, he composed his masterpiece Paradise Lost — the vast epic of Satan's rebellion and the Fall of Man — entirely in his head, dictating it to his daughters and assistants. He died in 1674, having built the grandest poem in the English language without being able to see a word of it."
     notes: ["The daughters detail is true: they read to him in Latin and Greek without being taught the meaning.", "**Sieve** is new to the 08 slot — added to `major_system_pegs_0-100.md`."]
 
   - id: 21
@@ -411,6 +431,7 @@ figures:
     end: "illness"
     scene: "Baby Pascal in a **number** 23 jersey, floating digits forming the number around him — the boy prodigy. Later a chain is pulled tight through his stomach, doubling him over: \"here's one problem I couldn't solve.\" The tumour that killed him."
     position: "jersey on his chest, digits above and around him — birth position, front. The chain drags down and back through his gut — death position. Clean."
+    facts: "Blaise Pascal was a French child prodigy who, to help his tax-collector father, built one of the first mechanical calculators at nineteen. He went on to found the theory of probability (with Fermat), prove key results about vacuums and air pressure — the unit of pressure, the pascal, is named for him — and pioneer the hydraulic press.\n\nThen a profound mystical experience turned him from science to God. He devoted his last years to theology and the unfinished Pensées, home of 'Pascal's Wager', and to defending the Jansenists. Chronically ill and increasingly ascetic, he died in agony at just thirty-nine, probably of stomach cancer or tuberculosis."
     notes: ["The peg is the word **number** (N,M = 23), not the digits themselves. The floating 23 is reinforcement on top of a proper peg, not a substitute for one — the jersey and the digits are decoration, the *word* carries it.", "🔴 **Death peg was mis-encoded.** Notch, niche and gnash are all N·CH = **26**, not 62. 62 is CH·N — Chin, Chain, Genie. Chain keeps the constriction and the gut pain; Genie bursting from the stomach is the stranger option.", "Cause of death is disputed — stomach cancer and tuberculosis are both argued. The imagery survives either way."]
 
   - id: 22
@@ -430,6 +451,7 @@ figures:
     end: "natural"
     scene: "Born by being hewn out of a seam of coal, he cries \"Coalazzo!\" Later he falls from the Sistine \"Chair-pel\" ceiling and slumps, dead, onto a chair."
     position: "hewn from the coal seam — created, above/front, birth. Falling and slumping onto the chair — death action, below. Clean."
+    facts: "Michelangelo Buonarroti was the towering genius of the High Renaissance, supreme as both sculptor and painter — a difficult, driven perfectionist who considered himself first and foremost a sculptor, 'freeing' figures already trapped in the marble. From single blocks he carved the David and the Pietà; on his back for four years he painted the ceiling of the Sistine Chapel.\n\nHe worked for a succession of demanding popes, feuded with rivals like Raphael and Leonardo, wrote fine poetry, and in old age designed the dome of St Peter's. Fiercely religious and often miserable, he worked almost to the end, dying in Rome in 1564 at the age of 88."
     notes: ["**Invented death.** He didn't fall from the ceiling — he painted it 1508–1512 and died of a fever at 88, decades later. Hook only, like Leonardo's deathbed legend."]
 
   - id: 23
@@ -449,6 +471,7 @@ figures:
     end: "illness"
     scene: "Hooke, hook-handed, hangs from the sail of a windmill and is carried round with it; the cord on his hook stretches and contracts as he swings — Hooke's Law. Later, Newton stabs him with a trident: \"Here's the 3 laws of de-motion!\""
     position: "hanging from the mill sail, carried up and round — birth, above/front. The trident thrust down into him — death action, low. Clean."
+    facts: "Robert Hooke was one of the most inventive and versatile scientists of the seventeenth century — the Royal Society's paid 'Curator of Experiments', expected to devise several new demonstrations a week. He formulated the law of elasticity that bears his name, coined the biological term 'cell' after peering at cork through a microscope, and helped Wren rebuild London after the Great Fire.\n\nCantankerous and territorial, he feuded bitterly with Isaac Newton over credit for gravity — a quarrel so venomous that, by legend, Newton later saw to it that no portrait of Hooke survived. He died in 1703, brilliant but embittered and largely written out of history until modern times."
     notes: ["The stretch-and-contract of the hook cord *is* Hooke's Law (elasticity), so the birth object carries the physics, not just the number. Newton is the emotional trigger — their real, bitter feud — and \"demotion\" puns his three laws of motion."]
 
   - id: 24
@@ -468,6 +491,7 @@ figures:
     end: "natural"
     scene: "Young Octavian jams severed body parts into a jam jar, red jam smeared everywhere — the brutality of his rise. Old Augustus walks out through a door: \"Did I play my part well? Then let me make my exit.\""
     position: "jamming into the jar, held up and in front — birth. Exiting through the door, turning away — death, behind. Clean."
+    facts: "Augustus — born Octavian — was the teenage great-nephew and heir of Julius Caesar who, after Caesar's assassination, out-manoeuvred and outlasted every rival, including Mark Antony and Cleopatra, to become the first Roman emperor. He ended a century of civil wars and ushered in the Pax Romana, two centuries of relative peace.\n\nA masterful politician, he kept the outward forms of the Republic while holding absolute power, boasting that he had 'found Rome a city of brick and left it a city of marble'. He ruled for over forty years and died in AD 14; on his deathbed he reportedly asked whether he had played his part well in the comedy of life."
     notes: ["The jam/brutality hook is anchored: the proscriptions of the Second Triumvirate killed thousands, Cicero among them. The exit line is Suetonius's account of his actual deathbed — he asked whether he'd played his part in the comedy of life, then quoted the Greek tag about applause.", "**BC/AD crossing.** This is the first entry that straddles the boundary — birth is 63 *BC*, death 14 *AD*. The pegs (63, 14) are unaffected, but unlike the pure-BC figures the numbers don't simply run backwards; you have to hold that birth sits before the line and death after it."]
 
   - id: 25
@@ -487,6 +511,7 @@ figures:
     end: "illness"
     scene: "Baby Dickens, tan boot polish smudged on his cheeks, boots scattered around him, straining to hoist a giant weight overhead labelled \"ONE TON\" — the debt that sent his father to debtors' prison, and his own child labour in the blacking factory. Later he collapses at his writing desk mid-sentence on *Edwin Drood*; Scrooge appears with a goose: \"your goose is cooked.\""
     position: "hoisting the weight overhead — lifting, a listed birth action, above the waist. **The goose is the weak point**: Scrooge *holds* it, which is neither a death action nor a death position. **Fix**: Scrooge drops the goose on the floor beside the collapsed body, so the last image is low and falling."
+    facts: "Charles Dickens was the most popular novelist of the Victorian age and, in effect, its first literary celebrity — a whirlwind of energy who wrote in monthly instalments that left readers on both sides of the Atlantic desperate for the next episode. His own childhood scarred him: at twelve, his father was thrown into debtors' prison and Dickens was sent to labour in a blacking factory, feeding a lifelong crusade against poverty.\n\nFrom Oliver Twist and A Christmas Carol to Great Expectations, he filled English with unforgettable characters and helped reshape attitudes to the poor. A restless showman who exhausted himself with dramatic public readings, he died suddenly of a stroke in 1870, leaving The Mystery of Edwin Drood forever unfinished."
     notes: ["*Edwin Drood* was genuinely unfinished — he died the day after working on it. The goose is the Cratchit Christmas dinner from *A Christmas Carol*."]
 
   - id: 26
@@ -506,6 +531,7 @@ figures:
     end: "natural"
     scene: "Baby Faraday surrounded by leather-bound books — he started as a bookbinder's apprentice. A bookbinder's glue **pot** is yanked upward off the bench by an invisible magnet, foreshadowing electromagnetic induction. Later, the dying Faraday is offered a cheque (the knighthood he refused) and pushes it away: \"what a cheek.\" Layered alternate: a **Jag** pulls up to deliver the offer instead of a person."
     position: "the pot pulled up and off the bench — lifting, birth action, above the waist. The cheque pushed away — moving behind him, death position. Clean."
+    facts: "Michael Faraday rose from a poor London family and a bookbinding apprenticeship — with almost no formal education — to become one of the greatest experimental scientists in history. Largely self-taught, he discovered electromagnetic induction, built the first electric motor and generator, and effectively laid the foundations of the electrical age.\n\nModest and devout, he refused a knighthood and declined burial in Westminster Abbey, insisting on remaining plain 'Mr Faraday'. A gifted populariser, he founded the Royal Institution's Christmas Lectures for children, which run to this day. He died in 1867; the unit of electrical capacitance, the farad, honours him."
     notes: ["He really did refuse a knighthood and burial in Westminster Abbey, insisting on staying plain Mr Faraday. The refusal is the historical anchor, so the death peg earns its place.", "🔴 **Birth peg was mis-encoded.** *Pin* and *pan* are both P·N = **92**, not 91 — 92 is the Bone/Pin/Pen/Bun slot. 91 is P/B·T/D: Boat, Bat, Bud, **Pot**, Pad. The safety-pin image, as built, encodes the wrong year. **Pot** is proposed above because a bookbinder's glue pot keeps both the apprenticeship hook and the magnet-yank, so only the object swaps — the scene survives intact. Confirm the swap, or pick another 91 word and rebuild."]
 
   - id: 27
@@ -525,6 +551,7 @@ figures:
     end: "natural"
     scene: "Baby Nightingale rides in a plush carriage — her family was wealthy — badged **Nissan** where the luxury marque should be, furry dice swinging inside. She says \"look at my *Nurse-san*.\" Later those same dice reappear: she throws them down — \"this was all preventable, look at my disease dice.\""
     position: "the badge and the hanging dice at eye level in the carriage — birth position, front. The dice thrown down — dropping, a listed death action, low. Clean."
+    facts: "Florence Nightingale was a wealthy, well-connected young woman who scandalised her family by refusing marriage and insisting on a career in nursing. During the Crimean War she led a team of nurses into the filthy, overcrowded British military hospital at Scutari, where far more men were dying of disease than of wounds, and transformed it through sanitation and relentless organisation — the 'Lady with the Lamp' on her night rounds.\n\nA pioneering statistician, she used vivid 'coxcomb' diagrams to prove that hygiene saved lives, then founded the first professional nursing school and reformed hospital design worldwide. Bedridden for much of her long later life, she kept campaigning from her sickbed, and died in 1910 aged 90."
     notes: ["**The badge must read *Nissan*, not \"Nurse-san\".** *Nurse* is N,R,S = 240 (it already sits at 24), so a badge reading \"Nurse-san\" encodes the wrong number. Same discipline as Churchill's jail/cell: the pun is spoken, the peg is written.", "The recurring dice are a deliberate thread linking her two scenes — the only entry that reuses one object across birth and death.", "The statistics hook is real: her polar-area \"coxcomb\" diagrams showed disease, not wounds, killed most soldiers in the Crimea."]
 
   - id: 28
@@ -544,6 +571,7 @@ figures:
     end: "suicide"
     scene: "Young Turing drawn as Tintin — quiff and all, Snowy at his side — holding up a magnifying glass over roses, whose thorny stems twist into the shape of a **lyre** as he watches. Puzzled: \"what are these strange things growing out of the roses?\" Later he collapses beside the poisoned apple, the broken lyre lying behind him, grown from those same thorns: \"lion-eyed poisoning — I failed a Turing test.\""
     position: "magnifying glass and roses held up in front — birth position, examining and picking. The lyre broken and lying behind the body — smashing, death action, low and behind. Clean."
+    facts: "Alan Turing was the brilliant, unconventional mathematician who, before the war, conceived the theoretical 'Turing machine' that underpins all modern computing. At Bletchley Park during the Second World War he was a driving force behind cracking the German Enigma code — work later credited with shortening the war by years and saving countless lives.\n\nAfterwards he pioneered ideas of artificial intelligence, including the 'Turing test'. In 1952 he was prosecuted for homosexuality, then a crime in Britain, and forced to undergo chemical castration. He died in 1954 of cyanide poisoning, ruled a suicide (a half-eaten apple beside him), though accidental poisoning is also argued. He received an official royal pardon only in 2013."
     notes: ["**Tintin carries no number.** *Tintin* is T,N,T,N = **1212**, so it fails the exact-match rule as a peg and fails the two-initials rule as a character peg. It works as an emotional trigger and visual hook — the same role as Ben Jonson's sprinter face — while the word **Tin** does the encoding. Conveniently, \"Tintin\" is literally *tin* twice, so the hook reinforces the peg instead of fighting it.", "Shares the birth peg with Dickens (25) — same birth-year ending, different words and images (Tin/Tintin vs Ton/tan boot), so they stay distinct.", "Officially suicide by cyanide, and that's what the inquest found — but accidental inhalation from his home electroplating setup is seriously argued, and his mother maintained it. The apple was never tested."]
 
   - id: 29
@@ -563,6 +591,7 @@ figures:
     end: "suicide"
     scene: "Young party-boy Antony lounges in a bath overflowing with champagne **foam**, women around him — his reputation for drink and scandal before Caesar. Arm raised, triumphant: \"fame — I'm gonna live forever.\" Later the same **mice** from Cleopatra's scene run in low around him as he falls on his sword."
     position: "foam heaped up around his chest and raised arm — birth position, front. Mice at floor level as he falls — death position. Clean."
+    facts: "Mark Antony was Julius Caesar's loyal lieutenant, a hard-drinking, charismatic soldier who, after Caesar's murder, turned the Roman mob against the assassins with a famous funeral oration. He then carved up the Roman world with Octavian and Lepidus, taking the wealthy East for himself.\n\nThere he fell in love with Cleopatra of Egypt — a liaison Octavian's propaganda spun into proof that Antony had 'gone native' and betrayed Rome. Defeated at the sea battle of Actium in 31 BC and falsely told Cleopatra was already dead, Antony fell on his own sword; she followed him shortly after, and their deaths handed Octavian undisputed mastery of Rome."
     notes: ["**Deliberate shared peg.** Antony and Cleopatra died in the same year (30 BC), both by suicide after Actium, so the mice are the same mice. This is the one duplicate in the set that carries meaning rather than costing anything.", "**BC caution**: numbers run backwards — birth 83 is larger than death 30, same trap as Cleopatra (13).", "Dramatic irony in the birth line: the fame outlived him, the power didn't."]
 
   - id: 30
@@ -581,6 +610,7 @@ figures:
     death_peg: "50 → Lasso"
     scene: "On a warm beach, standing up from a recliner. A bright red-orange badge on his chest shows the sun and the words 'Cogito ergo Sun'; he says 'I'm pink therefore I am' — red and tanned. Queen Christina appears as the Snow Queen from Narnia and catches him with a huge white lasso, dragging him to the floor and into the cold."
     position: "The sun badge on his chest — above the waist, front — carries 96, worn as he rises from the recliner on the warm beach (a birth-type action). The white lasso drags him down to the floor and into the cold — pulling down, death action, low position; carries 50. Clean."
+    facts: "René Descartes was a French soldier-turned-philosopher and mathematician, often called the father of modern philosophy. Seeking absolute certainty, he doubted everything he possibly could until he reached one unshakeable truth — 'I think, therefore I am' (Cogito, ergo sum) — and rebuilt his whole system from there. He also invented analytic geometry and the Cartesian coordinate system that unites algebra and geometry.\n\nA famous late riser who claimed to do his best thinking in bed, he was lured to the freezing Swedish court of Queen Christina, who demanded philosophy lessons at five in the morning. The cold and the punishing schedule broke his health, and he died of pneumonia in Stockholm in 1650."
     notes: ["Badge and Beach both encode 96 (Badge = B·J; Beach = B·CH); the chest badge is the number-carrier, the beach is the setting.", "The puns ('sun'; 'I'm pink therefore I am') are spoken cues, not pegs. Christina-as-Snow-Queen is an emotional trigger, carrying no number.", "Historically anchored: Descartes died in Stockholm of pneumonia in February 1650, blamed on the cold and Queen Christina's 5am tutorials."]
 
   - id: 31
@@ -599,7 +629,7 @@ figures:
     birth_peg_candidates: ["Roach", "Ridge"]
     death_peg_num: 16
     death_peg_candidates: ["Dish", "Dash", "Ditch"]
-    facts: "Invented calculus independently of Newton, and the priority dispute poisoned both their lives. Binary arithmetic. \"The best of all possible worlds\" — the line Voltaire mocked in Candide. Both slots are thin."
+    facts: "Gottfried Wilhelm Leibniz was a universal genius — philosopher, mathematician, diplomat, historian and inventor — who developed the calculus independently of Newton, and whose clearer notation (the ∫ and d we still use) is the one that survived. He also devised binary arithmetic, the basis of all modern computing, and built early calculating machines.\n\nHe coined the famous optimism that ours is 'the best of all possible worlds', which Voltaire mercilessly mocked in Candide, and dreamed of a universal logical language to settle every dispute by calculation. His bitter priority dispute with Newton over the calculus poisoned his later years, and he died neglected in Hanover in 1716, his funeral attended by almost no one."
     notes: ["🟡 **Raja (46) flagged for geographic mismatch** — his Eastern link was the Chinese *I Ching*, which he read as confirmation of his binary arithmetic, not anything Indian. Left in place for now; a Chinese-flavoured 46 would be better but the slot has only Roach and Ridge to work with."]
 
   - id: 32
@@ -618,7 +648,7 @@ figures:
     birth_peg_candidates: ["Comb", "Gum", "Camel", "Camel *(cigs)*"]
     death_peg_num: 43
     death_peg_candidates: ["Ram", "Arm", "Rum", "Room", "Rim", "Rimmel"]
-    facts: "Put the sun at the centre and sat on it for decades — De revolutionibus was published the year he died, the first copy reportedly reaching him on his deathbed. Canon of Frombork cathedral; astronomy was the side project. Raised by his bishop uncle after his father died, which is the strongest unused birth-scene angle."
+    facts: "Nicolaus Copernicus was a Polish churchman, physician and astronomer who quietly triggered a scientific revolution. Working as a cathedral canon in Frombork — astronomy was in effect his hobby — he worked out that the Earth is not the centre of the universe but merely a planet orbiting the Sun, overturning nearly two thousand years of assumption.\n\nFearing ridicule and controversy, he sat on his masterpiece De revolutionibus for decades, publishing only as he lay dying; legend has the first printed copy reaching him on his deathbed in 1543. His heliocentric idea, later taken up by Galileo and Kepler, became the foundation of modern astronomy."
     notes: ["🔴 Neither slot locked. Note: **Game and Camo are not available for 73** — Game was struck from the dictionary as a non-noun (see major_system_pegs_0-100.md audit), and Camo is abstract. Comb and Gum are the live options."]
 
   - id: 33
@@ -637,7 +667,7 @@ figures:
     birth_peg_candidates: ["Sauce"]
     death_peg_num: 44
     death_peg_candidates: ["Rear", "Aurora", "Warrior"]
-    facts: "Crossed the Rubicon. Stabbed 23 times in the Senate on the Ides of March. Julian calendar. BC — the numbers run backwards, same trap as Cleopatra."
+    facts: "Julius Caesar was the general, politician and writer who did more than anyone to turn the Roman Republic into an empire. A brilliant, ruthless commander, he conquered Gaul, invaded Britain, and — when ordered to disband his army — instead crossed the Rubicon river with it in 49 BC, plunging Rome into civil war with the words 'the die is cast'.\n\nVictorious, he made himself dictator, reformed the calendar (the Julian calendar, and the month of July, carry his name), and was honoured almost as a king — which proved his undoing. On the Ides of March, 44 BC, a conspiracy of senators including his protégé Brutus stabbed him twenty-three times at the foot of Pompey's statue."
     notes: []
 
   - id: 34
@@ -656,7 +686,7 @@ figures:
     birth_peg_candidates: ["Case", "Goose", "Gauze", "Casio"]
     death_peg_num: 99
     death_peg_candidates: ["Baby", "Poppy", "Pipe", "Puppy", "Pepsi"]
-    facts: "Executed by hemlock for \"corrupting the youth\". Wrote nothing — everything comes via Plato. The Socratic method. BC."
+    facts: "Socrates left no writings of his own; almost everything we know comes through his devoted pupil Plato. A stonemason's son with a famously ugly face, he shuffled around the Athenian marketplace barefoot, buttonholing the powerful and dismantling their certainties with relentless questions — the 'Socratic method' still used in classrooms and courtrooms today.\n\nHe claimed only to know that he knew nothing, and made many enemies by exposing the ignorance of others. Charged with impiety and 'corrupting the youth' of Athens, he was condemned to death and calmly drank a cup of hemlock in 399 BC, choosing death over exile or silence — the founding martyr of Western philosophy."
     notes: []
 
   - id: 35
@@ -675,7 +705,7 @@ figures:
     birth_peg_candidates: ["Leash", "Leech", "Lash", "Lush"]
     death_peg_num: 23
     death_peg_candidates: ["Gnome", "Number", "Anemone"]
-    facts: "Tutored by Aristotle. Tamed Bucephalus as a boy. Never lost a battle; dead at 32, possibly typhoid or poison. BC."
+    facts: "Alexander III of Macedon was tutored as a boy by Aristotle and, legend says, tamed the unrideable warhorse Bucephalus before he was even a teenager. Taking the throne at twenty after his father's murder, he launched one of history's greatest military campaigns, never losing a battle as he shattered the mighty Persian Empire and drove his army all the way to India.\n\nBy thirty he ruled from Greece to the Punjab, founding some twenty cities named Alexandria and spreading Greek culture across the known world. Then, at just thirty-two, he died suddenly in Babylon — of fever, typhoid, or perhaps poison — and his vast empire was promptly torn apart by his squabbling generals."
     notes: ["🔴 Dates identified (356 BC / 323 BC → 56 / 23), no scene started. **Collision watch**: 56 is Tesla's birth peg (Leash) and 23 is Pascal's (Number). Leech, Lash or Lush clear the first; Gnome or Anemone clear the second."]
 
   - id: 36
@@ -694,7 +724,7 @@ figures:
     birth_peg_candidates: ["Chair", "Shore", "Cherry"]
     death_peg_num: 42
     death_peg_candidates: ["Rhino", "Wren", "Rain", "Orange", "Renault"]
-    facts: "Improved the telescope, found Jupiter's moons. Tried by the Inquisition, forced to recant heliocentrism, spent his last years under house arrest, blind. Shares a birth year with Shakespeare (3) and a death year with Newton's birth."
+    facts: "Galileo Galilei was the Italian physicist and astronomer often called the father of modern science for insisting that nature be read through experiment and mathematics. Hearing of a new Dutch invention, he built his own telescope and turned it on the heavens — discovering craters on the Moon, the four largest moons of Jupiter, and the phases of Venus, all pointing to an Earth that moves around the Sun.\n\nHis championing of Copernicus brought him before the Roman Inquisition, which forced him under threat to recant — he is said to have muttered 'and yet it moves'. He spent his last years under house arrest and blind, dying in 1642, the year Newton was born; the Church formally conceded he had been right only in 1992."
     notes: []
 
   - id: 37
@@ -713,7 +743,7 @@ figures:
     birth_peg_candidates: ["Foil", "File", "Volvo"]
     death_peg_num: 50
     death_peg_candidates: ["Lace", "Lice", "Lasso", "Listerine"]
-    facts: "Twenty children. Walked 250 miles to hear an organist play. Jailed for a month for trying to leave a job. Died after botched eye surgery by the same quack who blinded Handel."
+    facts: "Johann Sebastian Bach came from a vast dynasty of German musicians and spent his life as a working church organist and choirmaster, composing to order week after week rather than for posterity. Deeply devout, he poured staggering craftsmanship into cantatas, the Brandenburg Concertos, the Mass in B minor and the Well-Tempered Clavier, perfecting the art of counterpoint.\n\nHe fathered twenty children, walked 250 miles as a young man simply to hear a famous organist play, and was once jailed for a month for trying too insistently to leave a job. He went blind late in life and died in 1750 after a botched eye operation by a travelling quack — the same one who had blinded Handel. Largely forgotten for decades, he is now revered among the supreme composers."
     notes: []
 
   - id: 38
@@ -732,7 +762,7 @@ figures:
     birth_peg_candidates: ["Case", "Goose", "Gauze", "Casio"]
     death_peg_num: 27
     death_peg_candidates: ["Neck", "Nag", "Nook", "Ink", "Nike"]
-    facts: "Went deaf and kept composing — conducted the Ninth without hearing the ovation and had to be turned round to see it. Sawed the legs off his piano to feel the vibrations through the floor."
+    facts: "Ludwig van Beethoven bridged the Classical and Romantic eras and transformed what music could express. A volcanic, untidy, short-tempered genius, he arrived in Vienna as a brilliant young pianist — and then, in his late twenties, began to go deaf, the cruellest fate imaginable for a musician.\n\nRather than give up, he composed some of his greatest works in near-total silence, 'hearing' them only in his mind, and famously had to be turned around at the premiere of his Ninth Symphony to see an ovation he could not hear. He sawed the legs off his piano to feel its vibrations through the floor. He died in 1827, and some ten thousand people are said to have joined his funeral procession."
     notes: []
 
   - id: 39
@@ -751,7 +781,7 @@ figures:
     birth_peg_candidates: ["Coal", "Coil", "Eagle", "Gold", "Colgate"]
     death_peg_num: 17
     death_peg_candidates: ["Tack", "Duck", "Dog", "Deck", "Tag", "TK Maxx"]
-    facts: "Published anonymously — \"By a Lady\". Wrote at a small table in a room with a creaking door she refused to have fixed, so it would warn her to hide her papers. Died at 41, cause still argued."
+    facts: "Jane Austen spent her quiet life in the villages of Georgian England, yet turned the small world of drawing-rooms, marriage and money into some of the sharpest, wittiest novels ever written — Pride and Prejudice, Sense and Sensibility, Emma. She wrote in secret at a small table, hiding her pages when a deliberately creaky door warned of visitors, and published anonymously as 'By a Lady'.\n\nHer irony and psychological insight were quietly revolutionary, though she earned little in her lifetime and her authorship was revealed to the public only after her death. She died in 1817 at just forty-one, of an illness still argued over (Addison's disease and lymphoma among the theories), her last novels published posthumously by her brother."
     notes: []
 
   - id: 40
@@ -770,7 +800,7 @@ figures:
     birth_peg_candidates: ["Tub", "Tape", "Tip", "Tuba", "Toblerone"]
     death_peg_num: 1
     death_peg_candidates: ["Seed", "Suit"]
-    facts: "Sixty-three years on the throne. Wore black for 40 years after Albert died. Survived eight assassination attempts. Empress of India; never visited it."
+    facts: "Queen Victoria gave her name to an entire age. Coming to the throne at eighteen, she reigned for sixty-three years — the longest of any British monarch until Elizabeth II — over a period of vast industrial, imperial and scientific expansion that made Britain the world's dominant power.\n\nHer marriage to Prince Albert was a genuine love match, and his death in 1861 devastated her: she withdrew from public life and wore mourning black for the remaining forty years of her life, becoming 'the Widow of Windsor'. She survived at least seven assassination attempts, was made Empress of India (which she never visited), and died in 1901, her children and grandchildren married into royal houses across Europe."
     notes: []
 
   - id: 41
@@ -789,7 +819,7 @@ figures:
     birth_peg_candidates: ["Dove", "Toffee", "Diva", "Staff", "Tefal"]
     death_peg_num: 83
     death_peg_candidates: ["Foam", "Femur", "Vomit", "Famous Grouse"]
-    facts: "Wrote Das Kapital in the British Museum reading room. Bankrolled for decades by Engels. Buried in Highgate. Died stateless."
+    facts: "Karl Marx was a German philosopher, economist and revolutionary whose ideas would shape twentieth-century politics more than almost anyone's. A brilliant, combative journalist hounded from one country to another for his radicalism, he settled in London, where he spent years in the British Museum reading room writing his vast analysis of capitalism, Das Kapital.\n\nWith his friend and financial backer Friedrich Engels he wrote The Communist Manifesto, arguing that history is driven by class struggle and predicting that the workers would overthrow the capitalist order. Perennially poor and often ill, grieving several children who died young, he died stateless in 1883 and was buried in London's Highgate Cemetery."
     notes: []
 
   - id: 42
@@ -808,7 +838,7 @@ figures:
     birth_peg_candidates: ["Tail", "Dial", "Doll", "Tile", "Towel", "Tilda"]
     death_peg_num: 52
     death_peg_candidates: ["Lion", "Lawn", "Lane", "Loon", "Alien", "Lenor"]
-    facts: "Byron's daughter. Wrote the first published algorithm, for Babbage's unbuilt Analytical Engine, and saw that it could do more than numbers. Died at 36, same age as her father."
+    facts: "Ada Lovelace was the daughter of the poet Lord Byron, raised by her mathematician mother on a strict diet of logic and science precisely to suppress any dangerous 'poetic' tendencies. She became a gifted mathematician and, working with Charles Babbage on his never-built mechanical computer, the Analytical Engine, wrote what is often called the first computer program.\n\nCrucially she grasped something Babbage himself had missed: that such a machine could manipulate not only numbers but any symbols — music, letters, ideas — anticipating the general-purpose computer by a century. She died of cancer in 1852 at just thirty-six, the same age at which her father had died, and is now celebrated as a visionary pioneer of computing."
     notes: []
 
   - id: 43
@@ -827,7 +857,7 @@ figures:
     birth_peg_candidates: ["Leash", "Leech", "Lash", "Lush"]
     death_peg_num: 39
     death_peg_candidates: ["Map", "Mop", "Amp"]
-    facts: "The couch. Cocaine enthusiast early on. Fled the Nazis to London in 1938; 33 operations for jaw cancer from cigars; died by assisted morphine."
+    facts: "Sigmund Freud was the Austrian neurologist who founded psychoanalysis and, more than anyone, gave the modern world its vocabulary of the mind — the unconscious, repression, the ego, the Freudian slip. From his consulting couch in Vienna he argued that our behaviour is driven by hidden desires and childhood experience, and that dreams are the 'royal road' to the unconscious.\n\nHis theories were controversial and much of the detail is now disputed, but his influence on psychology, art and everyday thought is immense. A heavy cigar smoker, he endured more than thirty operations for jaw cancer; having fled the Nazis to London in 1938, he died there in 1939 by a doctor-assisted dose of morphine."
     notes: []
 
   - id: 44
@@ -846,7 +876,7 @@ figures:
     birth_peg_candidates: ["Ship", "Shop", "Sheep", "Chip", "Chop", "Jeep"]
     death_peg_num: 48
     death_peg_candidates: ["Roof", "Reef", "Roofer", "Ryvita"]
-    facts: "Salt March. Spun his own cloth. Assassinated by Nathuram Godse. Nominated for the Nobel Peace Prize five times, never awarded it."
+    facts: "Mohandas 'Mahatma' Gandhi was a London-trained lawyer who, after suffering racist humiliation in South Africa, forged a new political weapon: satyagraha, mass non-violent resistance. Returning to India, he led the decades-long campaign to free the subcontinent from British rule, dressing in homespun cloth he spun himself and living with deliberate simplicity.\n\nHe galvanised millions with acts like the 1930 Salt March, was jailed repeatedly, and inspired later leaders from Martin Luther King to Mandela. India won independence in 1947, but partition brought terrible bloodshed that broke his heart. In 1948 he was shot dead by a Hindu extremist. Astonishingly, he was nominated for the Nobel Peace Prize five times and never awarded it."
     notes: []
 
   - id: 45
@@ -865,7 +895,7 @@ figures:
     birth_peg_candidates: ["Dove", "Toffee", "Diva", "Staff", "Tefal"]
     death_peg_num: 13
     death_peg_candidates: ["Tomb", "Dime", "Dam", "Team", "Time", "Timberland"]
-    facts: "Twenty-seven years in prison, eighteen of them on Robben Island breaking rocks in a lime quarry, which ruined his eyes. Walked out and negotiated with his jailers' government. Only entry here with a 20th-century death — note the century marker."
+    facts: "Nelson Mandela spent twenty-seven years in prison — eighteen of them breaking rocks in a blinding lime quarry on Robben Island — for his fight against South Africa's brutal apartheid system. Refusing offers of freedom in exchange for renouncing the armed struggle, he became the world's most famous political prisoner.\n\nReleased in 1990, he chose reconciliation over revenge, negotiating with the very government that had jailed him and, in 1994, becoming South Africa's first Black president in its first fully democratic election. Sharing a Nobel Peace Prize for dismantling apartheid, he served a single term and then stepped down. He died in 2013, aged 95, mourned around the world as a moral giant."
     notes: []
 
   - id: 46
@@ -884,7 +914,7 @@ figures:
     birth_peg_candidates: ["Tin", "Den", "Dawn", "Ton", "Down", "Tango"]
     death_peg_num: 31
     death_peg_candidates: ["Mat", "Meat", "Mud", "Moat", "Mattel"]
-    facts: "Illiterate teenage peasant who talked her way into command. Lifted the siege of Orléans. Burned at the stake at 19; her heart reportedly wouldn't burn. Retried and exonerated 25 years later."
+    facts: "Joan of Arc was an illiterate teenage peasant girl who, convinced she heard the voices of saints, talked her way into the presence of the French heir during the Hundred Years' War and persuaded him to let her lead an army. Clad in white armour, she inspired the French to lift the siege of Orléans and turned the tide of the war, seeing him crowned king.\n\nCaptured by the English and their allies, she was tried for heresy and witchcraft and burned at the stake in 1431, aged only nineteen; witnesses claimed her heart would not burn. Twenty-five years later a retrial cleared her name, and centuries afterwards the Church declared her a saint — France's warrior-martyr and patron."
     notes: []
 
   - id: 47
@@ -903,7 +933,7 @@ figures:
     birth_peg_candidates: ["Knife", "Nephew", "Navy", "Nivea"]
     death_peg_num: 79
     death_peg_candidates: ["Cap", "Cub", "Cop", "Cab", "Cape"]
-    facts: "Charted New Zealand and eastern Australia. Beat scurvy with sauerkraut. Killed in the surf at Kealakekua Bay, Hawaii, in a scuffle over a stolen boat."
+    facts: "Captain James Cook was a farm labourer's son who rose through the Royal Navy on sheer skill as a navigator and cartographer to lead three great voyages of Pacific exploration. He charted New Zealand and the eastern coast of Australia, criss-crossed the ocean with astonishing accuracy, and pioneered the use of fresh food such as sauerkraut to defeat the scurvy that had killed so many sailors.\n\nHis expeditions transformed European knowledge of the globe — and opened the Pacific to colonisation, with lasting consequences for its peoples. On his third voyage, a dispute over a stolen boat turned violent, and Cook was killed in the surf at Kealakekua Bay in Hawaii in 1779."
     notes: []
 
   - id: 48
@@ -922,7 +952,7 @@ figures:
     birth_peg_candidates: ["Sash"]
     death_peg_num: 69
     death_peg_candidates: ["Ship", "Shop", "Sheep", "Chip", "Chop", "Jeep"]
-    facts: "Around 80 self-portraits, tracking his own face from cocky youth to ruin. Bankrupt in 1656; his possessions auctioned. Buried in an unmarked pauper's grave. 06 is a one-word slot."
+    facts: "Rembrandt van Rijn was the greatest painter of the Dutch Golden Age, a miller's son who became famous and wealthy in Amsterdam for his dramatic play of light and shadow and his uncanny gift for capturing the inner life of his subjects. He painted around eighty searching self-portraits across his life, an unmatched visual autobiography from cocky youth to ruined old age.\n\nHe lived beyond his means, and after the death of his wife Saskia his fortunes collapsed; declared insolvent in 1656, he watched his house and possessions auctioned off. He kept painting masterpieces to the end, but died poor in 1669 and was buried in an unmarked pauper's grave."
     notes: []
 
   - id: 49
@@ -941,7 +971,7 @@ figures:
     birth_peg_candidates: ["Lily", "Lolly", "Lilac", "Lyle's"]
     death_peg_num: 93
     death_peg_candidates: ["Bomb", "Beam", "Puma", "Pom", "BMW"]
-    facts: "Never said \"let them eat cake\". Played at being a shepherdess in a fake hamlet at Versailles. Guillotined nine months after her husband; apologised to the executioner for treading on his foot."
+    facts: "Marie Antoinette was an Austrian archduchess married at fourteen to the future Louis XVI of France to seal an alliance, and she never shook off her image as a frivolous foreign spendthrift. She became a lightning rod for public anger at the monarchy — though she almost certainly never said 'let them eat cake' — playing at being a shepherdess in a mock hamlet at Versailles while ordinary French people went hungry.\n\nWhen the French Revolution swept the monarchy away, she and her husband were imprisoned; he was guillotined, and nine months later, in 1793, so was she. Composed to the end, she is said to have apologised to her executioner for accidentally treading on his foot."
     notes: []
 
   - id: 50
@@ -960,7 +990,7 @@ figures:
     birth_peg_candidates: ["Fob", "Fop", "Fibre-optic", "Fab"]
     death_peg_num: 51
     death_peg_candidates: ["Light", "Lad", "Lady", "Ladder", "Lidl"]
-    facts: "Gave away a vast family fortune. Worked as a village schoolteacher, a gardener, and a hospital porter. Wrote one book in his lifetime, then spent it arguing against himself. Last words: \"Tell them I've had a wonderful life.\""
+    facts: "Ludwig Wittgenstein was born into one of the wealthiest families in Europe and gave away his entire vast inheritance, choosing to live in radical simplicity. Widely regarded as one of the twentieth century's greatest philosophers, he wrestled with the deepest problems of logic, language and meaning — and did it twice, first in his Tractatus and then by demolishing his own earlier conclusions.\n\nRestless and intense, he kept abandoning philosophy for humbler work — a village schoolteacher, a monastery gardener, a wartime hospital porter — before returning to it. He published just one slim book in his lifetime. Dying of prostate cancer in 1951, his last words were reportedly: 'Tell them I've had a wonderful life.'"
     notes: []
 
   - id: 51
@@ -979,7 +1009,7 @@ figures:
     birth_peg_candidates: ["Leaf", "Elf", "Olive", "Loaf", "Levi's"]
     death_peg_num: 28
     death_peg_candidates: ["Knife", "Nephew", "Navy", "Nivea"]
-    facts: "Led the militant suffragettes. Arrested repeatedly; hunger strikes and force-feeding; released and re-arrested under the \"Cat and Mouse\" Act. Died weeks before women got the vote on equal terms."
+    facts: "Emmeline Pankhurst was the fiery leader of the militant British suffragette movement, founder of the Women's Social and Political Union, whose motto was 'deeds, not words'. Frustrated by decades of polite, fruitless campaigning, she led women into direct action — smashing windows, chaining themselves to railings, and enduring arrest, hunger strikes and brutal force-feeding.\n\nReleased and re-arrested over and over under the notorious 'Cat and Mouse Act', she became one of the most divisive and celebrated women of her age. She died in 1928 — just weeks before Parliament finally granted women the vote on fully equal terms with men, the cause to which she had given her life."
     notes: []
   - id: 52
     name: "Aristotle"
