@@ -234,6 +234,8 @@
 - name: Install PostgreSQL
   hosts: homelab
   become: true
+  vars_files:
+    - secrets.yml            # db_password — gitignored; copy secrets.yml.example
 
   tasks:
 
