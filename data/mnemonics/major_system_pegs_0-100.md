@@ -91,7 +91,7 @@ hang off — a body-part list and a colour/design scheme.
 | 9 | P/B | Pie, Bee, Ape, Hoop, Hub, Soap *(rlx)* | — |
 | 10 | TS | Toes, Dice, Oats, Ties, Dose | Tesco |
 | 11 | TT/TD/DD | Toad, Tot, Date, Dot, Dad | Tide |
-| 12 | TN | Tin, Den, Dawn, Ton, Down | Tango |
+| 12 | TN | Tin, Den, Dawn, Ton, Down, Tan, Tuna | Tango |
 | 13 | TM | Tomb, Dime, Dam, Team, Time | Timberland |
 | 14 | TR | Tire, Deer, Door, Tar, Tower | Terry's Chocolate Orange |
 | 15 | TL | Tail, Dial, Doll, Tile, Towel | Tilda |
@@ -170,7 +170,7 @@ hang off — a body-part list and a colour/design scheme.
 | 88 | FF | Fife, Fiver *(rlx)*, FF *(rlx)* | FIFA |
 | 89 | FP | Fob, Fop, Fibre-optic *(rlx)*, FB *(rlx)* | Fab |
 | 90 | BS/PS | Bus, Bees, Bass, Boss | Bose |
-| 91 | BT/PT | Boat, Bat, Bud, Pot, Pad | Budweiser, BT |
+| 91 | BT/PT | Boat, Bat, Bud, Pot, Pad, Boot, Bed | Budweiser, BT |
 | 92 | BN/PN | Bone, Pin, Pen, Bun, Pony | Bounty |
 | 93 | BM/PM | Bomb, Beam, Puma, Pom | BMW |
 | 94 | BR/PR | Bear, Pear, Boar, Beer | Burger King |

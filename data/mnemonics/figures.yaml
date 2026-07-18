@@ -5,11 +5,12 @@ vocabulary:
   role: [writer, poet, playwright, composer, artist, philosopher, mathematician,
     astronomer, physicist, chemist, naturalist, physician, nurse, engineer, architect,
     inventor, historian, statistician, economist, lawyer, clergyman, politician,
-    statesman, ruler, king-emperor, queen, general, revolutionary, explorer, businessman]
+    statesman, ruler, king-emperor, queen, empress, general, admiral, revolutionary, explorer, businessman]
   field: [science, arts, music, literature, power, military, exploration, philosophy]
   era: [ancient, medieval, renaissance, early-modern, enlightenment, industrial, modern]
   region: [british, french, italian, german, austrian, american, dutch, polish,
-    serbian, egyptian, roman, greek, macedonian, mongol, genoese, indian, south-african]
+    serbian, egyptian, roman, greek, macedonian, mongol, genoese, indian, south-african,
+    chinese, russian, portuguese, norwegian]
   end: [natural, illness, assassinated, executed, suicide, battle, uncertain]
 
 figures:
@@ -980,3 +981,725 @@ figures:
     death_peg_candidates: ["Knife", "Nephew", "Navy", "Nivea"]
     facts: "Led the militant suffragettes. Arrested repeatedly; hunger strikes and force-feeding; released and re-arrested under the \"Cat and Mouse\" Act. Died weeks before women got the vote on equal terms."
     notes: []
+  - id: 52
+    name: "Aristotle"
+    state: backlog
+    status: none
+    birth_year: -384
+    death_year: -322
+    era_bc: true
+    role: ["philosopher", "naturalist"]
+    field: ["philosophy", "science"]
+    era: "ancient"
+    region: "greek"
+    end: "illness"
+    birth_peg_num: 84
+    birth_peg_candidates: ["Fire", "Fur", "Ferry"]
+    death_peg_num: 22
+    death_peg_candidates: ["Nun", "Onion", "Neon"]
+    facts: "Aristotle came to Athens at seventeen to study under Plato and stayed for twenty years. When he was passed over to lead the Academy after Plato's death, he left — and was eventually hired to tutor a Macedonian prince who would go on to conquer the known world: Alexander the Great.\n\nBack in Athens he founded his own school, the Lyceum, teaching as he strolled its covered walks (his pupils were nicknamed the 'peripatetics', the wanderers). He wrote on almost everything — logic, physics, biology, ethics, politics, drama — and was the first to collect, dissect and classify knowledge as a system, personally cataloguing hundreds of animal species. When anti-Macedonian feeling flared after Alexander died, Aristotle fled rather than let Athens 'sin twice against philosophy' (the first being the execution of Socrates), and died of a stomach illness soon after."
+    notes: ["Aristotle tutored Alexander the Great and founded the Lyceum; died in exile on Euboea."]
+
+  - id: 53
+    name: "Plato"
+    state: backlog
+    status: none
+    birth_year: -428
+    death_year: -348
+    era_bc: true
+    role: ["philosopher"]
+    field: ["philosophy"]
+    era: "ancient"
+    region: "greek"
+    end: "natural"
+    birth_peg_num: 28
+    birth_peg_candidates: ["Knife", "Nephew", "Navy"]
+    death_peg_num: 48
+    death_peg_candidates: ["Roof", "Reef", "Ref", "Ruff", "RAF", "Roofer"]
+    facts: "Plato was a young aristocrat, possibly a wrestler, whose life was upended when his teacher Socrates was executed by the Athenian democracy. The trauma turned him against mob rule and toward a lifelong search for eternal, unchanging truth behind the chaos of appearances — his famous Theory of Forms, and the Allegory of the Cave.\n\nHe founded the Academy on the outskirts of Athens, arguably the Western world's first university, where he taught for decades and wrote his ideas as dramatic dialogues starring Socrates. Ancient sources say he died peacefully in old age — one tradition has him passing in his sleep, another at a wedding feast. His pupil Aristotle would go on to challenge almost everything he taught."
+    notes: ["'Carving nature at its joints' is Plato's own phrase. Student of Socrates, teacher of Aristotle."]
+
+  - id: 54
+    name: "Archimedes"
+    state: backlog
+    status: none
+    birth_year: -287
+    death_year: -212
+    era_bc: true
+    role: ["mathematician", "physicist", "inventor"]
+    field: ["science"]
+    era: "ancient"
+    region: "greek"
+    end: "battle"
+    birth_peg_num: 87
+    birth_peg_candidates: ["Fig", "Fog"]
+    death_peg_num: 12
+    death_peg_candidates: ["Tin", "Den", "Dawn", "Ton", "Down", "Tan"]
+    facts: "Archimedes of Syracuse is remembered for jumping from his bath and running naked through the streets shouting 'Eureka!' ('I have found it!') after realising that displaced water could measure the volume — and thus the purity — of the king's gold crown. Whether or not that tale is literally true, his real work on buoyancy, levers, pulleys and the ratio of a sphere to its cylinder was centuries ahead of its time.\n\nHe was also Syracuse's one-man war machine, devising cranes and burning-mirrors that terrorised the Roman fleet during the long siege of the city. When Syracuse finally fell in 212 BC, a Roman soldier came upon the old man absorbed in a geometry problem drawn in the sand. Archimedes reportedly snapped, 'Do not disturb my circles' — and was run through, against the express orders of the Roman general who had wanted him spared."
+    notes: ["Killed at the Siege of Syracuse while drawing figures in the sand."]
+
+  - id: 55
+    name: "Confucius"
+    state: backlog
+    status: none
+    birth_year: -551
+    death_year: -479
+    era_bc: true
+    role: ["philosopher"]
+    field: ["philosophy"]
+    era: "ancient"
+    region: "chinese"
+    end: "illness"
+    birth_peg_num: 51
+    birth_peg_candidates: ["Light", "Lad", "Lady", "Ladder"]
+    death_peg_num: 79
+    death_peg_candidates: ["Cap", "Cub", "Cop", "Cab", "Cape"]
+    facts: "Confucius grew up poor after his father died when he was three, working humble jobs before becoming a teacher who would accept any student earnest enough to learn. He wandered from state to state offering rulers a radical idea: that good government came not from force but from the moral character of those in charge, cultivated through education, ritual and respect for family and elders.\n\nIn his own lifetime he was largely a failure — few rulers took his advice, and he died thinking his mission unfulfilled. But his students preserved his sayings in the Analects, and over the following centuries 'Confucianism' became the ethical backbone of Chinese civilisation and much of East Asia, shaping its schools, families and governments for more than two thousand years."
+    notes: ["Wrote little himself — the Analects were compiled by his pupils."]
+
+  - id: 56
+    name: "Nero"
+    state: backlog
+    status: none
+    birth_year: 37
+    death_year: 68
+    era_bc: false
+    role: ["king-emperor", "ruler"]
+    field: ["power"]
+    era: "ancient"
+    region: "roman"
+    end: "suicide"
+    birth_peg_num: 37
+    birth_peg_candidates: ["Mug", "Mic", "Mac", "Mocha"]
+    death_peg_num: 68
+    death_peg_candidates: ["Chef", "Chief", "George Foreman"]
+    facts: "Nero became emperor at sixteen and began well enough under the guidance of his tutor, the philosopher Seneca — but power curdled him. He is remembered for murdering his own mother, kicking his pregnant wife to death, persecuting Christians as scapegoats, and above all for the Great Fire of Rome in AD 64, during which he was rumoured (almost certainly falsely) to have 'fiddled' while the city burned.\n\nHe fancied himself a great artist and athlete, forcing crowds to sit through his lyre recitals and rigging the Olympic Games in his own favour. When the army and Senate finally turned against him and declared him a public enemy, he fled the city and, unable to do the deed himself, had a servant help him take his own life — lamenting, according to Suetonius, 'Qualis artifex pereo' — 'What an artist dies in me.'"
+    notes: ["'Fiddled while Rome burned' is legend; the deathbed line ('Qualis artifex pereo') is from Suetonius."]
+
+  - id: 57
+    name: "Johannes Kepler"
+    state: backlog
+    status: none
+    birth_year: 1571
+    death_year: 1630
+    era_bc: false
+    role: ["astronomer", "mathematician"]
+    field: ["science"]
+    era: "early-modern"
+    region: "german"
+    end: "illness"
+    birth_peg_num: 71
+    birth_peg_candidates: ["Cat", "Coat", "Kite", "Goat", "Kid"]
+    death_peg_num: 30
+    death_peg_candidates: ["Mouse", "Mice", "Moose", "Maze"]
+    facts: "Kepler was a sickly, half-blind genius who wanted to be a theologian but ended up finding God in the mathematics of the heavens. Working as assistant to the brilliant, wealthy astronomer Tycho Brahe, he inherited Tycho's unrivalled observations of Mars and spent years wrestling them into sense — finally, and reluctantly, abandoning the perfect circles everyone assumed and proving that planets move in ellipses.\n\nHis life was dogged by hardship: religious persecution, the deaths of his children, and a sensational trial in which he had to defend his own mother against charges of witchcraft (he got her acquitted). Chronically underpaid by his royal employers, he died of a fever in Regensburg in 1630 while travelling to try to collect wages he was owed."
+    notes: ["Discovered the three laws of planetary motion; died of fever in Regensburg chasing unpaid wages."]
+
+  - id: 58
+    name: "Frédéric Chopin"
+    state: backlog
+    status: none
+    birth_year: 1810
+    death_year: 1849
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "industrial"
+    region: "polish"
+    end: "illness"
+    birth_peg_num: 10
+    birth_peg_candidates: ["Toes", "Dice", "Oats", "Ties", "Dose"]
+    death_peg_num: 49
+    death_peg_candidates: ["Rope", "Robe", "Rib", "Ruby"]
+    facts: "Chopin was a child prodigy in Warsaw who left Poland at twenty, just before a failed uprising against Russian rule — and never returned, carrying a silver goblet of Polish soil with him into a life of exile in Paris. Frail and famously private, he hated large concert halls and preferred to play in candlelit salons, where his nocturnes, mazurkas and études redefined what the piano could do.\n\nHe conducted a stormy, celebrated affair with the cross-dressing novelist George Sand, whose care sustained him through years of worsening tuberculosis. He died in Paris at just thirty-nine. At his own request his heart was removed, preserved in alcohol, and smuggled past the Russian authorities by his sister back to Warsaw, where it remains sealed inside a church pillar to this day."
+    notes: ["Chopin's heart really was removed and taken to Warsaw at his request; he died of TB (or a related illness)."]
+
+  - id: 59
+    name: "Pyotr Tchaikovsky"
+    state: backlog
+    status: none
+    birth_year: 1840
+    death_year: 1893
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "industrial"
+    region: "russian"
+    end: "uncertain"
+    birth_peg_num: 40
+    birth_peg_candidates: ["Rose", "Rice"]
+    death_peg_num: 93
+    death_peg_candidates: ["Bomb", "Beam", "Puma", "Pom"]
+    facts: "Tchaikovsky was the first Russian composer to win lasting fame in the West, pouring an almost unbearable emotional intensity into his symphonies, concertos and the ballets Swan Lake, Sleeping Beauty and The Nutcracker. A sensitive, anxious man, he was tormented by his homosexuality in a society that condemned it, and endured a disastrous few weeks of marriage that drove him to a nervous breakdown.\n\nHe was rescued by an extraordinary patron, the widow Nadezhda von Meck, who funded him for years on the strict condition that they never meet. Nine days after conducting the premiere of his despairing Sixth Symphony, the 'Pathétique', he was dead. The official cause was cholera from a glass of unboiled water — but the timing has fed persistent theories that he took poison, possibly under pressure to avoid a scandal."
+    notes: ["The 1812 Overture calls for real cannon fire; died of cholera after drinking unboiled water — suicide is also argued."]
+
+  - id: 60
+    name: "Richard Wagner"
+    state: backlog
+    status: none
+    birth_year: 1813
+    death_year: 1883
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "industrial"
+    region: "german"
+    end: "illness"
+    birth_peg_num: 13
+    birth_peg_candidates: ["Tomb", "Dime", "Dam", "Team", "Time"]
+    death_peg_num: 83
+    death_peg_candidates: ["Foam", "Femur", "Vomit"]
+    facts: "Wagner was a revolutionary in every sense — he manned the barricades in the failed 1849 Dresden uprising and had to flee into political exile, and he set out to overthrow opera itself. He fused music, poetry and staging into what he called the 'total work of art', wrote his own librettos, invented the leitmotif, and produced the colossal four-opera Ring of the Nibelung, some fifteen hours of music built on recurring themes.\n\nGrandiose, endlessly in debt, and rescued by the infatuated 'mad king' Ludwig II of Bavaria, he built his own theatre at Bayreuth precisely to his specifications, where his works are still performed today. His virulent antisemitism and later adoption by the Nazis remain an inescapable stain on his legacy. He died of a heart attack in Venice in 1883."
+    notes: ["Built the Bayreuth Festspielhaus for the Ring; died of a heart attack in Venice."]
+
+  - id: 61
+    name: "Leo Tolstoy"
+    state: backlog
+    status: none
+    birth_year: 1828
+    death_year: 1910
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "industrial"
+    region: "russian"
+    end: "illness"
+    birth_peg_num: 28
+    birth_peg_candidates: ["Knife", "Nephew", "Navy"]
+    death_peg_num: 10
+    death_peg_candidates: ["Toes", "Dice", "Oats", "Ties", "Dose"]
+    facts: "Tolstoy was born to enormous wealth — a count with a vast estate and hundreds of serfs — and spent his youth gambling, drinking and soldiering, seeing real combat as an artillery officer in the Crimean War. Out of that experience, and his aristocratic world, came the two novels often called the greatest ever written: the epic War and Peace and the tragic Anna Karenina.\n\nIn middle age he underwent a shattering spiritual crisis and reinvented himself as a radical Christian anarchist and pacifist, renouncing his wealth, dressing as a peasant, and preaching non-violent resistance — ideas that would directly inspire Gandhi and Martin Luther King. His new beliefs wrecked his marriage, and at eighty-two, seeking to escape it and live simply, he fled his home in the dead of night. He fell ill and died days later in the stationmaster's house at the remote railway halt of Astapovo, as the world's press gathered outside."
+    notes: ["He served as an artillery officer at the naval siege of Sevastopol; died at Astapovo station after abandoning his estate."]
+
+  - id: 62
+    name: "Mark Twain"
+    state: backlog
+    status: none
+    birth_year: 1835
+    death_year: 1910
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "industrial"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 35
+    birth_peg_candidates: ["Mail", "Mule", "Mole", "Mall", "Mill"]
+    death_peg_num: 10
+    death_peg_candidates: ["Toes", "Dice", "Oats", "Ties", "Dose"]
+    facts: "Samuel Langhorne Clemens took his pen name from the Mississippi riverboat cry 'mark twain' — a leadsman's call meaning the water was two fathoms deep and safe to pass. Before he was a writer he was a licensed steamboat pilot, a failed silver prospector and a travelling journalist, and he mined all of it for the humour that made him America's most beloved author.\n\nThe Adventures of Tom Sawyer and Huckleberry Finn captured a vanishing frontier America and, in Huck, delivered a sly moral demolition of slavery. Twain made and lost fortunes through bad investments, endured the deaths of his wife and two daughters, and grew darker and more bitter in later life. He had been born in 1835, the year Halley's Comet appeared, and often said he expected to 'go out with it' — and, remarkably, he died the day after the comet returned in 1910."
+    notes: ["Born in 1835 with Halley's Comet, died in 1910 on its return — exactly as he'd predicted."]
+
+  - id: 63
+    name: "Robert Falcon Scott"
+    state: backlog
+    status: none
+    birth_year: 1868
+    death_year: 1912
+    era_bc: false
+    role: ["explorer"]
+    field: ["exploration"]
+    era: "modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 68
+    birth_peg_candidates: ["Chef", "Chief", "George Foreman"]
+    death_peg_num: 12
+    death_peg_candidates: ["Tin", "Den", "Dawn", "Ton", "Down", "Tan"]
+    facts: "Scott was a Royal Navy officer who led two British expeditions to Antarctica in the golden age of polar exploration. His second, the Terra Nova Expedition, aimed to be first to the South Pole — but he insisted on man-hauling sledges and using ponies rather than relying wholly on dogs, and was beaten to it by the ruthlessly efficient Norwegian Roald Amundsen, who arrived five weeks earlier.\n\nWorn out and heartbroken, Scott and his four companions turned for home into a brutal Antarctic autumn. One by one they died of cold, hunger and exhaustion; Captain Oates, crippled by frostbite, famously walked out into a blizzard to die so as not to slow the others — 'I am just going outside and may be some time.' Scott himself perished only eleven miles from a supply depot, keeping his journal until his frozen fingers failed. The diaries, found months later beside the bodies, turned failure into national legend."
+    notes: ["Reached the Pole a month after Amundsen; died with his team on the return march, keeping his diary to the end."]
+
+  - id: 64
+    name: "Roald Amundsen"
+    state: backlog
+    status: none
+    birth_year: 1872
+    death_year: 1928
+    era_bc: false
+    role: ["explorer"]
+    field: ["exploration"]
+    era: "modern"
+    region: "norwegian"
+    end: "uncertain"
+    birth_peg_num: 72
+    birth_peg_candidates: ["Cane", "Coin", "Gun", "Can", "Queen"]
+    death_peg_num: 28
+    death_peg_candidates: ["Knife", "Nephew", "Navy"]
+    facts: "Amundsen was the supreme professional of polar exploration, a Norwegian who studied Inuit survival techniques, trusted dogs and skis over machines and ponies, and left nothing to chance. He was the first to navigate the Northwest Passage, and then, switching targets in secret, the first human being to reach the South Pole, in December 1911 — beating Scott and returning with every man alive and well.\n\nHe went on to cross the Arctic by airship, and became one of the first people to see both Poles. In 1928 he climbed aboard a flying boat to search for Umberto Nobile, an Italian rival whose airship had crashed in the Arctic. Amundsen's aircraft disappeared over the Barents Sea; a wing float and fuel tank were later found, but his body never was — a fitting, restless end for a man who could not stay away from the ice."
+    notes: ["First to the South Pole (1911); disappeared in 1928 on an Arctic rescue flight — body never found."]
+
+  - id: 65
+    name: "Ferdinand Magellan"
+    state: backlog
+    status: none
+    birth_year: 1480
+    death_year: 1521
+    era_bc: false
+    role: ["explorer"]
+    field: ["exploration"]
+    era: "renaissance"
+    region: "portuguese"
+    end: "battle"
+    birth_peg_num: 80
+    birth_peg_candidates: ["Vase", "Fuse", "Face", "Fez"]
+    death_peg_num: 21
+    death_peg_candidates: ["Knot", "Net", "Note", "Aunt"]
+    facts: "Magellan was a Portuguese navigator who, snubbed by his own king, offered his services to Spain and set out in 1519 with five ships to find a westward route to the spice islands. The voyage was an ordeal of mutiny, starvation and scurvy: he crushed a rebellion, discovered the treacherous strait at the tip of South America that now bears his name, and then crossed the vast, uncharted Pacific — so calm after the strait that he named it — with his men reduced to eating rats and leather.\n\nHe never completed the journey. On the island of Mactan in the Philippines he waded ashore to subdue a local chief and was overwhelmed and killed in the surf. Of the five ships and some 270 men who set out, a single battered vessel, the Victoria, limped back to Spain three years later with just eighteen survivors — the first human beings to circle the Earth."
+    notes: ["Led the first circumnavigation but was killed at the Battle of Mactan; his surviving crew completed it."]
+
+  - id: 66
+    name: "James Watt"
+    state: backlog
+    status: none
+    birth_year: 1736
+    death_year: 1819
+    era_bc: false
+    role: ["inventor", "engineer"]
+    field: ["science"]
+    era: "industrial"
+    region: "british"
+    end: "natural"
+    birth_peg_num: 36
+    birth_peg_candidates: ["Mash", "Match", "Mesh", "Mush"]
+    death_peg_num: 19
+    death_peg_candidates: ["Tub", "Tape", "Tip", "Tuba"]
+    facts: "Watt was a Scottish instrument-maker at Glasgow University when he was handed a model steam engine to repair and realised how appallingly wasteful it was — pouring away most of its heat with every stroke. His insight, supposedly sparked while walking on a Sunday, was to add a separate condenser so the cylinder never had to cool down. It made the steam engine dramatically more efficient and, in partnership with the businessman Matthew Boulton, commercially unstoppable.\n\nWatt engines went on to drive the mills, mines and factories of the Industrial Revolution, turning coal into power on a scale the world had never seen. A meticulous, sometimes gloomy perfectionist, he also coined the term 'horsepower' to sell his machines. He grew wealthy, retired to a comfortable old age, and died at 83; the SI unit of power, the watt, keeps his name switched on in every light bulb."
+    notes: ["Radically improved the steam engine; the unit of power, the watt, is named for him."]
+
+  - id: 67
+    name: "Isambard Kingdom Brunel"
+    state: backlog
+    status: none
+    birth_year: 1806
+    death_year: 1859
+    era_bc: false
+    role: ["engineer"]
+    field: ["science"]
+    era: "industrial"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 6
+    birth_peg_candidates: ["Sash"]
+    death_peg_num: 59
+    death_peg_candidates: ["Lobe", "Lip", "Lab", "Loop"]
+    facts: "Brunel was the showman-genius of Victorian engineering, a small man with a huge cigar and a bigger ambition, who packed more grand projects into one life than most industries manage in a century. For the Great Western Railway he drove a broad-gauge line from London to Bristol dead straight and near-level, boring the record-breaking Box Tunnel and throwing the elegant Maidenhead Bridge across the Thames.\n\nThen he turned to the sea, building a succession of ever-larger steamships — the Great Western, the Great Britain (the first iron-hulled, propeller-driven ocean liner), and the monstrous Great Eastern, so vast it nearly ruined him and could not be launched without months of struggle. The strain of it broke his health; he suffered a stroke days after the Great Eastern finally put to sea, and died at 53, having reshaped the transport of an age."
+    notes: ["The famous 'chains' portrait was taken at the launch of the Great Eastern; he died of a stroke soon after."]
+
+  - id: 68
+    name: "Horatio Nelson"
+    state: backlog
+    status: none
+    birth_year: 1758
+    death_year: 1805
+    era_bc: false
+    role: ["admiral"]
+    field: ["military"]
+    era: "industrial"
+    region: "british"
+    end: "battle"
+    birth_peg_num: 58
+    birth_peg_candidates: ["Leaf", "Elf", "Olive", "Loaf"]
+    death_peg_num: 5
+    death_peg_candidates: ["Seal", "Sail"]
+    facts: "Nelson was a small, sickly, chronically seasick clergyman's son who became the most daring naval commander in British history. He lost the sight of one eye at Corsica and his right arm at Tenerife, and famously put his telescope to his blind eye at Copenhagen so he could claim not to have seen the order to withdraw — then won the battle anyway.\n\nHis scandalous, adoring affair with Emma, Lady Hamilton, was the talk of Europe. At Trafalgar in 1805 he broke the combined French and Spanish fleets in a single decisive action, hoisting the signal 'England expects that every man will do his duty' — but was shot by a sniper from the rigging as he paced the quarterdeck of HMS Victory in full dress uniform. He lived just long enough to learn the victory was won, murmuring 'Thank God I have done my duty,' and his body was brought home preserved in a barrel of brandy."
+    notes: ["Lost an arm and the sight in one eye in earlier battles; killed by a sniper at Trafalgar, 1805."]
+
+  - id: 69
+    name: "Francis Drake"
+    state: backlog
+    status: none
+    birth_year: 1540
+    death_year: 1596
+    era_bc: false
+    role: ["explorer", "admiral"]
+    field: ["exploration", "military"]
+    era: "renaissance"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 40
+    birth_peg_candidates: ["Rose", "Rice"]
+    death_peg_num: 96
+    death_peg_candidates: ["Beach", "Peach", "Bush", "Badge"]
+    facts: "Drake was a Devon farmer's son who became Elizabeth I's favourite sea-dog — a national hero to the English and a bloodthirsty pirate to the Spanish, who called him 'El Draque', the Dragon, and put a bounty on his head. In the Golden Hind he became the first Englishman to sail around the world, returning laden with plundered Spanish treasure; the Queen knighted him on the deck of his own ship.\n\nLegend has him coolly finishing a game of bowls on Plymouth Hoe as the Spanish Armada approached in 1588, insisting there was 'time to finish the game and beat the Spaniards too' — and he played a leading part in the fireships and running battles that broke the invasion. His luck ran out on a final raiding voyage to the Caribbean, where dysentery killed him; he was buried at sea off Panama in a lead coffin that treasure-hunters still search for today."
+    notes: ["Second to circumnavigate the globe; harried the Armada; died of dysentery and was buried at sea, 1596."]
+
+  - id: 70
+    name: "George Washington"
+    state: backlog
+    status: none
+    birth_year: 1732
+    death_year: 1799
+    era_bc: false
+    role: ["statesman", "general", "politician"]
+    field: ["power", "military"]
+    era: "enlightenment"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 32
+    birth_peg_candidates: ["Moon", "Money", "Mine", "Mane"]
+    death_peg_num: 99
+    death_peg_candidates: ["Baby", "Poppy", "Pipe", "Puppy"]
+    facts: "Washington was a Virginia planter and surveyor who learned war the hard way in the frontier campaigns against the French, then took command of a ragtag Continental Army against the greatest military power on earth. He lost more battles than he won, but he kept the army together through the frozen misery of Valley Forge and struck when it mattered, wearing the British down until they surrendered at Yorktown.\n\nHis greatest act may have been giving power away: he resigned his commission rather than seize control, and after two terms as the first President he stepped down voluntarily, setting the precedent that no American leader should rule for life. He died in 1799 after riding his estate in freezing rain and developing a savage throat infection; his physicians, following the medicine of the day, drained around two litres of his blood, hastening the end of a man who had refused to be made a king."
+    notes: ["Died of a throat infection (quinsy), made fatal by heavy bloodletting, 1799."]
+
+  - id: 71
+    name: "Catherine the Great"
+    state: backlog
+    status: none
+    birth_year: 1729
+    death_year: 1796
+    era_bc: false
+    role: ["empress", "ruler"]
+    field: ["power"]
+    era: "enlightenment"
+    region: "russian"
+    end: "illness"
+    birth_peg_num: 29
+    birth_peg_candidates: ["Knob", "Nib", "Nappy"]
+    death_peg_num: 96
+    death_peg_candidates: ["Beach", "Peach", "Bush", "Badge"]
+    facts: "Catherine was a minor German princess married off at sixteen to the heir to the Russian throne — a childish, unstable man she came to despise. When he became Tsar Peter III and quickly alienated everyone, Catherine seized the moment: backed by the army and her lover, she overthrew her own husband in a bloodless coup, and days later he was conveniently dead. She ruled Russia in her own right for thirty-four years.\n\nA voracious reader who corresponded with the great thinkers of the French Enlightenment, she styled herself a philosopher-queen, founded schools and hospitals, amassed the art collection that became the Hermitage, and expanded the empire dramatically at the expense of the Ottomans and Poland. She also crushed a massive peasant revolt and tightened serfdom. Endlessly gossiped about for her string of favourites, she died of a stroke at 67 — and the famous, entirely false story about a horse was invented by her enemies to smear her."
+    notes: ["Corresponded with Voltaire and Diderot; expanded Russia hugely; died of a stroke, 1796 (the horse story is a slander)."]
+
+  - id: 72
+    name: "Marco Polo"
+    state: backlog
+    status: none
+    birth_year: 1254
+    death_year: 1324
+    era_bc: false
+    role: ["explorer"]
+    field: ["exploration"]
+    era: "medieval"
+    region: "italian"
+    end: "illness"
+    birth_peg_num: 54
+    birth_peg_candidates: ["Lyre", "Lure", "Liar", "Lorry", "Laurel"]
+    death_peg_num: 24
+    death_peg_candidates: ["Nurse", "Snare"]
+    facts: "Marco Polo was a teenage Venetian merchant when he set off east with his father and uncle on a journey that would last twenty-four years, crossing deserts and mountains along the Silk Road to the court of Kublai Khan in China. The Khan took a liking to the observant young European and reportedly sent him on missions across the vast Mongol empire, from which Marco returned with tales of paper money, coal, vast cities and riches no European had imagined.\n\nBack in Venice he was captured in a war with Genoa, and while imprisoned dictated his adventures to a fellow inmate — the book that became 'The Travels', nicknamed 'Il Milione' ('The Million') for its seemingly tall tales. Many contemporaries refused to believe him. On his deathbed, urged to recant his 'lies' for the good of his soul, he is said to have replied that he had not told the half of what he had seen."
+    notes: ["Dictated his Travels ('Il Milione') from a Genoese prison; 'I did not tell half of what I saw.'"]
+
+  - id: 73
+    name: "Dante Alighieri"
+    state: backlog
+    status: none
+    birth_year: 1265
+    death_year: 1321
+    era_bc: false
+    role: ["writer", "poet"]
+    field: ["literature"]
+    era: "medieval"
+    region: "italian"
+    end: "illness"
+    birth_peg_num: 65
+    birth_peg_candidates: ["Shell", "Jail", "Shawl", "Jewel", "Jelly"]
+    death_peg_num: 21
+    death_peg_candidates: ["Knot", "Net", "Note", "Aunt"]
+    facts: "Dante Alighieri was a Florentine poet and politician who backed the losing side in the city's vicious factional wars and was banished on pain of being burned alive if he ever returned. He never did. Out of that bitterness and longing he wrote the Divine Comedy, an epic journey down through Hell, up Mount Purgatory and into Paradise, guided first by the Roman poet Virgil and then by Beatrice, the woman he had loved from afar since childhood.\n\nWritten not in scholarly Latin but in the everyday Tuscan of ordinary people, the poem effectively founded the modern Italian language and became one of the pillars of world literature — populating Hell with his real political enemies along the way. He died of malaria in Ravenna in 1321, still in exile; Florence has been asking, in vain, for his bones back ever since."
+    notes: ["Wrote the Divine Comedy in exile; died of malaria in Ravenna, never allowed home to Florence."]
+
+  - id: 74
+    name: "Niccolò Machiavelli"
+    state: backlog
+    status: none
+    birth_year: 1469
+    death_year: 1527
+    era_bc: false
+    role: ["philosopher", "writer", "historian"]
+    field: ["philosophy", "power"]
+    era: "renaissance"
+    region: "italian"
+    end: "illness"
+    birth_peg_num: 69
+    birth_peg_candidates: ["Ship", "Shop", "Sheep", "Chip", "Chop", "Jeep"]
+    death_peg_num: 27
+    death_peg_candidates: ["Neck", "Nag", "Hank", "Nook", "Ink"]
+    facts: "Machiavelli was a Florentine diplomat and civil servant who watched at close quarters as princes, popes and mercenaries carved up Renaissance Italy. When the Medici returned to power he was sacked, tortured on suspicion of conspiracy, and exiled to his small farm — where, dressing each evening in his finest robes to 'converse with the ancients', he wrote The Prince.\n\nIts cold advice — that a ruler should be both feared and, if necessary, deceitful and cruel, because the ends justify the means — was so shocking that his name became a byword for scheming ('Machiavellian'), and the Devil himself was nicknamed 'Old Nick' after him. He always hoped the book would win him back a government post; it never did, and he died disappointed in 1527, only to become one of the most influential political thinkers in history."
+    notes: ["The Prince argued a ruler must be feared if he cannot be loved; 'Machiavellian' entered the language."]
+
+  - id: 75
+    name: "Christopher Wren"
+    state: backlog
+    status: none
+    birth_year: 1632
+    death_year: 1723
+    era_bc: false
+    role: ["architect", "astronomer"]
+    field: ["arts", "science"]
+    era: "early-modern"
+    region: "british"
+    end: "natural"
+    birth_peg_num: 32
+    birth_peg_candidates: ["Moon", "Money", "Mine", "Mane"]
+    death_peg_num: 23
+    death_peg_candidates: ["Gnome", "Number", "Anemone"]
+    facts: "Before he was Britain's greatest architect, Christopher Wren was a brilliant astronomer and mathematician — a founder of the Royal Society whom Isaac Newton rated among the finest geometers of the age. He came to architecture almost by accident, and then the Great Fire of London in 1666 handed him the commission of a lifetime: to rebuild a gutted city.\n\nOver the following decades he designed 52 churches and his masterpiece, the vast domed St Paul's Cathedral, which he lived to see completed — climbing the scaffolding into his eighties to inspect the work. He died at 90 after catching a chill, and was buried in the crypt of St Paul's beneath a plain slab whose Latin inscription reads: 'Reader, if you seek his monument, look around you.'"
+    notes: ["Rebuilt London after the Great Fire; his epitaph in St Paul's: 'if you seek his monument, look around you.'"]
+
+  - id: 76
+    name: "Antonio Vivaldi"
+    state: backlog
+    status: none
+    birth_year: 1678
+    death_year: 1741
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "enlightenment"
+    region: "italian"
+    end: "illness"
+    birth_peg_num: 78
+    birth_peg_candidates: ["Cave", "Coffee", "Cuff", "Cove"]
+    death_peg_num: 41
+    death_peg_candidates: ["Root", "Rat", "Rod"]
+    facts: "Antonio Vivaldi was ordained a priest — nicknamed 'il Prete Rosso', the Red Priest, for his flaming hair — but asthma soon excused him from saying Mass, and he devoted himself instead to music. For much of his career he taught at the Ospedale della Pietà, a Venetian home for orphaned and abandoned girls, whose all-female orchestra he trained into one of the finest ensembles in Europe.\n\nAstonishingly prolific, he wrote some 500 concertos, among them the four violin concertos known as The Four Seasons — early 'programme music' that paints frozen streams, barking dogs and summer storms in sound. Fashion turned against him in old age; he travelled to Vienna hoping for imperial patronage, but his backer the Emperor died, and Vivaldi followed soon after in 1741, penniless and all but forgotten. His music lay ignored for two centuries before its triumphant twentieth-century rediscovery."
+    notes: ["The 'Red Priest' who taught at a Venetian orphanage; wrote the Four Seasons; died poor in Vienna."]
+
+  - id: 77
+    name: "Franz Schubert"
+    state: backlog
+    status: none
+    birth_year: 1797
+    death_year: 1828
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "industrial"
+    region: "austrian"
+    end: "illness"
+    birth_peg_num: 97
+    birth_peg_candidates: ["Book", "Pig", "Bike", "Pack", "Peak"]
+    death_peg_num: 28
+    death_peg_candidates: ["Knife", "Nephew", "Navy"]
+    facts: "Franz Schubert was a short, round, spectacled schoolteacher's son in Vienna who lived almost his entire brief life in the shadow of Beethoven, whom he idolised and served as a torchbearer at his funeral. Painfully shy in public, he blossomed among a devoted circle of friends who threw evenings of music and poetry in his honour — the 'Schubertiades' — where his stream of songs first found an audience.\n\nHe wrote with almost supernatural fluency, producing around six hundred lieder (art-songs) that set German poetry to melodies of heartbreaking beauty, along with symphonies and chamber works. Yet he struggled for money and recognition throughout his life, and died at just thirty-one — most likely of typhoid fever, his health already broken — leaving behind the haunting, incomplete 'Unfinished' Symphony and a mountain of masterpieces the world only fully valued after his death."
+    notes: ["Wrote ~600 songs and the 'Unfinished' Symphony; died at 31, probably of typhoid."]
+
+  - id: 78
+    name: "John Keats"
+    state: backlog
+    status: none
+    birth_year: 1795
+    death_year: 1821
+    era_bc: false
+    role: ["poet"]
+    field: ["literature"]
+    era: "industrial"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 95
+    birth_peg_candidates: ["Ball", "Bell", "Pal", "Pill"]
+    death_peg_num: 21
+    death_peg_candidates: ["Knot", "Net", "Note", "Aunt"]
+    facts: "John Keats trained as an apothecary-surgeon before abandoning medicine for poetry, and packed almost his entire body of work into a single miraculous burst — the 'great year' of 1819, when he wrote most of the odes on which his fame rests. Dismissed and mocked by the critics of his own day, he was tormented by poverty and by a passionate, unconsummated love for his neighbour Fanny Brawne.\n\nHe had nursed his mother and brother through tuberculosis, and recognised the disease when it came for him too. Sent to Rome in a last hope of warmer air, he died there in 1821 at just twenty-five, convinced he had failed. He asked for no name on his grave, only the line 'Here lies one whose name was writ in water' — yet he is now counted among the greatest of the English Romantic poets."
+    notes: ["Died of TB in Rome at 25; his epitaph reads 'Here lies one whose name was writ in water.'"]
+
+  - id: 79
+    name: "Ernest Hemingway"
+    state: backlog
+    status: none
+    birth_year: 1899
+    death_year: 1961
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "modern"
+    region: "american"
+    end: "suicide"
+    birth_peg_num: 99
+    birth_peg_candidates: ["Baby", "Poppy", "Pipe", "Puppy"]
+    death_peg_num: 61
+    death_peg_candidates: ["Sheet", "Jet", "Shuttle"]
+    facts: "Ernest Hemingway turned his own adventures into a legend and a literary revolution. He drove ambulances in the First World War, reported the Spanish Civil War, fished the Gulf Stream, hunted in Africa, survived two plane crashes on consecutive days, and drank prodigiously through it all — living the raw, physical life he then rendered in prose stripped to the bone.\n\nHis 'iceberg' style — short, declarative sentences that leave most of the meaning beneath the surface — reshaped twentieth-century writing and won him the Nobel Prize, capped by his fable of dignity in defeat, The Old Man and the Sea. But the injuries, the alcohol and a family history of depression caught up with him; increasingly paranoid and unable to write, he shot himself at his Idaho home in 1961, as his father had done before him."
+    notes: ["Nobel laureate; the spare 'iceberg' style; died by suicide in 1961."]
+
+  - id: 80
+    name: "Johannes Vermeer"
+    state: backlog
+    status: none
+    birth_year: 1632
+    death_year: 1675
+    era_bc: false
+    role: ["artist"]
+    field: ["arts"]
+    era: "early-modern"
+    region: "dutch"
+    end: "illness"
+    birth_peg_num: 32
+    birth_peg_candidates: ["Moon", "Money", "Mine", "Mane"]
+    death_peg_num: 75
+    death_peg_candidates: ["Coal", "Coil", "Eagle", "Gold"]
+    facts: "Johannes Vermeer worked quietly all his life in the Dutch city of Delft, painting slowly and in tiny numbers — only around thirty-five pictures securely survive. Most are silent interiors: a woman reading a letter, pouring milk, weighing pearls, lit by a soft daylight that seems almost to hum, achieved with luminous glazes and, some believe, the aid of a camera obscura.\n\nHe made little money from his art, working also as a picture dealer and innkeeper and fathering eleven surviving children. When a French invasion wrecked the Dutch art market he fell into debt, and died suddenly at forty-three, leaving his widow bankrupt. For nearly two hundred years he was all but forgotten, until nineteenth-century critics rediscovered him — and 'Girl with a Pearl Earring' became one of the most beloved paintings in the world."
+    notes: ["Master of light (Girl with a Pearl Earring); died in debt at 43, largely forgotten for two centuries."]
+
+  - id: 81
+    name: "Peter the Great"
+    state: backlog
+    status: none
+    birth_year: 1672
+    death_year: 1725
+    era_bc: false
+    role: ["king-emperor", "ruler"]
+    field: ["power"]
+    era: "early-modern"
+    region: "russian"
+    end: "illness"
+    birth_peg_num: 72
+    birth_peg_candidates: ["Cane", "Coin", "Gun", "Can", "Queen"]
+    death_peg_num: 25
+    death_peg_candidates: ["Nail", "Nile", "Noel", "Snail"]
+    facts: "Peter the Great stood nearly seven feet tall and ruled Russia like a force of nature, determined to haul his vast, backward country into the modern European age. He travelled incognito through Western Europe to learn shipbuilding with his own hands, then came home and remade everything — building a navy, reforming the army, taxing beards, and even personally shearing the long beards of his noblemen to make them look 'civilised'.\n\nOn marshland reclaimed from the Swedes he built a brand-new capital, St Petersburg, his 'window on the West', at enormous cost in lives. Restless, brilliant and brutal — he had his own rebellious son tortured to death — he turned Russia into a great power. Fittingly for a man obsessed with the sea, his end came after he plunged into the freezing Gulf of Finland to help rescue drowning sailors; the chill worsened an existing illness, and he died in 1725."
+    notes: ["Modernised Russia and founded St Petersburg; nearly 7ft tall; died of illness after an icy rescue."]
+
+  - id: 82
+    name: "Duke of Wellington"
+    state: backlog
+    status: none
+    birth_year: 1769
+    death_year: 1852
+    era_bc: false
+    role: ["general", "statesman", "politician"]
+    field: ["military", "power"]
+    era: "industrial"
+    region: "british"
+    end: "natural"
+    birth_peg_num: 69
+    birth_peg_candidates: ["Ship", "Shop", "Sheep", "Chip", "Chop", "Jeep"]
+    death_peg_num: 52
+    death_peg_candidates: ["Lion", "Lawn", "Lane", "Loon", "Alien", "Lung"]
+    facts: "Arthur Wellesley, Duke of Wellington, learned his trade fighting in India before becoming the general who steadily drove the French out of Spain and Portugal in the gruelling Peninsular War. His masterpiece was Waterloo in 1815, where, with timely Prussian help, he finally shattered Napoleon — 'the nearest run thing you ever saw in your life,' he called it.\n\nNicknamed the 'Iron Duke', he was famous for cool defensive tactics and blunt, unsentimental sayings. He went on to a long and prickly political career, serving twice as Prime Minister and grudgingly helping to pass Catholic emancipation. The Wellington boot, beef Wellington and countless pubs still carry his name. He died peacefully of a stroke in his armchair at Walmer Castle in 1852, and was given a vast state funeral."
+    notes: ["Beat Napoleon at Waterloo (1815); twice Prime Minister; the Wellington boot bears his name."]
+
+  - id: 83
+    name: "William the Conqueror"
+    state: backlog
+    status: none
+    birth_year: 1028
+    death_year: 1087
+    era_bc: false
+    role: ["king-emperor", "ruler", "general"]
+    field: ["power", "military"]
+    era: "medieval"
+    region: "french"
+    end: "illness"
+    birth_peg_num: 28
+    birth_peg_candidates: ["Knife", "Nephew", "Navy"]
+    death_peg_num: 87
+    death_peg_candidates: ["Fig", "Fog"]
+    facts: "William was the illegitimate son of a Norman duke — 'William the Bastard' to his enemies — who survived a violent, treacherous childhood to master Normandy, then staked everything on a claim to the English throne. In 1066 he shipped an army across the Channel and, at the Battle of Hastings, defeated and killed King Harold (by tradition, shot through the eye), changing the course of English history overnight.\n\nHe held his new kingdom down with castles and ruthless force — the 'Harrying of the North' laid whole regions waste — and ordered the Domesday Book, an extraordinary survey of who owned what across England. Enormously overweight in later life, he was fatally injured when his horse threw him against his saddle. His end was as grim as it was memorable: attendants forcing his swollen corpse into a too-small stone sarcophagus burst it open, filling the church with such a stench that the funeral was cut short."
+    notes: ["Won England at Hastings, 1066; ordered the Domesday Book; his corpse famously burst at his funeral."]
+
+  - id: 84
+    name: "Richard the Lionheart"
+    state: backlog
+    status: none
+    birth_year: 1157
+    death_year: 1199
+    era_bc: false
+    role: ["king-emperor", "ruler", "general"]
+    field: ["power", "military"]
+    era: "medieval"
+    region: "british"
+    end: "battle"
+    birth_peg_num: 57
+    birth_peg_candidates: ["Lock", "Lake", "Log", "Leg"]
+    death_peg_num: 99
+    death_peg_candidates: ["Baby", "Poppy", "Pipe", "Puppy"]
+    facts: "Richard I earned the name 'Lionheart' (Cœur de Lion) as a fearless, charismatic warrior who spent almost his entire ten-year reign away from England — which he treated mainly as a source of money for war. He was the great Christian commander of the Third Crusade, winning famous victories against the sultan Saladin, with whom he shared a wary mutual respect, though he never managed to retake Jerusalem itself.\n\nReturning home he was captured and held for a colossal ransom by rivals, nearly bankrupting England to free him. His end was almost absurdly small: besieging an obscure castle in France in a squabble over buried treasure, he was hit in the shoulder by a crossbow bolt. The wound turned gangrenous, and he died at forty-one — pardoning, it is said, the boy who had shot him (a mercy his men ignored once he was dead)."
+    notes: ["Warrior-king of the Third Crusade; killed by a crossbow bolt (gangrene) at a minor siege, 1199."]
+
+  - id: 85
+    name: "Oliver Cromwell"
+    state: backlog
+    status: none
+    birth_year: 1599
+    death_year: 1658
+    era_bc: false
+    role: ["statesman", "general", "politician"]
+    field: ["power", "military"]
+    era: "early-modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 99
+    birth_peg_candidates: ["Baby", "Poppy", "Pipe", "Puppy"]
+    death_peg_num: 58
+    death_peg_candidates: ["Leaf", "Elf", "Olive", "Loaf"]
+    facts: "Oliver Cromwell was an obscure middle-aged country gentleman when the English Civil War broke out, but he proved a military genius, forging the disciplined 'New Model Army' and its cavalry 'Ironsides' that crushed the Royalists. A fervent Puritan convinced he was doing God's work, he became the driving force behind the trial and execution of King Charles I in 1649 — the only English king ever put to death by his own people.\n\nAs 'Lord Protector' he ruled England as a republic, relatively tolerant of most Protestants and of Jews, but harsh in his brutal campaigns in Ireland and his ban on frivolities. He refused the crown when it was offered. He died of illness (probably malaria and kidney disease) in 1658; after the monarchy was restored, his body was dug up, posthumously 'executed', and his severed head displayed on a spike for decades — a grisly full stop to England's brief life as a republic."
+    notes: ["Led Parliament to victory; signed Charles I's death warrant; ruled as Lord Protector; posthumously 'executed'."]
+
+  - id: 86
+    name: "Louis XIV"
+    state: backlog
+    status: none
+    birth_year: 1638
+    death_year: 1715
+    era_bc: false
+    role: ["king-emperor", "ruler"]
+    field: ["power"]
+    era: "early-modern"
+    region: "french"
+    end: "illness"
+    birth_peg_num: 38
+    birth_peg_candidates: ["Muff", "Muffin"]
+    death_peg_num: 15
+    death_peg_candidates: ["Tail", "Dial", "Doll", "Tile", "Towel"]
+    facts: "Louis XIV came to the French throne as a four-year-old and reigned for seventy-two years — the longest of any major European monarch. Styling himself the 'Sun King' around whom all France revolved, he concentrated absolute power in his own hands, tamed the fractious nobility by turning them into courtiers, and (probably apocryphally) summed up his rule as 'L'état, c'est moi' — 'I am the state.'\n\nHe transformed a hunting lodge at Versailles into the most dazzling palace in Europe, a gilded stage-set of mirrors, fountains and rigid etiquette designed to overawe. A keen dancer in his youth, he loved spectacle and made France the cultural capital of the age — while his endless wars and his persecution of French Protestants drained the treasury and sowed trouble for his heirs. Outliving his son and grandson, he died of gangrene in 1715, leaving the throne to his five-year-old great-grandson."
+    notes: ["Built Versailles; longest reign in European history (72 years); 'L'état, c'est moi.'"]
+
+  - id: 87
+    name: "Benjamin Franklin"
+    state: backlog
+    status: none
+    birth_year: 1706
+    death_year: 1790
+    era_bc: false
+    role: ["inventor", "statesman", "physicist"]
+    field: ["science", "power"]
+    era: "enlightenment"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 6
+    birth_peg_candidates: ["Sash"]
+    death_peg_num: 90
+    death_peg_candidates: ["Bus", "Bees", "Bass", "Boss"]
+    facts: "Benjamin Franklin was the great all-rounder of the American founding — printer, scientist, inventor, diplomat and wit — who ran away to Philadelphia as a teenager and built himself into a self-made celebrity. His famous (and dangerous) kite experiment helped prove that lightning is electrical, and led to the lightning rod; he also invented bifocals, a clean-burning stove and the glass armonica, and pointedly refused to patent any of them.\n\nAs a statesman he helped draft and signed both the Declaration of Independence and the Constitution, and his charm in Paris secured the crucial French alliance that won the Revolutionary War. Endlessly quotable through his 'Poor Richard's Almanack' ('early to bed and early to rise…'), he was mourned as a sage on both sides of the Atlantic when he died in 1790; some 20,000 people attended his funeral."
+    notes: ["Lightning rod, bifocals, a founding father; helped draft and signed the Declaration of Independence."]
+
+  - id: 88
+    name: "Charlemagne"
+    state: backlog
+    status: none
+    birth_year: 748
+    death_year: 814
+    era_bc: false
+    role: ["king-emperor", "ruler"]
+    field: ["power"]
+    era: "medieval"
+    region: "french"
+    end: "illness"
+    birth_peg_num: 48
+    birth_peg_candidates: ["Roof", "Reef", "Ref", "Ruff", "RAF", "Roofer"]
+    death_peg_num: 14
+    death_peg_candidates: ["Tire", "Deer", "Door", "Tar", "Tower"]
+    facts: "Charlemagne — Charles the Great — was a towering Frankish warrior-king who spent decades on campaign, conquering much of Western and Central Europe and forcibly converting the pagan Saxons at sword-point. On Christmas Day in the year 800, the Pope crowned him Emperor in Rome, reviving the idea of a Western empire that had died with Rome centuries before and founding what would become the Holy Roman Empire.\n\nThough he could barely write himself, he sparked a revival of learning and art — the 'Carolingian Renaissance' — gathering scholars to his court at Aachen, standardising handwriting, and preserving classical texts that might otherwise have been lost. He is often called the 'Father of Europe'. He died of pleurisy in 814 and was buried in his chapel at Aachen, where his stone throne still stands."
+    notes: ["First Holy Roman Emperor (crowned 800); the 'Father of Europe'; buried at Aachen."]
+
+  - id: 89
+    name: "Friedrich Nietzsche"
+    state: backlog
+    status: none
+    birth_year: 1844
+    death_year: 1900
+    era_bc: false
+    role: ["philosopher", "writer"]
+    field: ["philosophy", "literature"]
+    era: "industrial"
+    region: "german"
+    end: "illness"
+    birth_peg_num: 44
+    birth_peg_candidates: ["Rear", "Aurora", "Warrior"]
+    death_peg_num: 0
+    death_peg_candidates: ["Sauce"]
+    facts: "Friedrich Nietzsche was a dazzling young classical scholar — a professor at just twenty-four — before ill health drove him from academia into a wandering life of writing in Alpine boarding houses. In a torrent of aphoristic, explosive books (Thus Spoke Zarathustra, Beyond Good and Evil) he declared that 'God is dead', attacked conventional morality as a trap for the weak, and urged humanity to create its own values and rise toward the 'Übermensch', or Superman.\n\nAlmost unread in his own lifetime, he suffered a total mental collapse in Turin in 1889 — the popular story has him throwing his arms around a horse being flogged in the street — and spent his last eleven years insane, cared for by his family. His sister then edited and distorted his work to fit her own antisemitic, nationalist views, letting the Nazis later hijack his name — a grotesque betrayal of a thinker who had in fact despised both antisemitism and German nationalism."
+    notes: ["'God is dead'; the Übermensch; collapsed into insanity in Turin in 1889, died in 1900."]
+
