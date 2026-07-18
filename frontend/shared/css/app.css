@@ -53,6 +53,7 @@ body {
 .links li { margin: .35rem 0; }
 .links a { color: var(--accent); text-decoration: none; }
 .links a:hover { text-decoration: underline; }
+.links .dim { color: var(--ink-dim); font-size: .82rem; }
 
 .btn {
   display: inline-block;

@@ -203,8 +203,11 @@
       copy:
         dest: /etc/caddy/Caddyfile
         content: |
+          # khale.net is served by our own Django portal SPA (runserver on
+          # 127.0.0.1:8000). NOTE: the app process itself is not yet provisioned
+          # by this playbook — see the "Deploy Django app" TODO below.
           khale.net {
-              reverse_proxy localhost:3000
+              reverse_proxy localhost:8000
           }
 
           tasks.khale.net {
@@ -317,32 +320,12 @@
         - vikunja/files
         - vikunja/db
 
-    - name: Copy Homepage config files
-      copy:
-        src: files/homepage/services.yaml
-        dest: "{{ docker_compose_dir }}/config/{{ item }}"
-        owner: "{{ app_user }}"
-      loop:
-        - services.yaml
-        - widgets.yaml
-        - bookmarks.yaml
     - name: Write docker-compose.yml
       copy:
         dest: "{{ docker_compose_dir }}/docker-compose.yml"
         owner: "{{ app_user }}"
         content: |
           services:
-            homepage:
-              image: ghcr.io/gethomepage/homepage:latest
-              container_name: homepage
-              volumes:
-                - ./config:/app/config
-                - /var/run/docker.sock:/var/run/docker.sock:ro
-              restart: unless-stopped
-              environment:
-                HOMEPAGE_ALLOWED_HOSTS: khale.net,tasks.khale.net
-              ports:
-                - 127.0.0.1:3000:3000
             vikunja:
               image: vikunja/vikunja
               container_name: vikunja
