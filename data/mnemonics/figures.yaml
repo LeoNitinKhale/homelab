@@ -5,7 +5,7 @@ vocabulary:
   role: [writer, poet, playwright, composer, artist, philosopher, mathematician,
     astronomer, physicist, chemist, naturalist, physician, nurse, engineer, architect,
     inventor, historian, statistician, economist, lawyer, clergyman, politician,
-    statesman, ruler, king-emperor, queen, empress, general, admiral, revolutionary, explorer, businessman]
+    statesman, ruler, king-emperor, queen, empress, general, admiral, revolutionary, activist, explorer, businessman]
   field: [science, arts, music, literature, power, military, exploration, philosophy]
   era: [ancient, medieval, renaissance, early-modern, enlightenment, industrial, modern]
   region: [british, french, italian, german, austrian, american, dutch, polish,
@@ -2017,4 +2017,251 @@ figures:
     death_peg_candidates: ["Nurse", "Snare"]
     facts: "Vasco da Gama was the Portuguese navigator who, in 1497–98, achieved what Columbus had only dreamed of: a genuine sea route from Europe to Asia, sailing around the Cape of Good Hope at the southern tip of Africa and on across the Indian Ocean to the spice ports of India. It was a staggering feat of navigation and endurance, and it broke the Muslim and Venetian stranglehold on the fabulously lucrative spice trade.\n\nIt also had a brutal side: on later voyages da Gama used ferocious violence to force open Indian trade, bombarding cities and slaughtering crews and pilgrims. Immensely rich and ennobled, he was finally sent out again as Portuguese viceroy of India in 1524 — but caught malaria and died within months, at Cochin, that Christmas. His voyages made tiny Portugal, for a time, a global maritime empire."
     notes: ["Opened the sea route from Europe to India around the Cape of Good Hope (1498); died of malaria in Cochin."]
+
+  - id: 105
+    name: "Marcus Aurelius"
+    state: backlog
+    status: none
+    birth_year: 121
+    death_year: 180
+    era_bc: false
+    role: ["king-emperor", "philosopher", "ruler"]
+    field: ["power", "philosophy"]
+    era: "ancient"
+    region: "roman"
+    end: "illness"
+    birth_peg_num: 21
+    birth_peg_candidates: ["Knot", "Net", "Note", "Aunt"]
+    death_peg_num: 80
+    death_peg_candidates: ["Vase", "Fuse", "Face", "Fez"]
+    facts: "Marcus Aurelius was the last of Rome's 'Five Good Emperors' and the closest the ancient world came to Plato's ideal of a philosopher-king. He ruled at the height of the empire, but spent much of his reign not in luxury but on the cold northern frontier fighting off Germanic invasions, and was dogged by the devastating Antonine Plague sweeping the empire.\n\nThrough it all he kept a private journal — never meant for publication — of Stoic reflections on duty, mortality and self-control, reminding himself to bear misfortune calmly and treat others justly. Rediscovered centuries later, these Meditations became one of the most treasured works of philosophy ever written. He died, probably of plague, on campaign near modern Vienna in AD 180 — and made the fateful mistake of leaving the throne to his unworthy son Commodus."
+    notes: ["His private notebook survives as the Meditations, a classic of Stoic philosophy; died of plague on campaign."]
+
+  - id: 106
+    name: "Richard III"
+    state: backlog
+    status: none
+    birth_year: 1452
+    death_year: 1485
+    era_bc: false
+    role: ["king-emperor", "ruler"]
+    field: ["power"]
+    era: "medieval"
+    region: "british"
+    end: "battle"
+    birth_peg_num: 52
+    birth_peg_candidates: ["Lion", "Lawn", "Lane", "Loon", "Alien", "Lung"]
+    death_peg_num: 85
+    death_peg_candidates: ["Foil", "File"]
+    facts: "Richard III was the last king of the House of York and the last of the Plantagenet dynasty, seizing the throne in 1483 after the mysterious disappearance of his two young nephews — the 'Princes in the Tower' — whom many believe he had murdered. His brief, bitterly contested reign lasted just two years.\n\nIn 1485 he was defeated and killed at the Battle of Bosworth Field by Henry Tudor, becoming the last English king to die in battle and ending the Wars of the Roses. Shakespeare later immortalised him as a scheming, hunchbacked villain crying 'A horse! A horse! My kingdom for a horse!' — a portrait shaped by Tudor propaganda. In an extraordinary modern coda, his lost skeleton was dug up from beneath a council car park in Leicester in 2012 and reburied in the city's cathedral."
+    notes: ["Last English king killed in battle (Bosworth, 1485); Shakespeare's villain; his skeleton was found under a Leicester car park in 2012."]
+
+  - id: 107
+    name: "Alexander von Humboldt"
+    state: backlog
+    status: none
+    birth_year: 1769
+    death_year: 1859
+    era_bc: false
+    role: ["explorer", "naturalist"]
+    field: ["exploration", "science"]
+    era: "industrial"
+    region: "german"
+    end: "natural"
+    birth_peg_num: 69
+    birth_peg_candidates: ["Ship", "Shop", "Sheep", "Chip", "Chop", "Jeep"]
+    death_peg_num: 59
+    death_peg_candidates: ["Lobe", "Lip", "Lab", "Loop"]
+    facts: "Alexander von Humboldt was a Prussian naturalist and explorer whose epic five-year expedition through South America (1799–1804) laid the foundations of modern geography, ecology and climate science. He climbed volcanoes, hacked through jungles collecting thousands of specimens, measured temperature, pressure and magnetism obsessively, and was among the first to grasp nature as a single interconnected web — an idea far ahead of its time.\n\nWildly famous in his day — more places are named after him than after anyone else, from the Humboldt Current to a sea on the Moon — he poured his fortune into science and his final decades into Cosmos, a sweeping attempt to describe the entire physical universe. He died in Berlin in 1859, the same year that Darwin, whom he had inspired, published On the Origin of Species."
+    notes: ["Pioneering naturalist-explorer; the Humboldt Current and countless species and places are named after him; inspired Darwin."]
+
+  - id: 108
+    name: "Ernest Shackleton"
+    state: backlog
+    status: none
+    birth_year: 1874
+    death_year: 1922
+    era_bc: false
+    role: ["explorer"]
+    field: ["exploration"]
+    era: "modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 74
+    birth_peg_candidates: ["Car", "Core", "Gear", "Choir", "Screw"]
+    death_peg_num: 22
+    death_peg_candidates: ["Nun", "Onion", "Neon"]
+    facts: "Ernest Shackleton was an Anglo-Irish explorer whose greatest achievement was, technically, a failure. His 1914 expedition to cross Antarctica ended when his ship, the aptly named Endurance, was trapped and slowly crushed by pack ice, stranding his men on the drifting floes.\n\nWhat followed became legend: months camped on the ice, an escape by lifeboat to desolate Elephant Island, and then Shackleton's own 800-mile open-boat voyage across the most dangerous seas on Earth to South Georgia, followed by the first-ever crossing of its uncharted mountains to reach help. Astonishingly, he brought back every single one of his 27 men alive. He died of a heart attack in 1922 at South Georgia, on his way to yet another Antarctic expedition, and was buried there at his widow's request."
+    notes: ["Led the Endurance expedition; when his ship was crushed by ice he brought every one of his men home alive; died of a heart attack heading south again."]
+
+  - id: 109
+    name: "Franklin D. Roosevelt"
+    state: backlog
+    status: none
+    birth_year: 1882
+    death_year: 1945
+    era_bc: false
+    role: ["statesman", "politician"]
+    field: ["power"]
+    era: "modern"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 82
+    birth_peg_candidates: ["Van", "Fan", "Phone"]
+    death_peg_num: 45
+    death_peg_candidates: ["Reel", "Rail", "Roll", "Aerial"]
+    facts: "Franklin Delano Roosevelt led the United States through its two greatest twentieth-century crises — the Great Depression and the Second World War — and is the only president ever elected four times. His 'New Deal' remade the American state with jobs programmes, social security and financial regulation, while his warm, reassuring radio 'fireside chats' spoke directly into millions of homes.\n\nStricken by polio at 39, he was largely unable to walk and went to great lengths to hide it from the public, projecting confidence from a wheelchair. He guided the Allied war effort and helped shape the post-war order at conferences with Churchill and Stalin, but the strain was immense: he died of a stroke in April 1945, just weeks before the final victory in Europe that he had done so much to secure."
+    notes: ["Only US president elected four times; led through the Depression and WWII; governed from a wheelchair after polio."]
+
+  - id: 110
+    name: "Martin Luther King Jr."
+    state: backlog
+    status: none
+    birth_year: 1929
+    death_year: 1968
+    era_bc: false
+    role: ["clergyman", "activist"]
+    field: ["power"]
+    era: "modern"
+    region: "american"
+    end: "assassinated"
+    birth_peg_num: 29
+    birth_peg_candidates: ["Knob", "Nib", "Nappy"]
+    death_peg_num: 68
+    death_peg_candidates: ["Chef", "Chief", "George Foreman"]
+    facts: "Martin Luther King Jr. was a Baptist minister who became the moral leader of the American civil-rights movement, insisting on non-violent resistance — inspired partly by Gandhi — against racial segregation and injustice. From the Montgomery bus boycott to the March on Washington, where he delivered the 'I Have a Dream' speech to a quarter of a million people, he stirred the conscience of a nation.\n\nHis campaigns helped force through the Civil Rights Act and the Voting Rights Act, and in 1964 he became the youngest man then to receive the Nobel Peace Prize. He wrote his famous 'Letter from Birmingham Jail' in the margins of a newspaper while imprisoned for protesting. In 1968, aged just 39, he was assassinated on the balcony of a Memphis motel, sparking grief and riots across the country — and, eventually, a national holiday in his honour."
+    notes: ["Led the American civil-rights movement through non-violence; 'I Have a Dream'; a Baptist minister; assassinated in Memphis, 1968."]
+
+  - id: 111
+    name: "Hippocrates"
+    state: backlog
+    status: none
+    birth_year: -460
+    death_year: -370
+    era_bc: true
+    role: ["physician"]
+    field: ["science"]
+    era: "ancient"
+    region: "greek"
+    end: "natural"
+    birth_peg_num: 60
+    birth_peg_candidates: ["Shoes", "Chess", "Juice", "Cheese"]
+    death_peg_num: 70
+    death_peg_candidates: ["Case", "Goose", "Gauze"]
+    facts: "Hippocrates of Kos was the ancient Greek physician remembered as the 'father of medicine' for insisting — radically, in an age of temple-priests — that diseases had natural causes that could be studied, rather than being punishments from the gods. He and his followers observed patients closely, kept case records, and emphasised rest, diet, cleanliness and, above all, 'first, do no harm'.\n\nHis school's theory that the body was governed by four 'humours' (blood, phlegm, black and yellow bile) dominated Western medicine for two thousand years, long after it had been shown wrong. The famous Hippocratic Oath, in which doctors pledge to act ethically, bears his name and is still echoed at medical graduations today. Little is known for certain about his life, but he is said to have lived to a great age, dying around 370 BC."
+    notes: ["The 'father of medicine'; the Hippocratic Oath and the theory of the four humours are attributed to him."]
+
+  - id: 112
+    name: "Guglielmo Marconi"
+    state: backlog
+    status: none
+    birth_year: 1874
+    death_year: 1937
+    era_bc: false
+    role: ["inventor"]
+    field: ["science"]
+    era: "modern"
+    region: "italian"
+    end: "illness"
+    birth_peg_num: 74
+    birth_peg_candidates: ["Car", "Core", "Gear", "Choir", "Screw"]
+    death_peg_num: 37
+    death_peg_candidates: ["Mug", "Mic", "Mac", "Mocha"]
+    facts: "Guglielmo Marconi was an Italian inventor and entrepreneur who turned the theoretical possibility of radio waves into world-changing technology. As a young man he built wireless apparatus in his family's attic, and in 1901 he stunned the world by transmitting a signal — the letter 'S' in Morse code — across the Atlantic Ocean, something many scientists had flatly declared impossible.\n\nHis wireless company put radio on ships, and it was Marconi equipment and operators that summoned rescuers to the sinking Titanic in 1912, saving hundreds of lives. He shared the Nobel Prize in Physics in 1909 and became a national hero (later, controversially, a supporter of Mussolini). He died of a heart attack in Rome in 1937; radio stations around the world observed a minute's silence, their transmitters briefly stilled in his honour."
+    notes: ["Pioneer of long-distance radio; his equipment carried the Titanic's distress calls; shared the 1909 Nobel Prize in Physics."]
+
+  - id: 113
+    name: "David Livingstone"
+    state: backlog
+    status: none
+    birth_year: 1813
+    death_year: 1873
+    era_bc: false
+    role: ["explorer", "clergyman"]
+    field: ["exploration"]
+    era: "industrial"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 13
+    birth_peg_candidates: ["Tomb", "Dime", "Dam", "Team", "Time"]
+    death_peg_num: 73
+    death_peg_candidates: ["Comb", "Gum", "Camel"]
+    facts: "David Livingstone was a Scottish missionary and explorer who became a Victorian superhero — the man who filled in the blank spaces on the European map of Africa. Driven by a mix of Christian mission and a fierce hatred of the Arab-run slave trade, he trekked thousands of miles across the continent, was the first European to see the vast waterfall he named Victoria Falls, and spent his final years obsessively (and wrongly) hunting for the source of the Nile.\n\nWhen he vanished from contact for years, a newspaper sent the journalist Henry Morton Stanley to find him, leading to the famously understated greeting 'Dr Livingstone, I presume?' He died in 1873 in what is now Zambia, found kneeling as if in prayer. His African companions buried his heart under a tree and carried his embalmed body over a thousand miles to the coast, so that he could be shipped home for burial in Westminster Abbey."
+    notes: ["Scottish missionary-explorer; 'Dr Livingstone, I presume?'; his heart was buried in Africa, his body carried over 1,000 miles to the coast."]
+
+  - id: 114
+    name: "Daniel Defoe"
+    state: backlog
+    status: none
+    birth_year: 1660
+    death_year: 1731
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "early-modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 60
+    birth_peg_candidates: ["Shoes", "Chess", "Juice", "Cheese"]
+    death_peg_num: 31
+    death_peg_candidates: ["Mat", "Meat", "Mud", "Moat"]
+    facts: "Daniel Defoe was an English writer, merchant, pamphleteer and government spy who came to novel-writing late and produced, in Robinson Crusoe (1719), one of the first and most influential novels in the language — the tale of a shipwrecked sailor surviving alone for decades on a desert island, loosely inspired by the real castaway Alexander Selkirk.\n\nBefore that he had led a turbulent life: a religious dissenter jailed and pilloried for his satirical pamphlets, bankrupted more than once, and employed as a secret agent. Astonishingly prolific, he also wrote Moll Flanders and A Journal of the Plague Year. Hounded by creditors to the end, he died in 1731 while hiding from them — but left behind a template for the realistic novel that shaped everything that followed."
+    notes: ["Author of Robinson Crusoe, an early English novel; also a prolific pamphleteer, government spy and serial debtor."]
+
+  - id: 115
+    name: "Kublai Khan"
+    state: backlog
+    status: none
+    birth_year: 1215
+    death_year: 1294
+    era_bc: false
+    role: ["king-emperor", "ruler"]
+    field: ["power"]
+    era: "medieval"
+    region: "mongol"
+    end: "illness"
+    birth_peg_num: 15
+    birth_peg_candidates: ["Tail", "Dial", "Doll", "Tile", "Towel"]
+    death_peg_num: 94
+    death_peg_candidates: ["Bear", "Pear", "Boar", "Beer"]
+    facts: "Kublai Khan was the grandson of Genghis Khan who completed the Mongol conquest of China and founded the Yuan dynasty, becoming the first non-Chinese to rule all of China. Presiding over the largest contiguous empire in history, he moved his capital to what is now Beijing and adopted many Chinese ways of governing, while his summer capital, Shangdu ('Xanadu'), became a byword for exotic splendour — immortalised centuries later in Coleridge's poem.\n\nIt was to Kublai's cosmopolitan court that the young Venetian Marco Polo claimed to have travelled and served for years, bringing astonishing tales back to Europe. Kublai's later reign was marred by costly failed invasions of Japan (thwarted by the 'divine wind', or kamikaze) and by personal grief; heartbroken by the deaths of his favourite wife and chosen heir, he ate and drank himself into obesity and gout, and died in 1294."
+    notes: ["Grandson of Genghis Khan; founded China's Yuan dynasty; his Xanadu inspired Coleridge; hosted Marco Polo."]
+
+  - id: 116
+    name: "Robert Boyle"
+    state: backlog
+    status: none
+    birth_year: 1627
+    death_year: 1691
+    era_bc: false
+    role: ["chemist", "physicist"]
+    field: ["science"]
+    era: "early-modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 27
+    birth_peg_candidates: ["Neck", "Nag", "Hank", "Nook", "Ink"]
+    death_peg_num: 91
+    death_peg_candidates: ["Boat", "Bat", "Bud", "Pot", "Pad", "Boot"]
+    facts: "Robert Boyle was an Anglo-Irish aristocrat-turned-scientist, one of the founders of modern chemistry and a leading light of the new Royal Society. In an age still steeped in alchemy, his book The Sceptical Chymist argued that matter was built from tiny particles and pushed chemistry toward rigorous experiment and away from mysticism.\n\nUsing an improved air pump, he established the law still taught today — that the pressure and volume of a gas are inversely related (Boyle's Law) — and demonstrated the role of air in breathing, burning and the carrying of sound. Deeply religious, he spent as much energy defending Christianity and funding Bible translations as on science, and never married, devoting himself to his work until his death in 1691, just a week after that of his beloved sister."
+    notes: ["A founder of modern chemistry; Boyle's Law relates the pressure and volume of a gas; a devout founding member of the Royal Society."]
+
+  - id: 117
+    name: "William Bligh"
+    state: backlog
+    status: none
+    birth_year: 1754
+    death_year: 1817
+    era_bc: false
+    role: ["admiral", "explorer"]
+    field: ["military", "exploration"]
+    era: "enlightenment"
+    region: "british"
+    end: "natural"
+    birth_peg_num: 54
+    birth_peg_candidates: ["Lyre", "Lure", "Liar", "Lorry", "Laurel"]
+    death_peg_num: 17
+    death_peg_candidates: ["Tack", "Duck", "Dog", "Deck", "Tag"]
+    facts: "William Bligh was a supremely skilled British naval navigator whose name became a byword for tyrannical command — though historians now think him more hot-tempered than truly cruel. In 1789 his crew aboard HMS Bounty, seduced by the easy life of Tahiti, mutinied under Fletcher Christian and cast Bligh and eighteen loyal men adrift in a 23-foot open boat with almost no supplies.\n\nWhat should have been a death sentence became one of the greatest feats of seamanship in history: Bligh navigated that little boat some 3,600 miles across the open Pacific to safety in Timor, losing barely a man. His later career was stormy too — he faced further mutinies, including one as the deeply unpopular governor of New South Wales — but he was repeatedly cleared, rose to vice-admiral, and died in London in 1817."
+    notes: ["The Mutiny on the Bounty (1789); cast adrift, he navigated 3,600 miles in an open boat; later a colonial governor and vice-admiral."]
 
