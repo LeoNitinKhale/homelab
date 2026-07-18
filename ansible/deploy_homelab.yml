@@ -343,3 +343,106 @@
       community.docker.docker_compose_v2:
         project_src: "{{ docker_compose_dir }}"
         state: present
+
+
+# =============================================================
+# PLAY 7: Deploy Django app (the portal SPA + API)
+# =============================================================
+# Single-user site: served by `manage.py runserver` (no Gunicorn, per CLAUDE.md)
+# behind Caddy, which terminates TLS and proxies khale.net -> 127.0.0.1:8000.
+#   --insecure : let runserver serve /static with DEBUG=0 in prod
+#   --noreload : one process, owned by systemd (no autoreload fork)
+# Move to gunicorn + whitenoise later if this ever needs to scale.
+- name: Deploy Django app
+  hosts: homelab
+  become: true
+  vars_files:
+    - secrets.yml            # django_secret_key — gitignored; copy secrets.yml.example
+  vars:
+    venv_dir: "{{ app_dir }}/.venv"
+
+  tasks:
+
+    - name: Ensure app directory exists (owned by the app user)
+      file:
+        path: "{{ app_dir }}"
+        state: directory
+        owner: "{{ app_user }}"
+        group: "{{ app_user }}"
+        mode: '0755'
+
+    # The repo is private — the server needs a deploy key (read access) in
+    # ~{{ app_user }}/.ssh for this checkout to succeed. See docs/DEPLOYMENT.md.
+    - name: Check out the repository
+      become_user: "{{ app_user }}"
+      git:
+        repo: "{{ repo_url }}"
+        dest: "{{ app_dir }}"
+        version: main
+        accept_hostkey: true
+
+    - name: Create virtualenv and install dependencies
+      become_user: "{{ app_user }}"
+      pip:
+        requirements: "{{ app_dir }}/requirements.txt"
+        virtualenv: "{{ venv_dir }}"
+        virtualenv_command: python3 -m venv
+
+    - name: Write .env (prod config + secrets)
+      copy:
+        dest: "{{ app_dir }}/.env"
+        owner: "{{ app_user }}"
+        mode: '0600'
+        content: |
+          SECRET_KEY={{ django_secret_key }}
+          DEBUG=0
+          ALLOWED_HOSTS={{ allowed_hosts }}
+          CSRF_TRUSTED_ORIGINS=https://{{ allowed_hosts }}
+          DATABASE_URL=postgres://{{ db_user }}:{{ db_password }}@localhost:5432/{{ db_name_core }}
+          OPS_DATABASE_URL=postgres://{{ db_user }}:{{ db_password }}@localhost:5432/{{ db_name_ops }}
+      notify: Restart homelab app
+
+    - name: Migrate core database
+      become_user: "{{ app_user }}"
+      command: "{{ venv_dir }}/bin/python manage.py migrate --noinput"
+      args:
+        chdir: "{{ app_dir }}"
+
+    - name: Migrate ops database
+      become_user: "{{ app_user }}"
+      command: "{{ venv_dir }}/bin/python manage.py migrate --database=ops --noinput"
+      args:
+        chdir: "{{ app_dir }}"
+
+    - name: Install systemd unit for the app
+      copy:
+        dest: /etc/systemd/system/homelab.service
+        content: |
+          [Unit]
+          Description=Homelab Django app (runserver behind Caddy)
+          After=network.target postgresql.service
+
+          [Service]
+          User={{ app_user }}
+          WorkingDirectory={{ app_dir }}
+          ExecStart={{ venv_dir }}/bin/python manage.py runserver --insecure --noreload 127.0.0.1:8000
+          Restart=always
+          RestartSec=3
+
+          [Install]
+          WantedBy=multi-user.target
+      notify: Restart homelab app
+
+    - name: Enable and start the app
+      systemd:
+        name: homelab
+        enabled: true
+        state: started
+        daemon_reload: true
+
+  handlers:
+    - name: Restart homelab app
+      systemd:
+        name: homelab
+        state: restarted
+        daemon_reload: true

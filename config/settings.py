@@ -33,6 +33,14 @@ DEBUG = os.environ.get('DEBUG', '1').lower() in ('1', 'true', 'yes')
 # Comma-separated in .env, e.g. ALLOWED_HOSTS=homelab.khale.net. '*' in dev.
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(',')
 
+# Behind Caddy (TLS terminator) in prod: trust its forwarded-proto header so
+# Django knows the original request was HTTPS (secure cookies, correct scheme).
+# Harmless in dev, where the header is absent and requests stay http.
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+# HTTPS origin(s) trusted for CSRF — required for admin login POST in prod, e.g.
+# CSRF_TRUSTED_ORIGINS=https://khale.net . Empty in dev.
+CSRF_TRUSTED_ORIGINS = [o for o in os.environ.get('CSRF_TRUSTED_ORIGINS', '').split(',') if o]
+
 _TESTING = 'test' in sys.argv
 
 INSTALLED_APPS = [
