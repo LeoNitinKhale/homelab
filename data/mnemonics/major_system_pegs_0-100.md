@@ -101,7 +101,7 @@ hang off — a body-part list and a colour/design scheme.
 | 19 | TP | Tub, Tape, Tip, Tuba *(rlx)*, Tap | Toblerone |
 | 20 | NS | Nose, Noose, Ounce, Niece | Nescafé, Nissan *(rlx)* |
 | 21 | NT | Knot, Net, Note, Aunt | Nutella |
-| 22 | NN | Nun, Onion, Neon | — |
+| 22 | NN | Nun, Onion, Neon, Nanny, Naan | — |
 | 23 | NM | Gnome, Number, Anemone *(rlx)* | — |
 | 24 | NR | Nurse *(rlx)*, Snare *(rlx)* | — |
 | 25 | NL | Nail, Nile *(proper)*, Noel *(proper)*, Snail *(rlx)* | — |
@@ -130,7 +130,7 @@ hang off — a body-part list and a colour/design scheme.
 | 48 | RF | Roof, Reef, Ref, Ruff, RAF, Roofer *(rlx)*, Rifle *(rlx)*, Raft *(rlx)*, Rover *(rlx)*, Refugee *(rlx)*, Reverend *(rlx)*, Ravioli *(rlx)* | Ryvita, Revlon, Revels |
 | 49 | RP | Rope, Robe, Rib, Ruby | Reebok, Ribena |
 | 50 | LS | Lace, Lice, Lasso | Listerine |
-| 51 | LT | Light, Lad, Lady, Ladder *(rlx)* | Lidl |
+| 51 | LT | Light, Lad, Lady, Ladder *(rlx)*, Lute, Ladle *(rlx)*, LED, Loot | Lidl |
 | 52 | LN | Lion, Lawn, Lane, Loon, Alien, Lung | Lenor |
 | 53 | LM | Lamb, Lime, Lemon, Llama, Loom, Elm, Lima *(proper)*, Lemur *(rlx)* | Lamborghini |
 | 54 | LR | Lyre, Lure, Liar, Lorry, Laurel *(rlx)* | L'Oréal |
@@ -170,7 +170,7 @@ hang off — a body-part list and a colour/design scheme.
 | 88 | FF | Fife, Fiver *(rlx)*, FF *(rlx)* | FIFA |
 | 89 | FP | Fob, Fop, Fibre-optic *(rlx)*, FB *(rlx)* | Fab |
 | 90 | BS/PS | Bus, Bees, Bass, Boss | Bose |
-| 91 | BT/PT | Boat, Bat, Bud, Pot, Pad, Boot, Bed | Budweiser, BT |
+| 91 | BT/PT | Boat, Bat, Bud, Pot, Pad, Boot, Bed, Butt, Booty | Budweiser, BT |
 | 92 | BN/PN | Bone, Pin, Pen, Bun, Pony | Bounty |
 | 93 | BM/PM | Bomb, Beam, Puma, Pom | BMW |
 | 94 | BR/PR | Bear, Pear, Boar, Beer | Burger King |
