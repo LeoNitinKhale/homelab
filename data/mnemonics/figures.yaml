@@ -10,7 +10,7 @@ vocabulary:
   era: [ancient, medieval, renaissance, early-modern, enlightenment, industrial, modern]
   region: [british, french, italian, german, austrian, american, dutch, polish,
     serbian, egyptian, roman, greek, macedonian, mongol, genoese, indian, south-african,
-    chinese, russian, portuguese, norwegian, spanish, turkish, carthaginian]
+    chinese, russian, portuguese, norwegian, spanish, turkish, carthaginian, persian, swiss]
   end: [natural, illness, assassinated, executed, suicide, battle, uncertain]
 
 figures:
@@ -2264,4 +2264,403 @@ figures:
     death_peg_candidates: ["Tack", "Duck", "Dog", "Deck", "Tag"]
     facts: "William Bligh was a supremely skilled British naval navigator whose name became a byword for tyrannical command — though historians now think him more hot-tempered than truly cruel. In 1789 his crew aboard HMS Bounty, seduced by the easy life of Tahiti, mutinied under Fletcher Christian and cast Bligh and eighteen loyal men adrift in a 23-foot open boat with almost no supplies.\n\nWhat should have been a death sentence became one of the greatest feats of seamanship in history: Bligh navigated that little boat some 3,600 miles across the open Pacific to safety in Timor, losing barely a man. His later career was stormy too — he faced further mutinies, including one as the deeply unpopular governor of New South Wales — but he was repeatedly cleared, rose to vice-admiral, and died in London in 1817."
     notes: ["The Mutiny on the Bounty (1789); cast adrift, he navigated 3,600 miles in an open boat; later a colonial governor and vice-admiral."]
+
+  - id: 118
+    name: "Caravaggio"
+    state: backlog
+    status: none
+    birth_year: 1571
+    death_year: 1610
+    era_bc: false
+    role: ["artist"]
+    field: ["arts"]
+    era: "early-modern"
+    region: "italian"
+    end: "illness"
+    birth_peg_num: 71
+    birth_peg_candidates: ["Cat", "Coat", "Kite", "Goat", "Kid"]
+    death_peg_num: 10
+    death_peg_candidates: ["Toes", "Dice", "Oats", "Ties", "Dose"]
+    facts: "Michelangelo Merisi da Caravaggio revolutionised European painting with his violent realism and his trademark tenebrism — figures hauled out of deep darkness by a single dramatic beam of light. He used prostitutes and street people as models for the Virgin and the saints, giving his religious scenes a shocking, dirty-fingernailed immediacy that scandalised and electrified Rome.\n\nHis life was as extreme as his art: a hot-tempered brawler perpetually in trouble with the law, he killed a man in a duel (possibly over a bungled bet) in 1606 and spent his last years as a fugitive, painting furiously between scrapes. In 1610, chasing a papal pardon, he died alone and feverish on a beach at Porto Ercole, aged just 38 — his death, like much of his life, wrapped in mystery."
+    notes: ["Master of dramatic light (chiaroscuro/tenebrism); a murderer who died a fugitive at Porto Ercole in 1610."]
+
+  - id: 119
+    name: "Cyrus the Great"
+    state: backlog
+    status: none
+    birth_year: -600
+    death_year: -530
+    era_bc: true
+    role: ["king-emperor", "ruler"]
+    field: ["power"]
+    era: "ancient"
+    region: "persian"
+    end: "battle"
+    birth_peg_num: 0
+    birth_peg_candidates: ["Sauce"]
+    death_peg_num: 30
+    death_peg_candidates: ["Mouse", "Mice", "Moose", "Maze"]
+    facts: "Cyrus the Great founded the Achaemenid Persian Empire, the largest the world had yet seen, sweeping up Media, Lydia and Babylon in a generation of conquest. Yet he is remembered less for brutality than for an unusual policy of tolerance: he let conquered peoples keep their own customs and religions, and famously freed the Jews from their Babylonian captivity and let them return to rebuild Jerusalem — earning him praise even in the Bible.\n\nThe clay 'Cyrus Cylinder' recording his conquest of Babylon is sometimes hailed as one of the earliest declarations of human rights. According to Herodotus, his luck ran out fighting the nomadic Massagetae on the empire's wild north-eastern frontier around 530 BC; their warrior-queen Tomyris, avenging her son, is said to have plunged his severed head into a skin of blood, telling him to drink his fill."
+    notes: ["BC — numbers run backwards (600 BC birth, 530 BC death). Founder of the Persian Empire; the Cyrus Cylinder is often called an early charter of tolerance."]
+
+  - id: 120
+    name: "Pythagoras"
+    state: backlog
+    status: none
+    birth_year: -570
+    death_year: -495
+    era_bc: true
+    role: ["mathematician", "philosopher"]
+    field: ["science", "philosophy"]
+    era: "ancient"
+    region: "greek"
+    end: "uncertain"
+    birth_peg_num: 70
+    birth_peg_candidates: ["Case", "Goose", "Gauze"]
+    death_peg_num: 95
+    death_peg_candidates: ["Ball", "Bell", "Pal", "Pill"]
+    facts: "Pythagoras of Samos is one of history's most influential and mysterious figures — a philosopher and mathematician who left no writings, so that fact and legend are hopelessly tangled. He is credited with the theorem that bears his name (that the square on a right triangle's longest side equals the sum of the squares on the other two), and with the profound discovery that musical harmony can be expressed as simple whole-number ratios, suggesting the whole universe was built on number.\n\nHe founded a secretive religious brotherhood that believed in the transmigration of souls and followed strange rules — most famously a taboo against eating beans. Tradition holds that when his enemies attacked, he was cornered and killed because he refused to escape across a field of beans, though the many versions of his death only deepen the myth around him, around 495 BC."
+    notes: ["BC. The Pythagorean theorem; founded a mystical number-cult; legendarily died refusing to cross a bean field."]
+
+  - id: 121
+    name: "Pericles"
+    state: backlog
+    status: none
+    birth_year: -495
+    death_year: -429
+    era_bc: true
+    role: ["statesman", "politician", "general"]
+    field: ["power"]
+    era: "ancient"
+    region: "greek"
+    end: "illness"
+    birth_peg_num: 95
+    birth_peg_candidates: ["Ball", "Bell", "Pal", "Pill"]
+    death_peg_num: 29
+    death_peg_candidates: ["Knob", "Nib", "Nappy"]
+    facts: "Pericles led Athens through its golden age in the mid-fifth century BC, championing its radical direct democracy and pouring public money into the arts and architecture — above all the Parthenon and the other great temples of the Acropolis, built under his patronage. A brilliant orator and cautious strategist, he dominated Athenian politics for some thirty years without ever being a king, ruling instead through persuasion and repeated election.\n\nWhen war with Sparta came, his strategy was to shelter Athens' population behind its walls and rely on its navy — but the overcrowding helped a terrible plague tear through the city. His magnificent Funeral Oration, honouring the war dead and praising Athenian democracy, survives as one of the great speeches of antiquity. He himself succumbed to the plague in 429 BC, and Athens never quite found his equal again."
+    notes: ["BC. Led Athens at its democratic and cultural peak; built the Parthenon; died in the plague during the Peloponnesian War."]
+
+  - id: 122
+    name: "Philip II of Macedon"
+    state: backlog
+    status: none
+    birth_year: -382
+    death_year: -336
+    era_bc: true
+    role: ["king-emperor", "general", "ruler"]
+    field: ["power", "military"]
+    era: "ancient"
+    region: "macedonian"
+    end: "assassinated"
+    birth_peg_num: 82
+    birth_peg_candidates: ["Van", "Fan", "Phone"]
+    death_peg_num: 36
+    death_peg_candidates: ["Mash", "Match", "Mesh", "Mush"]
+    facts: "Philip II of Macedon took a weak, fractious backwater and forged it into the dominant military power of Greece — and in doing so built the war machine his son, Alexander the Great, would use to conquer the known world. A brilliant reformer and diplomat, he created the Macedonian phalanx armed with the sarissa, a pike up to six metres long, and combined it with heavy cavalry to devastating effect, crushing the allied Greek city-states at Chaeronea in 338 BC.\n\nHe lost an eye to an arrow at a siege and survived numerous wounds, only to be murdered in 336 BC at the wedding of his daughter, stabbed by one of his own bodyguards for reasons still debated — leaving the throne, and his superb army, to the twenty-year-old Alexander."
+    notes: ["BC. Father of Alexander the Great; created the Macedonian phalanx; assassinated at his daughter's wedding."]
+
+  - id: 123
+    name: "Ashoka"
+    state: backlog
+    status: none
+    birth_year: -304
+    death_year: -232
+    era_bc: true
+    role: ["king-emperor", "ruler"]
+    field: ["power"]
+    era: "ancient"
+    region: "indian"
+    end: "natural"
+    birth_peg_num: 4
+    birth_peg_candidates: ["Sewer", "Sari"]
+    death_peg_num: 32
+    death_peg_candidates: ["Moon", "Money", "Mine", "Mane"]
+    facts: "Ashoka the Great ruled almost the entire Indian subcontinent as the third emperor of the Mauryan dynasty. Early in his reign he waged a savage war of conquest against the kingdom of Kalinga, but the sheer scale of the death and misery he caused — by some accounts a hundred thousand killed — filled him with such remorse that he underwent a profound change of heart, embracing Buddhism and renouncing violent conquest.\n\nHe spent the rest of his long reign promoting 'dhamma' — righteousness, tolerance and non-violence — carving edicts into rocks and polished stone pillars across his empire, building hospitals and roads, and sending Buddhist missionaries as far as Sri Lanka and beyond, helping turn a regional sect into a world religion. His famous Lion Capital of Sarnath, four lions standing back to back, is today the national emblem of India."
+    notes: ["Converted to Buddhism in remorse after the Kalinga war; his lion capital is India's national emblem."]
+
+  - id: 124
+    name: "Scipio Africanus"
+    state: backlog
+    status: none
+    birth_year: -236
+    death_year: -183
+    era_bc: true
+    role: ["general"]
+    field: ["military"]
+    era: "ancient"
+    region: "roman"
+    end: "illness"
+    birth_peg_num: 36
+    birth_peg_candidates: ["Mash", "Match", "Mesh", "Mush"]
+    death_peg_num: 83
+    death_peg_candidates: ["Foam", "Femur", "Vomit"]
+    facts: "Publius Cornelius Scipio, called 'Africanus', was the Roman general who finally defeated Hannibal, the terror who had rampaged through Italy for over a decade. Rather than fight Hannibal in Italy, the young Scipio boldly carried the war to Carthage's own territory in North Africa, forcing Hannibal home to defend it — and there, at the Battle of Zama in 202 BC, he crushed him and ended the Second Punic War, winning his honorific 'Africanus'.\n\nDespite saving Rome, he was later hounded by political rivals who accused him and his brother of corruption. Disgusted by the ingratitude of the state he had served so brilliantly, he withdrew to his country estate in bitter self-imposed exile and, dying around 183 BC (the same year as Hannibal), reportedly ordered that his body be buried there rather than in Rome, with the epitaph 'Ungrateful fatherland, you shall not even have my bones.'"
+    notes: ["Defeated Hannibal at Zama (202 BC), ending the Second Punic War; died bitter in self-imposed exile."]
+
+  - id: 125
+    name: "Aristarchus of Samos"
+    state: backlog
+    status: none
+    birth_year: -310
+    death_year: -230
+    era_bc: true
+    role: ["astronomer", "mathematician"]
+    field: ["science"]
+    era: "ancient"
+    region: "greek"
+    end: "natural"
+    birth_peg_num: 10
+    birth_peg_candidates: ["Toes", "Dice", "Oats", "Ties", "Dose"]
+    death_peg_num: 30
+    death_peg_candidates: ["Mouse", "Mice", "Moose", "Maze"]
+    facts: "Aristarchus of Samos was an ancient Greek astronomer and mathematician who made one of the most breathtaking intellectual leaps in history: he proposed that the Sun, not the Earth, lies at the centre of the cosmos, and that the Earth both spins on its axis and orbits the Sun — a heliocentric model some eighteen centuries before Copernicus.\n\nHe also devised ingenious geometric methods to estimate the relative sizes and distances of the Sun and Moon, concluding (roughly, and with the crude instruments of his day) that the Sun was far larger than the Earth — perhaps a clue to why he thought it should sit at the centre. His radical idea was rejected in favour of the Earth-centred view for nearly two thousand years, and most of his writings are lost, but he is remembered as the man who guessed the truth far too early."
+    notes: ["Proposed a Sun-centred (heliocentric) universe some 1,800 years before Copernicus."]
+
+  - id: 126
+    name: "Hipparchus"
+    state: backlog
+    status: none
+    birth_year: -190
+    death_year: -120
+    era_bc: true
+    role: ["astronomer", "mathematician"]
+    field: ["science"]
+    era: "ancient"
+    region: "greek"
+    end: "natural"
+    birth_peg_num: 90
+    birth_peg_candidates: ["Bus", "Bees", "Bass", "Boss"]
+    death_peg_num: 20
+    death_peg_candidates: ["Nose", "Noose", "Ounce", "Niece"]
+    facts: "Hipparchus of Nicaea is often called the greatest astronomer of antiquity and the founder of trigonometry, which he developed as a tool for calculating the positions of the stars and planets. He compiled the first comprehensive star catalogue in the Western world, recording the positions and brightnesses of hundreds of stars, and invented the 'magnitude' scale for stellar brightness that astronomers still use in modified form today.\n\nBy comparing his own careful observations with older Babylonian records, he made his most celebrated discovery — the slow 'precession of the equinoxes', a gradual wobble of the Earth's axis over some 26,000 years. Almost all his own writings are lost; much of what we know survives only because the later astronomer Ptolemy built upon (and preserved fragments of) his work."
+    notes: ["Compiled the first major star catalogue; founded trigonometry; discovered the precession of the equinoxes."]
+
+  - id: 127
+    name: "Charles Martel"
+    state: backlog
+    status: none
+    birth_year: 688
+    death_year: 741
+    era_bc: false
+    role: ["general", "ruler"]
+    field: ["military", "power"]
+    era: "medieval"
+    region: "french"
+    end: "natural"
+    birth_peg_num: 88
+    birth_peg_candidates: ["Fife", "Fiver", "FF"]
+    death_peg_num: 41
+    death_peg_candidates: ["Root", "Rat", "Rod"]
+    facts: "Charles Martel — 'Charles the Hammer' — was the Frankish military leader who, though never formally king, was the real power in the Frankish realm and the founder of the Carolingian dynasty that would produce his grandson, Charlemagne. His most famous moment came at the Battle of Tours (or Poitiers) in 732, where his disciplined Frankish infantry halted a raiding army of the Umayyad Caliphate, a victory later mythologised as saving Christian Europe from Muslim conquest.\n\nA relentless campaigner who spent his career subduing rivals and expanding Frankish power, he also began the reforms — including granting land to fund heavy cavalry — that historians link to the rise of feudalism and the mounted knight. He died in 741, dividing his realm between his sons and leaving a dynasty poised to dominate early medieval Europe."
+    notes: ["'The Hammer'; won the Battle of Tours (732), checking the Umayyad advance into Europe; grandfather of Charlemagne."]
+
+  - id: 128
+    name: "William Blake"
+    state: backlog
+    status: none
+    birth_year: 1757
+    death_year: 1827
+    era_bc: false
+    role: ["artist", "poet"]
+    field: ["arts", "literature"]
+    era: "industrial"
+    region: "british"
+    end: "natural"
+    birth_peg_num: 57
+    birth_peg_candidates: ["Lock", "Lake", "Log", "Leg"]
+    death_peg_num: 27
+    death_peg_candidates: ["Neck", "Nag", "Hank", "Nook", "Ink"]
+    facts: "William Blake was a poet, painter and printmaker so far ahead of his time that he was dismissed in his own life as an eccentric or a madman, and only recognised as a genius long after his death. From childhood he claimed to see visions — angels in a tree, the face of God at a window — and these fed a body of work of extraordinary imaginative power, from the deceptively simple Songs of Innocence and Experience (including 'The Tyger') to sprawling mythological epics.\n\nHe invented his own method of 'illuminated printing', etching poem and picture together onto copper plates and hand-colouring the prints, so that he was author, artist and publisher all at once. Fiercely independent, mystical and politically radical, he lived and died in poverty, but reportedly spent his final hours in 1827 singing joyfully — and is now regarded as one of the towering figures of English Romanticism."
+    notes: ["Poet and printmaker ('The Tyger', 'Jerusalem'); invented relief etching for his illuminated books; a lifelong visionary."]
+
+  - id: 129
+    name: "Pablo Picasso"
+    state: backlog
+    status: none
+    birth_year: 1881
+    death_year: 1973
+    era_bc: false
+    role: ["artist"]
+    field: ["arts"]
+    era: "modern"
+    region: "spanish"
+    end: "natural"
+    birth_peg_num: 81
+    birth_peg_candidates: ["Foot", "Vet", "Vat"]
+    death_peg_num: 73
+    death_peg_candidates: ["Comb", "Gum", "Camel"]
+    facts: "Pablo Picasso was the most famous and influential artist of the twentieth century — a Spanish prodigy who could draw like an old master as a child and then spent seventy years relentlessly reinventing art. He moved through his melancholy Blue and Rose periods before, around 1907, co-inventing Cubism with Georges Braque, shattering the single fixed viewpoint that painting had used since the Renaissance and depicting objects as fractured, multi-angled planes.\n\nAstonishingly prolific across painting, sculpture, ceramics and printmaking, he produced tens of thousands of works, including 'Guernica', his searing black-and-white protest against the bombing of a Basque town in the Spanish Civil War. Famous too for his tangled love life and larger-than-life personality, he kept working almost until the day he died in 1973, aged 91, having done more than anyone to shape modern art."
+    notes: ["Co-founder of Cubism; painted Guernica; one of the most prolific and influential artists of the 20th century."]
+
+  - id: 130
+    name: "Salvador Dalí"
+    state: backlog
+    status: none
+    birth_year: 1904
+    death_year: 1989
+    era_bc: false
+    role: ["artist"]
+    field: ["arts"]
+    era: "modern"
+    region: "spanish"
+    end: "illness"
+    birth_peg_num: 4
+    birth_peg_candidates: ["Sewer", "Sari"]
+    death_peg_num: 89
+    death_peg_candidates: ["Fob", "Fop", "Fibre-optic", "FB"]
+    facts: "Salvador Dalí was the most flamboyant of the Surrealists, a Spanish painter of prodigious technical skill who rendered the irrational logic of dreams with hallucinatory, photographic precision. His most famous image — soft, melting pocket-watches draped over a barren landscape in 'The Persistence of Memory' — became one of the defining pictures of the twentieth century.\n\nAs much showman as painter, he cultivated an outrageous public persona, complete with a long, waxed, upturned moustache, wild pronouncements ('I am Surrealism'), and stunts that infuriated even his fellow Surrealists, who eventually expelled him. He designed dream sequences for Hitchcock, a logo for a lollipop brand, jewellery and furniture, and built a bizarre theatre-museum to himself in his home town. Increasingly frail after the death of his wife and muse Gala, he died of heart failure in 1989."
+    notes: ["Leading Surrealist ('The Persistence of Memory' / melting clocks); a flamboyant self-promoter with a famous moustache."]
+
+  - id: 131
+    name: "Geoffrey Chaucer"
+    state: backlog
+    status: none
+    birth_year: 1343
+    death_year: 1400
+    era_bc: false
+    role: ["writer", "poet"]
+    field: ["literature"]
+    era: "medieval"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 43
+    birth_peg_candidates: ["Ram", "Arm", "Rum", "Room", "Rim", "Roman"]
+    death_peg_num: 0
+    death_peg_candidates: ["Sauce"]
+    facts: "Geoffrey Chaucer is often called the 'father of English literature' — the first great poet to write in the everyday English of ordinary people rather than the French or Latin of the elite, helping to establish the London dialect as the basis of the standard language. A soldier, diplomat, customs official and courtier who moved through the turbulent world of medieval royal politics, he wrote his masterpiece, The Canterbury Tales, in his later years.\n\nIn it, a boisterous cross-section of medieval society — a knight, a miller, a bawdy wife, a corrupt pardoner and more — swap stories on a pilgrimage from London to Canterbury, in verse that is by turns pious, hilarious and startlingly earthy. He died in 1400 with the work unfinished, and was buried in Westminster Abbey — the first of the writers whose tombs gave the abbey's Poets' Corner its name."
+    notes: ["'Father of English literature'; wrote The Canterbury Tales; the first person buried in Poets' Corner."]
+
+  - id: 132
+    name: "John Donne"
+    state: backlog
+    status: none
+    birth_year: 1572
+    death_year: 1631
+    era_bc: false
+    role: ["poet", "clergyman"]
+    field: ["literature"]
+    era: "early-modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 72
+    birth_peg_candidates: ["Cane", "Coin", "Gun", "Can", "Queen", "Canoe"]
+    death_peg_num: 31
+    death_peg_candidates: ["Mat", "Meat", "Mud", "Moat"]
+    facts: "John Donne lived two lives in one. As a young man he was a witty, worldly adventurer who sailed on naval raids against Spain and wrote some of the most passionate, ingenious and frankly erotic love poetry in English — the 'metaphysical' style, full of startling extended metaphors ('conceits'). His secret marriage to his employer's young niece wrecked his career and briefly landed him in prison.\n\nYears of hardship and a deepening faith led him to the Church, and he became the celebrated Dean of St Paul's Cathedral, preaching powerful sermons on death and salvation and writing devotional works that gave the language enduring phrases like 'No man is an island' and 'never send to know for whom the bell tolls; it tolls for thee'. Obsessed with mortality, he even posed for a portrait wrapped in his burial shroud before dying in 1631."
+    notes: ["Metaphysical poet ('No man is an island'; 'Death, be not proud'); later Dean of St Paul's; posed for his portrait in his burial shroud."]
+
+  - id: 133
+    name: "James Clerk Maxwell"
+    state: backlog
+    status: none
+    birth_year: 1831
+    death_year: 1879
+    era_bc: false
+    role: ["physicist", "mathematician"]
+    field: ["science"]
+    era: "industrial"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 31
+    birth_peg_candidates: ["Mat", "Meat", "Mud", "Moat"]
+    death_peg_num: 79
+    death_peg_candidates: ["Cap", "Cub", "Cop", "Cab", "Cape"]
+    facts: "James Clerk Maxwell was a Scottish physicist whose work is often ranked with Newton's and Einstein's. In a handful of equations he unified electricity and magnetism into a single force, electromagnetism, and showed that light itself is an electromagnetic wave rippling through space — a revelation that underpins everything from radio to modern physics, and directly inspired Einstein.\n\nHis genius ranged astonishingly wide: he produced the first-ever colour photograph (of a tartan ribbon), explained the rings of Saturn, and helped found the kinetic theory of gases, describing how molecules move and collide. Modest and deeply religious, he was as playful as he was profound. He died of abdominal cancer in 1879 at just 48 — the same disease, and the same age, at which his mother had died — cutting short one of the greatest scientific careers in history."
+    notes: ["Maxwell's equations unified electricity, magnetism and light; made the first colour photograph; a founder of modern physics."]
+
+  - id: 134
+    name: "St Augustine of Hippo"
+    state: backlog
+    status: none
+    birth_year: 354
+    death_year: 430
+    era_bc: false
+    role: ["philosopher", "clergyman"]
+    field: ["philosophy"]
+    era: "ancient"
+    region: "roman"
+    end: "illness"
+    birth_peg_num: 54
+    birth_peg_candidates: ["Lyre", "Lure", "Liar", "Lorry", "Laurel"]
+    death_peg_num: 30
+    death_peg_candidates: ["Mouse", "Mice", "Moose", "Maze"]
+    facts: "Augustine of Hippo was one of the most influential thinkers in the history of Western Christianity — a philosopher and bishop in Roman North Africa whose ideas shaped Christian theology for over a thousand years. In his Confessions, one of the first true autobiographies, he laid bare his misspent, pleasure-seeking youth (including the famous prayer 'Lord, make me chaste — but not yet') before his dramatic conversion, wrestling honestly with sin, memory, time and desire.\n\nHis vast City of God, written as the Roman Empire reeled from the sack of Rome, argued that Christians belong ultimately to an eternal heavenly city rather than any earthly one, reframing history itself. He developed enduring doctrines of original sin and divine grace. He died in 430 as Vandal armies besieged his own city of Hippo, at the very end of the classical world he had done so much to reinterpret."
+    notes: ["Author of the Confessions and City of God; one of the most influential Christian theologians; died as the Vandals besieged Hippo."]
+
+  - id: 135
+    name: "Martin Luther"
+    state: backlog
+    status: none
+    birth_year: 1483
+    death_year: 1546
+    era_bc: false
+    role: ["clergyman", "revolutionary"]
+    field: ["philosophy"]
+    era: "renaissance"
+    region: "german"
+    end: "illness"
+    birth_peg_num: 83
+    birth_peg_candidates: ["Foam", "Femur", "Vomit"]
+    death_peg_num: 46
+    death_peg_candidates: ["Roach", "Ridge", "Raja"]
+    facts: "Martin Luther was the German monk and theologian who lit the fuse of the Protestant Reformation, shattering the thousand-year unity of Western Christianity. A tormented young man who (legend says) vowed to become a monk when caught in a violent thunderstorm, he grew convinced that salvation came through faith alone, not through good works or the Church's sale of 'indulgences'. In 1517 he reportedly nailed his 95 Theses attacking that trade to a church door in Wittenberg.\n\nSummoned before the Emperor at the Diet of Worms in 1521 and ordered to recant, he refused — 'Here I stand; I can do no other' — and was declared an outlaw. Hidden by sympathetic princes, he translated the Bible into vigorous everyday German, shaping the language itself, and married a former nun. His defiance, spread by the new printing press, permanently divided Europe. He died in 1546, having changed the course of Western history."
+    notes: ["Sparked the Protestant Reformation with his 95 Theses (1517); defied the Diet of Worms; translated the Bible into German. (Roach = a pun on the Diet of Worms.)"]
+
+  - id: 136
+    name: "John Locke"
+    state: backlog
+    status: none
+    birth_year: 1632
+    death_year: 1704
+    era_bc: false
+    role: ["philosopher"]
+    field: ["philosophy"]
+    era: "early-modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 32
+    birth_peg_candidates: ["Moon", "Money", "Mine", "Mane"]
+    death_peg_num: 4
+    death_peg_candidates: ["Sewer", "Sari"]
+    facts: "John Locke was an English philosopher and physician often called the 'father of liberalism' and a founder of empiricism — the view that all our knowledge comes from experience, the mind starting as a 'blank slate' (tabula rasa). His political philosophy was even more consequential: he argued that legitimate government rests on the consent of the governed and exists to protect people's natural rights to 'life, liberty and property'.\n\nThose ideas ran straight into the American Declaration of Independence (which echoed his phrasing) and the wider Enlightenment. He also wrote influentially on religious toleration and education. A cautious, private man dogged by ill health, he spent time in political exile in Holland before returning after the Glorious Revolution, and died quietly in 1704 at a friend's house, having done as much as anyone to shape the modern liberal, democratic idea of the state."
+    notes: ["Father of liberalism and empiricism; natural rights (life, liberty, property) shaped the US Declaration of Independence. (Death peg 04 is a thin slot — Sewer/Sari only.)"]
+
+  - id: 137
+    name: "Carl Jung"
+    state: backlog
+    status: none
+    birth_year: 1875
+    death_year: 1961
+    era_bc: false
+    role: ["physician", "philosopher"]
+    field: ["science"]
+    era: "modern"
+    region: "swiss"
+    end: "natural"
+    birth_peg_num: 75
+    birth_peg_candidates: ["Coal", "Coil", "Eagle", "Gold"]
+    death_peg_num: 61
+    death_peg_candidates: ["Sheet", "Jet", "Shuttle"]
+    facts: "Carl Gustav Jung was a Swiss psychiatrist who founded analytical psychology and gave everyday language a host of concepts — the 'collective unconscious', 'archetypes', 'complex', 'synchronicity', and the introvert/extravert distinction. Once Freud's heir apparent, he broke painfully with him around 1913, rejecting Freud's emphasis on sexuality and proposing instead a deeper, shared layer of the human mind populated by universal symbols that surface in myths, religions and dreams across all cultures.\n\nAfter the split he endured a prolonged psychological crisis he later mined for insight, exploring dreams, mandalas, mythology and (to many colleagues' unease) alchemy and the occult as maps of the journey toward psychological wholeness, which he called 'individuation'. Enormously influential on psychology, religion, art and the modern fascination with the inner life, he kept writing into old age and died peacefully at his lakeside home near Zürich in 1961."
+    notes: ["Founder of analytical psychology; coined the collective unconscious, archetypes, and introvert/extravert; broke with Freud."]
+
+  - id: 138
+    name: "Thomas Aquinas"
+    state: backlog
+    status: none
+    birth_year: 1225
+    death_year: 1274
+    era_bc: false
+    role: ["philosopher", "clergyman"]
+    field: ["philosophy"]
+    era: "medieval"
+    region: "italian"
+    end: "natural"
+    birth_peg_num: 25
+    birth_peg_candidates: ["Nail", "Nile", "Noel", "Snail"]
+    death_peg_num: 74
+    death_peg_candidates: ["Car", "Core", "Gear", "Choir", "Screw"]
+    facts: "Thomas Aquinas was the towering theologian and philosopher of the Middle Ages, a Dominican friar who set out to reconcile the newly rediscovered philosophy of Aristotle with Christian doctrine — arguing that reason and faith, properly used, could never truly conflict. A huge, quiet man mocked by fellow students as the 'Dumb Ox', he became the most systematic thinker of his age, and his teacher reportedly predicted his 'bellowing' would one day be heard around the world.\n\nHis masterwork, the Summa Theologica, is a vast, meticulously argued exploration of God, morality, law and salvation that remains foundational to Catholic thought today, including his famous 'Five Ways' of arguing for God's existence. Near the end of his life a profound mystical experience during Mass left him declaring that all he had written seemed 'like straw', and he stopped work; he died in 1274 and was later canonised as a saint and declared a Doctor of the Church."
+    notes: ["Greatest medieval theologian; the Summa Theologica fused Aristotle with Christianity; a Dominican friar, nicknamed 'the Dumb Ox'."]
 

@@ -72,6 +72,13 @@ hang off — a body-part list and a colour/design scheme.
 | 19 | Machine gun, helicopter, dog tags / soldier's hat | — | military green & yellow |
 | 20 | Dartboard, giant pint, dart-shaped car | — | red & black segmented circle |
 
+**Symbolic / number-association pegs** — not shape or sound, but a pure cultural
+association tied to a number. Flag any instance using one so it isn't read phonetically.
+
+| # | Symbol | Association |
+|---|--------|-------------|
+| 23 | Goat | GOAT — "greatest of all time"; Michael Jordan's number 23 |
+
 
 ---
 
