@@ -77,23 +77,21 @@ figures:
   - id: 4
     name: "Genghis Khan"
     state: completed
-    status: red
+    status: green
     birth_year: 1162
     death_year: 1227
     era_bc: false
+    role: []
+    field: []
+    era: ""
+    region: ""
+    end: ""
     birth_peg: "62 → Chains"
     death_peg: "27 → Nike"
-    century: "11 → Tony Tiger"
-    role: ["ruler", "general"]
-    field: ["power", "military"]
-    era: "medieval"
-    region: "mongol"
-    end: "uncertain"
-    scene: "Wrapped in chains — early-life struggle. Breaks free. Sweats uncontrollably and keels over saying 'Just screw it!' Feet have Nikes on represent his historical victory/conquest."
-    position: "chains/breaking free reads birth-consistent, above/front. Keeling over and the Nikes on his feet — death position, below waist. Clean."
+    scene: "Boy Temüjin is wrapped in **chains** — his early captivity — then bursts free as he rises to power. At the end he sweats, shakes with fever and keels over, the **Nikes** on his feet represent victory as he crashes to the ground — conquest won, felled by an uncertain illness."
+    position: "Chains wrapped high and broken free, in front — birth; carries 62. He keels over, the Nikes on his feet hitting the ground — death action, low; carries 27."
     facts: "Temüjin was born into a fractured, feuding steppe world — his father poisoned when he was a boy, his family cast out to near-starvation. From that he clawed his way up to unite the warring Mongol tribes and forge, through terrifying discipline and mobility, the largest contiguous land empire in history, from the Pacific almost to the gates of Europe.\n\nHe was both a genocidal conqueror who razed cities that resisted and a surprising moderniser — instituting written law, religious tolerance, a horse-relay postal system and protected Silk Road trade. He died on campaign in 1227; the cause is genuinely uncertain (illness, or injuries from a fall), and his burial place was hidden so completely that it has never been found."
-    notes: ["🔴 Cause of death open. The record is genuinely uncertain — illness or fever, possibly plague, following a fall from his horse the year before. The nosebleed story belongs to Attila. The sweating/collapse imagery is compatible with the fever reading without committing to it.", "Nike (27) replaces Ink, clearing the duplicate with Newton (2). \"Just screw it\" is a spoken cue, not a peg — Screw is 74."]
-
+    notes: ["Red-fix: pegs unchanged (Chains 62 / Nike 27). The redness was only the open death-cause; the fever/collapse imagery stays compatible without committing."]
   - id: 5
     name: "Einstein"
     state: completed
@@ -517,23 +515,21 @@ figures:
   - id: 26
     name: "Michael Faraday"
     state: completed
-    status: red
+    status: green
     birth_year: 1791
     death_year: 1867
     era_bc: false
-    birth_peg: "91 → Pot *(proposed — see flag)*"
-    death_peg: "67 → Cheque (Jag is the alternate, same slot)"
-    century: "17 → Toby Keith (optional)"
-    role: ["physicist", "chemist"]
-    field: ["science"]
-    era: "industrial"
-    region: "british"
-    end: "natural"
-    scene: "Baby Faraday surrounded by leather-bound books — he started as a bookbinder's apprentice. A bookbinder's glue **pot** is yanked upward off the bench by an invisible magnet, foreshadowing electromagnetic induction. Later, the dying Faraday is offered a cheque (the knighthood he refused) and pushes it away: \"what a cheek.\" Layered alternate: a **Jag** pulls up to deliver the offer instead of a person."
-    position: "the pot pulled up and off the bench — lifting, birth action, above the waist. The cheque pushed away — moving behind him, death position. Clean."
+    role: []
+    field: []
+    era: ""
+    region: ""
+    end: ""
+    birth_peg: "91 → Pad"
+    death_peg: "67 → Cheque"
+    scene: "Baby Faraday, surrounded by the leather-bound books of his apprenticeship, has lots of A4 **pads** in which he writes with metal ring binders which he appreciates as a book-binder. They are yanked straight up off the bench by an unseen magnet — electromagnetic induction. Dying, he is offered a **cheque** (the knighthood he refused) and a **Jaguar** and pushes them away — 'what a **cheek**' — as it slides behind him."
+    position: "The A4 pads pulled up off the bench by the unseen magnet — lifting, birth action, above the waist; carries 91. The cheque pushed away and behind him — death position; carries 67."
     facts: "Michael Faraday rose from a poor London family and a bookbinding apprenticeship — with almost no formal education — to become one of the greatest experimental scientists in history. Largely self-taught, he discovered electromagnetic induction, built the first electric motor and generator, and effectively laid the foundations of the electrical age.\n\nModest and devout, he refused a knighthood and declined burial in Westminster Abbey, insisting on remaining plain 'Mr Faraday'. A gifted populariser, he founded the Royal Institution's Christmas Lectures for children, which run to this day. He died in 1867; the unit of electrical capacitance, the farad, honours him."
-    notes: ["He really did refuse a knighthood and burial in Westminster Abbey, insisting on staying plain Mr Faraday. The refusal is the historical anchor, so the death peg earns its place.", "🔴 **Birth peg was mis-encoded.** *Pin* and *pan* are both P·N = **92**, not 91 — 92 is the Bone/Pin/Pen/Bun slot. 91 is P/B·T/D: Boat, Bat, Bud, **Pot**, Pad. The safety-pin image, as built, encodes the wrong year. **Pot** is proposed above because a bookbinder's glue pot keeps both the apprenticeship hook and the magnet-yank, so only the object swaps — the scene survives intact. Confirm the swap, or pick another 91 word and rebuild."]
-
+    notes: ["Death Cheque (67 = CH,K); Jag is the brand-ish alt.", "Historically anchored: apprenticed as a bookbinder; refused a knighthood, insisting on staying plain Mr Faraday."]
   - id: 27
     name: "Florence Nightingale"
     state: completed
@@ -653,27 +649,26 @@ figures:
 
   - id: 33
     name: "Julius Caesar"
-    state: backlog
-    status: none
+    state: completed
+    status: green
     birth_year: -100
     death_year: -44
     era_bc: true
-    role: ["ruler", "general", "statesman"]
-    field: ["power", "military"]
-    era: "ancient"
-    region: "roman"
-    end: "assassinated"
-    birth_peg_num: 0
-    birth_peg_candidates: ["Sauce"]
-    death_peg_num: 44
-    death_peg_candidates: ["Rear", "Aurora", "Warrior"]
+    role: []
+    field: []
+    era: ""
+    region: ""
+    end: ""
+    birth_peg: "00 → Sauce"
+    death_peg: "44 → Warrior"
+    scene: "Young Caesar wades across the Rubicon, but the river runs as thick red **sauce**; he ladles and pours yet more red sauce ahead of him — 'the die is cast', ambition and blood. Later, on the Ides of March, a ring of **warriors** closes in and stabs him twenty-three times; he sinks to the Senate floor. Says 'I should have **worried** about the Ides'. His jaw is spun (your dad is 44, I'm gonna spin his jaw)."
+    position: "The red sauce poured out ahead and around him, in front — birth-type (pouring/creating) action; carries 00. The warriors close in and he falls to the floor — death action, low; they carry 44."
     facts: "Julius Caesar was the general, politician and writer who did more than anyone to turn the Roman Republic into an empire. A brilliant, ruthless commander, he conquered Gaul, invaded Britain, and — when ordered to disband his army — instead crossed the Rubicon river with it in 49 BC, plunging Rome into civil war with the words 'the die is cast'.\n\nVictorious, he made himself dictator, reformed the calendar (the Julian calendar, and the month of July, carry his name), and was honoured almost as a king — which proved his undoing. On the Ides of March, 44 BC, a conspiracy of senators including his protégé Brutus stabbed him twenty-three times at the foot of Pompey's statue."
-    notes: []
-
+    notes: ["Sauce (00) — S,S; Warrior (44) — R,R. The warriors carry the number and do the killing.", "BC — the last two digits peg as normal (100 BC → 00, 44 BC → 44). Historically anchored: crossed the Rubicon (49 BC); stabbed 23 times on the Ides of March, 44 BC."]
   - id: 34
     name: "Socrates"
-    state: backlog
-    status: none
+    state: completed
+    status: green
     birth_year: -470
     death_year: -399
     era_bc: true
@@ -682,32 +677,30 @@ figures:
     era: "ancient"
     region: "greek"
     end: "executed"
-    birth_peg_num: 70
-    birth_peg_candidates: ["Case", "Goose", "Gauze", "Casio"]
-    death_peg_num: 99
-    death_peg_candidates: ["Baby", "Poppy", "Pipe", "Puppy", "Pepsi"]
+    birth_peg: "70 → Case"
+    death_peg: "99 → Pepsi"
+    scene: "Young Socrates stands in the agora building his **case** which he literally opens — cross-examining everyone, turning each answer into another question (the Socratic method; the charge of 'corrupting the youth' grows from exactly this). Condemned, he calmly drinks down a can of **Pepsi** that is really the hemlock saying 'The taste of (corrupting) the Next Generation'; the can drops from his hand and he sinks to the floor."
+    position: "The case argued and held up in front — birth-type action; carries 70. He drinks the Pepsi-hemlock and sinks, the can dropping low — death action; carries 99."
     facts: "Socrates left no writings of his own; almost everything we know comes through his devoted pupil Plato. A stonemason's son with a famously ugly face, he shuffled around the Athenian marketplace barefoot, buttonholing the powerful and dismantling their certainties with relentless questions — the 'Socratic method' still used in classrooms and courtrooms today.\n\nHe claimed only to know that he knew nothing, and made many enemies by exposing the ignorance of others. Charged with impiety and 'corrupting the youth' of Athens, he was condemned to death and calmly drank a cup of hemlock in 399 BC, choosing death over exile or silence — the founding martyr of Western philosophy."
-    notes: []
-
+    notes: ["Case (70) — K,S, tied to his trial/defence (the Apology). Pepsi (99) is a brand peg — P,P(,S) — a drink for a death by drinking poison.", "BC. Historically anchored: executed by hemlock (399 BC) for 'corrupting the youth'; wrote nothing himself — all via Plato."]
   - id: 35
     name: "Alexander the Great"
-    state: backlog
-    status: red
+    state: completed
+    status: green
     birth_year: -356
     death_year: -323
     era_bc: true
-    role: ["king-emperor", "general", "ruler"]
-    field: ["power", "military"]
-    era: "ancient"
-    region: "macedonian"
-    end: "uncertain"
-    birth_peg_num: 56
-    birth_peg_candidates: ["Leash", "Leech", "Lash", "Lush"]
-    death_peg_num: 23
-    death_peg_candidates: ["Gnome", "Number", "Anemone"]
+    role: []
+    field: []
+    era: ""
+    region: ""
+    end: ""
+    birth_peg: "56 → Leash"
+    death_peg: "23 → Anemone"
+    scene: "Boy Alexander tames the wild horse Bucephalus, slipping a **leash** over it and leading it in triumph — the feat that first marked him out, watched by his tutor Aristotle. Years later, never once beaten in battle, he collapses wearing **Michael Jordan 23** shirt into the marshes of Babylon and sinks among sea-**anemones** that close over him — the fever that killed him at 32. Says 'I'm Alexander the GOAT'."
+    position: "The leash slipped on and the horse led, up and in front — birth action; carries 56. He sinks into the anemone-filled marsh, low and closing over him — death action; carries 23."
     facts: "Alexander III of Macedon was tutored as a boy by Aristotle and, legend says, tamed the unrideable warhorse Bucephalus before he was even a teenager. Taking the throne at twenty after his father's murder, he launched one of history's greatest military campaigns, never losing a battle as he shattered the mighty Persian Empire and drove his army all the way to India.\n\nBy thirty he ruled from Greece to the Punjab, founding some twenty cities named Alexandria and spreading Greek culture across the known world. Then, at just thirty-two, he died suddenly in Babylon — of fever, typhoid, or perhaps poison — and his vast empire was promptly torn apart by his squabbling generals."
-    notes: ["🔴 Dates identified (356 BC / 323 BC → 56 / 23), no scene started. **Collision watch**: 56 is Tesla's birth peg (Leash) and 23 is Pascal's (Number). Leech, Lash or Lush clear the first; Gnome or Anemone clear the second."]
-
+    notes: ["Leash (56) — L,SH (brand alternative: Lush). Anemone (23) — first two sounds N,M. Aristotle and Bucephalus are hooks.", "BC and reversed: birth 56 is larger than death 23 (356 BC → 56, 323 BC → 23). Cause of death uncertain — typhoid or poison; the marsh reading leaves it open."]
   - id: 36
     name: "Galileo Galilei"
     state: backlog
@@ -748,8 +741,8 @@ figures:
 
   - id: 38
     name: "Beethoven"
-    state: backlog
-    status: none
+    state: completed
+    status: green
     birth_year: 1770
     death_year: 1827
     era_bc: false
@@ -758,13 +751,12 @@ figures:
     era: "enlightenment"
     region: "german"
     end: "illness"
-    birth_peg_num: 70
-    birth_peg_candidates: ["Case", "Goose", "Gauze", "Casio"]
-    death_peg_num: 27
-    death_peg_candidates: ["Neck", "Nag", "Nook", "Ink", "Nike"]
+    birth_peg: "70 → Casio"
+    death_peg: "27 → Neck"
+    scene: "Deaf Beethoven leans over a **Casio** keyboard, composing furiously — pressing close to feel the vibrations of music he can no longer hear (he really did saw the legs off his piano for this). At the premiere of the Ninth a hand gently turns his **neck** around so he can see the ovation he cannot hear; then, on his deathbed, the head drops and the neck goes limp as he dies."
+    position: "The Casio played and composed on, in front — birth (creating) action; carries 70. The neck turned to the ovation, then dropping limp in death — death action, low; carries 27."
     facts: "Ludwig van Beethoven bridged the Classical and Romantic eras and transformed what music could express. A volcanic, untidy, short-tempered genius, he arrived in Vienna as a brilliant young pianist — and then, in his late twenties, began to go deaf, the cruellest fate imaginable for a musician.\n\nRather than give up, he composed some of his greatest works in near-total silence, 'hearing' them only in his mind, and famously had to be turned around at the premiere of his Ninth Symphony to see an ovation he could not hear. He sawed the legs off his piano to feel its vibrations through the floor. He died in 1827, and some ten thousand people are said to have joined his funeral procession."
-    notes: []
-
+    notes: ["Casio (70) — K,S, an apt keyboard for a composer; Neck (27) — N,K, the famous turning-to-see-the-ovation moment.", "Historically anchored: went deaf yet conducted the Ninth and had to be turned to see the applause; sawed the legs off his piano to feel vibrations."]
   - id: 39
     name: "Jane Austen"
     state: backlog
@@ -900,8 +892,8 @@ figures:
 
   - id: 46
     name: "Joan of Arc"
-    state: backlog
-    status: none
+    state: completed
+    status: green
     birth_year: 1412
     death_year: 1431
     era_bc: false
@@ -910,13 +902,12 @@ figures:
     era: "medieval"
     region: "french"
     end: "executed"
-    birth_peg_num: 12
-    birth_peg_candidates: ["Tin", "Den", "Dawn", "Ton", "Down", "Tango"]
-    death_peg_num: 31
-    death_peg_candidates: ["Mat", "Meat", "Mud", "Moat", "Mattel"]
+    birth_peg: "12 → Tin"
+    death_peg: "31 → Meat"
+    scene: "A teenage peasant girl buckles on a **tin** suit of armour and lifts the siege of Orléans. Captured, she is burned at the stake — her body consumed like **meat** on the fire, but her heart, they said, would not burn."
+    position: "The tin armour buckled on, worn up and in front — birth position; carries 12. Burned low at the stake, consumed like meat — death, low; carries 31."
     facts: "Joan of Arc was an illiterate teenage peasant girl who, convinced she heard the voices of saints, talked her way into the presence of the French heir during the Hundred Years' War and persuaded him to let her lead an army. Clad in white armour, she inspired the French to lift the siege of Orléans and turned the tide of the war, seeing him crowned king.\n\nCaptured by the English and their allies, she was tried for heresy and witchcraft and burned at the stake in 1431, aged only nineteen; witnesses claimed her heart would not burn. Twenty-five years later a retrial cleared her name, and centuries afterwards the Church declared her a saint — France's warrior-martyr and patron."
-    notes: []
-
+    notes: ["The heart-that-wouldn't-burn is the vivid hook on the death peg.", "Historically anchored: illiterate teenage peasant who lifted the siege of Orléans; burned at the stake at 19; exonerated 25 years later."]
   - id: 47
     name: "Captain James Cook"
     state: backlog
@@ -938,23 +929,22 @@ figures:
 
   - id: 48
     name: "Rembrandt"
-    state: backlog
-    status: none
+    state: completed
+    status: green
     birth_year: 1606
     death_year: 1669
     era_bc: false
-    role: ["artist"]
-    field: ["arts"]
-    era: "early-modern"
-    region: "dutch"
-    end: "natural"
-    birth_peg_num: 6
-    birth_peg_candidates: ["Sash"]
-    death_peg_num: 69
-    death_peg_candidates: ["Ship", "Shop", "Sheep", "Chip", "Chop", "Jeep"]
+    role: []
+    field: []
+    era: ""
+    region: ""
+    end: ""
+    birth_peg: "06 → Sash"
+    death_peg: "69 → Shop"
+    scene: "Baby Rembrandt Has a **Rubiks cube** (visual peg) but throws it saying 'I'm a portrait artist not a cubist'. Puts on a bright **sash** across his chest and paints himself again and again in rich costume — the \\~80 self-portraits. Bankrupt, everything is dragged into a pawn **shop** which says '**Cheap Shop**' and auctioned off, and he sinks into an unmarked pauper's grave. He says 'my whole life was charioscuro'."
+    position: "The Rubiks Cube thrown in the air; sash worn across the chest as he paints himself, in front — birth position; carries 06. His goods hauled off to the shop/auction as he sinks — death, low; carries 69."
     facts: "Rembrandt van Rijn was the greatest painter of the Dutch Golden Age, a miller's son who became famous and wealthy in Amsterdam for his dramatic play of light and shadow and his uncanny gift for capturing the inner life of his subjects. He painted around eighty searching self-portraits across his life, an unmatched visual autobiography from cocky youth to ruined old age.\n\nHe lived beyond his means, and after the death of his wife Saskia his fortunes collapsed; declared insolvent in 1656, he watched his house and possessions auctioned off. He kept painting masterpieces to the end, but died poor in 1669 and was buried in an unmarked pauper's grave."
-    notes: []
-
+    notes: ["Historically anchored: \\~80 self-portraits; bankrupt in 1656, possessions auctioned; buried in an unmarked pauper's grave."]
   - id: 49
     name: "Marie Antoinette"
     state: backlog
@@ -1849,42 +1839,40 @@ figures:
 
   - id: 96
     name: "Hannibal"
-    state: backlog
-    status: none
+    state: completed
+    status: green
     birth_year: -247
     death_year: -183
     era_bc: true
-    role: ["general"]
-    field: ["military"]
-    era: "ancient"
-    region: "carthaginian"
-    end: "suicide"
-    birth_peg_num: 47
-    birth_peg_candidates: ["Rock", "Rack", "Rake", "Rag", "Rug"]
-    death_peg_num: 83
-    death_peg_candidates: ["Foam", "Femur", "Vomit"]
+    role: []
+    field: []
+    era: ""
+    region: ""
+    end: ""
+    birth_peg: "47 → Rock"
+    death_peg: "83 → Foam"
+    scene: "Hannibal drives his war-elephants up over the jagged **rock**s of the snowbound Alps to fall on Rome from the north — the boldest march of the ancient world. He is calling out '(Ag)**Ricola**!' like the advert in the mountains, challenging the Romans. Cornered decades later, rather than be handed to Rome he drains a cup of poison **vomit**s (Hannibal Puka) and dies with **foam** on his lips. Says 'I was poisoned like the snakes I used on the boats. *The foam of Rome*'"
+    position: "The rocks of the Alps scaled and crossed, high and ahead — birth (lifting) action; carries 47. The poison foam low on his lips as he dies; carries 83."
     facts: "Hannibal Barca of Carthage was Rome's most feared enemy, a general who as a boy reputedly swore an eternal oath of hostility to Rome. In 218 BC he did the unthinkable, leading an army — complete with war elephants — across the Pyrenees and the snowbound Alps to strike at Italy from the north, catching the Romans completely off guard.\n\nFor fifteen years he rampaged almost unbeaten through Italy, annihilating a vast Roman army at Cannae in one of the most studied battles in history. Yet he could never take Rome itself, was recalled to defend Carthage, and lost at Zama, spending his last years as a hunted exile advising Rome's other enemies. Rather than be captured and paraded through the streets of the city he had sworn to destroy, he took poison, around 183 BC."
     notes: ["Crossed the Alps with elephants to invade Italy; won crushing victories but never took Rome; took poison to avoid capture."]
-
   - id: 97
     name: "Mary Shelley"
-    state: backlog
-    status: none
+    state: completed
+    status: green
     birth_year: 1797
     death_year: 1851
     era_bc: false
-    role: ["writer"]
-    field: ["literature"]
-    era: "industrial"
-    region: "british"
-    end: "illness"
-    birth_peg_num: 97
-    birth_peg_candidates: ["Book", "Pig", "Bike", "Pack", "Peak"]
-    death_peg_num: 51
-    death_peg_candidates: ["Light", "Lad", "Lady", "Ladder"]
+    role: []
+    field: []
+    era: ""
+    region: ""
+    end: ""
+    birth_peg: "97 → Book"
+    death_peg: "51 → Light"
+    scene: "Eighteen-year-old Mary, in a ghost-story contest at a stormy Swiss villa, dreams up a **book** like no other — Frankenstein, the scientist who steals the spark of life. She stands up and opens it and the monster steps out with a glowing heart. People say 'Looks like he was bought at **Lidl**!'. She turns into the **lady** monster he never had and that same reanimating **light** finally gutters and goes out as, widowed and ill, she collapses and dies alongside the monster as his consort."
+    position: "The book of Frankenstein conceived and written, held up in front — birth (creating) action; carries 97. The spark-light extinguished as she dies, low; carries 51."
     facts: "Mary Shelley was the daughter of two radical thinkers — the pioneering feminist Mary Wollstonecraft, who died giving birth to her, and the philosopher William Godwin. At sixteen she eloped with the married poet Percy Bysshe Shelley, and two years later, during a wet, gloomy summer at Lord Byron's Villa Diodati on Lake Geneva, the group challenged one another to write ghost stories.\n\nFrom a waking nightmare, the teenage Mary produced Frankenstein — the tale of a scientist who assembles and reanimates a creature, then recoils in horror from it — often called the first true science-fiction novel and a profound meditation on ambition and responsibility. Her later life was marked by tragedy: the drowning of Percy and the deaths of three of her four children. She kept writing, guarded her husband's legacy, and died of a brain tumour in 1851."
     notes: ["Wrote Frankenstein at 18 after a ghost-story challenge at the Villa Diodati; daughter of Mary Wollstonecraft."]
-
   - id: 98
     name: "Arthur Conan Doyle"
     state: backlog
@@ -2663,4 +2651,42 @@ figures:
     death_peg_candidates: ["Car", "Core", "Gear", "Choir", "Screw"]
     facts: "Thomas Aquinas was the towering theologian and philosopher of the Middle Ages, a Dominican friar who set out to reconcile the newly rediscovered philosophy of Aristotle with Christian doctrine — arguing that reason and faith, properly used, could never truly conflict. A huge, quiet man mocked by fellow students as the 'Dumb Ox', he became the most systematic thinker of his age, and his teacher reportedly predicted his 'bellowing' would one day be heard around the world.\n\nHis masterwork, the Summa Theologica, is a vast, meticulously argued exploration of God, morality, law and salvation that remains foundational to Catholic thought today, including his famous 'Five Ways' of arguing for God's existence. Near the end of his life a profound mystical experience during Mass left him declaring that all he had written seemed 'like straw', and he stopped work; he died in 1274 and was later canonised as a saint and declared a Doctor of the Church."
     notes: ["Greatest medieval theologian; the Summa Theologica fused Aristotle with Christianity; a Dominican friar, nicknamed 'the Dumb Ox'."]
+
+  - id: 139
+    name: "Adam Smith"
+    state: backlog
+    status: none
+    birth_year: 1723
+    death_year: 1790
+    era_bc: false
+    role: ["economist", "philosopher"]
+    field: ["philosophy"]
+    era: "enlightenment"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 23
+    birth_peg_candidates: ["Gnome", "Number", "Anemone"]
+    death_peg_num: 90
+    death_peg_candidates: ["Bus", "Bees", "Bass", "Boss"]
+    facts: "Adam Smith was a Scottish moral philosopher whose 1776 masterpiece, An Inquiry into the Nature and Causes of the Wealth of Nations, effectively founded modern economics. Writing at the dawn of the Industrial Revolution, he argued that when individuals freely pursue their own self-interest in a competitive market, they are led 'as if by an invisible hand' to benefit society as a whole — and that specialisation (his famous example being a pin factory, where dividing the work multiplied output enormously) was the key to national prosperity.\n\nHe was also the author of an earlier work on ethics, The Theory of Moral Sentiments, and never saw markets as an amoral free-for-all. A famously absent-minded bachelor who once reportedly fell into a tanning pit while lost in thought, he had many of his unpublished manuscripts burned before his death in Edinburgh in 1790. His ideas became the foundation of free-market economics and are argued over to this day."
+    notes: ["The Wealth of Nations (1776); the 'invisible hand' and the division of labour; founder of modern economics."]
+
+  - id: 140
+    name: "John Maynard Keynes"
+    state: backlog
+    status: none
+    birth_year: 1883
+    death_year: 1946
+    era_bc: false
+    role: ["economist"]
+    field: ["philosophy"]
+    era: "modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 83
+    birth_peg_candidates: ["Foam", "Femur", "Vomit"]
+    death_peg_num: 46
+    death_peg_candidates: ["Roach", "Ridge", "Raja"]
+    facts: "John Maynard Keynes was the most influential economist of the twentieth century, whose ideas reshaped how governments manage their economies. Reacting to the mass unemployment of the Great Depression, he argued in his 1936 General Theory that markets do not automatically self-correct, and that governments should actively spend — running deficits if necessary — to boost demand and pull economies out of slumps. 'In the long run,' he famously quipped of those who counselled patience, 'we are all dead.'\n\nA dazzling, many-sided figure — Cambridge don, member of the artistic Bloomsbury Group, ballet-loving patron, and a shrewd if volatile speculator who made and lost fortunes — he also warned prophetically that the harsh terms imposed on Germany after the First World War would breed catastrophe. At the end of the Second World War he helped design the Bretton Woods system of international finance; the strain wrecked his health, and he died of a heart attack in 1946. 'Keynesian' economics went on to dominate policy for decades."
+    notes: ["Founder of Keynesian economics — government spending to counter recessions; helped design the post-war Bretton Woods system."]
 

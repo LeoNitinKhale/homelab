@@ -117,21 +117,18 @@ He wrote for the Globe, a round open-air playhouse packed with rowdy 'groundling
 
 ---
 
-## 4. Genghis Khan 🔴 (1162–1227)
+## 4. Genghis Khan 🟢 (1162–1227)
 
 - Birth peg: **62 → Chains**
 - Death peg: **27 → Nike**
-- Century: **11 → Tony Tiger**
 - Role: ruler, general
 - Field: power, military
 - Era: medieval
 - Region: mongol
 - End: uncertain
-- Scene: Wrapped in chains — early-life struggle. Breaks free. Sweats uncontrollably and keels over saying 'Just screw it!' Feet have Nikes on represent his historical victory/conquest.
-- Position: chains/breaking free reads birth-consistent, above/front. Keeling over and the Nikes on his feet — death position, below waist. Clean.
-- 🔴 Cause of death open. The record is genuinely uncertain — illness or fever, possibly plague, following a fall from his horse the year before. The nosebleed story belongs to Attila. The sweating/collapse imagery is compatible with the fever reading without committing to it.
-- Nike (27) replaces Ink, clearing the duplicate with Newton (2). "Just screw it" is a spoken cue, not a peg — Screw is 74.
-
+- Scene: Boy Temüjin is wrapped in **chains** — his early captivity — then bursts free as he rises to power. At the end he sweats, shakes with fever and keels over, the **Nikes** on his feet represent victory as he crashes to the ground — conquest won, felled by an uncertain illness.
+- Position: Chains wrapped high and broken free, in front — birth; carries 62. He keels over, the Nikes on his feet hitting the ground — death action, low; carries 27.
+- Red-fix: pegs unchanged (Chains 62 / Nike 27). The redness was only the open death-cause; the fever/collapse imagery stays compatible without committing.
 
 **Facts:** Temüjin was born into a fractured, feuding steppe world — his father poisoned when he was a boy, his family cast out to near-starvation. From that he clawed his way up to unite the warring Mongol tribes and forge, through terrifying discipline and mobility, the largest contiguous land empire in history, from the Pacific almost to the gates of Europe.
 
@@ -586,21 +583,19 @@ From Oliver Twist and A Christmas Carol to Great Expectations, he filled English
 
 ---
 
-## 26. Michael Faraday 🔴 (1791–1867)
+## 26. Michael Faraday 🟢 (1791–1867)
 
-- Birth peg: **91 → Pot** *(proposed — see flag)*
-- Death peg: **67 → Cheque** (Jag is the alternate, same slot)
-- Century: **17 → Toby Keith** (optional)
+- Birth peg: **91 → Pad**
+- Death peg: **67 → Cheque**
 - Role: physicist, chemist
 - Field: science
 - Era: industrial
 - Region: british
 - End: natural
-- Scene: Baby Faraday surrounded by leather-bound books — he started as a bookbinder's apprentice. A bookbinder's glue **pot** is yanked upward off the bench by an invisible magnet, foreshadowing electromagnetic induction. Later, the dying Faraday is offered a cheque (the knighthood he refused) and pushes it away: "what a cheek." Layered alternate: a **Jag** pulls up to deliver the offer instead of a person.
-- Position: the pot pulled up and off the bench — lifting, birth action, above the waist. The cheque pushed away — moving behind him, death position. Clean.
-- He really did refuse a knighthood and burial in Westminster Abbey, insisting on staying plain Mr Faraday. The refusal is the historical anchor, so the death peg earns its place.
-- 🔴 **Birth peg was mis-encoded.** *Pin* and *pan* are both P·N = **92**, not 91 — 92 is the Bone/Pin/Pen/Bun slot. 91 is P/B·T/D: Boat, Bat, Bud, **Pot**, Pad. The safety-pin image, as built, encodes the wrong year. **Pot** is proposed above because a bookbinder's glue pot keeps both the apprenticeship hook and the magnet-yank, so only the object swaps — the scene survives intact. Confirm the swap, or pick another 91 word and rebuild.
-
+- Scene: Baby Faraday, surrounded by the leather-bound books of his apprenticeship, has lots of A4 **pads** in which he writes with metal ring binders which he appreciates as a book-binder. They are yanked straight up off the bench by an unseen magnet — electromagnetic induction. Dying, he is offered a **cheque** (the knighthood he refused) and a **Jaguar** and pushes them away — 'what a **cheek**' — as it slides behind him.
+- Position: The A4 pads pulled up off the bench by the unseen magnet — lifting, birth action, above the waist; carries 91. The cheque pushed away and behind him — death position; carries 67.
+- Death Cheque (67 = CH,K); Jag is the brand-ish alt.
+- Historically anchored: apprenticed as a bookbinder; refused a knighthood, insisting on staying plain Mr Faraday.
 
 **Facts:** Michael Faraday rose from a poor London family and a bookbinding apprenticeship — with almost no formal education — to become one of the greatest experimental scientists in history. Largely self-taught, he discovered electromagnetic induction, built the first electric motor and generator, and effectively laid the foundations of the electrical age.
 
@@ -699,6 +694,163 @@ A famous late riser who claimed to do his best thinking in bed, he was lured to 
 
 ---
 
+## 33. Julius Caesar 🟢 (100 BC–44 BC)
+
+- Birth peg: **00 → Sauce**
+- Death peg: **44 → Warrior**
+- Role: ruler, general, statesman
+- Field: power, military
+- Era: ancient
+- Region: roman
+- End: assassinated
+- Scene: Young Caesar wades across the Rubicon, but the river runs as thick red **sauce**; he ladles and pours yet more red sauce ahead of him — 'the die is cast', ambition and blood. Later, on the Ides of March, a ring of **warriors** closes in and stabs him twenty-three times; he sinks to the Senate floor. Says 'I should have **worried** about the Ides'. His jaw is spun (your dad is 44, I'm gonna spin his jaw).
+- Position: The red sauce poured out ahead and around him, in front — birth-type (pouring/creating) action; carries 00. The warriors close in and he falls to the floor — death action, low; they carry 44.
+- Sauce (00) — S,S; Warrior (44) — R,R. The warriors carry the number and do the killing.
+- BC — the last two digits peg as normal (100 BC → 00, 44 BC → 44). Historically anchored: crossed the Rubicon (49 BC); stabbed 23 times on the Ides of March, 44 BC.
+
+**Facts:** Julius Caesar was the general, politician and writer who did more than anyone to turn the Roman Republic into an empire. A brilliant, ruthless commander, he conquered Gaul, invaded Britain, and — when ordered to disband his army — instead crossed the Rubicon river with it in 49 BC, plunging Rome into civil war with the words 'the die is cast'.
+
+Victorious, he made himself dictator, reformed the calendar (the Julian calendar, and the month of July, carry his name), and was honoured almost as a king — which proved his undoing. On the Ides of March, 44 BC, a conspiracy of senators including his protégé Brutus stabbed him twenty-three times at the foot of Pompey's statue.
+
+---
+
+## 34. Socrates 🟢 (470 BC–399 BC)
+
+- Birth peg: **70 → Case**
+- Death peg: **99 → Pepsi**
+- Role: philosopher
+- Field: philosophy
+- Era: ancient
+- Region: greek
+- End: executed
+- Scene: Young Socrates stands in the agora building his **case** which he literally opens — cross-examining everyone, turning each answer into another question (the Socratic method; the charge of 'corrupting the youth' grows from exactly this). Condemned, he calmly drinks down a can of **Pepsi** that is really the hemlock saying 'The taste of (corrupting) the Next Generation'; the can drops from his hand and he sinks to the floor.
+- Position: The case argued and held up in front — birth-type action; carries 70. He drinks the Pepsi-hemlock and sinks, the can dropping low — death action; carries 99.
+- Case (70) — K,S, tied to his trial/defence (the Apology). Pepsi (99) is a brand peg — P,P(,S) — a drink for a death by drinking poison.
+- BC. Historically anchored: executed by hemlock (399 BC) for 'corrupting the youth'; wrote nothing himself — all via Plato.
+
+**Facts:** Socrates left no writings of his own; almost everything we know comes through his devoted pupil Plato. A stonemason's son with a famously ugly face, he shuffled around the Athenian marketplace barefoot, buttonholing the powerful and dismantling their certainties with relentless questions — the 'Socratic method' still used in classrooms and courtrooms today.
+
+He claimed only to know that he knew nothing, and made many enemies by exposing the ignorance of others. Charged with impiety and 'corrupting the youth' of Athens, he was condemned to death and calmly drank a cup of hemlock in 399 BC, choosing death over exile or silence — the founding martyr of Western philosophy.
+
+---
+
+## 35. Alexander the Great 🟢 (356 BC–323 BC)
+
+- Birth peg: **56 → Leash**
+- Death peg: **23 → Anemone**
+- Role: king-emperor, general, ruler
+- Field: power, military
+- Era: ancient
+- Region: macedonian
+- End: uncertain
+- Scene: Boy Alexander tames the wild horse Bucephalus, slipping a **leash** over it and leading it in triumph — the feat that first marked him out, watched by his tutor Aristotle. Years later, never once beaten in battle, he collapses wearing **Michael Jordan 23** shirt into the marshes of Babylon and sinks among sea-**anemones** that close over him — the fever that killed him at 32. Says 'I'm Alexander the GOAT'.
+- Position: The leash slipped on and the horse led, up and in front — birth action; carries 56. He sinks into the anemone-filled marsh, low and closing over him — death action; carries 23.
+- Leash (56) — L,SH (brand alternative: Lush). Anemone (23) — first two sounds N,M. Aristotle and Bucephalus are hooks.
+- BC and reversed: birth 56 is larger than death 23 (356 BC → 56, 323 BC → 23). Cause of death uncertain — typhoid or poison; the marsh reading leaves it open.
+
+**Facts:** Alexander III of Macedon was tutored as a boy by Aristotle and, legend says, tamed the unrideable warhorse Bucephalus before he was even a teenager. Taking the throne at twenty after his father's murder, he launched one of history's greatest military campaigns, never losing a battle as he shattered the mighty Persian Empire and drove his army all the way to India.
+
+By thirty he ruled from Greece to the Punjab, founding some twenty cities named Alexandria and spreading Greek culture across the known world. Then, at just thirty-two, he died suddenly in Babylon — of fever, typhoid, or perhaps poison — and his vast empire was promptly torn apart by his squabbling generals.
+
+---
+
+## 38. Beethoven 🟢 (1770–1827)
+
+- Birth peg: **70 → Casio**
+- Death peg: **27 → Neck**
+- Role: composer
+- Field: music
+- Era: enlightenment
+- Region: german
+- End: illness
+- Scene: Deaf Beethoven leans over a **Casio** keyboard, composing furiously — pressing close to feel the vibrations of music he can no longer hear (he really did saw the legs off his piano for this). At the premiere of the Ninth a hand gently turns his **neck** around so he can see the ovation he cannot hear; then, on his deathbed, the head drops and the neck goes limp as he dies.
+- Position: The Casio played and composed on, in front — birth (creating) action; carries 70. The neck turned to the ovation, then dropping limp in death — death action, low; carries 27.
+- Casio (70) — K,S, an apt keyboard for a composer; Neck (27) — N,K, the famous turning-to-see-the-ovation moment.
+- Historically anchored: went deaf yet conducted the Ninth and had to be turned to see the applause; sawed the legs off his piano to feel vibrations.
+
+**Facts:** Ludwig van Beethoven bridged the Classical and Romantic eras and transformed what music could express. A volcanic, untidy, short-tempered genius, he arrived in Vienna as a brilliant young pianist — and then, in his late twenties, began to go deaf, the cruellest fate imaginable for a musician.
+
+Rather than give up, he composed some of his greatest works in near-total silence, 'hearing' them only in his mind, and famously had to be turned around at the premiere of his Ninth Symphony to see an ovation he could not hear. He sawed the legs off his piano to feel its vibrations through the floor. He died in 1827, and some ten thousand people are said to have joined his funeral procession.
+
+---
+
+## 46. Joan of Arc 🟢 (1412–1431)
+
+- Birth peg: **12 → Tin**
+- Death peg: **31 → Meat**
+- Role: general
+- Field: military
+- Era: medieval
+- Region: french
+- End: executed
+- Scene: A teenage peasant girl buckles on a **tin** suit of armour and lifts the siege of Orléans. Captured, she is burned at the stake — her body consumed like **meat** on the fire, but her heart, they said, would not burn.
+- Position: The tin armour buckled on, worn up and in front — birth position; carries 12. Burned low at the stake, consumed like meat — death, low; carries 31.
+- The heart-that-wouldn't-burn is the vivid hook on the death peg.
+- Historically anchored: illiterate teenage peasant who lifted the siege of Orléans; burned at the stake at 19; exonerated 25 years later.
+
+**Facts:** Joan of Arc was an illiterate teenage peasant girl who, convinced she heard the voices of saints, talked her way into the presence of the French heir during the Hundred Years' War and persuaded him to let her lead an army. Clad in white armour, she inspired the French to lift the siege of Orléans and turned the tide of the war, seeing him crowned king.
+
+Captured by the English and their allies, she was tried for heresy and witchcraft and burned at the stake in 1431, aged only nineteen; witnesses claimed her heart would not burn. Twenty-five years later a retrial cleared her name, and centuries afterwards the Church declared her a saint — France's warrior-martyr and patron.
+
+---
+
+## 48. Rembrandt 🟢 (1606–1669)
+
+- Birth peg: **06 → Sash**
+- Death peg: **69 → Shop**
+- Role: artist
+- Field: arts
+- Era: early-modern
+- Region: dutch
+- End: natural
+- Scene: Baby Rembrandt Has a **Rubiks cube** (visual peg) but throws it saying "I'm a portrait artist not a cubist". Puts on a bright **sash** across his chest and paints himself again and again in rich costume — the \~80 self-portraits. Bankrupt, everything is dragged into a pawn **shop** which says '**Cheap Shop**' and auctioned off, and he sinks into an unmarked pauper's grave. He says 'my whole life was charioscuro'.
+- Position: The Rubiks Cube thrown in the air; sash worn across the chest as he paints himself, in front — birth position; carries 06. His goods hauled off to the shop/auction as he sinks — death, low; carries 69.
+- Historically anchored: \~80 self-portraits; bankrupt in 1656, possessions auctioned; buried in an unmarked pauper's grave.
+
+**Facts:** Rembrandt van Rijn was the greatest painter of the Dutch Golden Age, a miller's son who became famous and wealthy in Amsterdam for his dramatic play of light and shadow and his uncanny gift for capturing the inner life of his subjects. He painted around eighty searching self-portraits across his life, an unmatched visual autobiography from cocky youth to ruined old age.
+
+He lived beyond his means, and after the death of his wife Saskia his fortunes collapsed; declared insolvent in 1656, he watched his house and possessions auctioned off. He kept painting masterpieces to the end, but died poor in 1669 and was buried in an unmarked pauper's grave.
+
+---
+
+## 96. Hannibal 🟢 (247 BC–183 BC)
+
+- Birth peg: **47 → Rock**
+- Death peg: **83 → Foam**
+- Role: general
+- Field: military
+- Era: ancient
+- Region: carthaginian
+- End: suicide
+- Scene: Hannibal drives his war-elephants up over the jagged **rock**s of the snowbound Alps to fall on Rome from the north — the boldest march of the ancient world. He is calling out "(Ag)**Ricola**!" like the advert in the mountains, challenging the Romans. Cornered decades later, rather than be handed to Rome he drains a cup of poison **vomit**s (Hannibal Puka) and dies with **foam** on his lips. Says "I was poisoned like the snakes I used on the boats. *The foam of Rome*"
+- Position: The rocks of the Alps scaled and crossed, high and ahead — birth (lifting) action; carries 47. The poison foam low on his lips as he dies; carries 83.
+- Crossed the Alps with elephants to invade Italy; won crushing victories but never took Rome; took poison to avoid capture.
+
+**Facts:** Hannibal Barca of Carthage was Rome's most feared enemy, a general who as a boy reputedly swore an eternal oath of hostility to Rome. In 218 BC he did the unthinkable, leading an army — complete with war elephants — across the Pyrenees and the snowbound Alps to strike at Italy from the north, catching the Romans completely off guard.
+
+For fifteen years he rampaged almost unbeaten through Italy, annihilating a vast Roman army at Cannae in one of the most studied battles in history. Yet he could never take Rome itself, was recalled to defend Carthage, and lost at Zama, spending his last years as a hunted exile advising Rome's other enemies. Rather than be captured and paraded through the streets of the city he had sworn to destroy, he took poison, around 183 BC.
+
+---
+
+## 97. Mary Shelley 🟢 (1797–1851)
+
+- Birth peg: **97 → Book**
+- Death peg: **51 → Light**
+- Role: writer
+- Field: literature
+- Era: industrial
+- Region: british
+- End: illness
+- Scene: Eighteen-year-old Mary, in a ghost-story contest at a stormy Swiss villa, dreams up a **book** like no other — Frankenstein, the scientist who steals the spark of life. She stands up and opens it and the monster steps out with a glowing heart. People say "Looks like he was bought at **Lidl**!". She turns into the **lady** monster he never had and that same reanimating **light** finally gutters and goes out as, widowed and ill, she collapses and dies alongside the monster as his consort.
+- Position: The book of Frankenstein conceived and written, held up in front — birth (creating) action; carries 97. The spark-light extinguished as she dies, low; carries 51.
+- Wrote Frankenstein at 18 after a ghost-story challenge at the Villa Diodati; daughter of Mary Wollstonecraft.
+
+**Facts:** Mary Shelley was the daughter of two radical thinkers — the pioneering feminist Mary Wollstonecraft, who died giving birth to her, and the philosopher William Godwin. At sixteen she eloped with the married poet Percy Bysshe Shelley, and two years later, during a wet, gloomy summer at Lord Byron's Villa Diodati on Lake Geneva, the group challenged one another to write ghost stories.
+
+From a waking nightmare, the teenage Mary produced Frankenstein — the tale of a scientist who assembles and reanimates a creature, then recoils in horror from it — often called the first true science-fiction novel and a profound meditation on ambition and responsibility. Her later life was marked by tragedy: the drowning of Percy and the deaths of three of her four children. She kept writing, guarded her husband's legacy, and died of a brain tumour in 1851.
+
+---
+
 ## Open items
 
 - **Faraday (26)** — birth peg mis-encoded (pin/pan = 92, not 91); Pot proposed, needs confirming.
@@ -726,20 +878,6 @@ Birth **73**: Comb, Gum, Camel, Camel *(cigs)* · Death **43**: Ram, Arm, Rum, R
 *Put the sun at the centre and sat on it for decades — De revolutionibus was published the year he died, the first copy reportedly reaching him on his deathbed. Canon of Frombork cathedral; astronomy was the side project. Raised by his bishop uncle after his father died, which is the strongest unused birth-scene angle.*
 🔴 Neither slot locked. Note: **Game and Camo are not available for 73** — Game was struck from the dictionary as a non-noun (see major_system_pegs_0-100.md audit), and Camo is abstract. Comb and Gum are the live options.
 
-**Alexander the Great** — see Backlog entry above
-🔴 Dates identified (356 BC / 323 BC → 56 / 23), no scene started. **Collision watch**: 56 is Tesla's birth peg (Leash) and 23 is Pascal's (Number). Leech, Lash or Lush clear the first; Gnome or Anemone clear the second.
-
-**Julius Caesar** — 100 BC / 44 BC
-Birth **00**: Sauce · Death **44**: Rear, Aurora, Warrior
-*Crossed the Rubicon. Stabbed 23 times in the Senate on the Ides of March. Julian calendar. BC — the numbers run backwards, same trap as Cleopatra.*
-
-**Socrates** — 470 BC / 399 BC
-Birth **70**: Case, Goose, Gauze, Casio · Death **99**: Baby, Poppy, Pipe, Puppy, Pepsi
-*Executed by hemlock for "corrupting the youth". Wrote nothing — everything comes via Plato. The Socratic method. BC.*
-
-**Alexander the Great** — 356 BC / 323 BC
-Birth **56**: Leash, Leech, Lash, Lush · Death **23**: Gnome, Number, Anemone
-*Tutored by Aristotle. Tamed Bucephalus as a boy. Never lost a battle; dead at 32, possibly typhoid or poison. BC.*
 
 **Galileo Galilei** — 1564 / 1642
 Birth **64**: Chair, Shore, Cherry · Death **42**: Rhino, Wren, Rain, Orange, Renault
@@ -749,9 +887,6 @@ Birth **64**: Chair, Shore, Cherry · Death **42**: Rhino, Wren, Rain, Orange, R
 Birth **85**: Foil, File, Volvo · Death **50**: Lace, Lice, Lasso, Listerine
 *Twenty children. Walked 250 miles to hear an organist play. Jailed for a month for trying to leave a job. Died after botched eye surgery by the same quack who blinded Handel.*
 
-**Beethoven** — 1770 / 1827
-Birth **70**: Case, Goose, Gauze, Casio · Death **27**: Neck, Nag, Nook, Ink, Nike
-*Went deaf and kept composing — conducted the Ninth without hearing the ovation and had to be turned round to see it. Sawed the legs off his piano to feel the vibrations through the floor.*
 
 **Jane Austen** — 1775 / 1817
 Birth **75**: Coal, Coil, Eagle, Gold, Colgate · Death **17**: Tack, Duck, Dog, Deck, Tag, TK Maxx
@@ -781,17 +916,11 @@ Birth **69**: Ship, Shop, Sheep, Chip, Chop, Jeep · Death **48**: Roof, Reef, R
 Birth **18**: Dove, Toffee, Diva, Staff, Tefal · Death **13**: Tomb, Dime, Dam, Team, Time, Timberland
 *Twenty-seven years in prison, eighteen of them on Robben Island breaking rocks in a lime quarry, which ruined his eyes. Walked out and negotiated with his jailers' government. Only entry here with a 20th-century death — note the century marker.*
 
-**Joan of Arc** — 1412 / 1431
-Birth **12**: Tin, Den, Dawn, Ton, Down, Tango · Death **31**: Mat, Meat, Mud, Moat, Mattel
-*Illiterate teenage peasant who talked her way into command. Lifted the siege of Orléans. Burned at the stake at 19; her heart reportedly wouldn't burn. Retried and exonerated 25 years later.*
 
 **Captain James Cook** — 1728 / 1779
 Birth **28**: Knife, Nephew, Navy, Nivea · Death **79**: Cap, Cub, Cop, Cab, Cape
 *Charted New Zealand and eastern Australia. Beat scurvy with sauerkraut. Killed in the surf at Kealakekua Bay, Hawaii, in a scuffle over a stolen boat.*
 
-**Rembrandt** — 1606 / 1669
-Birth **06**: Sash · Death **69**: Ship, Shop, Sheep, Chip, Chop, Jeep
-*Around 80 self-portraits, tracking his own face from cocky youth to ruin. Bankrupt in 1656; his possessions auctioned. Buried in an unmarked pauper's grave. 06 is a one-word slot.*
 
 **Marie Antoinette** — 1755 / 1793
 Birth **55**: Lily, Lolly, Lilac, Lyle's · Death **93**: Bomb, Beam, Puma, Pom, BMW
