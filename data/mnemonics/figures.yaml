@@ -5,7 +5,7 @@ vocabulary:
   role: [writer, poet, playwright, composer, artist, philosopher, mathematician,
     astronomer, physicist, chemist, naturalist, physician, nurse, engineer, architect,
     inventor, historian, statistician, economist, lawyer, clergyman, politician,
-    statesman, ruler, king-emperor, queen, empress, general, admiral, revolutionary, activist, explorer, businessman, pirate]
+    statesman, ruler, king-emperor, queen, empress, general, admiral, revolutionary, activist, explorer, businessman, pirate, actor]
   field: [science, arts, music, literature, power, military, exploration, philosophy]
   era: [ancient, medieval, renaissance, early-modern, enlightenment, industrial, modern]
   region: [british, french, italian, german, austrian, american, dutch, polish,
@@ -3810,4 +3810,270 @@ figures:
     death_peg_candidates: ["Mug", "Mic", "Mac", "Mocha"]
     facts: "Avicenna (Ibn Sina) was the greatest polymath of the Islamic Golden Age, a Persian physician and philosopher whose influence stretched across both the Muslim world and medieval Europe. A prodigy said to have memorised the Quran by age ten and mastered medicine as a teenager, he wrote well over a hundred works, but two loomed largest: The Book of Healing, a vast philosophical and scientific encyclopedia, and The Canon of Medicine.\n\nThe Canon systematised all the medical knowledge of the age — anatomy, diseases, drugs, and early notions of clinical testing and contagion — into a single authoritative text that remained a standard reference in universities from Baghdad to Paris for some six hundred years. He also made important contributions to logic, metaphysics and astronomy, and blended Aristotle's philosophy with Islamic thought. Living a turbulent life in the service of various princes, he died, probably of colic, around 1037, aged about 57."
     notes: ["Persian polymath of the Islamic Golden Age; his Canon of Medicine was a standard European medical text for centuries."]
+
+  - id: 200
+    name: "Jonas Salk"
+    state: backlog
+    status: none
+    birth_year: 1914
+    death_year: 1995
+    era_bc: false
+    role: ["physician", "chemist"]
+    field: ["science"]
+    era: "modern"
+    region: "american"
+    end: "natural"
+    birth_peg_num: 14
+    birth_peg_candidates: ["Tire", "Deer", "Door", "Tar", "Tower"]
+    death_peg_num: 95
+    death_peg_candidates: ["Ball", "Bell", "Pal", "Pill"]
+    facts: "Jonas Salk was the American medical researcher who conquered one of the twentieth century's most terrifying diseases: polio, which every summer paralysed and killed thousands of children and left survivors in leg braces or iron lungs. Working at the University of Pittsburgh, he developed a vaccine using killed virus and, after a colossal 1954 field trial involving nearly two million schoolchildren, it was declared safe and effective in 1955 — greeted with church bells and celebrations across America.\n\nSalk became an instant national hero, and cemented his saintly image by declining to patent the vaccine, reportedly asking 'Could you patent the sun?' — forgoing a fortune so it could reach as many people as possible. He founded the Salk Institute for biological studies in California and spent his later years searching, without success, for a vaccine against AIDS. He died of heart failure in 1995, his name synonymous with the near-eradication of a childhood scourge."
+    notes: ["Developed the first polio vaccine (1955); refused to patent it; a national hero. (The vaccine was an injection; 'pill' carries the 95.)"]
+
+  - id: 201
+    name: "F. Scott Fitzgerald"
+    state: backlog
+    status: none
+    birth_year: 1896
+    death_year: 1940
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "modern"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 96
+    birth_peg_candidates: ["Beach", "Peach", "Bush", "Badge"]
+    death_peg_num: 40
+    death_peg_candidates: ["Rose", "Rice"]
+    facts: "F. Scott Fitzgerald was the golden boy and chief chronicler of the American 'Jazz Age' — a term he coined — capturing the glittering excess, romantic yearning and hollow disillusion of the 1920s. His masterpiece, The Great Gatsby (1925), the story of the mysterious millionaire Jay Gatsby and his obsessive love for Daisy, symbolised by the green light across the bay, is now regarded as one of the great American novels, though it sold only modestly in his lifetime.\n\nHis own life mirrored his themes: he and his glamorous, unstable wife Zelda lived a whirlwind of parties, fame and reckless spending on both sides of the Atlantic, but it curdled into alcoholism, Zelda's mental breakdown and financial desperation. As his popularity faded in the 1930s he ended up writing screenplays in Hollywood, and died there of a heart attack in 1940, aged just 44, convinced he was a failure. His reputation soared after his death."
+    notes: ["The Great Gatsby; chronicler of the Jazz Age; died believing himself a forgotten failure, later hailed as a classic."]
+
+  - id: 202
+    name: "Sergei Rachmaninoff"
+    state: backlog
+    status: none
+    birth_year: 1873
+    death_year: 1943
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "modern"
+    region: "russian"
+    end: "illness"
+    birth_peg_num: 73
+    birth_peg_candidates: ["Comb", "Gum", "Camel"]
+    death_peg_num: 43
+    death_peg_candidates: ["Ram", "Arm", "Rum", "Room", "Rim", "Roman"]
+    facts: "Sergei Rachmaninoff was a Russian composer, virtuoso pianist and conductor, one of the last great champions of lush Romanticism as the twentieth century turned toward atonality and modernism. His piano concertos (especially the Second and Third), the Rhapsody on a Theme of Paganini and his Preludes are staples of the concert hall, full of sweeping, melancholy melody and dazzling difficulty.\n\nHe was renowned for his enormous hands, said to span an interval of a twelfth on the keyboard, letting him play chords that defeat most pianists. The disastrous premiere of his First Symphony plunged him into a depression cured only by hypnotherapy. The Russian Revolution drove him into permanent exile, and he spent his last decades touring as one of the greatest pianists of the age, mostly in the United States. He died of cancer in Beverly Hills in 1943, days before his 70th birthday."
+    notes: ["Late-Romantic composer and virtuoso pianist; famously huge hands with a wide reach; died in exile in the US."]
+
+  - id: 203
+    name: "Anne Frank"
+    state: backlog
+    status: none
+    birth_year: 1929
+    death_year: 1945
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "modern"
+    region: "dutch"
+    end: "illness"
+    birth_peg_num: 29
+    birth_peg_candidates: ["Knob", "Nib", "Nappy"]
+    death_peg_num: 45
+    death_peg_candidates: ["Reel", "Rail", "Roll", "Aerial"]
+    facts: "Anne Frank was a German-born Jewish girl whose diary became one of the most powerful and widely read testaments of the Holocaust. When the Nazis occupied the Netherlands, her family went into hiding in a concealed set of rooms — the 'Secret Annexe' — behind her father's business in Amsterdam, where thirteen-year-old Anne began keeping a diary addressed to an imaginary friend, recording daily life, her fears, her budding adolescence and her remarkable hope for humanity.\n\nAfter more than two years in hiding, the group was betrayed and arrested in 1944 and deported to the concentration camps. Anne died of typhus at Bergen-Belsen in early 1945, aged just fifteen, only weeks before the camp was liberated. Her father Otto, the family's sole survivor, found her diary and had it published; The Diary of a Young Girl has since been translated into some seventy languages, giving an intimate human face to the six million murdered."
+    notes: ["Kept a diary in hiding from the Nazis in Amsterdam; murdered in the Holocaust at Bergen-Belsen; her diary is read worldwide."]
+
+  - id: 204
+    name: "Charlie Chaplin"
+    state: backlog
+    status: none
+    birth_year: 1889
+    death_year: 1977
+    era_bc: false
+    role: ["actor"]
+    field: ["arts"]
+    era: "modern"
+    region: "british"
+    end: "natural"
+    birth_peg_num: 89
+    birth_peg_candidates: ["Fob", "Fop", "Fibre-optic", "FB"]
+    death_peg_num: 77
+    death_peg_candidates: ["Cook", "Kayak", "Cake", "Cog"]
+    facts: "Charlie Chaplin was the defining figure of silent cinema and one of the most famous people on Earth in the 1920s and 30s — a writer, director, composer and comic genius who rose from desperate poverty in Victorian London to worldwide fame. His creation, the 'Little Tramp' — bowler hat, cane, baggy trousers and a heart of gold — was recognised and loved across every culture and language, blending slapstick with genuine pathos.\n\nA perfectionist who controlled every aspect of his films, he made classics including The Kid, City Lights, Modern Times (a satire of industrial dehumanisation) and The Great Dictator, in which he mocked Hitler. His radical politics and colourful private life made him enemies, and during the McCarthy-era Red Scare he was effectively exiled from the United States, settling in Switzerland. Knighted late in life and given an honorary Oscar, he died peacefully on Christmas Day 1977."
+    notes: ["The Little Tramp; the biggest star of silent film; Modern Times, The Great Dictator; exiled from the US during the Red Scare."]
+
+  - id: 205
+    name: "Constantine the Great"
+    state: backlog
+    status: none
+    birth_year: 272
+    death_year: 337
+    era_bc: false
+    role: ["king-emperor", "ruler"]
+    field: ["power"]
+    era: "ancient"
+    region: "roman"
+    end: "illness"
+    birth_peg_num: 72
+    birth_peg_candidates: ["Cane", "Coin", "Gun", "Can", "Queen", "Canoe"]
+    death_peg_num: 37
+    death_peg_candidates: ["Mug", "Mic", "Mac", "Mocha"]
+    facts: "Constantine the Great was the Roman emperor who changed the course of Western history by embracing Christianity, transforming a persecuted sect into the faith of an empire. According to legend, before the decisive Battle of the Milvian Bridge in 312 he saw a cross of light in the sky with the words 'in this sign you will conquer', and had his soldiers mark their shields with the Christian 'Chi-Rho' symbol; he won, and credited the Christian God.\n\nHe issued the Edict of Milan granting religious tolerance, called the Council of Nicaea to settle Christian doctrine (producing the Nicene Creed), and founded a magnificent new eastern capital, Constantinople (modern Istanbul), which would outlast Rome itself by a thousand years. A ruthless as well as visionary ruler — he had his own son and wife put to death — he delayed his own baptism until he lay dying in 337, a common practice of the age, and passed into history as the first Christian emperor."
+    notes: ["First Christian Roman emperor; his vision 'in this sign conquer'; founded Constantinople; baptised on his deathbed."]
+
+  - id: 206
+    name: "Johannes Gutenberg"
+    state: backlog
+    status: none
+    birth_year: 1400
+    death_year: 1468
+    era_bc: false
+    role: ["inventor", "businessman"]
+    field: ["science"]
+    era: "renaissance"
+    region: "german"
+    end: "natural"
+    birth_peg_num: 0
+    birth_peg_candidates: ["Sauce"]
+    death_peg_num: 68
+    death_peg_candidates: ["Chef", "Chief", "George Foreman"]
+    facts: "Johannes Gutenberg was the German goldsmith and inventor who introduced mechanical movable-type printing to Europe around 1440, one of the most transformative inventions in human history. By combining reusable metal type, an oil-based ink and a modified wine press, he made it possible to produce books quickly and cheaply for the first time, breaking the monopoly of hand-copying monks and scribes.\n\nHis masterpiece was the 'Gutenberg Bible' of the 1450s, a work of astonishing beauty and quality, of which a few precious copies survive. The print revolution he unleashed spread literacy, learning and new ideas across the continent, fuelling the Renaissance, the Reformation and the Scientific Revolution — arguably making the modern world possible. Ironically, Gutenberg himself was a poor businessman: sued by his financier Johann Fust, who seized his workshop, he died in relative obscurity and poverty in Mainz around 1468."
+    notes: ["Invented the movable-type printing press (c.1440); printed the Gutenberg Bible; sparked the print revolution; died in poverty."]
+
+  - id: 207
+    name: "Cicero"
+    state: backlog
+    status: none
+    birth_year: -106
+    death_year: -43
+    era_bc: true
+    role: ["statesman", "lawyer", "writer", "philosopher"]
+    field: ["power", "philosophy"]
+    era: "ancient"
+    region: "roman"
+    end: "executed"
+    birth_peg_num: 6
+    birth_peg_candidates: ["Sash"]
+    death_peg_num: 43
+    death_peg_candidates: ["Ram", "Arm", "Rum", "Room", "Rim", "Roman"]
+    facts: "Marcus Tullius Cicero was ancient Rome's greatest orator and one of its most important thinkers — a lawyer, statesman, philosopher and prolific writer whose polished Latin prose became the gold standard of eloquence for two thousand years. Rising without noble birth to become consul, he foiled the Catiline conspiracy against the Republic and championed its traditional institutions against the strongmen who were tearing it apart.\n\nHe left a vast body of speeches, letters and philosophical works that transmitted Greek thought to the Latin West and shaped Renaissance humanism and the language of the founders of modern republics. But in the deadly politics after Julius Caesar's assassination, his blistering attacks on Mark Antony (the 'Philippics') proved fatal: Antony had him proscribed and murdered in 43 BC, ordering that his severed head and his hands — the hands that had written against him — be nailed up on the speaker's platform in the Roman Forum."
+    notes: ["BC. Rome's supreme orator, lawyer and statesman; his severed head and hands were displayed after he denounced Mark Antony."]
+
+  - id: 208
+    name: "Euclid"
+    state: backlog
+    status: none
+    birth_year: -325
+    death_year: -265
+    era_bc: true
+    role: ["mathematician"]
+    field: ["science"]
+    era: "ancient"
+    region: "greek"
+    end: "natural"
+    birth_peg_num: 25
+    birth_peg_candidates: ["Nail", "Nile", "Noel", "Snail"]
+    death_peg_num: 65
+    death_peg_candidates: ["Shell", "Jail", "Shawl", "Jewel", "Jelly"]
+    facts: "Euclid was the ancient Greek mathematician known as the 'father of geometry', who worked in Alexandria around 300 BC and produced the Elements — one of the most influential books ever written. In it he gathered and systematised the geometry and number theory of his age, but his true genius lay in the method: starting from a tiny set of self-evident 'axioms' and definitions, he derived hundreds of theorems in a rigorous logical chain, creating the model of deductive proof that underpins all mathematics.\n\nThe Elements served as the standard geometry textbook for well over two thousand years, studied by everyone from medieval scholars to Abraham Lincoln, and its structure shaped how Western thinkers reasoned about everything from science to philosophy. Almost nothing is known of Euclid's life, but one famous story has him telling King Ptolemy, who wanted a shortcut to mastering the subject, that 'there is no royal road to geometry'."
+    notes: ["BC. 'Father of geometry'; his Elements was the world's main geometry textbook for over 2,000 years; 'no royal road to geometry'."]
+
+  - id: 209
+    name: "Ivan Pavlov"
+    state: backlog
+    status: none
+    birth_year: 1849
+    death_year: 1936
+    era_bc: false
+    role: ["physician"]
+    field: ["science"]
+    era: "modern"
+    region: "russian"
+    end: "illness"
+    birth_peg_num: 49
+    birth_peg_candidates: ["Rope", "Robe", "Rib", "Ruby"]
+    death_peg_num: 36
+    death_peg_candidates: ["Mash", "Match", "Mesh", "Mush"]
+    facts: "Ivan Pavlov was a Russian physiologist whose experiments on dogs gave psychology one of its most fundamental concepts: the conditioned reflex. He originally set out to study digestion — work for which he won the Nobel Prize in 1904 — but noticed that his laboratory dogs began to salivate not just when fed, but at the mere sight of the assistant who brought the food, or other signals that food was coming.\n\nInvestigating this, he showed that by repeatedly pairing a neutral stimulus (famously a bell or buzzer) with food, he could train the dogs to salivate at the signal alone — 'classical conditioning', now a cornerstone of the study of learning and behaviour. A rigorous, disciplined scientist who fell foul of, but was largely tolerated by, the Soviet regime, he reportedly kept dictating clinical observations of his own body as he lay dying of pneumonia in 1936."
+    notes: ["Discovered classical (Pavlovian) conditioning while studying digestion in dogs; won the 1904 Nobel Prize."]
+
+  - id: 210
+    name: "Grace Hopper"
+    state: backlog
+    status: none
+    birth_year: 1906
+    death_year: 1992
+    era_bc: false
+    role: ["mathematician", "inventor"]
+    field: ["science"]
+    era: "modern"
+    region: "american"
+    end: "natural"
+    birth_peg_num: 6
+    birth_peg_candidates: ["Sash"]
+    death_peg_num: 92
+    death_peg_candidates: ["Bone", "Pin", "Pen", "Bun", "Pony"]
+    facts: "Grace Hopper was an American computer scientist and US Navy rear admiral who was one of the true pioneers of modern computing. Working on the earliest electronic computers during and after the Second World War, she developed the first 'compiler' — a program that translates human-readable instructions into machine code — and championed the radical idea that computers could be programmed in something close to plain English, which led to COBOL, one of the most widely used business programming languages for decades.\n\nShe also helped popularise the term 'debugging': when an early machine failed, her team found the cause was a real moth trapped in a relay, which they taped into the logbook. Famous for handing out 'nanoseconds' (short lengths of wire) to explain computing to admirals, and for her wit and drive, 'Amazing Grace' remained on active naval duty into her eighties, one of the oldest serving officers in the US forces, until her death in 1992."
+    notes: ["Pioneered the compiler and COBOL; popularised 'debugging' after a real moth jammed a machine; a US Navy rear admiral."]
+
+  - id: 211
+    name: "John Steinbeck"
+    state: backlog
+    status: none
+    birth_year: 1902
+    death_year: 1968
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "modern"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 2
+    birth_peg_candidates: ["Sun"]
+    death_peg_num: 68
+    death_peg_candidates: ["Chef", "Chief", "George Foreman"]
+    facts: "John Steinbeck was an American novelist who gave enduring literary voice to the poor, the dispossessed and the working people of his native California and beyond, especially during the Great Depression. His masterpiece, The Grapes of Wrath (1939), followed the Joad family of 'Okie' farmers driven off their Dust Bowl land and westward to California in search of work, a searing portrait of hardship and injustice that won the Pulitzer Prize and stirred national controversy.\n\nAcross a string of humane, powerful books — Of Mice and Men, Cannery Row, East of Eden — he combined social conscience with warm, earthy storytelling and a deep feeling for the land. He was awarded the Nobel Prize in Literature in 1962, and later reported from the front lines of the Vietnam War. He died of heart disease in New York in 1968, one of the most widely read and taught of all American authors."
+    notes: ["The Grapes of Wrath, Of Mice and Men, East of Eden; chronicler of the Great Depression's poor; 1962 Nobel laureate."]
+
+  - id: 212
+    name: "Rudyard Kipling"
+    state: backlog
+    status: none
+    birth_year: 1865
+    death_year: 1936
+    era_bc: false
+    role: ["writer", "poet"]
+    field: ["literature"]
+    era: "modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 65
+    birth_peg_candidates: ["Shell", "Jail", "Shawl", "Jewel", "Jelly"]
+    death_peg_num: 36
+    death_peg_candidates: ["Mash", "Match", "Mesh", "Mush"]
+    facts: "Rudyard Kipling was a British writer and poet, born in India, who became the great literary voice of the British Empire at its height — and the youngest ever winner of the Nobel Prize in Literature, in 1907. His enduringly popular works include The Jungle Book (with the boy Mowgli raised by wolves), the Just So Stories, the novel Kim, and poems like the stoic 'If—', often voted Britain's favourite poem, and 'Gunga Din'.\n\nA masterful storyteller who captured the sights, sounds and slang of colonial India and the lives of ordinary soldiers, he was also, controversially, a fervent champion of imperialism (coining 'the white man's burden'), which has complicated his reputation ever since. Devastated by the death of his only son in the First World War — a loss for which he partly blamed his own war-fever — he wrote poignant later verse before dying of a perforated ulcer in 1936."
+    notes: ["The Jungle Book, 'If—', Kim; poet of the British Empire; the youngest winner of the Nobel Prize in Literature (1907)."]
+
+  - id: 213
+    name: "Jules Verne"
+    state: backlog
+    status: none
+    birth_year: 1828
+    death_year: 1905
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "industrial"
+    region: "french"
+    end: "illness"
+    birth_peg_num: 28
+    birth_peg_candidates: ["Knife", "Nephew", "Navy"]
+    death_peg_num: 5
+    death_peg_candidates: ["Seal", "Sail"]
+    facts: "Jules Verne was a French novelist often hailed as one of the founding fathers of science fiction, whose 'Extraordinary Voyages' thrilled readers with adventures powered by real and imagined technology. In Twenty Thousand Leagues Under the Sea he sent Captain Nemo prowling the ocean depths in the submarine Nautilus; in Around the World in Eighty Days the unflappable Phileas Fogg raced the globe against the clock; and in others he journeyed to the centre of the Earth and fired a crewed capsule to the Moon from Florida — presaging the real space age by a century.\n\nMeticulously researched and bursting with gadgets, geography and optimism about science, his books have been translated more than almost any other author's and adapted endlessly for stage and screen. He wrote steadily from his home in Amiens, where he also served on the town council, and died there in 1905, diabetic and nearly blind, having charted so many voyages he never took himself."
+    notes: ["A founding father of science fiction; Twenty Thousand Leagues Under the Sea, Around the World in Eighty Days, Journey to the Centre of the Earth."]
 
