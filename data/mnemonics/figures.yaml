@@ -10,7 +10,7 @@ vocabulary:
   era: [ancient, medieval, renaissance, early-modern, enlightenment, industrial, modern]
   region: [british, french, italian, german, austrian, american, dutch, polish,
     serbian, egyptian, roman, greek, macedonian, mongol, genoese, indian, south-african,
-    chinese, russian, portuguese, norwegian, spanish, turkish, carthaginian, persian, swiss, danish, irish]
+    chinese, russian, portuguese, norwegian, spanish, turkish, carthaginian, persian, swiss, danish, irish, hunnic]
   end: [natural, illness, assassinated, executed, suicide, battle, uncertain]
 
 figures:
@@ -3506,4 +3506,308 @@ figures:
     death_peg_candidates: ["Dish", "Dash", "Ditch", "Dutch"]
     facts: "Grigori Rasputin was a Siberian peasant and self-styled holy man whose sinister influence over Russia's last royal family helped bring down the Romanov dynasty. A wandering mystic and faith-healer with hypnotic eyes and a scandalous reputation for drink and womanising, he won the desperate trust of the Empress Alexandra by seeming, uncannily, to ease the life-threatening bleeding of her haemophiliac son, the heir to the throne.\n\nAs the First World War went badly and the Tsar left for the front, Rasputin's sway over the Empress and over government appointments provoked fury and scandal. In December 1916 a group of noblemen lured him to a cellar and, by legend, poisoned, shot and beat him — only for him to keep clinging to life — before finally binding him and dumping him through a hole in the frozen Neva, where he drowned. The monarchy he had helped discredit fell just weeks later."
     notes: ["The 'Mad Monk' faith-healer who swayed the last Tsar's family; famously hard to kill — poisoned, shot and finally drowned in 1916."]
+
+  - id: 184
+    name: "Attila the Hun"
+    state: backlog
+    status: none
+    birth_year: 406
+    death_year: 453
+    era_bc: false
+    role: ["general", "ruler"]
+    field: ["military", "power"]
+    era: "ancient"
+    region: "hunnic"
+    end: "illness"
+    birth_peg_num: 6
+    birth_peg_candidates: ["Sash"]
+    death_peg_num: 53
+    death_peg_candidates: ["Lamb", "Lime", "Lemon", "Llama", "Loom", "Elm"]
+    facts: "Attila was king of the Huns and the most feared barbarian leader of the ancient world, remembered by terrified Christians as 'the Scourge of God'. From his power base on the plains of central Europe he built a vast, if short-lived, empire of Hunnic and subject tribes, and for years extorted enormous payments of gold from the Eastern Roman Empire by threatening — and repeatedly delivering — devastating raids across the Balkans.\n\nHe invaded Gaul, where he was checked at the great Battle of the Catalaunian Plains, then ravaged northern Italy, reportedly turned back from Rome itself only by a personal appeal from Pope Leo I. His end, in 453, was strikingly undramatic for such a warrior: celebrating a new marriage with a heavy feast, he suffered a severe nosebleed and, lying in a drunken stupor, choked to death on his own blood. His empire fell apart almost immediately among his squabbling sons."
+    notes: ["'The Scourge of God'; terrorised the late Roman Empire; died of a haemorrhage (nosebleed) on his wedding night in 453."]
+
+  - id: 185
+    name: "Xerxes I"
+    state: backlog
+    status: none
+    birth_year: -518
+    death_year: -465
+    era_bc: true
+    role: ["king-emperor", "ruler"]
+    field: ["power"]
+    era: "ancient"
+    region: "persian"
+    end: "assassinated"
+    birth_peg_num: 18
+    birth_peg_candidates: ["Dove", "Toffee", "Diva", "Staff"]
+    death_peg_num: 65
+    death_peg_candidates: ["Shell", "Jail", "Shawl", "Jewel", "Jelly"]
+    facts: "Xerxes I was the Persian 'king of kings' who launched the greatest invasion of ancient Greece, immortalised (and much distorted) in the film 300. Determined to avenge his father Darius's defeat, he assembled an enormous army and fleet, cut a canal through a peninsula, and bridged the Hellespont with boats — and when a storm smashed the first bridge, he reportedly ordered the strait to be given 300 lashes and branded, in fury at the disobedient sea.\n\nHis forces broke the heroic 300 Spartans at Thermopylae and burned Athens, but his fleet was crushed at the Battle of Salamis and his army defeated at Plataea, ending the Persian threat to Greece. He spent his later years on grand building works at Persepolis and mired in palace intrigues, and was assassinated around 465 BC by the commander of his own royal bodyguard in a conspiracy at court — a murky end to a once-mighty reign."
+    notes: ["BC. Persian 'king of kings'; invaded Greece (Thermopylae, Salamis); had the sea whipped; assassinated in a palace conspiracy."]
+
+  - id: 186
+    name: "El Cid"
+    state: backlog
+    status: none
+    birth_year: 1043
+    death_year: 1099
+    era_bc: false
+    role: ["general"]
+    field: ["military"]
+    era: "medieval"
+    region: "spanish"
+    end: "natural"
+    birth_peg_num: 43
+    birth_peg_candidates: ["Ram", "Arm", "Rum", "Room", "Rim", "Roman"]
+    death_peg_num: 99
+    death_peg_candidates: ["Baby", "Poppy", "Pipe", "Puppy"]
+    facts: "Rodrigo Díaz de Vivar, known as El Cid ('the Lord'), was a Castilian nobleman and warlord who became the greatest folk hero of medieval Spain. A brilliant, pragmatic soldier in the tangled world of the Reconquista — where Christian and Muslim kingdoms fought and allied by turns — he served, was exiled by, and defied his own King Alfonso VI, and even fought for the Muslim rulers of Zaragoza, before carving out an independent principality for himself by conquering the rich city of Valencia in 1094.\n\nHe ruled Valencia until his death in 1099, and his widow Jimena held it for a time after him. His deeds, embroidered into the great Spanish epic El Cantar de mío Cid, made him a national symbol of chivalry and defiance — including the enduring (if legendary) tale that after his death his embalmed body was tied upright onto his horse Babieca and led out at the head of his troops, terrifying the besieging Almoravids into flight."
+    notes: ["Legendary Castilian warlord of the Reconquista; took Valencia; by legend his corpse was strapped to his horse to win a final battle."]
+
+  - id: 187
+    name: "Mehmed the Conqueror"
+    state: backlog
+    status: none
+    birth_year: 1432
+    death_year: 1481
+    era_bc: false
+    role: ["king-emperor", "general", "ruler"]
+    field: ["power", "military"]
+    era: "renaissance"
+    region: "turkish"
+    end: "illness"
+    birth_peg_num: 32
+    birth_peg_candidates: ["Moon", "Money", "Mine", "Mane"]
+    death_peg_num: 81
+    death_peg_candidates: ["Foot", "Vet", "Vat"]
+    facts: "Mehmed II, called 'the Conqueror', was the Ottoman sultan who, at just twenty-one, achieved what besiegers had failed to do for a thousand years: in 1453 he captured Constantinople, the fabled capital of the Byzantine Empire, ending an empire whose roots ran back to ancient Rome. He did it partly with a monstrous new bombard cannon that battered the city's legendary triple walls, and by famously hauling his ships overland to bypass its harbour chain.\n\nHe made the city — soon to be Istanbul — his new capital, converting the great church of Hagia Sophia into a mosque, and went on to conquer widely across the Balkans and Anatolia, styling himself heir to both the Islamic caliphs and the Roman emperors. A complex ruler who was also a patron of scholars and artists (he had the Italian painter Bellini portray him), he died in 1481 while setting out on yet another campaign, possibly poisoned — leaving the Ottoman Empire a dominant world power."
+    notes: ["Conquered Constantinople in 1453, ending the Byzantine Empire; a patron of arts and law; died on campaign (possibly poisoned) in 1481."]
+
+  - id: 188
+    name: "Jackson Pollock"
+    state: backlog
+    status: none
+    birth_year: 1912
+    death_year: 1956
+    era_bc: false
+    role: ["artist"]
+    field: ["arts"]
+    era: "modern"
+    region: "american"
+    end: "uncertain"
+    birth_peg_num: 12
+    birth_peg_candidates: ["Tin", "Den", "Dawn", "Ton", "Down", "Tan"]
+    death_peg_num: 56
+    death_peg_candidates: ["Leash", "Leech", "Lash"]
+    facts: "Jackson Pollock was the wild man of American art, the leading figure of Abstract Expressionism who helped make New York the new capital of the art world after the Second World War. Abandoning the easel, he laid enormous canvases on the floor of his barn studio and moved around them, dripping, flinging and pouring house paint in rhythmic, dancing skeins — a radical technique dubbed 'action painting' that turned the very act of creation into the subject of the work.\n\nMagazine features made him a celebrity ('Jack the Dripper'), but fame sat badly on a shy, volatile man plagued by alcoholism and self-doubt, and his drinking wrecked his marriage to the painter Lee Krasner and darkened his final years. In August 1956, drunk behind the wheel near his Long Island home, he crashed his car and was killed instantly at just 44, cementing the enduring myth of the tormented modern artist."
+    notes: ["Pioneer of drip / 'action' painting and Abstract Expressionism; died in a drunk-driving car crash in 1956."]
+
+  - id: 189
+    name: "John Lennon"
+    state: backlog
+    status: none
+    birth_year: 1940
+    death_year: 1980
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "modern"
+    region: "british"
+    end: "assassinated"
+    birth_peg_num: 40
+    birth_peg_candidates: ["Rose", "Rice"]
+    death_peg_num: 80
+    death_peg_candidates: ["Vase", "Fuse", "Face", "Fez"]
+    facts: "John Lennon was the co-founder, rhythm guitarist and one of the two chief songwriters of the Beatles, the most influential band in the history of popular music. Sharp-witted, rebellious and endlessly inventive, he formed a legendary songwriting partnership with Paul McCartney that produced dozens of classics as the group conquered the world in the 1960s and reshaped what pop music could be.\n\nAfter the Beatles split, he pursued a solo career and, with his second wife Yoko Ono, turned increasingly to peace activism — staging 'bed-ins' against the Vietnam War and writing the anthems 'Give Peace a Chance' and the utopian 'Imagine'. Having stepped back from music to raise his young son, he was returning to his New York apartment building, the Dakota, on the night of 8 December 1980 when a deranged fan shot him dead. He was just 40, and the world's grief was immediate and overwhelming."
+    notes: ["Beatles co-founder and songwriter; 'Imagine' and peace activism; assassinated outside his New York home in 1980."]
+
+  - id: 190
+    name: "Harry S. Truman"
+    state: backlog
+    status: none
+    birth_year: 1884
+    death_year: 1972
+    era_bc: false
+    role: ["politician", "statesman"]
+    field: ["power"]
+    era: "modern"
+    region: "american"
+    end: "natural"
+    birth_peg_num: 84
+    birth_peg_candidates: ["Fire", "Fur", "Ferry"]
+    death_peg_num: 72
+    death_peg_candidates: ["Cane", "Coin", "Gun", "Can", "Queen", "Canoe"]
+    facts: "Harry S. Truman was the unassuming former haberdasher and Missouri farmer who became one of the most consequential US Presidents almost by accident, thrust into the White House when Franklin Roosevelt died just months into his fourth term while the Second World War still raged. Within weeks Truman had to decide whether to use a weapon he had only just learned existed — and ordered the atomic bombings of Hiroshima and Nagasaki, which ended the war but opened the nuclear age.\n\nBlunt, decisive and fond of the motto 'the buck stops here', he then presided over the dawn of the Cold War: the Marshall Plan to rebuild Europe, the founding of NATO, the Berlin Airlift and the Korean War, and the doctrine of 'containing' Soviet communism. Written off as certain to lose in 1948, he won a famous come-from-behind re-election. He retired to Missouri, took brisk daily walks into his eighties, and died in 1972, his reputation steadily rising over the decades."
+    notes: ["33rd US President; ordered the atomic bombings of Japan; the Marshall Plan and NATO; 'the buck stops here'."]
+
+  - id: 191
+    name: "Margaret Thatcher"
+    state: backlog
+    status: none
+    birth_year: 1925
+    death_year: 2013
+    era_bc: false
+    role: ["politician"]
+    field: ["power"]
+    era: "modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 25
+    birth_peg_candidates: ["Nail", "Nile", "Noel", "Snail"]
+    death_peg_num: 13
+    death_peg_candidates: ["Tomb", "Dime", "Dam", "Team", "Time"]
+    facts: "Margaret Thatcher was Britain's first female Prime Minister and its longest-serving of the twentieth century, a conviction politician so uncompromising that a Soviet journalist's jibe, the 'Iron Lady', became her badge of honour. A grocer's daughter and trained chemist turned lawyer, she led the Conservatives to power in 1979 and drove through a radical free-market revolution — privatising state industries, curbing the trade unions (most bitterly in the year-long miners' strike), cutting taxes and championing individual enterprise.\n\nAbroad she forged a close partnership with Ronald Reagan, took a hard line against the Soviet Union, and won a surge of patriotic support by retaking the Falkland Islands after Argentina invaded in 1982. Adored and loathed in almost equal measure, she was finally forced out by her own party in 1990 over the deeply unpopular 'poll tax' and splits over Europe. She spent her final years in failing health and dementia, dying in 2013, as polarising in death as she had been in life."
+    notes: ["Britain's first female PM (1979–90); the 'Iron Lady'; free-market reforms, the miners' strike and the Falklands War."]
+
+  - id: 192
+    name: "André-Marie Ampère"
+    state: backlog
+    status: none
+    birth_year: 1775
+    death_year: 1836
+    era_bc: false
+    role: ["physicist", "mathematician"]
+    field: ["science"]
+    era: "industrial"
+    region: "french"
+    end: "natural"
+    birth_peg_num: 75
+    birth_peg_candidates: ["Coal", "Coil", "Eagle", "Gold"]
+    death_peg_num: 36
+    death_peg_candidates: ["Mash", "Match", "Mesh", "Mush"]
+    facts: "André-Marie Ampère was a French physicist and mathematician who founded the science of electromagnetism — or 'electrodynamics', a word he coined. When news reached Paris in 1820 that a Danish scientist had found that an electric current deflects a compass needle, Ampère seized on it, and within weeks had worked out, with brilliant experiments and mathematics, the laws describing how electric currents create magnetic forces and how two current-carrying wires attract or repel one another.\n\nA child prodigy who reputedly taught himself advanced mathematics as a boy, his life was shadowed by tragedy — his father was guillotined during the Revolution, and his beloved first wife died young — and he was known as a brilliant but famously absent-minded and melancholy man. He died of fever in Marseille in 1836. The fundamental unit of electric current, the ampere (amp), is named in his honour."
+    notes: ["Founder of electrodynamics; showed electric currents create magnetism; the 'ampere' (amp) is named after him."]
+
+  - id: 193
+    name: "Edgar Allan Poe"
+    state: backlog
+    status: none
+    birth_year: 1809
+    death_year: 1849
+    era_bc: false
+    role: ["writer", "poet"]
+    field: ["literature"]
+    era: "industrial"
+    region: "american"
+    end: "uncertain"
+    birth_peg_num: 9
+    birth_peg_candidates: ["Soap", "Ape"]
+    death_peg_num: 49
+    death_peg_candidates: ["Rope", "Robe", "Rib", "Ruby"]
+    facts: "Edgar Allan Poe was an American writer who all but invented the modern horror and detective genres, and became a byword for gothic gloom. Orphaned young and dogged by poverty, gambling debts, drink and the deaths of the women he loved (including his young wife, of tuberculosis), he poured his morbid genius into tales of terror and the macabre — 'The Tell-Tale Heart', 'The Fall of the House of Usher', 'The Pit and the Pendulum' — and the hypnotic poem 'The Raven', which made him famous but little money.\n\nHis story 'The Murders in the Rue Morgue', with its brilliant amateur sleuth solving a baffling locked-room killing (the culprit an escaped orangutan), effectively created detective fiction, inspiring Sherlock Holmes and everyone after. His death, at just 40, remains one of literature's great mysteries: he was found delirious on the streets of Baltimore, wearing clothes that were not his own, and died a few days later in hospital without ever being able to explain what had happened."
+    notes: ["Master of gothic horror and inventor of the detective story ('The Raven', 'The Murders in the Rue Morgue'); died mysteriously in 1849."]
+
+  - id: 194
+    name: "Herman Melville"
+    state: backlog
+    status: none
+    birth_year: 1819
+    death_year: 1891
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "industrial"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 19
+    birth_peg_candidates: ["Tub", "Tape", "Tip", "Tuba", "Tap"]
+    death_peg_num: 91
+    death_peg_candidates: ["Boat", "Bat", "Bud", "Pot", "Pad", "Boot"]
+    facts: "Herman Melville was an American writer whose masterpiece, Moby-Dick, is now regarded as one of the greatest novels ever written — though it nearly ruined him. As a young man he had sailed on whaling ships and even lived among Pacific islanders, adventures that fed his early, popular sea tales; but Moby-Dick (1851), his sprawling, philosophical epic of Captain Ahab's obsessive hunt for the white whale that took his leg, baffled and disappointed contemporary readers and reviewers.\n\nHis later books sold poorly, and he slid into obscurity, spending his final decades as a New York customs inspector and writing poetry almost no one read. He died in 1891 so forgotten that one obituary got his name wrong. Only in the 1920s did critics rediscover Moby-Dick and recognise Melville as a giant of American literature — a reputation that has only grown since, with 'Call me Ishmael' now among the most famous opening lines in fiction."
+    notes: ["Author of Moby-Dick ('Call me Ishmael'); a former whaler; died obscure in 1891, his masterpiece rediscovered later."]
+
+  - id: 195
+    name: "Michel de Montaigne"
+    state: backlog
+    status: none
+    birth_year: 1533
+    death_year: 1592
+    era_bc: false
+    role: ["philosopher", "writer"]
+    field: ["philosophy", "literature"]
+    era: "renaissance"
+    region: "french"
+    end: "illness"
+    birth_peg_num: 33
+    birth_peg_candidates: ["Mummy", "Mime", "Mama", "Mum", "Mammoth"]
+    death_peg_num: 92
+    death_peg_candidates: ["Bone", "Pin", "Pen", "Bun", "Pony"]
+    facts: "Michel de Montaigne was a French nobleman and thinker who effectively invented the personal essay — indeed the word 'essay' comes from his French essais, meaning 'attempts' or 'trials'. Retiring in his late thirties from public life to the tower library of his château, he began writing a series of frank, digressive, endlessly curious pieces examining his own thoughts, habits and contradictions, and through them the whole human condition.\n\nRanging over friendship, education, cruelty, death, sex and the workings of his own mind — and questioning everything with his famous motto 'Que sais-je?' ('What do I know?') — he pioneered a warm, sceptical, self-aware voice that feels startlingly modern. His Essays influenced writers and philosophers from Shakespeare to the present day. A moderate and humane figure in an age of savage religious wars, he served as mayor of Bordeaux and died in 1592, reportedly during Mass in his own home."
+    notes: ["Invented the personal essay; his Essais ('Que sais-je?' — 'What do I know?'); a sceptical, humane French thinker."]
+
+  - id: 196
+    name: "Diogenes"
+    state: backlog
+    status: none
+    birth_year: -412
+    death_year: -323
+    era_bc: true
+    role: ["philosopher"]
+    field: ["philosophy"]
+    era: "ancient"
+    region: "greek"
+    end: "uncertain"
+    birth_peg_num: 12
+    birth_peg_candidates: ["Tin", "Den", "Dawn", "Ton", "Down", "Tan"]
+    death_peg_num: 23
+    death_peg_candidates: ["Gnome", "Number", "Anemone"]
+    facts: "Diogenes of Sinope was the most outrageous of the ancient Greek philosophers, a founder of the Cynic school who turned rejecting society's values into a kind of performance art. He renounced money, property and comfort, living — by legend — in a large ceramic storage jar or 'tub' in the Athenian marketplace, owning only a cloak, a staff and a bowl (which he threw away after seeing a boy drink from cupped hands).\n\nHe deliberately flouted convention to expose what he saw as human hypocrisy, and reputedly wandered by daylight with a lamp claiming to be 'looking for an honest man'. Most famously, when Alexander the Great sought him out and offered to grant any wish, Diogenes simply asked him to step aside because he was blocking the sun — prompting Alexander to remark that, were he not Alexander, he would wish to be Diogenes. He died around 323 BC (the same year as Alexander), by various accounts from eating raw octopus, an infected dog bite, or simply holding his breath."
+    notes: ["BC. The Cynic who lived in a barrel and shunned all possessions; told Alexander to stop blocking his sunlight; died in 323 BC."]
+
+  - id: 197
+    name: "Diego Velázquez"
+    state: backlog
+    status: none
+    birth_year: 1599
+    death_year: 1660
+    era_bc: false
+    role: ["artist"]
+    field: ["arts"]
+    era: "early-modern"
+    region: "spanish"
+    end: "illness"
+    birth_peg_num: 99
+    birth_peg_candidates: ["Baby", "Poppy", "Pipe", "Puppy"]
+    death_peg_num: 60
+    death_peg_candidates: ["Shoes", "Chess", "Juice", "Cheese"]
+    facts: "Diego Velázquez was the towering painter of the Spanish Golden Age and one of the supreme masters of European art, court painter to King Philip IV of Spain for most of his career. Renowned for his astonishing, almost modern naturalism and his loose, magical handling of paint, he portrayed the royal family, dwarfs, jesters, gods and ordinary people alike with the same unflinching dignity and psychological truth.\n\nHis masterpiece, Las Meninas (1656), is among the most endlessly analysed paintings ever made: it shows the little Infanta Margarita and her attendants in the artist's studio, with Velázquez himself at his easel gazing out at us, and the king and queen glimpsed only as reflections in a mirror — a bewildering meditation on reality, image and the act of looking. Increasingly burdened with courtly duties, he died of a fever in Madrid in 1660, having raised the status of the painter and influenced artists from Goya to Picasso."
+    notes: ["Master of the Spanish Golden Age; painter to Philip IV; his Las Meninas is one of the most analysed paintings in history."]
+
+  - id: 198
+    name: "Albrecht Dürer"
+    state: backlog
+    status: none
+    birth_year: 1471
+    death_year: 1528
+    era_bc: false
+    role: ["artist"]
+    field: ["arts"]
+    era: "renaissance"
+    region: "german"
+    end: "illness"
+    birth_peg_num: 71
+    birth_peg_candidates: ["Cat", "Coat", "Kite", "Goat", "Kid"]
+    death_peg_num: 28
+    death_peg_candidates: ["Knife", "Nephew", "Navy"]
+    facts: "Albrecht Dürer was the greatest artist of the German Renaissance, a painter, printmaker and theorist who carried the ideas and ambition of the Italian Renaissance north of the Alps. A supreme draughtsman, he raised the humble techniques of woodcut and copperplate engraving to breathtaking heights, producing prints of dazzling detail — the brooding Melencolia I, the Knight, Death and the Devil, and a famous woodcut of a rhinoceros he had never actually seen, based only on a written description.\n\nHe was also revolutionary in his self-image: his intense self-portraits, including one that daringly depicts himself in the frontal pose usually reserved for Christ, treat the artist as a creator of dignity and genius rather than a mere craftsman. Deeply interested in mathematics, proportion and the new humanist learning, and admired across Europe, he died in Nuremberg in 1528, often called 'the Leonardo of the North'."
+    notes: ["German Renaissance master of woodcut and engraving; famous self-portraits; the woodcut Rhinoceros; 'the Leonardo of the North'."]
+
+  - id: 199
+    name: "Avicenna"
+    state: backlog
+    status: none
+    birth_year: 980
+    death_year: 1037
+    era_bc: false
+    role: ["physician", "philosopher"]
+    field: ["science", "philosophy"]
+    era: "medieval"
+    region: "persian"
+    end: "illness"
+    birth_peg_num: 80
+    birth_peg_candidates: ["Vase", "Fuse", "Face", "Fez"]
+    death_peg_num: 37
+    death_peg_candidates: ["Mug", "Mic", "Mac", "Mocha"]
+    facts: "Avicenna (Ibn Sina) was the greatest polymath of the Islamic Golden Age, a Persian physician and philosopher whose influence stretched across both the Muslim world and medieval Europe. A prodigy said to have memorised the Quran by age ten and mastered medicine as a teenager, he wrote well over a hundred works, but two loomed largest: The Book of Healing, a vast philosophical and scientific encyclopedia, and The Canon of Medicine.\n\nThe Canon systematised all the medical knowledge of the age — anatomy, diseases, drugs, and early notions of clinical testing and contagion — into a single authoritative text that remained a standard reference in universities from Baghdad to Paris for some six hundred years. He also made important contributions to logic, metaphysics and astronomy, and blended Aristotle's philosophy with Islamic thought. Living a turbulent life in the service of various princes, he died, probably of colic, around 1037, aged about 57."
+    notes: ["Persian polymath of the Islamic Golden Age; his Canon of Medicine was a standard European medical text for centuries."]
 
