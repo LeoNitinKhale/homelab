@@ -10,7 +10,7 @@ vocabulary:
   era: [ancient, medieval, renaissance, early-modern, enlightenment, industrial, modern]
   region: [british, french, italian, german, austrian, american, dutch, polish,
     serbian, egyptian, roman, greek, macedonian, mongol, genoese, indian, south-african,
-    chinese, russian, portuguese, norwegian, spanish, turkish, carthaginian, persian, swiss, danish]
+    chinese, russian, portuguese, norwegian, spanish, turkish, carthaginian, persian, swiss, danish, irish]
   end: [natural, illness, assassinated, executed, suicide, battle, uncertain]
 
 figures:
@@ -3202,4 +3202,308 @@ figures:
     death_peg_candidates: ["Chin", "Chain", "Genie"]
     facts: "Niels Bohr was a Danish physicist who did more than almost anyone to shape our understanding of the atom and to found quantum mechanics. In 1913 he proposed a revolutionary model in which electrons orbit the nucleus only in fixed 'quantised' energy levels, jumping between them by absorbing or emitting precise packets of light — an idea that explained the colours atoms give off and won him the Nobel Prize. His institute in Copenhagen became the world capital of quantum physics, and his long, deep debates with Einstein over the meaning of the theory are legendary.\n\nHalf-Jewish, he escaped Nazi-occupied Denmark in 1943, reportedly flying to Britain in a bomber's cramped hold, and contributed to the Manhattan Project — while campaigning, presciently, for openness and international control to prevent a nuclear arms race. After the war he championed the peaceful use of atomic energy until his death in Copenhagen in 1962."
     notes: ["Quantum model of the atom; led the Copenhagen school; Nobel laureate; worked on the atomic bomb and later nuclear-arms control."]
+
+  - id: 168
+    name: "Johannes Brahms"
+    state: backlog
+    status: none
+    birth_year: 1833
+    death_year: 1897
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "industrial"
+    region: "german"
+    end: "illness"
+    birth_peg_num: 33
+    birth_peg_candidates: ["Mummy", "Mime", "Mama", "Mum", "Mammoth"]
+    death_peg_num: 97
+    death_peg_candidates: ["Book", "Pig", "Bike", "Pack", "Peak"]
+    facts: "Johannes Brahms was a German composer usually ranked with Bach and Beethoven as one of the three great 'B's of classical music, the towering conservative of the Romantic era. Weighed down by the crushing legacy of Beethoven, he laboured for more than two decades over his First Symphony, so nervous of the comparison that when it finally appeared admirers dubbed it 'Beethoven's Tenth' — a compliment that both pleased and irritated him.\n\nA gruff, bearded, endlessly self-critical bachelor who destroyed much of his own work, he nonetheless produced four majestic symphonies, concertos, chamber music, the consoling German Requiem, and the tender Lullaby now sung to babies everywhere. Devoted (probably chastely) to Clara Schumann, the wife of his mentor, he never married. He died of cancer in Vienna in 1897, the last giant of the German symphonic tradition."
+    notes: ["Four symphonies, the German Requiem and the famous Lullaby; a perfectionist who took over 20 years to finish his First Symphony."]
+
+  - id: 169
+    name: "Miguel de Cervantes"
+    state: backlog
+    status: none
+    birth_year: 1547
+    death_year: 1616
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "renaissance"
+    region: "spanish"
+    end: "illness"
+    birth_peg_num: 47
+    birth_peg_candidates: ["Rock", "Rack", "Rake", "Rag", "Rug"]
+    death_peg_num: 16
+    death_peg_candidates: ["Dish", "Dash", "Ditch", "Dutch"]
+    facts: "Miguel de Cervantes led a life of almost comic misfortune before turning it into the greatest work of Spanish literature. A soldier, he was badly wounded at the naval Battle of Lepanto — losing the use of his left hand, and forever after nicknamed 'the one-handed man of Lepanto' — then captured by Barbary pirates and held as a slave in Algiers for five years until his family could ransom him. Back home he scraped by as a tax collector and was jailed over irregular accounts.\n\nOut of all this came Don Quixote (1605 and 1615), the tale of an ageing gentleman who reads too many chivalric romances, goes gently mad, and rides out as a knight-errant with his earthy squire Sancho Panza — famously charging at windmills he takes for giants. Blending comedy, tragedy and sly realism, it is often called the first modern novel and the most influential book in Spanish. Cervantes died poor in Madrid in 1616, reportedly on the same date as Shakespeare."
+    notes: ["Wrote Don Quixote, often called the first modern novel; lost the use of a hand at Lepanto; died in 1616, like Shakespeare."]
+
+  - id: 170
+    name: "Fyodor Dostoevsky"
+    state: backlog
+    status: none
+    birth_year: 1821
+    death_year: 1881
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "industrial"
+    region: "russian"
+    end: "illness"
+    birth_peg_num: 21
+    birth_peg_candidates: ["Knot", "Net", "Note", "Aunt"]
+    death_peg_num: 81
+    death_peg_candidates: ["Foot", "Vet", "Vat"]
+    facts: "Fyodor Dostoevsky endured one of the most extraordinary near-death experiences in literary history. Arrested for belonging to a radical discussion circle, he was sentenced to death and led out before a firing squad, only to be reprieved at the very last moment in a cruel piece of theatre staged by the Tsar. The mock execution, followed by years of hard labour in a Siberian prison camp, marked him forever and fed the obsessions with mortality, faith, guilt and redemption that fill his novels.\n\nAn epileptic haunted by fits and a compulsive gambler perpetually in debt, he poured his turbulent inner life into psychological masterpieces — Crime and Punishment, The Idiot, Demons and The Brothers Karamazov — that probe the darkest corners of the human soul and helped invent modern psychological fiction. He died in St Petersburg in 1881 of a lung haemorrhage, revered as a prophet of the Russian spirit."
+    notes: ["Faced a mock execution (reprieved at the last moment); wrote Crime and Punishment and The Brothers Karamazov; an epileptic and compulsive gambler."]
+
+  - id: 171
+    name: "Oscar Wilde"
+    state: backlog
+    status: none
+    birth_year: 1854
+    death_year: 1900
+    era_bc: false
+    role: ["writer", "playwright", "poet"]
+    field: ["literature"]
+    era: "industrial"
+    region: "irish"
+    end: "illness"
+    birth_peg_num: 54
+    birth_peg_candidates: ["Lyre", "Lure", "Liar", "Lorry", "Laurel"]
+    death_peg_num: 0
+    death_peg_candidates: ["Sauce"]
+    facts: "Oscar Wilde was an Irish poet, playwright and the most quotable wit of the Victorian age — a flamboyant champion of 'art for art's sake' whose epigrams ('I can resist everything except temptation') still sparkle. He conquered London society and the stage with dazzling comedies like The Importance of Being Earnest and the decadent novel The Picture of Dorian Gray, cultivating a public persona of aesthetic excess.\n\nAt the height of his fame he sued his lover's father for libel, a catastrophic misjudgement that exposed his homosexuality; he was convicted of 'gross indecency' and sentenced to two years' hard labour, which broke his health and spirit (and produced the searing Ballad of Reading Gaol). Released bankrupt and disgraced, he died in a cheap Paris hotel in 1900 at just 46, reputedly joking to the last about the dreadful wallpaper: 'One of us has to go.'"
+    notes: ["Wit and aesthete; The Picture of Dorian Gray, The Importance of Being Earnest; jailed for homosexuality; died in exile in Paris."]
+
+  - id: 172
+    name: "George Orwell"
+    state: backlog
+    status: none
+    birth_year: 1903
+    death_year: 1950
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 3
+    birth_peg_candidates: ["Seam", "Sum"]
+    death_peg_num: 50
+    death_peg_candidates: ["Lace", "Lice", "Lasso"]
+    facts: "George Orwell — pen name of Eric Blair — was an English writer whose two late masterpieces gave the twentieth century its vocabulary for tyranny. After serving as a colonial policeman in Burma (which he came to loathe), deliberately living among the destitute, and fighting and being shot through the throat in the Spanish Civil War, he became a fierce, clear-eyed critic of totalitarianism of every stripe.\n\nAnimal Farm (1945) skewered the betrayal of the Russian Revolution as a barnyard fable, while Nineteen Eighty-Four (1949) imagined a future of total surveillance and thought control, coining Big Brother, doublethink, thoughtcrime, the Thought Police and 'Orwellian' itself. Already gravely ill with tuberculosis as he finished it, typing in a cold Scottish farmhouse, he died in a London hospital in 1950 at just 46 — his warning about the corruption of truth more quoted with every passing decade."
+    notes: ["Animal Farm and Nineteen Eighty-Four; coined Big Brother, doublethink and thoughtcrime; died of TB in 1950."]
+
+  - id: 173
+    name: "Agatha Christie"
+    state: backlog
+    status: none
+    birth_year: 1890
+    death_year: 1976
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "modern"
+    region: "british"
+    end: "natural"
+    birth_peg_num: 90
+    birth_peg_candidates: ["Bus", "Bees", "Bass", "Boss"]
+    death_peg_num: 76
+    death_peg_candidates: ["Cash", "Coach", "Couch", "Cage"]
+    facts: "Agatha Christie is the best-selling novelist of all time — only the Bible and Shakespeare are said to have outsold her — the undisputed 'Queen of Crime' who published 66 detective novels and shaped the whole genre of the whodunit. She created two of fiction's most beloved sleuths, the fastidious Belgian detective Hercule Poirot and the sharp-eyed village spinster Miss Marple, and mastered the fair-but-fiendish puzzle with its last-page twist (most audaciously in The Murder of Roger Ackroyd).\n\nHer own life held one genuine mystery: in 1926, distraught over her husband's affair, she disappeared for eleven days, sparking a national manhunt before being found at a spa hotel — an episode she never explained. A keen traveller (Murder on the Orient Express and Death on the Nile drew on her journeys), she also wrote the record-breaking play The Mousetrap, still running after seventy years. She died, much honoured, in 1976."
+    notes: ["Best-selling novelist of all time; created Poirot and Miss Marple; Murder on the Orient Express; her own 11-day disappearance in 1926."]
+
+  - id: 174
+    name: "Francisco Goya"
+    state: backlog
+    status: none
+    birth_year: 1746
+    death_year: 1828
+    era_bc: false
+    role: ["artist"]
+    field: ["arts"]
+    era: "industrial"
+    region: "spanish"
+    end: "illness"
+    birth_peg_num: 46
+    birth_peg_candidates: ["Roach", "Ridge", "Raja"]
+    death_peg_num: 28
+    death_peg_candidates: ["Knife", "Nephew", "Navy"]
+    facts: "Francisco Goya was the greatest Spanish painter of his age and, in many ways, the first truly modern artist. He rose to become official painter to the Spanish crown, turning out brilliant, subtly unflattering royal portraits, but a severe illness left him permanently deaf, and his art grew ever darker and more inward.\n\nHe witnessed the horrors of Napoleon's invasion of Spain and recorded them without mercy — in the shattering canvas The Third of May 1808, showing a French firing squad executing Spanish civilians, and in his savage print series The Disasters of War. In his final years, alone and embittered, he covered the walls of his house with the terrifying 'Black Paintings' (among them Saturn devouring his son), private visions of madness and despair. He died in self-exile in Bordeaux in 1828, having bridged the Old Masters and the modern world."
+    notes: ["Spanish master who went deaf; The Third of May 1808 and the Black Paintings; bridged the Old Masters and modern art."]
+
+  - id: 175
+    name: "Andreas Vesalius"
+    state: backlog
+    status: none
+    birth_year: 1514
+    death_year: 1564
+    era_bc: false
+    role: ["physician", "naturalist"]
+    field: ["science"]
+    era: "renaissance"
+    region: "dutch"
+    end: "uncertain"
+    birth_peg_num: 14
+    birth_peg_candidates: ["Tire", "Deer", "Door", "Tar", "Tower"]
+    death_peg_num: 64
+    death_peg_candidates: ["Chair", "Shore", "Cherry"]
+    facts: "Andreas Vesalius was a Flemish physician who founded the modern science of anatomy. In an age when dissection was frowned upon and doctors simply repeated the 1,400-year-old teachings of the Roman physician Galen, Vesalius insisted on cutting up human corpses himself — sometimes taken from gallows and graves — and discovered that Galen, who had dissected only animals, was wrong on many counts.\n\nIn 1543 he published De humani corporis fabrica ('On the Fabric of the Human Body'), a magnificent, lavishly and accurately illustrated atlas of human anatomy that revolutionised medicine and made him famous across Europe. He became court physician to the Holy Roman Emperor, but his later life is murky: returning from a pilgrimage to Jerusalem in 1564, his ship was wrecked, and he died — apparently of illness and exhaustion — cast ashore on the Greek island of Zakynthos."
+    notes: ["De humani corporis fabrica — the foundation of modern anatomy; dissected in person, correcting Galen; died in a shipwreck."]
+
+  - id: 176
+    name: "Sir Walter Raleigh"
+    state: backlog
+    status: none
+    birth_year: 1552
+    death_year: 1618
+    era_bc: false
+    role: ["explorer", "poet"]
+    field: ["exploration", "literature"]
+    era: "renaissance"
+    region: "british"
+    end: "executed"
+    birth_peg_num: 52
+    birth_peg_candidates: ["Lion", "Lawn", "Lane", "Loon", "Alien", "Lung"]
+    death_peg_num: 18
+    death_peg_candidates: ["Dove", "Toffee", "Diva", "Staff"]
+    facts: "Sir Walter Raleigh was the dashing embodiment of the Elizabethan age — soldier, sailor, explorer, poet, courtier and adventurer. A great favourite of Queen Elizabeth I (legend says he once threw his fine cloak over a puddle so she could cross dry-shod), he helped popularise tobacco and the potato in England and sponsored the ill-fated 'Lost Colony' of Roanoke in the New World.\n\nHe sailed in search of the fabled golden city of El Dorado in South America, but his fortunes collapsed after Elizabeth's death: the new king, James I, distrusted him, and after years imprisoned in the Tower of London (where he wrote a History of the World) and a final disastrous expedition, he was executed in 1618. Facing the axe with famous composure, he is said to have felt its edge and called it 'sharp medicine, but a physician for all diseases'."
+    notes: ["Elizabethan courtier, explorer and writer; popularised tobacco; sponsored the lost Roanoke colony; beheaded in 1618."]
+
+  - id: 177
+    name: "Joseph Stalin"
+    state: backlog
+    status: none
+    birth_year: 1878
+    death_year: 1953
+    era_bc: false
+    role: ["ruler", "politician"]
+    field: ["power"]
+    era: "modern"
+    region: "russian"
+    end: "illness"
+    birth_peg_num: 79
+    birth_peg_candidates: ["Cap", "Cub", "Cop", "Cab", "Cape"]
+    death_peg_num: 53
+    death_peg_candidates: ["Lamb", "Lime", "Lemon", "Llama", "Loom", "Elm"]
+    facts: "Joseph Stalin — 'man of steel' — rose from a Georgian cobbler's son and bank-robbing revolutionary to absolute dictator of the Soviet Union, which he ruled for a quarter of a century. Seizing power after Lenin's death, he drove through brutal, breakneck industrialisation and the forced collectivisation of farming, causing famines (notably in Ukraine) that killed millions, while the Great Purge of the 1930s sent countless more to execution or the gulag labour camps on his paranoid orders.\n\nHe led the USSR at staggering human cost to victory over Nazi Germany in the Second World War, emerging as master of a superpower and an architect of the Cold War. Feared even by his closest henchmen, he died in 1953 after a stroke — collapsing alone, with his guards reportedly too terrified to check on him for hours. Denounced by his own successor, he remains one of history's deadliest tyrants."
+    notes: ["Ruled the USSR through terror; purges, gulags and famine killed millions; led the Soviet war against Nazi Germany; died of a stroke in 1953."]
+
+  - id: 178
+    name: "Mao Zedong"
+    state: backlog
+    status: none
+    birth_year: 1893
+    death_year: 1976
+    era_bc: false
+    role: ["ruler", "revolutionary"]
+    field: ["power"]
+    era: "modern"
+    region: "chinese"
+    end: "illness"
+    birth_peg_num: 93
+    birth_peg_candidates: ["Bomb", "Beam", "Puma", "Pom"]
+    death_peg_num: 76
+    death_peg_candidates: ["Cash", "Coach", "Couch", "Cage"]
+    facts: "Mao Zedong was the revolutionary who founded the People's Republic of China and ruled it until his death, one of the most consequential — and lethal — figures of the twentieth century. A farmer's son turned Communist guerrilla, he led the epic Long March retreat, outlasted both the Japanese invasion and his Nationalist rivals, and proclaimed the new China from Tiananmen Gate in 1949.\n\nHis rule transformed a poor, war-torn country but at horrific cost: the Great Leap Forward, his crash industrialisation drive, triggered the deadliest famine in history, killing tens of millions, and the Cultural Revolution he unleashed in the 1960s plunged the nation into a decade of chaos, persecution and destruction, its 'Little Red Book' of his quotations brandished by fanatical Red Guards. Increasingly frail, he died in Beijing in 1976, leaving a China that would soon change course dramatically."
+    notes: ["Founded the People's Republic of China; the Long March and the Little Red Book; the Great Leap Forward famine and the Cultural Revolution."]
+
+  - id: 179
+    name: "Theodore Roosevelt"
+    state: backlog
+    status: none
+    birth_year: 1858
+    death_year: 1919
+    era_bc: false
+    role: ["politician", "statesman"]
+    field: ["power"]
+    era: "modern"
+    region: "american"
+    end: "natural"
+    birth_peg_num: 58
+    birth_peg_candidates: ["Leaf", "Elf", "Olive", "Loaf"]
+    death_peg_num: 19
+    death_peg_candidates: ["Tub", "Tape", "Tip", "Tuba", "Tap"]
+    facts: "Theodore Roosevelt was a human whirlwind — a sickly, asthmatic boy who remade himself into a cowboy, boxer, war hero, naturalist, author of some 35 books, and, at 42, the youngest man ever to become US President. He led the 'Rough Riders' cavalry charge at San Juan Hill in the Spanish-American War, and as president wielded a 'big stick', busting the great monopolistic trusts, building the Panama Canal, and mediating an end to the Russo-Japanese War (which won him a Nobel Peace Prize).\n\nAbove all he was America's great conservationist, protecting some 230 million acres of public land as national parks, forests and monuments. His refusal to shoot a tethered bear on a hunt inspired the 'teddy bear'. After leaving office he explored an uncharted Amazon river that nearly killed him. He died in his sleep in 1919 at just 60, prompting his son to remark that 'the old lion is dead'."
+    notes: ["26th US President; Rough Rider; a trust-buster and conservationist who created national parks and forests; the 'teddy bear' is named after him."]
+
+  - id: 180
+    name: "John F. Kennedy"
+    state: backlog
+    status: none
+    birth_year: 1917
+    death_year: 1963
+    era_bc: false
+    role: ["politician", "statesman"]
+    field: ["power"]
+    era: "modern"
+    region: "american"
+    end: "assassinated"
+    birth_peg_num: 17
+    birth_peg_candidates: ["Tack", "Duck", "Dog", "Deck", "Tag"]
+    death_peg_num: 63
+    death_peg_candidates: ["Chime", "Gem", "Chum", "Jam", "Chimney"]
+    facts: "John F. Kennedy was the youngest man ever elected US President and the first Catholic to hold the office, a charismatic figure whose glamorous administration was later mythologised as 'Camelot'. A decorated Second World War hero — he saved his surviving crew after his patrol boat PT-109 was cut in two by a Japanese destroyer — he brought youthful optimism to the presidency, urging Americans to 'ask not what your country can do for you'.\n\nHis thousand days in office spanned the terrifying Cuban Missile Crisis (which he defused, pulling the world back from nuclear war), the founding of the Peace Corps, the pledge to land a man on the Moon by the decade's end, and the rising tide of the civil-rights movement. On 22 November 1963, riding in an open-top motorcade through Dallas, he was assassinated — an act that traumatised the nation and spawned endless conspiracy theories that persist to this day."
+    notes: ["35th US President; PT-109 war hero; the Cuban Missile Crisis and the Moon pledge; assassinated in Dallas in 1963."]
+
+  - id: 181
+    name: "Hans Christian Andersen"
+    state: backlog
+    status: none
+    birth_year: 1805
+    death_year: 1875
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "industrial"
+    region: "danish"
+    end: "illness"
+    birth_peg_num: 5
+    birth_peg_candidates: ["Seal", "Sail"]
+    death_peg_num: 75
+    death_peg_candidates: ["Coal", "Coil", "Eagle", "Gold"]
+    facts: "Hans Christian Andersen was a Danish author who rose from desperate poverty — a washerwoman's and cobbler's son with almost no schooling — to become one of the most beloved storytellers in history. Awkward, gangly and painfully sensitive (his own life mirrored The Ugly Duckling), he wrote novels, plays and travel books, but it is his fairy tales, published from 1835, that made him immortal.\n\nUnlike the folk tales gathered by the Brothers Grimm, Andersen mostly invented his own — The Little Mermaid, The Ugly Duckling, The Emperor's New Clothes, The Snow Queen, The Little Match Girl, Thumbelina — blending whimsy, heartbreak and sly social satire in stories that work for children and adults alike. Translated into scores of languages, they have inspired countless films and ballets. He was celebrated as a national treasure by the time he died in 1875, and a statue of his Little Mermaid still watches over Copenhagen's harbour."
+    notes: ["Danish author of beloved fairy tales — The Little Mermaid, The Ugly Duckling, The Emperor's New Clothes, The Snow Queen."]
+
+  - id: 182
+    name: "Peter Paul Rubens"
+    state: backlog
+    status: none
+    birth_year: 1577
+    death_year: 1640
+    era_bc: false
+    role: ["artist"]
+    field: ["arts"]
+    era: "early-modern"
+    region: "dutch"
+    end: "illness"
+    birth_peg_num: 77
+    birth_peg_candidates: ["Cook", "Kayak", "Cake", "Cog"]
+    death_peg_num: 40
+    death_peg_candidates: ["Rose", "Rice"]
+    facts: "Peter Paul Rubens was the greatest and most influential painter of the Northern Baroque, a Flemish master whose dynamic, sensuous, colour-drenched canvases seemed to burst with energy and abundance. Running a huge, workshop, he produced an astonishing quantity of altarpieces, mythologies, hunting scenes and portraits, his voluptuous female nudes so characteristic that 'Rubenesque' still describes a full, rounded figure.\n\nUnusually for an artist, he was also a cultured, multilingual gentleman and a trusted diplomat, undertaking delicate peace missions between the great powers and being knighted by two different kings. Immensely wealthy, he bought a grand town house and a country estate, and in later life painted his adored young second wife, Hélène Fourment, with tender delight. Plagued by gout, he died in Antwerp in 1640, having defined an entire era of European art."
+    notes: ["The leading Flemish Baroque painter; his fleshy figures gave us 'Rubenesque'; also a knighted diplomat."]
+
+  - id: 183
+    name: "Grigori Rasputin"
+    state: backlog
+    status: none
+    birth_year: 1869
+    death_year: 1916
+    era_bc: false
+    role: ["clergyman"]
+    field: ["power"]
+    era: "modern"
+    region: "russian"
+    end: "assassinated"
+    birth_peg_num: 69
+    birth_peg_candidates: ["Ship", "Shop", "Sheep", "Chip", "Chop", "Jeep"]
+    death_peg_num: 16
+    death_peg_candidates: ["Dish", "Dash", "Ditch", "Dutch"]
+    facts: "Grigori Rasputin was a Siberian peasant and self-styled holy man whose sinister influence over Russia's last royal family helped bring down the Romanov dynasty. A wandering mystic and faith-healer with hypnotic eyes and a scandalous reputation for drink and womanising, he won the desperate trust of the Empress Alexandra by seeming, uncannily, to ease the life-threatening bleeding of her haemophiliac son, the heir to the throne.\n\nAs the First World War went badly and the Tsar left for the front, Rasputin's sway over the Empress and over government appointments provoked fury and scandal. In December 1916 a group of noblemen lured him to a cellar and, by legend, poisoned, shot and beat him — only for him to keep clinging to life — before finally binding him and dumping him through a hole in the frozen Neva, where he drowned. The monarchy he had helped discredit fell just weeks later."
+    notes: ["The 'Mad Monk' faith-healer who swayed the last Tsar's family; famously hard to kill — poisoned, shot and finally drowned in 1916."]
 
