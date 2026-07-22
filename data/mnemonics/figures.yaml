@@ -5,12 +5,12 @@ vocabulary:
   role: [writer, poet, playwright, composer, artist, philosopher, mathematician,
     astronomer, physicist, chemist, naturalist, physician, nurse, engineer, architect,
     inventor, historian, statistician, economist, lawyer, clergyman, politician,
-    statesman, ruler, king-emperor, queen, empress, general, admiral, revolutionary, activist, explorer, businessman]
+    statesman, ruler, king-emperor, queen, empress, general, admiral, revolutionary, activist, explorer, businessman, pirate]
   field: [science, arts, music, literature, power, military, exploration, philosophy]
   era: [ancient, medieval, renaissance, early-modern, enlightenment, industrial, modern]
   region: [british, french, italian, german, austrian, american, dutch, polish,
     serbian, egyptian, roman, greek, macedonian, mongol, genoese, indian, south-african,
-    chinese, russian, portuguese, norwegian, spanish, turkish, carthaginian, persian, swiss]
+    chinese, russian, portuguese, norwegian, spanish, turkish, carthaginian, persian, swiss, danish]
   end: [natural, illness, assassinated, executed, suicide, battle, uncertain]
 
 figures:
@@ -2689,4 +2689,517 @@ figures:
     death_peg_candidates: ["Roach", "Ridge", "Raja"]
     facts: "John Maynard Keynes was the most influential economist of the twentieth century, whose ideas reshaped how governments manage their economies. Reacting to the mass unemployment of the Great Depression, he argued in his 1936 General Theory that markets do not automatically self-correct, and that governments should actively spend — running deficits if necessary — to boost demand and pull economies out of slumps. 'In the long run,' he famously quipped of those who counselled patience, 'we are all dead.'\n\nA dazzling, many-sided figure — Cambridge don, member of the artistic Bloomsbury Group, ballet-loving patron, and a shrewd if volatile speculator who made and lost fortunes — he also warned prophetically that the harsh terms imposed on Germany after the First World War would breed catastrophe. At the end of the Second World War he helped design the Bretton Woods system of international finance; the strain wrecked his health, and he died of a heart attack in 1946. 'Keynesian' economics went on to dominate policy for decades."
     notes: ["Founder of Keynesian economics — government spending to counter recessions; helped design the post-war Bretton Woods system."]
+
+  - id: 141
+    name: "Edward Teach (Blackbeard)"
+    state: backlog
+    status: none
+    birth_year: 1680
+    death_year: 1718
+    era_bc: false
+    role: ["pirate"]
+    field: ["military"]
+    era: "early-modern"
+    region: "british"
+    end: "battle"
+    birth_peg_num: 80
+    birth_peg_candidates: ["Vase", "Fuse", "Face", "Fez"]
+    death_peg_num: 18
+    death_peg_candidates: ["Dove", "Toffee", "Diva", "Staff"]
+    facts: "Edward Teach, better known as Blackbeard, was the most feared pirate of the golden age of piracy, though his actual reign of terror lasted only a couple of years. He cultivated a deliberately demonic image, weaving lit, slow-burning fuses into his huge black beard so that his face appeared wreathed in smoke during battle, and festooning himself with pistols and cutlasses to overawe his victims into surrendering without a fight.\n\nCommanding the captured French slave ship he renamed Queen Anne's Revenge, he blockaded the port of Charleston and prowled the American and Caribbean coasts. In 1718 the governor of Virginia sent a naval force to hunt him down; in a savage boarding action off North Carolina, Blackbeard was shot five times and slashed some twenty more before he fell. His head was cut off and hung from the victorious sloop's bowsprit, sealing his legend."
+    notes: ["Tied slow-burning fuses in his beard to look demonic; killed in a ferocious 1718 boarding fight, his head hung from the bowsprit."]
+
+  - id: 142
+    name: "Wilbur Wright"
+    state: backlog
+    status: none
+    birth_year: 1867
+    death_year: 1912
+    era_bc: false
+    role: ["inventor", "engineer"]
+    field: ["science"]
+    era: "modern"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 67
+    birth_peg_candidates: ["Chalk", "Cheque", "Shack", "Jockey", "Jug", "Jag"]
+    death_peg_num: 12
+    death_peg_candidates: ["Tin", "Den", "Dawn", "Ton", "Down", "Tan"]
+    facts: "Wilbur Wright was the elder and, many thought, the more intellectually driving of the two Ohio bicycle-shop brothers who cracked the age-old problem of powered, controlled human flight. Where earlier would-be aviators had focused on engines, the Wrights realised the real challenge was control — and, watching birds and testing wings in a home-made wind tunnel, they devised 'wing-warping' to bank and steer.\n\nOn 17 December 1903, on the windy dunes of Kitty Hawk, North Carolina, their Flyer made the first sustained, controlled powered flights in history. Wilbur then led the fight to demonstrate and patent their invention, dazzling Europe with flying exhibitions and battling rivals and imitators in exhausting lawsuits. The strain may have worn him down; in 1912 he contracted typhoid fever and died at just forty-five, before the aviation age he had launched truly took off."
+    notes: ["With his brother Orville, achieved the first controlled powered flight (Kitty Hawk, 1903); died of typhoid in 1912."]
+
+  - id: 143
+    name: "Orville Wright"
+    state: backlog
+    status: none
+    birth_year: 1871
+    death_year: 1948
+    era_bc: false
+    role: ["inventor", "engineer"]
+    field: ["science"]
+    era: "modern"
+    region: "american"
+    end: "natural"
+    birth_peg_num: 71
+    birth_peg_candidates: ["Cat", "Coat", "Kite", "Goat", "Kid"]
+    death_peg_num: 48
+    death_peg_candidates: ["Roof", "Reef", "Ref", "Ruff", "RAF", "Roofer"]
+    facts: "Orville Wright was the younger of the two brothers who invented the aeroplane, and it was he who lay at the controls for the very first of the four powered flights at Kitty Hawk on 17 December 1903 — a hop of 12 seconds and 120 feet that changed the world. The brothers' fascination with flight reportedly began in childhood with a toy helicopter and a love of building and flying kites.\n\nAfter Wilbur's early death, Orville sold their company and lived on for another 36 years as the grand old man of aviation, serving on advisory boards and watching, with mixed feelings, as the machine he had created was turned into a weapon of world war. He lived to see aircraft break records and approach the sound barrier, dying in 1948 at 76 — long enough to witness his 12-second flight blossom into the age of mass air travel and jet-powered war."
+    notes: ["Piloted the first powered flight in 1903; outlived Wilbur by 36 years, into the jet age."]
+
+  - id: 144
+    name: "Neil Armstrong"
+    state: backlog
+    status: none
+    birth_year: 1930
+    death_year: 2012
+    era_bc: false
+    role: ["explorer"]
+    field: ["exploration"]
+    era: "modern"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 30
+    birth_peg_candidates: ["Mouse", "Mice", "Moose", "Maze"]
+    death_peg_num: 12
+    death_peg_candidates: ["Tin", "Den", "Dawn", "Ton", "Down", "Tan"]
+    facts: "Neil Armstrong was a US Navy fighter pilot and test pilot of legendary cool who, on 20 July 1969, became the first human being to set foot on another world. As commander of Apollo 11, he took manual control of the lunar module 'Eagle' when its computer steered toward a boulder-strewn crater, setting it down on the Sea of Tranquillity with only seconds of fuel remaining, then radioing back the immortal 'The Eagle has landed'.\n\nStepping onto the surface, he spoke the most famous sentence of the space age: 'That's one small step for man, one giant leap for mankind.' Uncomfortable with the celebrity that followed, he shunned the limelight, taught engineering, and guarded his privacy fiercely for the rest of his life. He died in 2012, aged 82, from complications following heart-bypass surgery, and was buried at sea."
+    notes: ["First human to walk on the Moon (Apollo 11, 1969); famously modest and reclusive afterward. (His birth 30 doesn't peg to 'Moon', which is 32.)"]
+
+  - id: 145
+    name: "Erasmus"
+    state: backlog
+    status: none
+    birth_year: 1466
+    death_year: 1536
+    era_bc: false
+    role: ["philosopher", "clergyman"]
+    field: ["philosophy"]
+    era: "renaissance"
+    region: "dutch"
+    end: "illness"
+    birth_peg_num: 66
+    birth_peg_candidates: ["Judge", "Jujube"]
+    death_peg_num: 36
+    death_peg_candidates: ["Mash", "Match", "Mesh", "Mush"]
+    facts: "Erasmus of Rotterdam was the most celebrated scholar of the northern Renaissance, a Dutch priest and 'prince of the humanists' whose wit, learning and enormous correspondence made him a one-man intellectual network across Europe. His satire In Praise of Folly skewered the ignorance and corruption of monks, theologians and popes, while his scrupulous new edition of the Greek New Testament exposed errors in the Church's official Latin Bible.\n\nBy urging a return to the original sources and a simpler, more inward Christianity, he helped prepare the ground for the Reformation — hence the jibe that 'Erasmus laid the egg that Luther hatched'. Yet when Luther's revolt came, Erasmus, a lover of moderation and unity, refused to join the break with Rome, and clashed with Luther over free will. Caught between the warring camps, he died in Basel in 1536."
+    notes: ["Leading Renaissance humanist; wrote In Praise of Folly and a landmark Greek New Testament; 'laid the egg Luther hatched'."]
+
+  - id: 146
+    name: "Jean-Jacques Rousseau"
+    state: backlog
+    status: none
+    birth_year: 1712
+    death_year: 1778
+    era_bc: false
+    role: ["philosopher", "writer"]
+    field: ["philosophy"]
+    era: "enlightenment"
+    region: "swiss"
+    end: "natural"
+    birth_peg_num: 12
+    birth_peg_candidates: ["Tin", "Den", "Dawn", "Ton", "Down", "Tan"]
+    death_peg_num: 78
+    death_peg_candidates: ["Cave", "Coffee", "Cuff", "Cove"]
+    facts: "Jean-Jacques Rousseau was a Geneva-born philosopher, novelist and composer whose ideas helped ignite both the French Revolution and the Romantic movement. He argued that humans are naturally good but corrupted by society and private property, romanticising a 'state of nature' and the 'noble savage', and in The Social Contract insisted that legitimate government rests only on the 'general will' of the people — a slogan for revolutionaries ever after.\n\nHis novel Emile reshaped ideas about education and childhood, while his startlingly frank Confessions helped invent modern autobiography. Yet his personal life was tangled and troubled: he quarrelled bitterly with fellow Enlightenment figures like Voltaire and Hume, grew increasingly paranoid, and — notoriously — handed all five of his own children to a foundling hospital. He died suddenly, probably of a stroke, at a country estate in 1778."
+    notes: ["The Social Contract ('born free but everywhere in chains'); championed nature and popular sovereignty; a founder of Romanticism."]
+
+  - id: 147
+    name: "Carl von Clausewitz"
+    state: backlog
+    status: none
+    birth_year: 1780
+    death_year: 1831
+    era_bc: false
+    role: ["general"]
+    field: ["military"]
+    era: "industrial"
+    region: "german"
+    end: "illness"
+    birth_peg_num: 80
+    birth_peg_candidates: ["Vase", "Fuse", "Face", "Fez"]
+    death_peg_num: 31
+    death_peg_candidates: ["Mat", "Meat", "Mud", "Moat"]
+    facts: "Carl von Clausewitz was a Prussian general and military theorist whose posthumous book On War became the most influential study of conflict ever written, still taught in war colleges today. Having fought in the brutal Napoleonic campaigns from the age of twelve — including catastrophic defeat and later victory — he set out to understand war not as a set of formulas but as a violent, chaotic, deeply human political act.\n\nHis famous insight, that 'war is the continuation of politics by other means', reframed armed force as a tool of state policy rather than an end in itself, and he coined enduring concepts like the 'fog of war' and 'friction' — the way that fear, chance and exhaustion foul up even the best plans. He died of cholera in 1831 with the manuscript unfinished; his widow Marie edited and published it, securing his lasting fame."
+    notes: ["Author of On War; 'war is politics by other means'; the 'fog of war'; died of cholera on campaign."]
+
+  - id: 148
+    name: "Carl Menger"
+    state: backlog
+    status: none
+    birth_year: 1840
+    death_year: 1921
+    era_bc: false
+    role: ["economist"]
+    field: ["philosophy"]
+    era: "industrial"
+    region: "austrian"
+    end: "natural"
+    birth_peg_num: 40
+    birth_peg_candidates: ["Rose", "Rice"]
+    death_peg_num: 21
+    death_peg_candidates: ["Knot", "Net", "Note", "Aunt"]
+    facts: "Carl Menger was an Austrian economist who launched a quiet revolution in how we understand value. In his 1871 Principles of Economics he argued — independently of, but alongside, others in the 'Marginal Revolution' — that the worth of a good is not some fixed property or the labour that went into it, but depends on how useful the next available unit is to a particular person at a particular time (marginal utility). A thirsty man values his first cup of water enormously, his tenth hardly at all.\n\nThis subjective theory of value overturned the older classical economics of Smith and Ricardo and became the cornerstone of the 'Austrian School' that Menger founded — later carried on by Mises, Hayek and others. A careful, scholarly man who also tutored the doomed Austrian crown prince Rudolf, he largely withdrew from academic life in later years and died, much honoured, in Vienna in 1921."
+    notes: ["Founder of the Austrian School; pioneered the theory of marginal utility and subjective value."]
+
+  - id: 149
+    name: "Vilfredo Pareto"
+    state: backlog
+    status: none
+    birth_year: 1848
+    death_year: 1923
+    era_bc: false
+    role: ["economist"]
+    field: ["philosophy"]
+    era: "modern"
+    region: "italian"
+    end: "natural"
+    birth_peg_num: 48
+    birth_peg_candidates: ["Roof", "Reef", "Ref", "Ruff", "RAF", "Roofer"]
+    death_peg_num: 23
+    death_peg_candidates: ["Gnome", "Number", "Anemone"]
+    facts: "Vilfredo Pareto was an Italian engineer, economist and sociologist who brought mathematical rigour to the study of society and left his name on two enduring ideas. 'Pareto efficiency' describes a state of affairs in which no individual can be made better off without making someone else worse off — a benchmark still central to modern economics. And the 'Pareto principle', or 80/20 rule, grew from his observation that about 80% of Italy's land was owned by about 20% of the population, a lopsided pattern he found echoed everywhere.\n\nIn later life he turned to sociology, developing a cynical theory of the 'circulation of elites' — the idea that history is a graveyard of aristocracies, one ruling class endlessly replacing another. Reclusive and famously fond of the many cats at his villa on Lake Geneva, he died there in 1923, his ideas later claimed, controversially, by admirers across the political spectrum."
+    notes: ["Pareto efficiency/optimality; the 80/20 'Pareto principle'; a founder of mathematical economics and elite theory."]
+
+  - id: 150
+    name: "Ludwig von Mises"
+    state: backlog
+    status: none
+    birth_year: 1881
+    death_year: 1973
+    era_bc: false
+    role: ["economist"]
+    field: ["philosophy"]
+    era: "modern"
+    region: "austrian"
+    end: "natural"
+    birth_peg_num: 81
+    birth_peg_candidates: ["Foot", "Vet", "Vat"]
+    death_peg_num: 73
+    death_peg_candidates: ["Comb", "Gum", "Camel"]
+    facts: "Ludwig von Mises was one of the twentieth century's most uncompromising champions of free-market economics and classical liberalism, a leader of the Austrian School who built his system on 'praxeology' — the study of purposeful human action, from which he claimed the laws of economics could be logically deduced. His most influential argument, the 'economic calculation problem', held that without real market prices generated by private property and trade, socialist central planners simply cannot know how to allocate resources rationally — a critique that looked prophetic when planned economies faltered.\n\nA Jewish intellectual, he fled the Nazis, first to Switzerland and then to the United States, where he spent decades as an unsalaried professor at New York University, mentoring students including the future Nobel laureate Friedrich Hayek's fellow travellers. Combative and utterly principled, he wrote his magnum opus Human Action and kept teaching almost to his death in 1973 at 92."
+    notes: ["Leading Austrian-School economist; author of Human Action; argued socialist planning cannot rationally allocate resources."]
+
+  - id: 151
+    name: "Friedrich Hayek"
+    state: backlog
+    status: none
+    birth_year: 1899
+    death_year: 1992
+    era_bc: false
+    role: ["economist", "philosopher"]
+    field: ["philosophy"]
+    era: "modern"
+    region: "austrian"
+    end: "natural"
+    birth_peg_num: 99
+    birth_peg_candidates: ["Baby", "Poppy", "Pipe", "Puppy"]
+    death_peg_num: 92
+    death_peg_candidates: ["Bone", "Pin", "Pen", "Bun", "Pony"]
+    facts: "Friedrich Hayek was an Austrian-British economist and philosopher whose defence of free markets and liberty made him one of the most influential thinkers of the twentieth century, especially after decades in the intellectual wilderness. His central insight, the 'knowledge problem', was that the information needed to run an economy — millions of people's shifting wants, resources and local circumstances — can never be gathered by any central planner, but is coordinated automatically by the price system, an example of the 'spontaneous order' he saw throughout society.\n\nWriting in wartime Britain, his The Road to Serfdom (1944) warned that well-meaning central planning tends toward totalitarianism, and became a surprise bestseller. Long overshadowed by Keynes, he shared the 1974 Nobel Prize in Economics and saw his ideas embraced by leaders like Thatcher and Reagan. He died in 1992, having lived to see the collapse of the planned economies he had spent his life criticising."
+    notes: ["The Road to Serfdom; spontaneous order and the knowledge problem; 1974 Nobel laureate; a major influence on late-20th-century liberalism."]
+
+  - id: 152
+    name: "Murray Rothbard"
+    state: backlog
+    status: none
+    birth_year: 1926
+    death_year: 1995
+    era_bc: false
+    role: ["economist", "philosopher"]
+    field: ["philosophy"]
+    era: "modern"
+    region: "american"
+    end: "natural"
+    birth_peg_num: 26
+    birth_peg_candidates: ["Nacho", "Notch"]
+    death_peg_num: 95
+    death_peg_candidates: ["Ball", "Bell", "Pal", "Pill"]
+    facts: "Murray Rothbard was an American economist, historian and political theorist who took the free-market ideas of the Austrian School to their most radical conclusion, becoming the founding father of 'anarcho-capitalism' — the belief that not just central planning but the state itself should be abolished, with even law, defence and courts provided by the free market. A student of Ludwig von Mises, he was astonishingly prolific across economics, history, philosophy and political polemic.\n\nExuberant, combative and famously jovial, he was a central figure in the growth of the modern American libertarian movement, helping to shape its institutions even as he feuded with many of its other leaders. His sprawling works ranged from dense economic treatises like Man, Economy, and State to popular histories and pamphlets. He died of a heart attack in New York in 1995, leaving a devoted following that keeps his combative brand of libertarianism alive."
+    notes: ["Founder of anarcho-capitalism; a leading libertarian theorist and prolific Austrian-School economist."]
+
+  - id: 153
+    name: "Omar Khayyam"
+    state: backlog
+    status: none
+    birth_year: 1048
+    death_year: 1131
+    era_bc: false
+    role: ["poet", "mathematician", "astronomer"]
+    field: ["science", "literature"]
+    era: "medieval"
+    region: "persian"
+    end: "natural"
+    birth_peg_num: 48
+    birth_peg_candidates: ["Roof", "Reef", "Ref", "Ruff", "RAF", "Roofer"]
+    death_peg_num: 31
+    death_peg_candidates: ["Mat", "Meat", "Mud", "Moat"]
+    facts: "Omar Khayyam was a Persian polymath of the medieval Islamic golden age — a mathematician, astronomer and poet whose work spanned worlds usually kept apart. In mathematics he made major advances in algebra, giving geometric solutions to cubic equations; as an astronomer he led the reform of the Persian calendar, producing a solar year of extraordinary accuracy, arguably better than the Gregorian one we use today.\n\nYet in the West he is remembered above all as a poet, through Edward FitzGerald's famous Victorian translation of the Rubaiyat — a string of wistful, sceptical, wine-soaked quatrains musing on the fleeting nature of life ('a jug of wine, a loaf of bread — and thou'). Whether Khayyam wrote all of them is debated, but their carpe-diem spirit made him one of the most quoted poets in English. He is said to have foretold that his grave would lie where blossoms would fall on it, and died around 1131."
+    notes: ["Persian polymath: the Rubaiyat poems, cubic equations in algebra, and a solar calendar more accurate than the modern one."]
+
+  - id: 154
+    name: "William Caxton"
+    state: backlog
+    status: none
+    birth_year: 1422
+    death_year: 1491
+    era_bc: false
+    role: ["businessman", "inventor"]
+    field: ["literature"]
+    era: "renaissance"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 22
+    birth_peg_candidates: ["Nun", "Onion", "Neon", "Nanny", "Naan"]
+    death_peg_num: 91
+    death_peg_candidates: ["Boat", "Bat", "Bud", "Pot", "Pad", "Boot"]
+    facts: "William Caxton was an English merchant, diplomat and writer who introduced the printing press to England and so transformed the spread of the written word. Having spent years as a cloth trader in Bruges, he learned the new German art of printing, produced the first-ever book printed in English (a history of Troy) abroad, and in 1476 set up his own press at Westminster — the first in England.\n\nOver the following years he printed around a hundred books, choosing and often translating them himself, including Chaucer's Canterbury Tales, Malory's Le Morte d'Arthur and much else. By selecting which works to print, and in which dialect, he helped standardise English spelling and grammar and made literature far cheaper and more widely available than the hand-copied manuscripts of the monastic scriptoria he replaced. He worked at his press until his death around 1491."
+    notes: ["Set up England's first printing press (1476); printed the first books in English, including The Canterbury Tales."]
+
+  - id: 155
+    name: "Paracelsus"
+    state: backlog
+    status: none
+    birth_year: 1493
+    death_year: 1541
+    era_bc: false
+    role: ["physician", "chemist"]
+    field: ["science"]
+    era: "renaissance"
+    region: "swiss"
+    end: "illness"
+    birth_peg_num: 93
+    birth_peg_candidates: ["Bomb", "Beam", "Puma", "Pom"]
+    death_peg_num: 41
+    death_peg_candidates: ["Root", "Rat", "Rod"]
+    facts: "Paracelsus — born Theophrastus von Hohenheim — was a Swiss physician, alchemist and all-round troublemaker who did as much as anyone to drag medicine out of the ancient world. Contemptuous of the revered authorities Galen and Avicenna, he publicly burned their books and insisted that healing should be based on observation and on chemistry rather than on balancing the four 'humours'. He pioneered the medical use of minerals and chemical remedies, and is often called the father of toxicology.\n\nHis most enduring insight was that 'the dose makes the poison' — that any substance can be either medicine or poison depending on the amount — a principle at the heart of pharmacology to this day. Arrogant, hard-drinking and constantly quarrelling (his adopted name means 'greater than Celsus'), he wandered Europe making enemies and cures in equal measure, and died in mysterious circumstances at an inn in Salzburg in 1541."
+    notes: ["Pioneer of using chemistry in medicine; 'the dose makes the poison' (toxicology); burned Galen's texts; hugely arrogant."]
+
+  - id: 156
+    name: "Nostradamus"
+    state: backlog
+    status: none
+    birth_year: 1503
+    death_year: 1566
+    era_bc: false
+    role: ["physician"]
+    field: ["science"]
+    era: "renaissance"
+    region: "french"
+    end: "illness"
+    birth_peg_num: 3
+    birth_peg_candidates: ["Seam", "Sum"]
+    death_peg_num: 66
+    death_peg_candidates: ["Judge", "Jujube"]
+    facts: "Michel de Nostredame, Latinised as Nostradamus, was a French astrologer, physician and apothecary who became the most famous prophet in history. Trained in medicine, he first won fame treating plague victims with unusually enlightened methods — fresh air, clean water, low-sugar diets — before turning to astrology and, in 1555, publishing Les Prophéties, a book of some hundreds of four-line rhyming verses (quatrains) written in a deliberately obscure blend of languages.\n\nTheir vagueness has allowed readers ever since to 'find' in them predictions of everything from the French Revolution to world wars and modern disasters, making Nostradamus a byword for prophecy, though sceptics note the verses are cryptic enough to fit almost anything after the fact. Suffering badly from gout and dropsy, he is said to have predicted his own death precisely, and was duly found dead beside his bed one morning in 1566."
+    notes: ["Wrote the cryptic prophetic quatrains ('Les Prophéties'); a Renaissance plague doctor and astrologer; reputedly foretold his own death."]
+
+  - id: 157
+    name: "Giordano Bruno"
+    state: backlog
+    status: none
+    birth_year: 1548
+    death_year: 1600
+    era_bc: false
+    role: ["philosopher", "clergyman"]
+    field: ["philosophy"]
+    era: "renaissance"
+    region: "italian"
+    end: "executed"
+    birth_peg_num: 48
+    birth_peg_candidates: ["Roof", "Reef", "Ref", "Ruff", "RAF", "Roofer"]
+    death_peg_num: 0
+    death_peg_candidates: ["Sauce"]
+    facts: "Giordano Bruno was an Italian Dominican friar, philosopher and mystic whose cosmic vision was so far ahead of his time that it helped get him killed. Building on Copernicus, he went much further, arguing that the universe is infinite, that the Sun is just one star among countless others, and that those stars have their own planets which might harbour their own life — ideas breathtakingly close to the modern picture of the cosmos.\n\nBut he wrapped them in a heretical, pantheistic mysticism and roamed Europe quarrelling with authorities everywhere. Arrested by the Roman Inquisition and tried for years, he refused to fully recant, and in 1600 was burned alive in Rome's Campo de' Fiori, reportedly with his tongue clamped to stop him speaking to the crowd. Later celebrated as a martyr for free thought and science, he has a statue on the very spot where he died."
+    notes: ["Argued for an infinite universe and countless inhabited worlds; burned at the stake by the Inquisition in 1600."]
+
+  - id: 158
+    name: "Baruch Spinoza"
+    state: backlog
+    status: none
+    birth_year: 1632
+    death_year: 1677
+    era_bc: false
+    role: ["philosopher"]
+    field: ["philosophy"]
+    era: "early-modern"
+    region: "dutch"
+    end: "illness"
+    birth_peg_num: 32
+    birth_peg_candidates: ["Moon", "Money", "Mine", "Mane"]
+    death_peg_num: 77
+    death_peg_candidates: ["Cook", "Kayak", "Cake", "Cog"]
+    facts: "Baruch Spinoza was a Dutch-Jewish philosopher of astonishing originality and integrity, one of the great rationalists of the age. At 23 he was expelled and cursed by his Amsterdam synagogue for his unorthodox views, and thereafter lived a frugal, independent life — turning down money, a professorship and an inheritance — grinding optical lenses to support himself while he wrote.\n\nHis masterpiece, the Ethics, laid out in the austere form of geometry, argued that everything that exists is one single infinite substance which can be called either 'God' or 'Nature' — a pantheism that horrified both Jews and Christians and had him branded a dangerous atheist for a century. He also pioneered the historical, critical reading of the Bible and defended freedom of thought. The glass dust from his lens-grinding is thought to have destroyed his lungs, and he died of a respiratory illness in 1677, aged just 44."
+    notes: ["Rationalist author of the Ethics; 'God or Nature' (pantheism); excommunicated; a lens-grinder by trade."]
+
+  - id: 159
+    name: "Thomas Young"
+    state: backlog
+    status: none
+    birth_year: 1773
+    death_year: 1829
+    era_bc: false
+    role: ["physician", "physicist"]
+    field: ["science"]
+    era: "industrial"
+    region: "british"
+    end: "natural"
+    birth_peg_num: 73
+    birth_peg_candidates: ["Comb", "Gum", "Camel"]
+    death_peg_num: 29
+    death_peg_candidates: ["Knob", "Nib", "Nappy"]
+    facts: "Thomas Young was a British polymath so accomplished across so many fields that he was nicknamed 'the last man who knew everything'. A physician by training, his most famous achievement was the double-slit experiment, in which he passed light through two narrow slits and observed an interference pattern of light and dark bands — something only waves could produce, reviving the wave theory of light against Newton's particle view and laying groundwork for modern physics.\n\nHe also defined the measure of a material's stiffness still called 'Young's modulus', did important work on the eye and colour vision, and — astonishingly — made key early breakthroughs in deciphering Egyptian hieroglyphs from the Rosetta Stone, work later completed by Champollion. Modest and endlessly curious, he ranged across mechanics, music, medicine and languages until his death in 1829, one of the most versatile minds in the history of science."
+    notes: ["Double-slit experiment (wave theory of light); Young's modulus (elasticity); helped decipher Egyptian hieroglyphs."]
+
+  - id: 160
+    name: "Alexander Graham Bell"
+    state: backlog
+    status: none
+    birth_year: 1847
+    death_year: 1922
+    era_bc: false
+    role: ["inventor"]
+    field: ["science"]
+    era: "industrial"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 47
+    birth_peg_candidates: ["Rock", "Rack", "Rake", "Rag", "Rug"]
+    death_peg_num: 22
+    death_peg_candidates: ["Nun", "Onion", "Neon", "Nanny", "Naan"]
+    facts: "Alexander Graham Bell was a Scottish-born inventor and teacher of the deaf whose work on transmitting speech electrically gave the world the telephone. Both his mother and his wife were deaf, and his lifelong effort to help deaf people communicate led him to study the mechanics of sound and hearing — which in turn inspired his experiments in sending the human voice along a wire.\n\nIn 1876 he was granted the patent for the telephone (in a famous race to the patent office ahead of a rival) and soon after spoke the first intelligible telephone sentence to his assistant: 'Mr Watson, come here, I want to see you.' The invention made him rich and famous, and he went on to work on everything from aircraft to hydrofoils, while championing deaf education. When he died in 1922, every telephone on the North American continent was silenced for a minute in his honour."
+    notes: ["Invented the telephone (1876); a teacher of the deaf; every US phone was silenced for a minute at his funeral."]
+
+  - id: 161
+    name: "Thomas Edison"
+    state: backlog
+    status: none
+    birth_year: 1847
+    death_year: 1931
+    era_bc: false
+    role: ["inventor", "businessman"]
+    field: ["science"]
+    era: "modern"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 47
+    birth_peg_candidates: ["Rock", "Rack", "Rake", "Rag", "Rug"]
+    death_peg_num: 31
+    death_peg_candidates: ["Mat", "Meat", "Mud", "Moat"]
+    facts: "Thomas Edison was America's most famous inventor, a self-taught, relentlessly practical genius who held over a thousand patents and, as much as anyone, built the modern electrical world. Working from his 'invention factory' at Menlo Park — arguably the first industrial research laboratory — he and his teams produced the phonograph (which first made him famous as 'the Wizard of Menlo Park'), the motion-picture camera, and, above all, the first commercially practical incandescent light bulb, after testing thousands of possible filaments.\n\nJust as importantly, he built the entire electrical system — generators, wiring, meters — to make electric lighting usable, and fought the 'War of the Currents' against Tesla and Westinghouse's alternating current. A shrewd, sometimes ruthless businessman with a gift for self-promotion, he coined the line that genius is 'one percent inspiration and ninety-nine percent perspiration'. When he died in 1931, communities across the United States briefly dimmed their lights in tribute."
+    notes: ["The practical incandescent light bulb, phonograph and motion-picture camera; over 1,000 patents; founded Menlo Park."]
+
+  - id: 162
+    name: "Buckminster Fuller"
+    state: backlog
+    status: none
+    birth_year: 1895
+    death_year: 1983
+    era_bc: false
+    role: ["architect", "inventor"]
+    field: ["science", "arts"]
+    era: "modern"
+    region: "american"
+    end: "natural"
+    birth_peg_num: 95
+    birth_peg_candidates: ["Ball", "Bell", "Pal", "Pill"]
+    death_peg_num: 83
+    death_peg_candidates: ["Foam", "Femur", "Vomit"]
+    facts: "Buckminster Fuller was an American architect, designer, inventor and irrepressible visionary who devoted his life to a single question: how to do 'more and more with less and less' so that all humanity could thrive on the finite resources of what he called 'Spaceship Earth'. After a series of failures and a period of despair, he reinvented himself as a one-man experiment in useful living, filing dozens of patents and dreaming up radical designs like the Dymaxion car and house.\n\nHis most famous invention was the geodesic dome — a lightweight sphere of interlocking triangles that is astonishingly strong and encloses huge volumes with minimal material, and thousands were built around the world. His ideas ranged from the practical to the utopian, delivered in marathon lectures. Fittingly, when a new form of carbon shaped like his domes was discovered in 1985, it was named 'buckminsterfullerene', or the 'buckyball'. He died in 1983, aged 87, just hours before his comatose wife."
+    notes: ["Popularised the geodesic dome and 'Spaceship Earth'; the carbon 'buckyball' molecule is named after him."]
+
+  - id: 163
+    name: "Werner Heisenberg"
+    state: backlog
+    status: none
+    birth_year: 1901
+    death_year: 1976
+    era_bc: false
+    role: ["physicist"]
+    field: ["science"]
+    era: "modern"
+    region: "german"
+    end: "illness"
+    birth_peg_num: 1
+    birth_peg_candidates: ["Seed", "Suit"]
+    death_peg_num: 76
+    death_peg_candidates: ["Cash", "Coach", "Couch", "Cage"]
+    facts: "Werner Heisenberg was a German physicist and one of the principal architects of quantum mechanics, the theory that governs the subatomic world. In 1925, recovering from hay fever on the barren island of Heligoland, the 23-year-old worked out 'matrix mechanics', the first complete formulation of quantum theory, and two years later stated his famous Uncertainty Principle: that there is a fundamental limit to how precisely one can simultaneously know a particle's position and its momentum — a fuzziness built into reality itself, not just our instruments.\n\nAwarded the Nobel Prize at 31, he became a controversial figure during the Second World War as the scientific head of Nazi Germany's nuclear-weapons research, which failed to build a bomb — whether through incompetence, lack of resources, or deliberate foot-dragging is still debated. After the war he helped rebuild West German science and philosophised about the meaning of quantum theory, dying of cancer in Munich in 1976."
+    notes: ["Formulated the Uncertainty Principle and matrix mechanics; a founder of quantum theory; led the German wartime nuclear programme."]
+
+  - id: 164
+    name: "Kurt Gödel"
+    state: backlog
+    status: none
+    birth_year: 1906
+    death_year: 1978
+    era_bc: false
+    role: ["mathematician", "philosopher"]
+    field: ["science", "philosophy"]
+    era: "modern"
+    region: "austrian"
+    end: "illness"
+    birth_peg_num: 6
+    birth_peg_candidates: ["Sash"]
+    death_peg_num: 78
+    death_peg_candidates: ["Cave", "Coffee", "Cuff", "Cove"]
+    facts: "Kurt Gödel was an Austrian-American logician widely regarded as the greatest of the twentieth century, and perhaps since Aristotle. In 1931, aged just 25, he proved his two Incompleteness Theorems, which shattered a cherished dream: he showed that in any consistent formal system rich enough to describe arithmetic, there will always be true statements that the system itself can never prove, and that such a system can never prove its own consistency. It set permanent limits on what logic and mathematics can achieve.\n\nHe emigrated to Princeton, where he became one of Einstein's closest friends and daily walking companions, and even produced a solution to Einstein's equations describing a universe in which time travel was possible. But Gödel was tormented by anxiety and paranoia; convinced that people were trying to poison him, he would eat only food prepared by his wife. When she was hospitalised and could no longer cook for him, he refused to eat and effectively starved himself to death in 1978."
+    notes: ["Incompleteness Theorems — true statements exist that no consistent system can prove; a close friend of Einstein; died of self-starvation."]
+
+  - id: 165
+    name: "Stephen Hawking"
+    state: backlog
+    status: none
+    birth_year: 1942
+    death_year: 2018
+    era_bc: false
+    role: ["physicist"]
+    field: ["science"]
+    era: "modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 42
+    birth_peg_candidates: ["Rhino", "Wren", "Rain", "Orange"]
+    death_peg_num: 18
+    death_peg_candidates: ["Dove", "Toffee", "Diva", "Staff"]
+    facts: "Stephen Hawking was a British theoretical physicist who became the most famous scientist of his age, as celebrated for the courage of his life as for the brilliance of his mind. Diagnosed at 21 with motor-neurone disease and given only a few years to live, he defied the prognosis for more than half a century, gradually losing the use of his body and, after a tracheotomy, his voice — communicating through the synthesised voice that became his trademark.\n\nHis greatest scientific achievement was showing, by combining quantum theory with general relativity, that black holes are not entirely black but slowly emit radiation and can eventually evaporate — 'Hawking radiation'. His 1988 book A Brief History of Time sold millions and made cosmology a mass-market subject, and he became a pop-culture icon, appearing on The Simpsons and Star Trek. He held Newton's old chair at Cambridge for thirty years and died in 2018, aged 76."
+    notes: ["Showed black holes emit 'Hawking radiation'; wrote A Brief History of Time; worked for decades despite motor-neurone disease."]
+
+  - id: 166
+    name: "David Ricardo"
+    state: backlog
+    status: none
+    birth_year: 1772
+    death_year: 1823
+    era_bc: false
+    role: ["economist"]
+    field: ["philosophy"]
+    era: "industrial"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 72
+    birth_peg_candidates: ["Cane", "Coin", "Gun", "Can", "Queen", "Canoe"]
+    death_peg_num: 23
+    death_peg_candidates: ["Gnome", "Number", "Anemone"]
+    facts: "David Ricardo was a British economist who rose from a stockbroker's clerk to become one of the wealthiest men in England — making a legendary fortune speculating on government bonds around the Battle of Waterloo — before devoting his later years to economic theory, where he ranks among the founders of the classical school alongside Adam Smith.\n\nHis most celebrated idea, the law of comparative advantage, showed that two countries both benefit from trade if each specialises in producing whatever it makes relatively most efficiently, even if one is better at everything — a cornerstone of the case for free trade ever since. He also developed influential (and gloomier) theories of rent, wages and the distribution of income, building the first rigorous abstract models in economics. A reluctant but respected Member of Parliament, he died in 1823, aged only 51, from an infection of the middle ear."
+    notes: ["The law of comparative advantage; theories of rent and value; a self-made financier turned classical economist."]
+
+  - id: 167
+    name: "Niels Bohr"
+    state: backlog
+    status: none
+    birth_year: 1885
+    death_year: 1962
+    era_bc: false
+    role: ["physicist"]
+    field: ["science"]
+    era: "modern"
+    region: "danish"
+    end: "illness"
+    birth_peg_num: 85
+    birth_peg_candidates: ["Foil", "File"]
+    death_peg_num: 62
+    death_peg_candidates: ["Chin", "Chain", "Genie"]
+    facts: "Niels Bohr was a Danish physicist who did more than almost anyone to shape our understanding of the atom and to found quantum mechanics. In 1913 he proposed a revolutionary model in which electrons orbit the nucleus only in fixed 'quantised' energy levels, jumping between them by absorbing or emitting precise packets of light — an idea that explained the colours atoms give off and won him the Nobel Prize. His institute in Copenhagen became the world capital of quantum physics, and his long, deep debates with Einstein over the meaning of the theory are legendary.\n\nHalf-Jewish, he escaped Nazi-occupied Denmark in 1943, reportedly flying to Britain in a bomber's cramped hold, and contributed to the Manhattan Project — while campaigning, presciently, for openness and international control to prevent a nuclear arms race. After the war he championed the peaceful use of atomic energy until his death in Copenhagen in 1962."
+    notes: ["Quantum model of the atom; led the Copenhagen school; Nobel laureate; worked on the atomic bomb and later nuclear-arms control."]
 
