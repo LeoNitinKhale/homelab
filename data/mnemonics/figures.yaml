@@ -5,13 +5,13 @@ vocabulary:
   role: [writer, poet, playwright, composer, artist, philosopher, mathematician,
     astronomer, physicist, chemist, naturalist, physician, nurse, engineer, architect,
     inventor, historian, statistician, economist, lawyer, clergyman, politician,
-    statesman, ruler, king-emperor, queen, empress, general, admiral, revolutionary, activist, explorer, businessman, pirate, actor]
+    statesman, ruler, king-emperor, queen, empress, general, admiral, revolutionary, activist, explorer, businessman, pirate, actor, filmmaker]
   field: [science, arts, music, literature, power, military, exploration, philosophy]
   era: [ancient, medieval, renaissance, early-modern, enlightenment, industrial, modern]
   region: [british, french, italian, german, austrian, american, dutch, polish,
     serbian, egyptian, roman, greek, macedonian, mongol, genoese, indian, south-african,
     chinese, russian, portuguese, norwegian, spanish, turkish, carthaginian, persian, swiss, danish, irish, hunnic,
-    argentine, venezuelan, malian, new-zealander, jamaican, swedish]
+    argentine, venezuelan, malian, new-zealander, jamaican, swedish, japanese]
   end: [natural, illness, assassinated, executed, suicide, battle, uncertain]
 
 figures:
@@ -4647,4 +4647,574 @@ figures:
     death_peg_candidates: ["Cane", "Coin", "Gun", "Can", "Queen", "Canoe"]
     facts: "Samuel Morse was an American who led two lives — first as an accomplished portrait painter, then as the inventor whose electric telegraph and 'Morse code' annihilated distance and transformed communication. A talented artist trained in London, he was reportedly away painting when a letter reached him too late to say farewell to his dying young wife; the anguish of slow news is said to have spurred his obsession with instant long-distance messaging.\n\nWorking with collaborators, he developed a practical single-wire electric telegraph and, crucially, the simple code of dots and dashes that bears his name, allowing operators to tap out messages letter by letter. In 1844 he sent the famous first official message down the line from Washington to Baltimore: 'What hath God wrought'. The telegraph spread explosively across America and the world, making Morse wealthy and celebrated (though embroiled in patent disputes) and knitting distant places together for the first time. He died in New York in 1872."
     notes: ["Co-invented the electric telegraph and Morse code; 'What hath God wrought'; also a noted portrait painter."]
+
+  - id: 244
+    name: "Aristophanes"
+    state: backlog
+    status: none
+    birth_year: -446
+    death_year: -386
+    era_bc: true
+    role: ["playwright"]
+    field: ["literature"]
+    era: "ancient"
+    region: "greek"
+    end: "natural"
+    birth_peg_num: 46
+    birth_peg_candidates: ["Roach", "Ridge", "Raja", "Arch"]
+    death_peg_num: 86
+    death_peg_candidates: ["Fish", "Fisherman"]
+    facts: "Aristophanes was the greatest comic playwright of ancient Greece, the master of 'Old Comedy' whose bawdy, fantastical and savagely satirical plays skewered the politics, personalities and pretensions of fifth-century Athens. Eleven of his some forty comedies survive — the only complete examples of the genre — including The Frogs, The Birds, The Wasps, The Clouds (which lampooned Socrates as a hair-splitting fraud) and Lysistrata, in which the women of Greece withhold sex to force their men to end a war.\n\nWriting during the long, ruinous Peloponnesian War between Athens and Sparta, he used absurd plots, talking-animal choruses, topical jokes and outrageous obscenity both to entertain and to comment fearlessly on public life, war and democracy itself. Plato reportedly said that anyone who wanted to understand Athens should read Aristophanes. His influence on all later comedy, from Roman playwrights to the modern stage, is immense; he died around 386 BC."
+    notes: ["BC. The great comic playwright of ancient Athens; The Frogs, The Birds, Lysistrata; mocked Socrates in The Clouds."]
+
+  - id: 245
+    name: "Sophocles"
+    state: backlog
+    status: none
+    birth_year: -497
+    death_year: -406
+    era_bc: true
+    role: ["playwright"]
+    field: ["literature"]
+    era: "ancient"
+    region: "greek"
+    end: "natural"
+    birth_peg_num: 97
+    birth_peg_candidates: ["Book", "Pig", "Bike", "Pack", "Peak", "Beak"]
+    death_peg_num: 6
+    death_peg_candidates: ["Sash", "Sushi"]
+    facts: "Sophocles was one of the three great tragic playwrights of classical Athens (with Aeschylus and Euripides), and for many the supreme master of the form. He wrote some 120 plays and won more dramatic competitions than any of his rivals, though only seven complete tragedies survive — among them the towering Oedipus Rex, whose hero fulfils a prophecy by unwittingly killing his father and marrying his mother, and Antigone, the story of a young woman who defies the king to give her brother a proper burial and pays with her life.\n\nHe was a technical innovator, adding a third speaking actor and enriching the drama's psychological depth, and his tragedies probe fate, free will, pride and the limits of human knowledge with enduring power (Aristotle held Oedipus Rex up as the model tragedy). A respected public figure who also served Athens as a general and priest, he lived to about ninety, dying in 406 BC just before the city's final defeat by Sparta."
+    notes: ["BC. One of the three great Greek tragedians; Oedipus Rex and Antigone; added a third actor; won some 24 dramatic prizes."]
+
+  - id: 246
+    name: "Herodotus"
+    state: backlog
+    status: none
+    birth_year: -484
+    death_year: -425
+    era_bc: true
+    role: ["historian"]
+    field: ["literature"]
+    era: "ancient"
+    region: "greek"
+    end: "natural"
+    birth_peg_num: 84
+    birth_peg_candidates: ["Fire", "Fur", "Ferry", "Fairy"]
+    death_peg_num: 25
+    death_peg_candidates: ["Nail", "Nile", "Noel", "Snail"]
+    facts: "Herodotus of Halicarnassus is known as the 'Father of History' — the first writer we know of to collect his materials systematically, test their accuracy to a degree, and arrange them into a vivid, sustained prose narrative. His great work, The Histories, tells the story of the epic wars between the Greek city-states and the mighty Persian Empire (including Marathon, Thermopylae and Salamis), while ranging across the customs, geography and legends of the whole known world.\n\nA tireless traveller, he journeyed through Egypt, the Near East and the Black Sea, and his long, digressive account of Egypt — its crocodiles and hippos, its embalming, and above all the Nile whose annual flood so fascinated him — is one of the most famous parts of the book. Later writers nicknamed him the 'Father of Lies' for his tall tales and hearsay, but his blend of storytelling and inquiry effectively invented the writing of history. He died around 425 BC."
+    notes: ["BC. The 'Father of History'; his Histories of the Greco-Persian Wars; famous for his account of Egypt and the Nile."]
+
+  - id: 247
+    name: "Ovid"
+    state: backlog
+    status: none
+    birth_year: -43
+    death_year: 17
+    era_bc: true
+    role: ["poet"]
+    field: ["literature"]
+    era: "ancient"
+    region: "roman"
+    end: "uncertain"
+    birth_peg_num: 43
+    birth_peg_candidates: ["Ram", "Arm", "Rum", "Room", "Rim", "Worm"]
+    death_peg_num: 17
+    death_peg_candidates: ["Tack", "Duck", "Dog", "Deck", "Tag", "Tick"]
+    facts: "Ovid was one of the great poets of the golden age of Latin literature, celebrated for his wit, elegance and inexhaustible inventiveness. His masterpiece, the Metamorphoses, is a dazzling epic weaving together hundreds of Greek and Roman myths on the theme of transformation — gods and humans turned into animals, plants, rivers and constellations — and it became one of the most influential works in all of Western art and literature, a treasure-house for later poets and painters.\n\nHe also wrote playful, sophisticated love poetry, including the cheeky Ars Amatoria ('The Art of Love'), a mock-instruction manual for seduction. At the height of his fame, however, the emperor Augustus abruptly banished him to Tomis, a remote, half-barbarian town on the Black Sea, for reasons Ovid would only call 'a poem and a mistake' — probably the risqué love poetry combined with some unknown scandal. He spent his last years there writing melancholy poems of exile, and died around 17 AD, never allowed to return to the Rome he loved."
+    notes: ["BC-AD. Roman poet of love and myth; the Metamorphoses and the Ars Amatoria; exiled by Augustus to the Black Sea."]
+
+  - id: 248
+    name: "Modest Mussorgsky"
+    state: backlog
+    status: none
+    birth_year: 1839
+    death_year: 1881
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "industrial"
+    region: "russian"
+    end: "illness"
+    birth_peg_num: 39
+    birth_peg_candidates: ["Map", "Mop", "Amp", "Imp"]
+    death_peg_num: 81
+    death_peg_candidates: ["Foot", "Vet", "Vat", "Photo"]
+    facts: "Modest Mussorgsky was the most radically original of 'The Five', the group of Russian composers who sought to create a distinctly national music free of Western academic polish. Largely self-taught and gloriously indifferent to the 'rules', he wrote music of raw power and vivid, earthy Russian character, drawing on folk song, speech rhythms and history.\n\nHis masterpieces include the opera Boris Godunov (a brooding drama of a guilt-haunted tsar), the piano suite Pictures at an Exhibition (later famously orchestrated by Ravel), and the demonic orchestral fantasy Night on Bald Mountain, depicting a witches' sabbath. But his life was a slow ruin: unable to hold down his civil-service jobs and increasingly dependent on alcohol, he declined into poverty and delirium tremens, and died in a military hospital in 1881, just days after his 42nd birthday — a haunting portrait of him painted by Repin days before shows the wreck drink had made of him."
+    notes: ["Russian nationalist composer; Pictures at an Exhibition, Night on Bald Mountain, Boris Godunov; died of alcoholism."]
+
+  - id: 249
+    name: "Gioachino Rossini"
+    state: backlog
+    status: none
+    birth_year: 1792
+    death_year: 1868
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "industrial"
+    region: "italian"
+    end: "illness"
+    birth_peg_num: 92
+    birth_peg_candidates: ["Bone", "Pin", "Pen", "Bun", "Pony", "Bean"]
+    death_peg_num: 68
+    death_peg_candidates: ["Chef", "Chief", "Sheaf", "George Foreman"]
+    facts: "Gioachino Rossini was the most popular and prolific opera composer of his day, a master of sparkling, tuneful comedy who could reportedly dash off an opera in a couple of weeks. He wrote nearly forty operas before he was forty, including the effervescent comic masterpiece The Barber of Seville and the grand William Tell, whose galloping overture became one of the most recognisable tunes in the world (later the theme of The Lone Ranger).\n\nThen, at the height of his fame and wealth, he did something almost unheard of: he essentially stopped composing operas and spent the last four decades of his life in luxurious semi-retirement, celebrated as much for his wit and his passion for fine food as for his music. A devoted gourmet, he lent his name to the lavish dish Tournedos Rossini (beef with foie gras and truffles) and hosted glittering musical dinners in Paris. He died there in 1868, having composed only occasional pieces in his long, delicious retirement."
+    notes: ["Italian opera composer; The Barber of Seville, William Tell; retired young to become a famous gourmet (Tournedos Rossini)."]
+
+  - id: 250
+    name: "Johann Strauss II"
+    state: backlog
+    status: none
+    birth_year: 1825
+    death_year: 1899
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "industrial"
+    region: "austrian"
+    end: "illness"
+    birth_peg_num: 25
+    birth_peg_candidates: ["Nail", "Nile", "Noel", "Snail"]
+    death_peg_num: 99
+    death_peg_candidates: ["Baby", "Poppy", "Pipe", "Puppy", "Bib", "Pub"]
+    facts: "Johann Strauss II, the 'Waltz King', was the most famous member of a whole dynasty of Viennese dance-music composers, and the man who raised the waltz from a popular dance to a glittering art form that came to symbolise nineteenth-century Vienna. He conducted his own orchestra across Europe and America to adoring crowds, and composed some 500 waltzes, polkas, quadrilles and marches.\n\nHis most beloved creation, The Blue Danube, became an unofficial Austrian anthem and one of the most recognisable pieces of music ever written (later given a cosmic second life in the film 2001: A Space Odyssey), while Tales from the Vienna Woods and the Emperor Waltz remain concert staples. He also conquered the stage with sparkling operettas, above all Die Fledermaus ('The Bat'), a champagne-fizz comedy still performed the world over. He died of pneumonia in Vienna in 1899, the embodiment of the city's carefree golden age."
+    notes: ["The 'Waltz King'; The Blue Danube, Tales from the Vienna Woods, the operetta Die Fledermaus."]
+
+  - id: 251
+    name: "Édouard Manet"
+    state: backlog
+    status: none
+    birth_year: 1832
+    death_year: 1883
+    era_bc: false
+    role: ["artist"]
+    field: ["arts"]
+    era: "industrial"
+    region: "french"
+    end: "illness"
+    birth_peg_num: 32
+    birth_peg_candidates: ["Moon", "Money", "Mine", "Mane", "Minnow"]
+    death_peg_num: 83
+    death_peg_candidates: ["Foam", "Femur", "Vomit"]
+    facts: "Édouard Manet was the crucial bridge between the Realism of the mid-nineteenth century and the Impressionism he helped inspire, a painter who scandalised the Paris art establishment and dragged art firmly into the modern world. His Le Déjeuner sur l'herbe (a naked woman picnicking with clothed men) and especially Olympia (a coolly confrontational nude prostitute) provoked outrage for their frank subject matter and bold, flat, sketch-like technique.\n\nA well-dressed Parisian gentleman who painted the cafés, bars, boulevards and demi-monde of modern city life, he was a hero and elder to the younger Impressionists like Monet and Degas, though he never exhibited with them, always craving official recognition. In his last years he suffered from a painful illness (probably linked to syphilis) that attacked his left leg; gangrene set in, the leg was amputated, and he died a few days later in 1883, aged 51."
+    notes: ["Pivotal figure between Realism and Impressionism; Olympia, Le Déjeuner sur l'herbe; died after a leg amputation."]
+
+  - id: 252
+    name: "Edgar Degas"
+    state: backlog
+    status: none
+    birth_year: 1834
+    death_year: 1917
+    era_bc: false
+    role: ["artist"]
+    field: ["arts"]
+    era: "industrial"
+    region: "french"
+    end: "illness"
+    birth_peg_num: 34
+    birth_peg_candidates: ["Mower", "Mirror", "Mare", "Moor", "Mayor", "Myrrh"]
+    death_peg_num: 17
+    death_peg_candidates: ["Tack", "Duck", "Dog", "Deck", "Tag", "Tick"]
+    facts: "Edgar Degas was one of the founders of Impressionism, though he preferred to call himself a 'realist' and disdained painting out of doors: his genius was for capturing modern figures in fleeting, off-balance, candid-seeming moments, as if glimpsed by chance. He is above all the painter of the ballet — the dancers of the Paris Opéra shown not in triumph but rehearsing, resting, adjusting a shoe or waiting in the wings — as well as of racehorses, laundresses, milliners and women bathing.\n\nA brilliant draughtsman who worked in oil, luminous pastel and wax sculpture (his Little Dancer stunned viewers), he was also a difficult, reclusive and famously acid-tongued man whose reputation was later stained by his ugly conduct during the Dreyfus Affair. As his eyesight steadily failed in later life, he grew ever more isolated, eventually almost blind, and he died in Paris in 1917, largely withdrawn from the world."
+    notes: ["Impressionist master of ballet dancers, racehorses and bathers; worked in pastel, oil and sculpture; went blind."]
+
+  - id: 253
+    name: "Antonie van Leeuwenhoek"
+    state: backlog
+    status: none
+    birth_year: 1632
+    death_year: 1723
+    era_bc: false
+    role: ["naturalist"]
+    field: ["science"]
+    era: "early-modern"
+    region: "dutch"
+    end: "illness"
+    birth_peg_num: 32
+    birth_peg_candidates: ["Moon", "Money", "Mine", "Mane", "Minnow"]
+    death_peg_num: 23
+    death_peg_candidates: ["Gnome", "Number", "Anemone"]
+    facts: "Antonie van Leeuwenhoek was a Dutch draper and self-taught scientist who became the 'father of microbiology' — the first person to observe the teeming microscopic world of living things. With no formal scientific training, he ground his own tiny, astonishingly powerful single-lens microscopes (partly to inspect the thread-count of cloth) and turned them on everything he could find: pond water, rainwater, saliva, blood, plaque scraped from his own teeth.\n\nWhat he saw amazed him and, when he reported it to the Royal Society in London, the world: swarms of tiny moving creatures he called 'animalcules' — what we now know as bacteria, protozoa and other microorganisms — as well as red blood cells, sperm cells and the fine structure of muscle and plants. Though some doubted him at first, his meticulous observations were confirmed and revolutionised biology and medicine. He kept up his researches into extreme old age, dying at Delft in 1723 aged 90."
+    notes: ["'Father of microbiology'; first to observe bacteria, protozoa and sperm through his own hand-made microscopes."]
+
+  - id: 254
+    name: "Molière"
+    state: backlog
+    status: none
+    birth_year: 1622
+    death_year: 1673
+    era_bc: false
+    role: ["playwright"]
+    field: ["literature"]
+    era: "early-modern"
+    region: "french"
+    end: "illness"
+    birth_peg_num: 22
+    birth_peg_candidates: ["Nun", "Onion", "Neon", "Nanny", "Naan"]
+    death_peg_num: 73
+    death_peg_candidates: ["Comb", "Gum", "Cameo", "Camel"]
+    facts: "Molière (the stage name of Jean-Baptiste Poquelin) was the greatest comic playwright of France and one of the supreme masters of comedy in world theatre. Actor, director and author, he ran his own troupe under the patronage of King Louis XIV and wrote a string of brilliant, enduring comedies — Tartuffe (satirising religious hypocrisy), The Misanthrope, The Miser, The Would-Be Gentleman and more — that combined farce with sharp, often daring social criticism of pretension, greed, quackery and false piety.\n\nTartuffe so enraged religious authorities that it was banned for years, and Molière repeatedly courted controversy by holding polite society up to ridicule. In a famously ironic end, he was performing the title role in his own comedy The Imaginary Invalid — playing a hypochondriac obsessed with illness — when he was seized by a real coughing fit (he had tuberculosis), finished the performance, and died hours later in 1673. As an actor denied a religious burial, he was interred quietly after the king intervened."
+    notes: ["The master of French comedy; Tartuffe, The Misanthrope, The Miser; collapsed on stage in The Imaginary Invalid."]
+
+  - id: 255
+    name: "Denis Diderot"
+    state: backlog
+    status: none
+    birth_year: 1713
+    death_year: 1784
+    era_bc: false
+    role: ["philosopher", "writer"]
+    field: ["philosophy", "literature"]
+    era: "enlightenment"
+    region: "french"
+    end: "illness"
+    birth_peg_num: 13
+    birth_peg_candidates: ["Tomb", "Dime", "Dam", "Team", "Time", "Dome"]
+    death_peg_num: 84
+    death_peg_candidates: ["Fire", "Fur", "Ferry", "Fairy"]
+    facts: "Denis Diderot was a central figure of the French Enlightenment, best known as the chief editor of the Encyclopédie, one of the most ambitious intellectual projects in history. Over more than two decades and some 28 volumes, he and his collaborators (including Voltaire and Rousseau) tried to gather and organise all of human knowledge — the arts, sciences, crafts and trades — in a work explicitly designed to promote reason, tolerance and critical thinking, and to undermine superstition and unquestioned authority.\n\nThe project was repeatedly threatened by censorship, and Diderot pressed on despite official hostility and a spell in prison. A restless, wide-ranging thinker, he also wrote pioneering art criticism, plays and boldly experimental novels and dialogues (like Rameau's Nephew) that were only published after his death. Chronically short of money, he was famously rescued when Empress Catherine the Great of Russia bought his library. He died in Paris in 1784, five years before the Revolution his ideas helped to inspire."
+    notes: ["Chief editor of the Encyclopédie; a leading philosophe of the French Enlightenment; also wrote novels and art criticism."]
+
+  - id: 256
+    name: "Michael Jackson"
+    state: backlog
+    status: none
+    birth_year: 1958
+    death_year: 2009
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "modern"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 58
+    birth_peg_candidates: ["Leaf", "Elf", "Olive", "Loaf", "Wolf"]
+    death_peg_num: 9
+    death_peg_candidates: ["Soap", "Ape"]
+    facts: "Michael Jackson was the 'King of Pop', one of the most commercially successful and influential entertainers in history, whose blend of dazzling dance, irresistible songs and groundbreaking music videos reshaped popular culture. A child star with the Jackson 5, he became a global phenomenon as a solo artist: his 1982 album Thriller remains the best-selling album of all time, and its cinematic title-track video — in which he morphs into a snarling werewolf and leads a troupe of dancing zombies — helped turn the music video into an art form. He popularised the 'moonwalk' and set new standards for stagecraft.\n\nHis later life, however, was engulfed in eccentricity and scandal: his changing appearance, his fantasy 'Neverland' ranch (complete with a private zoo and his pet chimpanzee, Bubbles), and above all accusations of child abuse, which he denied and was acquitted of at trial. In 2009, while rehearsing for an ambitious comeback tour, he died suddenly at 50 from an overdose of the anaesthetic propofol administered by his personal doctor, prompting an unprecedented outpouring of global grief."
+    notes: ["The 'King of Pop'; Thriller (best-selling album ever), the moonwalk; pet chimp Bubbles; died of a propofol overdose."]
+
+  - id: 257
+    name: "H. G. Wells"
+    state: backlog
+    status: none
+    birth_year: 1866
+    death_year: 1946
+    era_bc: false
+    role: ["writer"]
+    field: ["literature"]
+    era: "modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 66
+    birth_peg_candidates: ["Judge", "Jujube"]
+    death_peg_num: 46
+    death_peg_candidates: ["Roach", "Ridge", "Raja", "Arch"]
+    facts: "H. G. Wells was an English writer often called, with Jules Verne, a father of science fiction, whose early 'scientific romances' imagined ideas that have haunted the genre ever since. In a remarkable burst in the 1890s he produced The Time Machine (with its far-future Eloi and monstrous underground Morlocks), The War of the Worlds (a Martian invasion that panicked America when Orson Welles dramatised it on radio), The Invisible Man and The Island of Doctor Moreau — stories that used fantastic premises to explore evolution, class, science and human nature.\n\nBeyond fiction, Wells was a tireless social prophet, campaigner and populariser: a socialist who wrote best-selling works of history and futurology, championed a 'world state', and foresaw tanks, aerial bombing and even atomic weapons before they existed. Prolific, opinionated and endlessly curious, he grew pessimistic about humanity's prospects in his final years, and died in London in 1946, just after the atomic bombs he had eerily anticipated."
+    notes: ["A father of science fiction; The Time Machine, The War of the Worlds, The Invisible Man; social prophet and reformer."]
+
+  - id: 258
+    name: "Hieronymus Bosch"
+    state: backlog
+    status: none
+    birth_year: 1450
+    death_year: 1516
+    era_bc: false
+    role: ["artist"]
+    field: ["arts"]
+    era: "renaissance"
+    region: "dutch"
+    end: "illness"
+    birth_peg_num: 50
+    birth_peg_candidates: ["Lace", "Lice", "Lasso"]
+    death_peg_num: 16
+    death_peg_candidates: ["Dish", "Dash", "Ditch", "Dutch"]
+    facts: "Hieronymus Bosch was a Netherlandish painter whose phantasmagoric, deeply strange religious pictures are unlike anything else in Renaissance art, teeming with bizarre monsters, hybrid creatures, weird machines and vivid torments. His most famous work, the great triptych The Garden of Earthly Delights, moves from the innocence of Eden, through a central panel of naked humanity indulging in every sensual pleasure, to a terrifying hell of grotesque demons and imaginative punishments.\n\nDeeply religious and moralistic, Bosch used these fantastical, often nightmarish images to warn of sin, folly and damnation, drawing on medieval proverbs, bestiaries and folklore. Almost nothing is known of his life in the town of 's-Hertogenbosch (from which he took his name), and his startling imagination — centuries ahead of its time — led the twentieth-century Surrealists to claim him as a forefather. He died in 1516, his visions still puzzling and mesmerising viewers today."
+    notes: ["Netherlandish painter of fantastical, nightmarish religious scenes; The Garden of Earthly Delights; a proto-Surrealist."]
+
+  - id: 259
+    name: "Edvard Grieg"
+    state: backlog
+    status: none
+    birth_year: 1843
+    death_year: 1907
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "industrial"
+    region: "norwegian"
+    end: "illness"
+    birth_peg_num: 43
+    birth_peg_candidates: ["Ram", "Arm", "Rum", "Room", "Rim", "Worm"]
+    death_peg_num: 7
+    death_peg_candidates: ["Sack", "Sock", "Ski"]
+    facts: "Edvard Grieg was Norway's greatest composer and the leading figure of the nationalist movement in Scandinavian music, whose work is saturated with the folk melodies, dance rhythms and brooding landscapes of his homeland. Though he wrote in the small forms he loved best — songs, lyric piano pieces and chamber music — a few of his works became universally famous, above all his stirring Piano Concerto in A minor and his music for Ibsen's play Peer Gynt.\n\nThe Peer Gynt suites contain some of the most instantly recognisable melodies in classical music: the serene 'Morning Mood' and the mounting, sinister stampede of 'In the Hall of the Mountain King'. A small, sickly man of great charm, plagued by lifelong lung trouble, he toured Europe as a celebrated pianist and conductor and drew on Norwegian folk music to give his country a musical voice. He died in Bergen in 1907, and tens of thousands lined the streets for the funeral of their national composer."
+    notes: ["Norway's greatest composer; the Peer Gynt suite ('In the Hall of the Mountain King', 'Morning Mood') and Piano Concerto."]
+
+  - id: 260
+    name: "Claude Debussy"
+    state: backlog
+    status: none
+    birth_year: 1862
+    death_year: 1918
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "modern"
+    region: "french"
+    end: "illness"
+    birth_peg_num: 62
+    birth_peg_candidates: ["Chin", "Chain", "Genie", "Ocean"]
+    death_peg_num: 18
+    death_peg_candidates: ["Dove", "Toffee", "Diva", "Tofu", "Staff"]
+    facts: "Claude Debussy was one of the most influential composers of the modern era, the central figure of musical 'Impressionism' (a label he disliked), who broke away from the heavy German Romantic tradition to create a new music of shimmering colour, floating harmonies and subtle atmosphere. Drawing on everything from Symbolist poetry to Javanese gamelan, he blurred the old rules of tonality and structure, painting evocative moods and images in sound.\n\nHis works include the dreamy Prélude à l'après-midi d'un faune (often called the start of modern music), the delicate piano piece Clair de Lune, and the great orchestral triptych La Mer, an astonishing evocation of the sea's changing light and motion. His revolutionary harmonic language opened the door to much of twentieth-century music. Suffering from cancer, he died in Paris in March 1918 during the final German offensive of the First World War, as the city was being bombarded, and could not be given a proper public funeral."
+    notes: ["Father of musical Impressionism; Clair de Lune, La Mer, Prélude à l'après-midi d'un faune; died as WWI shelled Paris."]
+
+  - id: 261
+    name: "Sergei Prokofiev"
+    state: backlog
+    status: none
+    birth_year: 1891
+    death_year: 1953
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "modern"
+    region: "russian"
+    end: "illness"
+    birth_peg_num: 91
+    birth_peg_candidates: ["Boat", "Bat", "Bud", "Pot", "Pad", "Boot"]
+    death_peg_num: 53
+    death_peg_candidates: ["Lamb", "Lime", "Lemon", "Llama", "Loom", "Elm"]
+    facts: "Sergei Prokofiev was one of the great composers of the twentieth century, a brilliant pianist and boldly modern voice whose music combines biting dissonance and driving rhythm with soaring lyrical melody. His enormous output ranges from the children's classic Peter and the Wolf (which teaches the orchestra through a musical fairy tale) to the ballet Romeo and Juliet, the film scores for Eisenstein's Alexander Nevsky and Ivan the Terrible, symphonies, concertos and operas.\n\nA prodigy who left Russia after the Revolution and made his name in the West, he took the fateful decision to return to the Soviet Union in the 1930s, where he produced some of his finest work but fell foul of the regime's cultural crackdowns, denounced for 'formalism' and forced to write more 'accessible' music. In a bitter historical irony, he died in Moscow on 5 March 1953 — the very same day as Joseph Stalin — so that his death was almost completely overshadowed, and mourners could barely obtain flowers for his funeral."
+    notes: ["Russian composer; Peter and the Wolf, Romeo and Juliet, the Alexander Nevsky score; died the same day as Stalin."]
+
+  - id: 262
+    name: "Igor Stravinsky"
+    state: backlog
+    status: none
+    birth_year: 1882
+    death_year: 1971
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "modern"
+    region: "russian"
+    end: "illness"
+    birth_peg_num: 82
+    birth_peg_candidates: ["Van", "Fan", "Phone", "Vine", "Fin"]
+    death_peg_num: 71
+    death_peg_candidates: ["Cat", "Coat", "Kite", "Goat", "Kid"]
+    facts: "Igor Stravinsky was one of the most important and influential composers of the twentieth century, a restless innovator who repeatedly transformed the course of music. He burst to fame with three ballets for Diaghilev's Ballets Russes — The Firebird, Petrushka and, most explosively, The Rite of Spring, whose pounding, dissonant, primitive rhythms and pagan Russian subject caused a near-riot at its 1913 Paris premiere, with the fashionable audience jeering, fighting and drowning out the orchestra.\n\nThat scandal became a landmark of modernism. But Stravinsky refused to stand still: over the following decades he reinvented himself again and again, moving through a cool, elegant 'neoclassical' style and later even adopting the twelve-tone technique of his rival Schoenberg. Forced by war and revolution into exile in France and then the United States, he became a revered elder statesman of music, working almost to the end. He died in New York in 1971 and, by his wish, was buried in Venice."
+    notes: ["Revolutionary modernist composer; The Rite of Spring (which caused a riot), The Firebird, Petrushka; endlessly reinvented his style."]
+
+  - id: 263
+    name: "Harriet Tubman"
+    state: backlog
+    status: none
+    birth_year: 1822
+    death_year: 1913
+    era_bc: false
+    role: ["activist"]
+    field: ["power"]
+    era: "industrial"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 22
+    birth_peg_candidates: ["Nun", "Onion", "Neon", "Nanny", "Naan"]
+    death_peg_num: 13
+    death_peg_candidates: ["Tomb", "Dime", "Dam", "Team", "Time", "Dome"]
+    facts: "Harriet Tubman was an African American abolitionist who escaped from slavery and then risked her life again and again to lead others to freedom, becoming the most famous 'conductor' on the Underground Railroad — the secret network of routes and safe houses that helped enslaved people flee the American South. Nicknamed 'Moses', she made around thirteen dangerous return journeys into slave territory, guiding some seventy people (including her own family) to freedom, and proudly claimed she 'never lost a passenger', despite a bounty on her head.\n\nDuring the Civil War she served the Union as a cook, nurse, scout and spy, even helping to lead an armed raid that freed hundreds of enslaved people. Afterwards she campaigned for women's suffrage and cared for the elderly and poor, though she herself lived in poverty. Suffering for years from the effects of a childhood head injury, she died in 1913, and has since become an enduring American icon — with plans to make her the first woman featured on the US twenty-dollar bill."
+    notes: ["Escaped slavery and led dozens to freedom on the Underground Railroad ('Moses'); Civil War scout; to feature on the US $20 bill."]
+
+  - id: 264
+    name: "Nikita Khrushchev"
+    state: backlog
+    status: none
+    birth_year: 1894
+    death_year: 1971
+    era_bc: false
+    role: ["politician", "ruler"]
+    field: ["power"]
+    era: "modern"
+    region: "russian"
+    end: "illness"
+    birth_peg_num: 94
+    birth_peg_candidates: ["Bear", "Pear", "Boar", "Beer", "Berry", "Pier"]
+    death_peg_num: 71
+    death_peg_candidates: ["Cat", "Coat", "Kite", "Goat", "Kid"]
+    facts: "Nikita Khrushchev was the leader of the Soviet Union during much of the early Cold War, a blunt, energetic and volatile figure who rose from peasant origins to succeed Stalin. In a stunning 'Secret Speech' in 1956 he denounced Stalin's crimes and cult of personality, launching a partial 'thaw' and de-Stalinisation — though he also crushed the Hungarian uprising and built the Berlin Wall.\n\nHis rule saw the Soviet Union's greatest technological triumphs, the Sputnik satellite and the first man in space, which terrified and spurred the West. But he also brought the world to the brink of nuclear war in the 1962 Cuban Missile Crisis, a confrontation with US President Kennedy from which both sides eventually stepped back. Famous for his earthy manner — pounding his shoe on a desk at the United Nations, boasting 'we will bury you' — he was ousted by rivals in a bloodless coup in 1964 and lived out his days as a private pensioner, dying in 1971."
+    notes: ["Soviet leader who denounced Stalin, launched the space race (Sputnik), and faced the Cuban Missile Crisis; ousted in 1964."]
+
+  - id: 265
+    name: "Indira Gandhi"
+    state: backlog
+    status: none
+    birth_year: 1917
+    death_year: 1984
+    era_bc: false
+    role: ["politician", "ruler"]
+    field: ["power"]
+    era: "modern"
+    region: "indian"
+    end: "assassinated"
+    birth_peg_num: 17
+    birth_peg_candidates: ["Tack", "Duck", "Dog", "Deck", "Tag", "Tick"]
+    death_peg_num: 84
+    death_peg_candidates: ["Fire", "Fur", "Ferry", "Fairy"]
+    facts: "Indira Gandhi was the first — and to date only — woman to serve as Prime Minister of India, and one of the most powerful and controversial figures in the country's history. The daughter of India's founding prime minister Jawaharlal Nehru (and no relation to Mahatma Gandhi), she dominated Indian politics for much of two decades, projecting an image of decisive, often ruthless strength.\n\nHer record was dramatic and divisive: she led India to a decisive victory over Pakistan in the 1971 war that created Bangladesh, oversaw India's first nuclear test, and championed the poor — but she also suspended democracy during the 21-month 'Emergency' (1975-77), ruling by decree, jailing opponents and censoring the press. In 1984, to flush out armed Sikh separatists, she ordered the army to storm the Golden Temple in Amritsar, Sikhism's holiest shrine; in revenge, two of her own Sikh bodyguards shot her dead that October. Her assassination triggered horrific anti-Sikh riots, and she was cremated on a state funeral pyre."
+    notes: ["India's first female PM; the 1971 war and Bangladesh; the Emergency; assassinated by her own bodyguards after Operation Blue Star."]
+
+  - id: 266
+    name: "Miyamoto Musashi"
+    state: backlog
+    status: none
+    birth_year: 1584
+    death_year: 1645
+    era_bc: false
+    role: ["general"]
+    field: ["military"]
+    era: "early-modern"
+    region: "japanese"
+    end: "illness"
+    birth_peg_num: 84
+    birth_peg_candidates: ["Fire", "Fur", "Ferry", "Fairy"]
+    death_peg_num: 45
+    death_peg_candidates: ["Reel", "Rail", "Roll", "Aerial"]
+    facts: "Miyamoto Musashi was the most famous swordsman in Japanese history, a rōnin (masterless samurai), artist and philosopher who, by tradition, fought around sixty duels without ever being defeated — his first reputedly at the age of thirteen. He developed a distinctive two-sword fighting style (Niten Ichi-ryū, wielding both the long and short sword at once) and won his most legendary duel against the master Sasaki Kojirō armed only with a wooden sword carved from a boat's oar.\n\nBeyond the sword, Musashi was a serious ink painter and calligrapher, and near the end of his life he withdrew to a cave to write The Book of Five Rings (Go Rin no Sho), a concise treatise on strategy, swordsmanship and the warrior's mindset that is still studied today — including, in modern times, by business leaders. He died around 1645, having distilled a lifetime of combat into a philosophy of discipline, adaptability and 'the Way'."
+    notes: ["Legendary Japanese swordsman, undefeated in ~60 duels; the two-sword style; wrote The Book of Five Rings."]
+
+  - id: 267
+    name: "Stanley Kubrick"
+    state: backlog
+    status: none
+    birth_year: 1928
+    death_year: 1999
+    era_bc: false
+    role: ["filmmaker"]
+    field: ["arts"]
+    era: "modern"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 28
+    birth_peg_candidates: ["Knife", "Nephew", "Navy"]
+    death_peg_num: 99
+    death_peg_candidates: ["Baby", "Poppy", "Pipe", "Puppy", "Bib", "Pub"]
+    facts: "Stanley Kubrick was one of the most influential and admired film directors of all time, a meticulous perfectionist famous for the visual grandeur, technical innovation and unsettling intelligence of his work. Across a remarkably varied but always distinctive body of films, he explored human nature at its darkest and strangest — the Cold War madness of Dr Strangelove, the evolutionary and cosmic mysteries of 2001: A Space Odyssey, the youth violence of A Clockwork Orange, the dehumanising war machine of Full Metal Jacket, and the creeping horror of The Shining.\n\nNotorious for demanding dozens of takes and for controlling every detail of production, he retreated to a reclusive life in the English countryside, releasing films slowly and guarding his privacy fiercely. 2001, with its enigmatic monolith, murderous computer HAL and final image of a luminous 'Star Child' floating above the Earth, redefined science-fiction cinema and its special effects. He died in his sleep in 1999, just days after delivering the final cut of his last film, Eyes Wide Shut."
+    notes: ["Perfectionist director; 2001: A Space Odyssey, A Clockwork Orange, The Shining, Dr Strangelove; a reclusive genius."]
+
+  - id: 268
+    name: "Otto Lilienthal"
+    state: backlog
+    status: none
+    birth_year: 1848
+    death_year: 1896
+    era_bc: false
+    role: ["inventor"]
+    field: ["science"]
+    era: "industrial"
+    region: "german"
+    end: "uncertain"
+    birth_peg_num: 48
+    birth_peg_candidates: ["Roof", "Reef", "Ref", "Ruff", "RAF", "Roofer"]
+    death_peg_num: 96
+    death_peg_candidates: ["Beach", "Peach", "Bush", "Badge", "Pouch"]
+    facts: "Otto Lilienthal was a German engineer and aviation pioneer known as the 'Glider King' or the 'Flying Man' — the first person to make well-documented, repeated, successful flights with heavier-than-air gliders, proving that human flight was genuinely possible. Fascinated since boyhood by the flight of birds, he studied their wings scientifically and, in the early 1890s, built a series of elegant bat-winged gliders on which he launched himself from hills near Berlin, making some 2,000 flights and capturing the world's imagination with striking photographs of a man in the air.\n\nHis careful measurements of lift and wing shapes were published and studied internationally, directly influencing the Wright brothers and other pioneers who would soon achieve powered flight. In 1896, during a flight, his glider stalled and pitched into the ground; he suffered a broken spine and died the next day. His reported last words — 'sacrifices must be made' — became a famous motto of the pioneering age of aviation."
+    notes: ["Aviation pioneer, the 'Glider King'; the first to make repeated successful gliding flights; died in a glider crash. Inspired the Wright brothers."]
+
+  - id: 269
+    name: "Robert Goddard"
+    state: backlog
+    status: none
+    birth_year: 1882
+    death_year: 1945
+    era_bc: false
+    role: ["physicist", "inventor"]
+    field: ["science"]
+    era: "modern"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 82
+    birth_peg_candidates: ["Van", "Fan", "Phone", "Vine", "Fin"]
+    death_peg_num: 45
+    death_peg_candidates: ["Reel", "Rail", "Roll", "Aerial"]
+    facts: "Robert Goddard was an American physicist and inventor widely regarded as the father of modern rocketry, whose pioneering work laid the theoretical and practical foundations of spaceflight. Inspired as a boy by H. G. Wells's War of the Worlds and a vision of reaching Mars, he devoted his life to rockets, and in 1926 he built and launched the world's first liquid-fuelled rocket from a snowy field in Massachusetts — a modest hop of a few seconds that was, in effect, the dawn of the space age.\n\nWorking largely alone and shunning publicity, he developed and patented many of the fundamental technologies of the modern rocket: liquid propellants, gyroscopic guidance, steering vanes and multi-stage designs. Ridiculed by a New York Times editorial that sneered he lacked 'the knowledge ladled out daily in high schools' (that a rocket couldn't work in a vacuum), he was proved triumphantly right. He died in 1945, and only later did the world — and NASA, which named a space centre after him — fully recognise how far ahead of his time he had been."
+    notes: ["Father of modern rocketry; launched the first liquid-fuelled rocket (1926); mocked in his lifetime, vindicated by the space age."]
+
+  - id: 270
+    name: "Cardinal Richelieu"
+    state: backlog
+    status: none
+    birth_year: 1585
+    death_year: 1642
+    era_bc: false
+    role: ["clergyman", "statesman"]
+    field: ["power"]
+    era: "early-modern"
+    region: "french"
+    end: "illness"
+    birth_peg_num: 85
+    birth_peg_candidates: ["Foil", "File", "Fly", "Flea", "Veil"]
+    death_peg_num: 42
+    death_peg_candidates: ["Rhino", "Wren", "Rain", "Urn", "Iron", "Orange"]
+    facts: "Armand Jean du Plessis, Cardinal Richelieu, was the chief minister to King Louis XIII of France and one of the most formidable statesmen in European history — the effective ruler of France for nearly two decades and a founder of the modern centralised state. A prince of the Catholic Church who nonetheless pursued cold, calculating 'reason of state', he devoted himself to two goals: making royal authority supreme within France, and making France supreme in Europe.\n\nTo the first end he ruthlessly crushed the political and military power of the great nobles and the Protestant Huguenots (besieging their stronghold of La Rochelle), and built a network of spies and informers to root out conspiracies against him. To the second, he manoeuvred France, though Catholic, into backing the Protestant side in the Thirty Years' War to weaken the rival Habsburgs. Cultured as well as cunning, he founded the Académie française. Immortalised (and villainised) as the scheming cardinal of Alexandre Dumas's The Three Musketeers, he died in 1642, his system paving the way for the absolutism of Louis XIV."
+    notes: ["Chief minister to Louis XIII; the 'Red Eminence'; built French royal absolutism; villain of The Three Musketeers."]
+
+  - id: 271
+    name: "Lorenzo de' Medici"
+    state: backlog
+    status: none
+    birth_year: 1449
+    death_year: 1492
+    era_bc: false
+    role: ["ruler", "statesman"]
+    field: ["power"]
+    era: "renaissance"
+    region: "italian"
+    end: "illness"
+    birth_peg_num: 49
+    birth_peg_candidates: ["Rope", "Robe", "Rib", "Ruby", "Harp"]
+    death_peg_num: 92
+    death_peg_candidates: ["Bone", "Pin", "Pen", "Bun", "Pony", "Bean"]
+    facts: "Lorenzo de' Medici, known as 'Lorenzo the Magnificent', was the effective ruler of Florence at the dazzling height of the Italian Renaissance, and its greatest patron of art and learning. Though the city was nominally a republic, the immensely wealthy Medici banking family dominated it, and Lorenzo governed with consummate political skill, diplomacy and charm — surviving the bloody Pazzi conspiracy (in which his brother was murdered in the cathedral) and helping to keep a fragile peace among the rival Italian states.\n\nA cultured man and accomplished poet in the Tuscan vernacular himself, he lavished the family fortune on artists, scholars and humanists, supporting Botticelli, Leonardo da Vinci and the young Michelangelo (whom he took into his own household), and nurturing the Platonic Academy. His court made Florence the intellectual and artistic capital of Europe. His death in 1492 — the same year Columbus sailed — is often taken to mark the end of Florence's golden age, as the fiery preacher Savonarola soon rose to power against Medici luxury."
+    notes: ["'Il Magnifico'; de facto ruler of Renaissance Florence; great patron of Botticelli, Leonardo and Michelangelo; a poet himself."]
+
+  - id: 272
+    name: "Filippo Brunelleschi"
+    state: backlog
+    status: none
+    birth_year: 1377
+    death_year: 1446
+    era_bc: false
+    role: ["architect", "engineer"]
+    field: ["arts", "science"]
+    era: "renaissance"
+    region: "italian"
+    end: "illness"
+    birth_peg_num: 77
+    birth_peg_candidates: ["Cook", "Kayak", "Cake", "Cog", "Cocoa", "Cuckoo"]
+    death_peg_num: 46
+    death_peg_candidates: ["Roach", "Ridge", "Raja", "Arch"]
+    facts: "Filippo Brunelleschi was a founding genius of Renaissance architecture and engineering, best remembered for achieving what many thought impossible: crowning the cathedral of Florence with an enormous dome, the largest built since ancient Rome. Trained as a goldsmith, he studied the ruins of Rome to relearn the lost techniques of the ancients, and won the commission for the Duomo by proposing to raise its octagonal dome without the vast wooden scaffolding everyone assumed necessary.\n\nTo do it he invented brilliant new machines — ox-driven hoists and cranes with clutches and gears — and a self-supporting double-shell design of herringbone brickwork that could be built from the top up. Completed in 1436, the dome remains a marvel and the symbol of Florence. Brunelleschi is also credited with rediscovering the mathematical rules of linear perspective, which transformed Renaissance painting. An irascible, secretive perfectionist, he died in 1446 and was honoured with burial in the very cathedral his dome completes."
+    notes: ["Renaissance architect and engineer; built the vast dome of Florence Cathedral; rediscovered linear perspective."]
+
+  - id: 273
+    name: "Akbar the Great"
+    state: backlog
+    status: none
+    birth_year: 1542
+    death_year: 1605
+    era_bc: false
+    role: ["king-emperor", "ruler"]
+    field: ["power"]
+    era: "renaissance"
+    region: "indian"
+    end: "illness"
+    birth_peg_num: 42
+    birth_peg_candidates: ["Rhino", "Wren", "Rain", "Urn", "Iron", "Orange"]
+    death_peg_num: 5
+    death_peg_candidates: ["Seal", "Sail", "Silo"]
+    facts: "Akbar the Great was the third and greatest of the Mughal emperors, who transformed a shaky inheritance into a vast, wealthy and remarkably well-run empire covering most of the Indian subcontinent. Coming to the throne as a boy, he proved a brilliant general and an even more brilliant administrator, building an efficient centralised government, a fair land-revenue system, and a loyal nobility drawn from many backgrounds.\n\nThough himself illiterate, he was intensely curious and a lavish patron of art, architecture and learning, presiding over a golden age of Mughal painting and building his splendid (if short-lived) capital at Fatehpur Sikri. Most strikingly for his era, he pursued a policy of religious tolerance in a land of Muslims, Hindus and others: he abolished the hated tax on non-Muslims, married a Hindu princess, held debates among scholars of every faith at his court, and even founded his own syncretic creed. He died in 1605, having secured Mughal power for generations."
+    notes: ["Greatest of the Mughal emperors; expanded and consolidated the empire; famed for religious tolerance; illiterate but a great patron of the arts."]
 

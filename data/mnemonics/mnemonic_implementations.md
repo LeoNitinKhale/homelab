@@ -24,10 +24,10 @@ Every entry carries five metadata fields, each on its own line, so the set can b
 
 | Field | Values | Cardinality |
 |---|---|---|
-| **Role** | writer, poet, playwright, composer, artist, philosopher, mathematician, astronomer, physicist, chemist, naturalist, physician, nurse, engineer, architect, inventor, historian, statistician, economist, lawyer, clergyman, politician, statesman, ruler, king-emperor, queen, empress, general, admiral, revolutionary, activist, explorer, businessman, pirate, actor | many |
+| **Role** | writer, poet, playwright, composer, artist, philosopher, mathematician, astronomer, physicist, chemist, naturalist, physician, nurse, engineer, architect, inventor, historian, statistician, economist, lawyer, clergyman, politician, statesman, ruler, king-emperor, queen, empress, general, admiral, revolutionary, activist, explorer, businessman, pirate, actor, filmmaker | many |
 | **Field** | science, arts, music, literature, power, military, exploration, philosophy | many |
 | **Era** | ancient, medieval, renaissance, early-modern, enlightenment, industrial, modern | one |
-| **Region** | british, french, italian, german, austrian, american, dutch, polish, serbian, egyptian, roman, greek, macedonian, mongol, genoese, indian, south-african, chinese, russian, portuguese, norwegian, spanish, turkish, carthaginian, persian, swiss, danish, irish, hunnic, argentine, venezuelan, malian, new-zealander, jamaican, swedish | one |
+| **Region** | british, french, italian, german, austrian, american, dutch, polish, serbian, egyptian, roman, greek, macedonian, mongol, genoese, indian, south-african, chinese, russian, portuguese, norwegian, spanish, turkish, carthaginian, persian, swiss, danish, irish, hunnic, argentine, venezuelan, malian, new-zealander, jamaican, swedish, japanese | one |
 | **End** | natural, illness, assassinated, executed, suicide, battle, uncertain | one |
 
 **Two rules that keep the set usable:**
