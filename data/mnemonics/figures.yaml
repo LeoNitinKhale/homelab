@@ -10,7 +10,8 @@ vocabulary:
   era: [ancient, medieval, renaissance, early-modern, enlightenment, industrial, modern]
   region: [british, french, italian, german, austrian, american, dutch, polish,
     serbian, egyptian, roman, greek, macedonian, mongol, genoese, indian, south-african,
-    chinese, russian, portuguese, norwegian, spanish, turkish, carthaginian, persian, swiss, danish, irish, hunnic]
+    chinese, russian, portuguese, norwegian, spanish, turkish, carthaginian, persian, swiss, danish, irish, hunnic,
+    argentine, venezuelan, malian, new-zealander, jamaican, swedish]
   end: [natural, illness, assassinated, executed, suicide, battle, uncertain]
 
 figures:
@@ -4076,4 +4077,574 @@ figures:
     death_peg_candidates: ["Seal", "Sail"]
     facts: "Jules Verne was a French novelist often hailed as one of the founding fathers of science fiction, whose 'Extraordinary Voyages' thrilled readers with adventures powered by real and imagined technology. In Twenty Thousand Leagues Under the Sea he sent Captain Nemo prowling the ocean depths in the submarine Nautilus; in Around the World in Eighty Days the unflappable Phileas Fogg raced the globe against the clock; and in others he journeyed to the centre of the Earth and fired a crewed capsule to the Moon from Florida — presaging the real space age by a century.\n\nMeticulously researched and bursting with gadgets, geography and optimism about science, his books have been translated more than almost any other author's and adapted endlessly for stage and screen. He wrote steadily from his home in Amiens, where he also served on the town council, and died there in 1905, diabetic and nearly blind, having charted so many voyages he never took himself."
     notes: ["A founding father of science fiction; Twenty Thousand Leagues Under the Sea, Around the World in Eighty Days, Journey to the Centre of the Earth."]
+
+  - id: 214
+    name: "Carl Friedrich Gauss"
+    state: backlog
+    status: none
+    birth_year: 1777
+    death_year: 1855
+    era_bc: false
+    role: ["mathematician", "astronomer"]
+    field: ["science"]
+    era: "industrial"
+    region: "german"
+    end: "illness"
+    birth_peg_num: 77
+    birth_peg_candidates: ["Cook", "Kayak", "Cake", "Cog"]
+    death_peg_num: 55
+    death_peg_candidates: ["Lily", "Lolly", "Lilac"]
+    facts: "Carl Friedrich Gauss was a German mathematician and astronomer widely regarded as one of the greatest mathematicians who ever lived, nicknamed the 'Prince of Mathematicians'. A child prodigy — legend says he stunned his schoolteacher by instantly summing the numbers from 1 to 100 — he made profound contributions across an astonishing range of fields, from number theory (his Disquisitiones Arithmeticae) and algebra to geometry, statistics and physics.\n\nHe famously calculated the orbit of the newly discovered asteroid Ceres, allowing astronomers to relocate it after it was lost behind the Sun, and his name attaches to the 'Gaussian' (normal) distribution — the bell curve — the unit of magnetic flux density, and much else. A perfectionist who published only polished work (his motto: 'few, but ripe'), he worked at the University of Göttingen for most of his life and died there in 1855."
+    notes: ["'Prince of Mathematicians'; number theory, the normal (Gaussian) distribution, and predicting the orbit of Ceres."]
+
+  - id: 215
+    name: "Ernest Rutherford"
+    state: backlog
+    status: none
+    birth_year: 1871
+    death_year: 1937
+    era_bc: false
+    role: ["physicist"]
+    field: ["science"]
+    era: "modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 71
+    birth_peg_candidates: ["Cat", "Coat", "Kite", "Goat", "Kid"]
+    death_peg_num: 37
+    death_peg_candidates: ["Mug", "Mic", "Mac", "Mocha"]
+    facts: "Ernest Rutherford was a New Zealand-born British physicist often called the 'father of nuclear physics', who did more than almost anyone to reveal the structure of the atom. His famous gold-foil experiment, in which a few alpha particles fired at a thin sheet of gold rebounded sharply, led him to conclude that an atom is mostly empty space with a tiny, dense, positively charged nucleus at its centre — overturning the earlier 'plum pudding' model.\n\nHe also distinguished alpha and beta radiation, explained radioactive decay and half-life (for which he won the Nobel Prize in Chemistry in 1908), was the first to deliberately split the atom by inducing a nuclear reaction, and mentored a generation of great physicists at Manchester and Cambridge's Cavendish Laboratory. A big, hearty, loud-voiced man, he died unexpectedly in 1937 from complications of a strangulated hernia, and is buried near Newton in Westminster Abbey."
+    notes: ["Discovered the atomic nucleus (gold-foil experiment); 'father of nuclear physics'; first to split the atom; 1908 Nobel."]
+
+  - id: 216
+    name: "Dmitri Mendeleev"
+    state: backlog
+    status: none
+    birth_year: 1834
+    death_year: 1907
+    era_bc: false
+    role: ["chemist"]
+    field: ["science"]
+    era: "industrial"
+    region: "russian"
+    end: "illness"
+    birth_peg_num: 34
+    birth_peg_candidates: ["Mower", "Mirror", "Mare", "Moor", "Mayor", "Myrrh"]
+    death_peg_num: 7
+    death_peg_candidates: ["Sack", "Sock"]
+    facts: "Dmitri Mendeleev was a Russian chemist celebrated for creating the periodic table of the elements, one of the great unifying achievements of science. Arranging the known elements by atomic weight and recurring chemical properties, he saw a repeating 'periodic' pattern — and, crucially, had the confidence to leave gaps in his 1869 table where he believed undiscovered elements must fit, predicting their properties in detail. When elements like gallium and germanium were later found and matched his forecasts closely, his system was triumphantly vindicated.\n\nA colourful, famously shaggy-bearded eccentric who reputedly had his hair and beard trimmed only once a year, he was also a wide-ranging thinker who worked on petroleum, agriculture and standardising Russian vodka, and served as director of the national bureau of weights and measures. Despite his fame he was, controversially, never awarded a Nobel Prize. He died of influenza in St Petersburg in 1907; the element mendelevium is named in his honour."
+    notes: ["Devised the periodic table of the elements; left gaps that correctly predicted undiscovered elements."]
+
+  - id: 217
+    name: "Enrico Fermi"
+    state: backlog
+    status: none
+    birth_year: 1901
+    death_year: 1954
+    era_bc: false
+    role: ["physicist"]
+    field: ["science"]
+    era: "modern"
+    region: "italian"
+    end: "illness"
+    birth_peg_num: 1
+    birth_peg_candidates: ["Seed", "Suit"]
+    death_peg_num: 54
+    death_peg_candidates: ["Lyre", "Lure", "Liar", "Lorry", "Laurel"]
+    facts: "Enrico Fermi was an Italian-American physicist, one of the very few equally brilliant as a theorist and an experimentalist, whose work opened the nuclear age. In Italy he made fundamental contributions to quantum theory and the physics of the atomic nucleus (winning the 1938 Nobel Prize), then used his Nobel trip as a chance to flee Fascist Italy for the United States with his Jewish wife.\n\nAt the University of Chicago in 1942 he built and ran Chicago Pile-1, the first controlled, self-sustaining nuclear chain reaction — the birth of nuclear power — signalled by the coded message 'the Italian navigator has landed in the New World'. He became a central figure in the Manhattan Project that built the atomic bomb. His name lives on in the Fermi paradox (about alien civilisations), the element fermium, and the fermilab accelerator. Years of work around radiation likely contributed to the stomach cancer that killed him in 1954, aged just 53."
+    notes: ["Built the first nuclear reactor (Chicago Pile-1, 1942); key Manhattan Project figure; the 'Fermi paradox' and element fermium."]
+
+  - id: 218
+    name: "Galen"
+    state: backlog
+    status: none
+    birth_year: 129
+    death_year: 216
+    era_bc: false
+    role: ["physician"]
+    field: ["science"]
+    era: "ancient"
+    region: "roman"
+    end: "illness"
+    birth_peg_num: 29
+    birth_peg_candidates: ["Knob", "Nib", "Nappy"]
+    death_peg_num: 16
+    death_peg_candidates: ["Dish", "Dash", "Ditch", "Dutch"]
+    facts: "Galen of Pergamon was a Greek physician, surgeon and philosopher in the Roman Empire whose theories dominated Western and Islamic medicine for well over a thousand years. Beginning as a doctor to gladiators — which gave him a grim education in wounds and anatomy — he rose to become personal physician to several Roman emperors, and wrote a staggering quantity of works on anatomy, physiology, pharmacology and philosophy.\n\nThrough careful (if animal-based) dissection he made real discoveries about the nervous system, arteries and muscles, but he also entrenched errors — especially the ancient theory of the four 'humours' (blood, phlegm, black and yellow bile) whose balance supposedly governed health. Because so much of his vast output survived and carried such authority, his mistakes went largely unchallenged until Vesalius and Harvey overturned them in the Renaissance. He died around 216 AD, the towering medical authority of antiquity."
+    notes: ["Prolific Greek-Roman physician; the theory of the four humours; his authority dominated medicine for ~1,400 years."]
+
+  - id: 219
+    name: "Charles Lyell"
+    state: backlog
+    status: none
+    birth_year: 1797
+    death_year: 1875
+    era_bc: false
+    role: ["naturalist"]
+    field: ["science"]
+    era: "industrial"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 97
+    birth_peg_candidates: ["Book", "Pig", "Bike", "Pack", "Peak"]
+    death_peg_num: 75
+    death_peg_candidates: ["Coal", "Coil", "Eagle", "Gold"]
+    facts: "Charles Lyell was a Scottish-born geologist whose great work, Principles of Geology (1830-33), transformed how humanity understands the Earth's past. He championed 'uniformitarianism' — the idea that the same slow, everyday processes we see today (erosion, sedimentation, volcanism) shaped the planet over immense spans of time — against the prevailing 'catastrophist' view that dramatic events like a biblical flood had done the work.\n\nBy demonstrating that the Earth was vastly older than a few thousand years, Lyell provided the 'deep time' that Charles Darwin needed for evolution by natural selection to work; Darwin took Lyell's book on the Beagle voyage and the two became close friends, though Lyell struggled personally to accept that humans had evolved. Immensely influential and much honoured, he was knighted and later made a baronet, and died in London in 1875, buried in Westminster Abbey."
+    notes: ["Principles of Geology; championed 'deep time' and uniformitarianism; a key influence on Darwin."]
+
+  - id: 220
+    name: "Jean-Paul Sartre"
+    state: backlog
+    status: none
+    birth_year: 1905
+    death_year: 1980
+    era_bc: false
+    role: ["philosopher", "writer"]
+    field: ["philosophy", "literature"]
+    era: "modern"
+    region: "french"
+    end: "illness"
+    birth_peg_num: 5
+    birth_peg_candidates: ["Seal", "Sail"]
+    death_peg_num: 80
+    death_peg_candidates: ["Vase", "Fuse", "Face", "Fez"]
+    facts: "Jean-Paul Sartre was the most famous philosopher of the twentieth century's middle decades, the presiding figure of French existentialism and a public intellectual of enormous influence. In dense works like Being and Nothingness and accessible novels and plays like Nausea and No Exit ('Hell is other people'), he argued that human beings have no fixed, God-given essence — 'existence precedes essence' — and are therefore radically, even agonisingly, free and wholly responsible for what they make of themselves.\n\nWith his lifelong partner, the philosopher Simone de Beauvoir, he held court in the cafés of postwar Paris and became a byword for the engaged, politically committed thinker, championing Marxism and anti-colonial causes (though his defence of the Soviet Union drew fierce criticism). In a famous gesture he declined the 1964 Nobel Prize in Literature, refusing to be 'institutionalised'. Nearly blind and worn out, he died in 1980, with some 50,000 people following his funeral procession."
+    notes: ["Leading existentialist; Being and Nothingness, Nausea; 'existence precedes essence'; declined the 1964 Nobel Prize."]
+
+  - id: 221
+    name: "Jeremy Bentham"
+    state: backlog
+    status: none
+    birth_year: 1748
+    death_year: 1832
+    era_bc: false
+    role: ["philosopher", "lawyer"]
+    field: ["philosophy"]
+    era: "industrial"
+    region: "british"
+    end: "natural"
+    birth_peg_num: 48
+    birth_peg_candidates: ["Roof", "Reef", "Ref", "Ruff", "RAF", "Roofer"]
+    death_peg_num: 32
+    death_peg_candidates: ["Moon", "Money", "Mine", "Mane"]
+    facts: "Jeremy Bentham was an English philosopher, jurist and social reformer, the founding figure of utilitarianism — the doctrine that the rightness of any action is measured purely by how much happiness it produces, encapsulated in his principle of 'the greatest happiness of the greatest number'. He proposed a 'felicific calculus' to weigh pleasures against pains, and applied his relentless rationalism to law, punishment, economics and government.\n\nA tireless radical, he campaigned for prison reform (designing the 'panopticon', a circular prison allowing a single guard to watch all inmates), the decriminalisation of homosexuality, animal welfare, women's suffrage and the separation of church and state, influencing generations of reformers. Famously eccentric, he directed that after his death his body be preserved as an 'auto-icon', which still sits, dressed, in a case at University College London. He died in 1832, his ideas carried forward by his disciple John Stuart Mill."
+    notes: ["Founder of utilitarianism ('greatest happiness of the greatest number'); the panopticon; his preserved 'auto-icon' at UCL."]
+
+  - id: 222
+    name: "Vladimir Lenin"
+    state: backlog
+    status: none
+    birth_year: 1870
+    death_year: 1924
+    era_bc: false
+    role: ["revolutionary", "ruler"]
+    field: ["power"]
+    era: "modern"
+    region: "russian"
+    end: "illness"
+    birth_peg_num: 70
+    birth_peg_candidates: ["Case", "Goose", "Gauze"]
+    death_peg_num: 24
+    death_peg_candidates: ["Nurse", "Snare"]
+    facts: "Vladimir Lenin was the Russian revolutionary and political theorist who led the Bolsheviks to power in the October Revolution of 1917 and founded the Soviet Union, the world's first communist state. A brilliant, ruthless and single-minded Marxist, radicalised partly by the execution of his elder brother, he spent years in exile developing his ideas about a disciplined 'vanguard' party seizing power on behalf of the working class.\n\nWhen the First World War destabilised the Tsarist regime, Germany helped spirit him back into Russia in a sealed train, hoping he would sow chaos — which he duly did, overthrowing the provisional government and pulling Russia out of the war. He then led the Bolsheviks to victory in a brutal civil war, establishing a one-party dictatorship whose apparatus of terror his successor Stalin would vastly expand. Weakened by a series of strokes, he died in 1924; his embalmed body remains on display in a mausoleum in Moscow's Red Square."
+    notes: ["Led the 1917 Bolshevik Revolution; founded the Soviet Union; arrived in Russia via a sealed train; embalmed in a mausoleum."]
+
+  - id: 223
+    name: "Che Guevara"
+    state: backlog
+    status: none
+    birth_year: 1928
+    death_year: 1967
+    era_bc: false
+    role: ["revolutionary"]
+    field: ["power"]
+    era: "modern"
+    region: "argentine"
+    end: "executed"
+    birth_peg_num: 28
+    birth_peg_candidates: ["Knife", "Nephew", "Navy"]
+    death_peg_num: 67
+    death_peg_candidates: ["Chalk", "Cheque", "Shack", "Jockey", "Jug", "Jag"]
+    facts: "Ernesto 'Che' Guevara was an Argentine-born Marxist revolutionary who became one of the most recognisable icons of the twentieth century. A medical student whose travels across Latin America (recorded in The Motorcycle Diaries) convinced him that only armed revolution could end the region's poverty and injustice, he joined Fidel Castro's guerrilla movement and played a leading role in the 1959 Cuban Revolution, afterwards holding senior posts in the new government.\n\nRestless and uncompromising, he left Cuba to spread revolution abroad, first in the Congo and then in Bolivia, where his small guerrilla band was hunted down. Captured by the Bolivian army (with CIA assistance) in 1967, he was executed the next day without trial. His defiant good looks — immortalised in Alberto Korda's photograph of him in a beret — made him a lasting symbol of rebellion, splashed across countless posters and T-shirts, even as debate continues over his ruthlessness and his role in Cuba's revolutionary tribunals."
+    notes: ["Argentine-born Marxist guerrilla; hero of the Cuban Revolution; his portrait is a global icon; executed in Bolivia."]
+
+  - id: 224
+    name: "Simón Bolívar"
+    state: backlog
+    status: none
+    birth_year: 1783
+    death_year: 1830
+    era_bc: false
+    role: ["general", "statesman"]
+    field: ["military", "power"]
+    era: "industrial"
+    region: "venezuelan"
+    end: "illness"
+    birth_peg_num: 83
+    birth_peg_candidates: ["Foam", "Femur", "Vomit"]
+    death_peg_num: 30
+    death_peg_candidates: ["Mouse", "Mice", "Moose", "Maze"]
+    facts: "Simón Bolívar was the aristocratic Venezuelan soldier and statesman who led much of South America to independence from Spain, earning the title 'El Libertador' ('the Liberator'). Inspired by Enlightenment ideals and the American and French revolutions, he waged a long, daring military campaign across the continent — including an audacious crossing of the freezing Andes to surprise the Spanish — and helped free the territories that became Venezuela, Colombia, Ecuador, Peru, Panama and Bolivia (which is named after him).\n\nHe dreamed of uniting Spanish America into a single great federation, 'Gran Colombia', but regional rivalries, personal ambitions and political chaos tore it apart almost as fast as he built it, and he was eventually forced from power. Bitter and exhausted, reportedly lamenting that those who serve a revolution 'plough the sea', he died of tuberculosis in 1830 at just 47. He remains the supreme national hero across much of Latin America."
+    notes: ["'The Liberator'; freed much of South America from Spain; Bolivia is named after him; died disillusioned of tuberculosis."]
+
+  - id: 225
+    name: "Mansa Musa"
+    state: backlog
+    status: none
+    birth_year: 1280
+    death_year: 1337
+    era_bc: false
+    role: ["king-emperor", "ruler"]
+    field: ["power"]
+    era: "medieval"
+    region: "malian"
+    end: "illness"
+    birth_peg_num: 80
+    birth_peg_candidates: ["Vase", "Fuse", "Face", "Fez"]
+    death_peg_num: 37
+    death_peg_candidates: ["Mug", "Mic", "Mac", "Mocha"]
+    facts: "Mansa Musa was the ruler of the West African Empire of Mali at its fourteenth-century height, and is often described as the wealthiest individual in all of human history, thanks to Mali's vast reserves of gold and salt. A devout Muslim, he is best remembered for his spectacular pilgrimage to Mecca in 1324, when he crossed the Sahara with an enormous caravan of thousands of followers and camels laden with gold.\n\nSo lavishly did he spend and give away gold along the route — especially in Cairo — that he reportedly caused years of inflation and devalued the metal across the region, an almost unbelievable display of one man's riches. Back home he was a great patron of learning and architecture, commissioning mosques and helping turn the city of Timbuktu into a renowned centre of Islamic scholarship and trade. His fame spread to Europe, where his image appeared clutching gold on medieval maps. He died around 1337."
+    notes: ["Emperor of Mali; probably the richest person in history; his gold-laden 1324 pilgrimage to Mecca; patron of Timbuktu."]
+
+  - id: 226
+    name: "Frederick the Great"
+    state: backlog
+    status: none
+    birth_year: 1712
+    death_year: 1786
+    era_bc: false
+    role: ["king-emperor", "general"]
+    field: ["power", "military"]
+    era: "industrial"
+    region: "german"
+    end: "illness"
+    birth_peg_num: 12
+    birth_peg_candidates: ["Tin", "Den", "Dawn", "Ton", "Down", "Tan"]
+    death_peg_num: 86
+    death_peg_candidates: ["Fish", "Fisherman"]
+    facts: "Frederick II of Prussia, called Frederick the Great, was an eighteenth-century king who turned the modest state of Prussia into a major European power through military genius and administrative reform. A bold and innovative general, he won a string of remarkable victories in the War of the Austrian Succession and the Seven Years' War, often outnumbered, seizing the rich province of Silesia and cementing Prussia's status as a great power.\n\nHe was also a leading example of the 'enlightened despot': he reformed the law and bureaucracy, promoted religious tolerance and education, drained marshes and encouraged agriculture (championing the humble potato), and corresponded with philosophers, most famously Voltaire. A cultured man who played and composed for the flute, wrote in French and preferred the company of his beloved greyhounds to court ceremony, he built the elegant palace of Sanssouci as a retreat. He died there in 1786, exhausted, and was eventually buried, as he wished, beside his dogs."
+    notes: ["King of Prussia; brilliant military commander; enlightened despot, flute player and friend of Voltaire; palace of Sanssouci."]
+
+  - id: 227
+    name: "Paul Gauguin"
+    state: backlog
+    status: none
+    birth_year: 1848
+    death_year: 1903
+    era_bc: false
+    role: ["artist"]
+    field: ["arts"]
+    era: "industrial"
+    region: "french"
+    end: "illness"
+    birth_peg_num: 48
+    birth_peg_candidates: ["Roof", "Reef", "Ref", "Ruff", "RAF", "Roofer"]
+    death_peg_num: 3
+    death_peg_candidates: ["Seam", "Sum"]
+    facts: "Paul Gauguin was a French Post-Impressionist painter whose bold, flat areas of vivid, non-naturalistic colour and his search for a 'primitive' authenticity made him a crucial forerunner of modern art. A successful stockbroker who abandoned business (and eventually his wife and five children) to paint full time, he worked briefly and stormily alongside Vincent van Gogh — a collaboration that ended when van Gogh, in crisis, cut off part of his own ear.\n\nDisgusted with European civilisation, Gauguin sailed to Tahiti and later the remote Marquesas Islands in search of an unspoiled paradise, producing luminous, mysterious paintings of island life and Polynesian women that remain both celebrated and, for his colonial attitudes and relationships with young girls, deeply controversial. His life there was in fact marked by poverty, illness, debt and conflict with the authorities. Ravaged by syphilis, he died alone in the Marquesas in 1903, his reputation soaring only after his death."
+    notes: ["Post-Impressionist pioneer; fled to Tahiti; bold flat colour and 'primitivism'; friend and rival of Van Gogh."]
+
+  - id: 228
+    name: "Edmund Hillary"
+    state: backlog
+    status: none
+    birth_year: 1919
+    death_year: 2008
+    era_bc: false
+    role: ["explorer"]
+    field: ["exploration"]
+    era: "modern"
+    region: "new-zealander"
+    end: "natural"
+    birth_peg_num: 19
+    birth_peg_candidates: ["Tub", "Tape", "Tip", "Tuba", "Tap"]
+    death_peg_num: 8
+    death_peg_candidates: ["Safe", "Sofa", "Sieve"]
+    facts: "Sir Edmund Hillary was a New Zealand mountaineer and explorer who, together with the Nepali-Indian Sherpa Tenzing Norgay, became the first person confirmed to reach the summit of Mount Everest, the highest point on Earth, on 29 May 1953. A tall, unassuming former beekeeper, he had honed his skills in the New Zealand Alps and on Himalayan expeditions before the British attempt on Everest succeeded, news of which reached Britain just in time for Queen Elizabeth II's coronation.\n\nInstantly world-famous and knighted, Hillary went on to further adventures — reaching the South Pole overland and exploring the Himalayas — but devoted much of his later life to the Sherpa communities of Nepal, building schools, hospitals and airfields through his Himalayan Trust. Humble and practical to the end (he described the summit success in typically blunt terms), he became New Zealand's most revered figure, appearing on its five-dollar note, and died in 2008."
+    notes: ["First (with Tenzing Norgay) to summit Mount Everest, 1953; later a humanitarian for the Sherpa people."]
+
+  - id: 229
+    name: "Andrew Carnegie"
+    state: backlog
+    status: none
+    birth_year: 1835
+    death_year: 1919
+    era_bc: false
+    role: ["businessman"]
+    field: ["power"]
+    era: "industrial"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 35
+    birth_peg_candidates: ["Mail", "Mule", "Mole", "Mall", "Mill"]
+    death_peg_num: 19
+    death_peg_candidates: ["Tub", "Tape", "Tip", "Tuba", "Tap"]
+    facts: "Andrew Carnegie was a Scottish-American industrialist who rose from desperate poverty — arriving in the United States as a poor immigrant boy and starting work in a cotton mill — to become one of the wealthiest people in history as the king of American steel. Through relentless drive, shrewd investment and ruthless efficiency, he built the Carnegie Steel Company into a giant that he sold in 1901 for an astronomical sum, helping to power America's industrial rise.\n\nHis reputation is shadowed by the violent 1892 Homestead strike, in which steelworkers were killed. But Carnegie also articulated, in his 'Gospel of Wealth', the belief that the rich have a duty to use their fortunes for the public good — and he practised it spectacularly, giving away the equivalent of billions to found some 2,500 public libraries around the world, plus universities, concert halls (Carnegie Hall) and peace endowments. Declaring that 'the man who dies rich dies disgraced', he had donated most of his fortune by the time he died in 1919."
+    notes: ["Steel magnate turned great philanthropist; funded ~2,500 libraries; 'the man who dies rich dies disgraced'."]
+
+  - id: 230
+    name: "J. P. Morgan"
+    state: backlog
+    status: none
+    birth_year: 1837
+    death_year: 1913
+    era_bc: false
+    role: ["businessman"]
+    field: ["power"]
+    era: "industrial"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 37
+    birth_peg_candidates: ["Mug", "Mic", "Mac", "Mocha"]
+    death_peg_num: 13
+    death_peg_candidates: ["Tomb", "Dime", "Dam", "Team", "Time"]
+    facts: "John Pierpont Morgan was the dominant American financier of the Gilded Age, a banker so powerful that he effectively acted as the United States' central bank before one existed. Through his firm J.P. Morgan & Co. he reorganised and consolidated whole industries — merging companies to create giants like U.S. Steel (the first billion-dollar corporation) and General Electric — in a process critics dubbed 'Morganization'.\n\nHis power was never clearer than during financial panics: in 1893 and again in the Panic of 1907 he personally marshalled the resources of Wall Street, locking bankers in his library until they agreed to a rescue, to shore up the collapsing system — episodes that spurred the creation of the Federal Reserve. Gruff, imposing and self-conscious about a skin condition that reddened and disfigured his nose, he was also one of the greatest art and book collectors of his age. He died in Rome in 1913, leaving a financial dynasty and a spectacular library."
+    notes: ["The most powerful American banker of his era; created US Steel and General Electric; twice stemmed financial panics."]
+
+  - id: 231
+    name: "Bob Marley"
+    state: backlog
+    status: none
+    birth_year: 1945
+    death_year: 1981
+    era_bc: false
+    role: ["composer"]
+    field: ["music"]
+    era: "modern"
+    region: "jamaican"
+    end: "illness"
+    birth_peg_num: 45
+    birth_peg_candidates: ["Reel", "Rail", "Roll", "Aerial"]
+    death_peg_num: 81
+    death_peg_candidates: ["Foot", "Vet", "Vat"]
+    facts: "Bob Marley was a Jamaican singer-songwriter who became the global face of reggae music and one of the most beloved and influential musicians of the twentieth century. Rising from poverty in Kingston with his band The Wailers, he fused reggae's hypnotic rhythms with heartfelt songs of love, faith, poverty and political resistance — 'No Woman, No Cry', 'Get Up, Stand Up', 'One Love', 'Redemption Song' — carrying the sound and the message of his Rastafarian faith to audiences on every continent.\n\nA charismatic symbol of peace and unity (he famously joined the hands of rival Jamaican political leaders on stage) and of Pan-African pride, he turned reggae into a worldwide movement. In 1977 doctors found a malignant melanoma under a toenail; he declined amputation, partly on religious grounds, and the cancer spread through his body. He died in 1981, aged just 36, and has since become an almost mythic figure, his greatest-hits album Legend among the best-selling records of all time."
+    notes: ["Global reggae superstar and Rastafarian icon; One Love, Redemption Song; died of melanoma that began in his toe."]
+
+  - id: 232
+    name: "Sun Tzu"
+    state: backlog
+    status: none
+    birth_year: -544
+    death_year: -496
+    era_bc: true
+    role: ["general"]
+    field: ["military"]
+    era: "ancient"
+    region: "chinese"
+    end: "natural"
+    birth_peg_num: 44
+    birth_peg_candidates: ["Rear", "Aurora", "Warrior"]
+    death_peg_num: 96
+    death_peg_candidates: ["Beach", "Peach", "Bush", "Badge"]
+    facts: "Sun Tzu is the semi-legendary ancient Chinese general, strategist and philosopher traditionally credited with writing The Art of War, the most famous treatise on strategy ever composed. Living (according to tradition) during the turbulent Spring and Autumn period around the 5th-6th century BC, he supposedly served the state of Wu; the details of his life are shadowy and some scholars doubt he existed as a single person, but the work attributed to him has proved immortal.\n\nIn thirteen terse, aphoristic chapters, The Art of War argues that warfare is a matter of intelligence, deception, adaptability and psychology far more than brute force — that the greatest victory is to subdue the enemy without fighting, and that one must 'know the enemy and know yourself' to be assured of success. Rediscovered and revered far beyond the battlefield, its maxims are now applied to business, politics, sport and law the world over."
+    notes: ["BC. Traditional author of The Art of War; 'know your enemy'; win without fighting; dates are traditional/uncertain."]
+
+  - id: 233
+    name: "Nefertiti"
+    state: backlog
+    status: none
+    birth_year: -1370
+    death_year: -1330
+    era_bc: true
+    role: ["queen"]
+    field: ["power"]
+    era: "ancient"
+    region: "egyptian"
+    end: "uncertain"
+    birth_peg_num: 70
+    birth_peg_candidates: ["Case", "Goose", "Gauze"]
+    death_peg_num: 30
+    death_peg_candidates: ["Mouse", "Mice", "Moose", "Maze"]
+    facts: "Nefertiti was a queen of ancient Egypt in the 14th century BC, the principal wife of the pharaoh Akhenaten, and one of the most recognisable figures of the ancient world thanks to a single extraordinary object: the beautifully preserved painted limestone bust of her, discovered in 1912 and now among the most famous artworks on Earth. Her name means 'the beautiful one has come'.\n\nShe was far more than a royal consort: she wielded unusual power and prominence during Akhenaten's radical religious revolution, which swept aside Egypt's traditional gods in favour of the worship of a single sun-disc deity, the Aten. She is depicted alongside the pharaoh in scenes of worship and even in the smiting-of-enemies pose usually reserved for kings, and some scholars believe she may briefly have ruled Egypt in her own right after his death. Her later life and death, however, are shrouded in mystery — she disappears from the records, and her tomb and mummy have never been definitively identified."
+    notes: ["BC. Powerful queen of Egypt, wife of Akhenaten; the famous painted bust; her later fate is a lasting mystery."]
+
+  - id: 234
+    name: "Dwight D. Eisenhower"
+    state: backlog
+    status: none
+    birth_year: 1890
+    death_year: 1969
+    era_bc: false
+    role: ["general", "statesman"]
+    field: ["military", "power"]
+    era: "modern"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 90
+    birth_peg_candidates: ["Bus", "Bees", "Bass", "Boss"]
+    death_peg_num: 69
+    death_peg_candidates: ["Ship", "Shop", "Sheep", "Chip", "Chop", "Jeep"]
+    facts: "Dwight D. Eisenhower — universally known as 'Ike' — was the American general who commanded the Allied forces in Western Europe during the Second World War and then served two terms as the 34th President of the United States. As Supreme Allied Commander he planned and launched Operation Overlord, the massive D-Day landings in Normandy on 6 June 1944, and oversaw the campaign that liberated Western Europe from Nazi Germany, managing a fractious coalition of strong personalities with a famous blend of geniality and firmness.\n\nElected president in 1952 on a wave of popularity, he presided over a prosperous, stable 1950s America, ended the Korean War, built the interstate highway system, sent troops to enforce school desegregation in Little Rock, and steered the early Cold War. In his farewell address he issued a prescient warning against the growing power of the 'military-industrial complex'. He died in 1969, remembered as one of the most trusted figures of his era."
+    notes: ["Supreme Allied Commander in WWII (D-Day); 34th US President; warned of the 'military-industrial complex'."]
+
+  - id: 235
+    name: "Douglas MacArthur"
+    state: backlog
+    status: none
+    birth_year: 1880
+    death_year: 1964
+    era_bc: false
+    role: ["general"]
+    field: ["military"]
+    era: "modern"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 80
+    birth_peg_candidates: ["Vase", "Fuse", "Face", "Fez"]
+    death_peg_num: 64
+    death_peg_candidates: ["Chair", "Shore", "Cherry"]
+    facts: "Douglas MacArthur was one of America's most brilliant, flamboyant and controversial generals, a supreme commander in the Pacific theatre of the Second World War and afterwards the effective ruler of occupied Japan. The son of a general and a top graduate of West Point, he cultivated a larger-than-life public image with his sunglasses, corncob pipe and gold-braided cap. Driven out of the Philippines by the Japanese in 1942, he famously pledged 'I shall return', and did so two years later, wading ashore for the cameras.\n\nAs overlord of postwar Japan he oversaw its demilitarisation and democratic reconstruction with notable success. But his career ended in dramatic insubordination: commanding UN forces in the Korean War, he publicly clashed with President Truman over whether to widen the conflict against China, and Truman dismissed him in 1951. Returning home to hero's welcomes, he told Congress that 'old soldiers never die; they just fade away', and did so himself in 1964."
+    notes: ["US general; commanded the Pacific in WWII; 'I shall return' to the Philippines; ran postwar Japan; sacked in the Korean War."]
+
+  - id: 236
+    name: "George S. Patton"
+    state: backlog
+    status: none
+    birth_year: 1885
+    death_year: 1945
+    era_bc: false
+    role: ["general"]
+    field: ["military"]
+    era: "modern"
+    region: "american"
+    end: "uncertain"
+    birth_peg_num: 85
+    birth_peg_candidates: ["Foil", "File"]
+    death_peg_num: 45
+    death_peg_candidates: ["Reel", "Rail", "Roll", "Aerial"]
+    facts: "George S. Patton was the most aggressive and colourful American field commander of the Second World War, a master of fast-moving armoured warfare famed for his profane speeches, ivory-gripped revolvers and driving will to attack. Nicknamed 'Old Blood and Guts', he led troops with dramatic flair in North Africa and Sicily, then commanded the Third Army in its lightning sweep across France after the Normandy breakout, and in a celebrated feat wheeled his forces north through winter to relieve the besieged town of Bastogne during the Battle of the Bulge.\n\nBrilliant but volatile, he nearly wrecked his career by slapping two shell-shocked soldiers he accused of cowardice, and he repeatedly courted controversy with his outspokenness and his hard line against the Soviets. He believed in reincarnation and thought himself a warrior of ages past. Ironically, having survived so much combat, he died in December 1945 from injuries sustained in a low-speed car accident in occupied Germany, just months after victory in Europe."
+    notes: ["Aggressive US tank general of WWII; North Africa, Sicily, the relief of Bastogne; died after a car accident in 1945."]
+
+  - id: 237
+    name: "Erwin Rommel"
+    state: backlog
+    status: none
+    birth_year: 1891
+    death_year: 1944
+    era_bc: false
+    role: ["general"]
+    field: ["military"]
+    era: "modern"
+    region: "german"
+    end: "illness"
+    birth_peg_num: 91
+    birth_peg_candidates: ["Boat", "Bat", "Bud", "Pot", "Pad", "Boot"]
+    death_peg_num: 44
+    death_peg_candidates: ["Rear", "Aurora", "Warrior"]
+    facts: "Erwin Rommel was a German field marshal of the Second World War, popularly known as the 'Desert Fox' for the daring and cunning of his command of the Afrika Korps in the North African desert campaign. A gifted, aggressive tactician of mobile armoured warfare who had first made his name in the swift 1940 conquest of France, he ran rings around larger Allied forces in Libya and Egypt until finally being worn down at El Alamein and by overwhelming supply problems.\n\nUnusually for an enemy commander, he earned widespread respect from his opponents for his skill and his relatively chivalrous conduct, and his reputation was later burnished into a myth of the 'clean' Wehrmacht general untainted by Nazi crimes. Implicated (though his exact role is debated) in the July 1944 bomb plot to assassinate Hitler, he was given a choice by the regime: stand trial, or take cyanide and be spared, with his family protected and a hero's state funeral. He chose suicide, dying in October 1944, his true fate concealed from the public at the time."
+    notes: ["The 'Desert Fox' of WWII North Africa; respected by both sides; forced to suicide over the July plot against Hitler."]
+
+  - id: 238
+    name: "Alfred Nobel"
+    state: backlog
+    status: none
+    birth_year: 1833
+    death_year: 1896
+    era_bc: false
+    role: ["chemist", "inventor", "businessman"]
+    field: ["science"]
+    era: "industrial"
+    region: "swedish"
+    end: "illness"
+    birth_peg_num: 33
+    birth_peg_candidates: ["Mummy", "Mime", "Mama", "Mum", "Mammoth"]
+    death_peg_num: 96
+    death_peg_candidates: ["Beach", "Peach", "Bush", "Badge"]
+    facts: "Alfred Nobel was a Swedish chemist, engineer and industrialist who invented dynamite and, troubled by its uses, endowed the world's most prestigious prizes. A restless inventor who held hundreds of patents and built an international business empire, he found a way to stabilise the dangerously volatile explosive nitroglycerine by absorbing it into an inert material, creating dynamite — a controllable explosive that revolutionised mining, construction and tunnelling, but was also seized upon for warfare.\n\nAccording to a famous story, when his brother died a French newspaper mistakenly printed Alfred's obituary, condemning him as a 'merchant of death' who had grown rich by finding new ways to kill; appalled at how he might be remembered, he resolved to leave a better legacy. In his will he directed the bulk of his enormous fortune to fund annual prizes for achievements in physics, chemistry, medicine, literature and peace. He died in 1896; the Nobel Prizes, first awarded in 1901, have honoured human achievement ever since."
+    notes: ["Invented dynamite; a premature 'merchant of death' obituary led him to endow the Nobel Prizes."]
+
+  - id: 239
+    name: "Alexander Fleming"
+    state: backlog
+    status: none
+    birth_year: 1881
+    death_year: 1955
+    era_bc: false
+    role: ["physician"]
+    field: ["science"]
+    era: "modern"
+    region: "british"
+    end: "illness"
+    birth_peg_num: 81
+    birth_peg_candidates: ["Foot", "Vet", "Vat"]
+    death_peg_num: 55
+    death_peg_candidates: ["Lily", "Lolly", "Lilac"]
+    facts: "Sir Alexander Fleming was a Scottish physician and bacteriologist whose chance discovery of penicillin in 1928 launched the antibiotic era and transformed medicine. Returning from holiday to his notoriously untidy laboratory at St Mary's Hospital in London, he noticed that a culture dish of Staphylococcus bacteria had been contaminated by a stray mould, Penicillium, and that the bacteria had been killed in a ring around it — the mould was producing a substance that destroyed them.\n\nFleming identified and named 'penicillin', but struggled to purify it in quantity, and it was only a decade later that Howard Florey and Ernst Chain turned it into a usable, mass-produced drug in time to save countless lives in the Second World War and after. The three shared the Nobel Prize in 1945. Modest about how much luck was involved, Fleming himself warned presciently about the danger of bacteria developing resistance if the drug were misused. He died of a heart attack in 1955."
+    notes: ["Discovered penicillin (1928), the first antibiotic, by lucky accident; shared the 1945 Nobel Prize."]
+
+  - id: 240
+    name: "Carl Sagan"
+    state: backlog
+    status: none
+    birth_year: 1934
+    death_year: 1996
+    era_bc: false
+    role: ["astronomer"]
+    field: ["science"]
+    era: "modern"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 34
+    birth_peg_candidates: ["Mower", "Mirror", "Mare", "Moor", "Mayor", "Myrrh"]
+    death_peg_num: 96
+    death_peg_candidates: ["Beach", "Peach", "Bush", "Badge"]
+    facts: "Carl Sagan was an American astronomer and the most famous science communicator of his generation, who brought the wonder of the cosmos to a mass audience with rare warmth and eloquence. A serious planetary scientist who contributed to NASA's robotic missions to Venus, Mars and the outer planets, he became a household name through his 1980 television series Cosmos: A Personal Voyage — one of the most-watched science programmes ever made — and its accompanying best-selling book.\n\nHe championed critical thinking and scepticism, searched seriously for extraterrestrial intelligence (SETI), and helped design the golden records carried by the Voyager probes as messages to any aliens who might find them. He is perhaps best remembered for the 'Pale Blue Dot' — his moving reflection on a photograph of Earth taken by Voyager 1 from billions of miles away, showing our whole world as a tiny speck and pleading for humility and stewardship. He died of pneumonia, following a bone-marrow disease, in 1996, aged 62."
+    notes: ["Astronomer and science populariser; the TV series Cosmos; the 'Pale Blue Dot'; searched for extraterrestrial life."]
+
+  - id: 241
+    name: "Frederick Douglass"
+    state: backlog
+    status: none
+    birth_year: 1818
+    death_year: 1895
+    era_bc: false
+    role: ["activist", "writer"]
+    field: ["power", "literature"]
+    era: "industrial"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 18
+    birth_peg_candidates: ["Dove", "Toffee", "Diva", "Staff"]
+    death_peg_num: 95
+    death_peg_candidates: ["Ball", "Bell", "Pal", "Pill"]
+    facts: "Frederick Douglass was an African American who escaped slavery to become the most influential abolitionist orator and writer of nineteenth-century America, and a living, eloquent refutation of the racist claims used to justify slavery. Born enslaved in Maryland, he secretly learned to read and write as a boy — later saying that literacy was 'the pathway from slavery to freedom' — and escaped to the North in 1838.\n\nThere he became a spellbinding public speaker and published his searing autobiography, Narrative of the Life of Frederick Douglass, which became a bestseller and a landmark of American letters. He founded anti-slavery newspapers, campaigned for the vote for both black Americans and women, recruited black soldiers for the Union in the Civil War, and pressed President Lincoln on emancipation and equal treatment. After the war he continued fighting for civil rights and held several government posts, a revered national figure, until his death in 1895."
+    notes: ["Escaped slavery to become the leading abolitionist orator and writer; his Narrative; advised Abraham Lincoln."]
+
+  - id: 242
+    name: "Zheng He"
+    state: backlog
+    status: none
+    birth_year: 1371
+    death_year: 1433
+    era_bc: false
+    role: ["explorer", "admiral"]
+    field: ["exploration"]
+    era: "renaissance"
+    region: "chinese"
+    end: "illness"
+    birth_peg_num: 71
+    birth_peg_candidates: ["Cat", "Coat", "Kite", "Goat", "Kid"]
+    death_peg_num: 33
+    death_peg_candidates: ["Mummy", "Mime", "Mama", "Mum", "Mammoth"]
+    facts: "Zheng He was a Chinese admiral, diplomat and court eunuch who led the greatest maritime expeditions the world had yet seen, nearly a century before the European Age of Discovery. Captured and castrated as a boy and rising to become a trusted commander under the Ming Emperor Yongle, he led seven enormous voyages between 1405 and 1433 with a 'treasure fleet' of hundreds of ships and tens of thousands of men, ranging across Southeast Asia, India, Arabia and the east coast of Africa.\n\nHis largest 'treasure ships' were, by many accounts, vastly bigger than the vessels Columbus would later sail, and the expeditions were designed to display Ming power, secure trade and tribute, and bring exotic goods and envoys back to China — including, famously, a giraffe presented to the emperor. Shortly after his death (probably during or just after the final voyage, around 1433), China turned inward and abandoned such ventures, leaving Zheng He's astonishing achievements to fade until modern times."
+    notes: ["Ming admiral of the vast 'treasure fleet'; sailed to India, Arabia and East Africa; his ships dwarfed European ones."]
+
+  - id: 243
+    name: "Samuel Morse"
+    state: backlog
+    status: none
+    birth_year: 1791
+    death_year: 1872
+    era_bc: false
+    role: ["inventor", "artist"]
+    field: ["science", "arts"]
+    era: "industrial"
+    region: "american"
+    end: "illness"
+    birth_peg_num: 91
+    birth_peg_candidates: ["Boat", "Bat", "Bud", "Pot", "Pad", "Boot"]
+    death_peg_num: 72
+    death_peg_candidates: ["Cane", "Coin", "Gun", "Can", "Queen", "Canoe"]
+    facts: "Samuel Morse was an American who led two lives — first as an accomplished portrait painter, then as the inventor whose electric telegraph and 'Morse code' annihilated distance and transformed communication. A talented artist trained in London, he was reportedly away painting when a letter reached him too late to say farewell to his dying young wife; the anguish of slow news is said to have spurred his obsession with instant long-distance messaging.\n\nWorking with collaborators, he developed a practical single-wire electric telegraph and, crucially, the simple code of dots and dashes that bears his name, allowing operators to tap out messages letter by letter. In 1844 he sent the famous first official message down the line from Washington to Baltimore: 'What hath God wrought'. The telegraph spread explosively across America and the world, making Morse wealthy and celebrated (though embroiled in patent disputes) and knitting distant places together for the first time. He died in New York in 1872."
+    notes: ["Co-invented the electric telegraph and Morse code; 'What hath God wrought'; also a noted portrait painter."]
 
