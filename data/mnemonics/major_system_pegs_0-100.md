@@ -86,106 +86,106 @@ association tied to a number. Flag any instance using one so it isn't read phone
 
 | # | Sounds | Words | Brands |
 |---|--------|-------|--------|
-| 0 | S/Z | Saw, Zoo, Ice, Hose | — |
-| 1 | T/D | Tie, Tea, Doe, Hut, Head | — |
+| 0 | S/Z | Saw, Zoo, Ice, Hose, Ace | — |
+| 1 | T/D | Tie, Tea, Doe, Hut, Head, Toe | — |
 | 2 | N | Hen, Knee, Inn, Honey, Wine | — |
-| 3 | M | Ma, May, Ham, Emu, Ammo | — |
-| 4 | R | Rye, Roe, Ear, Hair, Oar | — |
-| 5 | L | Owl, Ale, Hall, Eel, Wool | — |
-| 6 | J/SH/CH | Shoe, Jay, Ash, Jaw, Chai | — |
-| 7 | K/G | Cow, Key, Oak, Egg, Hawk, Sock *(rlx)* | — |
+| 3 | M | Ma, May, Ham, Emu, Ammo, Yam | — |
+| 4 | R | Rye, Roe, Ear, Hair, Oar, Arrow | — |
+| 5 | L | Owl, Ale, Hall, Eel, Wool, Oil | — |
+| 6 | J/SH/CH | Shoe, Jay, Ash, Jaw, Chai, Joey | — |
+| 7 | K/G | Cow, Key, Oak, Egg, Hawk, Yak, Cue, Sock *(rlx)* | — |
 | 8 | F/V | Ivy, Hoof, Hive, Oaf, Wave | — |
-| 9 | P/B | Pie, Bee, Ape, Hoop, Hub, Soap *(rlx)* | — |
+| 9 | P/B | Pie, Bee, Ape, Hoop, Hub, Bay, Soap *(rlx)* | — |
 | 10 | TS | Toes, Dice, Oats, Ties, Dose | Tesco |
-| 11 | TT/TD/DD | Toad, Tot, Date, Dot, Dad | Tide |
+| 11 | TT/TD/DD | Toad, Tot, Date, Dot, Dad, Teddy, Tattoo | Tide |
 | 12 | TN | Tin, Den, Dawn, Ton, Down, Tan, Tuna | Tango |
-| 13 | TM | Tomb, Dime, Dam, Team, Time | Timberland |
-| 14 | TR | Tire, Deer, Door, Tar, Tower | Terry's Chocolate Orange |
+| 13 | TM | Tomb, Dime, Dam, Team, Time, Dome | Timberland |
+| 14 | TR | Tire, Deer, Door, Tar, Tower, Tree, Otter | Terry's Chocolate Orange |
 | 15 | TL | Tail, Dial, Doll, Tile, Towel | Tilda |
 | 16 | TSH/TCH | Dish, Dash, Ditch, Dutch | — |
-| 17 | TK | Tack, Duck, Dog, Deck, Tag | TK Maxx |
-| 18 | TF | Dove, Toffee, Diva, Staff *(rlx)* | Tefal |
+| 17 | TK | Tack, Duck, Dog, Deck, Tag, Tick, Attic, Toga | TK Maxx |
+| 18 | TF | Dove, Toffee, Diva, Tofu, Staff *(rlx)* | Tefal |
 | 19 | TP | Tub, Tape, Tip, Tuba *(rlx)*, Tap | Toblerone |
 | 20 | NS | Nose, Noose, Ounce, Niece | Nescafé, Nissan *(rlx)* |
-| 21 | NT | Knot, Net, Note, Aunt | Nutella |
+| 21 | NT | Knot, Net, Note, Aunt, Ant, Nut | Nutella |
 | 22 | NN | Nun, Onion, Neon, Nanny, Naan | — |
 | 23 | NM | Gnome, Number, Anemone *(rlx)* | — |
 | 24 | NR | Nurse *(rlx)*, Snare *(rlx)* | — |
 | 25 | NL | Nail, Nile *(proper)*, Noel *(proper)*, Snail *(rlx)* | — |
-| 26 | NJ/NSH/NCH | Nacho, Notch | — |
+| 26 | NJ/NSH/NCH | Nacho, Notch, Hinge | — |
 | 27 | NK | Neck, Nag, Hank, Nook, Ink | Nike |
 | 28 | NF | Knife, Nephew, Navy | Nivea |
 | 29 | NP | Knob, Nib, Nappy | — |
-| 30 | MS | Mouse, Mice, Moose, Maze | Maserati |
+| 30 | MS | Mouse, Mice, Moose, Maze, Mace, Moss | Maserati |
 | 31 | MT | Mat, Meat, Mud, Moat | Mattel |
-| 32 | MN | Moon, Money, Mine, Mane | Monopoly |
+| 32 | MN | Moon, Money, Mine, Mane, Minnow | Monopoly |
 | 33 | MM | Mummy, Mime, Mama, Mum, Mammoth | M&Ms *(letter cheat)* |
 | 34 | MR | Mower, Mirror, Mare, Moor, Mayor, Myrrh, Hammer, Emerald *(rlx)* | Marmite |
 | 35 | ML | Mail, Mule, Mole, Mall, Mill | Milky Way |
 | 36 | MJ/MSH/MCH | Mash, Match, Mesh, Mush | Michelin |
-| 37 | MK | Mug, Mic, Mac, Mocha | McDonald's |
+| 37 | MK | Mug, Mic, Mac, Mocha, Hammock | McDonald's |
 | 38 | MF | Muff, Muffin *(rlx)* | — |
-| 39 | MP | Map, Mop, Amp | — |
+| 39 | MP | Map, Mop, Amp, Imp | — |
 | 40 | RS | Rose, Rice | Rice Krispies |
-| 41 | RT | Root, Rat, Rod | Ritz |
-| 42 | RN | Rhino, Wren, Rain, Orange *(rlx)* | Renault |
-| 43 | RM | Ram, Arm, Rum, Room, Rim, Roman *(rlx)*, Rambo *(rlx)* | Rimmel |
+| 41 | RT | Root, Rat, Rod, Radio | Ritz |
+| 42 | RN | Rhino, Wren, Rain, Urn, Iron, Orange *(rlx)* | Renault |
+| 43 | RM | Ram, Arm, Rum, Room, Rim, Worm, Roman *(rlx)*, Rambo *(rlx)* | Rimmel |
 | 44 | RR | Rear, Aurora, Warrior | — |
 | 45 | RL | Reel, Rail, Roll, Aerial | Rolex, Rolls-Royce |
-| 46 | RJ/RSH/RCH | Roach, Ridge, Raja | — |
-| 47 | RK | Rock, Rack, Rake, Rag, Rug | Ricola |
+| 46 | RJ/RSH/RCH | Roach, Ridge, Raja, Arch | — |
+| 47 | RK | Rock, Rack, Rake, Rag, Rug, Ark, Rook | Ricola |
 | 48 | RF | Roof, Reef, Ref, Ruff, RAF, Roofer *(rlx)*, Rifle *(rlx)*, Raft *(rlx)*, Rover *(rlx)*, Refugee *(rlx)*, Reverend *(rlx)*, Ravioli *(rlx)* | Ryvita, Revlon, Revels |
-| 49 | RP | Rope, Robe, Rib, Ruby | Reebok, Ribena |
+| 49 | RP | Rope, Robe, Rib, Ruby, Harp | Reebok, Ribena |
 | 50 | LS | Lace, Lice, Lasso | Listerine |
 | 51 | LT | Light, Lad, Lady, Ladder *(rlx)*, Lute, Ladle *(rlx)*, LED, Loot | Lidl |
 | 52 | LN | Lion, Lawn, Lane, Loon, Alien, Lung | Lenor |
 | 53 | LM | Lamb, Lime, Lemon, Llama, Loom, Elm, Lima *(proper)*, Lemur *(rlx)* | Lamborghini |
 | 54 | LR | Lyre, Lure, Liar, Lorry, Laurel *(rlx)* | L'Oréal |
 | 55 | LL | Lily, Lolly, Lilac *(rlx)* | Lyle's Golden Syrup |
-| 56 | LJ/LSH/LCH | Leash, Leech, Lash | Lush |
-| 57 | LK | Lock, Lake, Log, Leg | LEGO, Lucozade |
-| 58 | LF | Leaf, Elf, Olive, Loaf | Levi's |
+| 56 | LJ/LSH/LCH | Leash, Leech, Lash, Ledge | Lush |
+| 57 | LK | Lock, Lake, Log, Leg, Elk | LEGO, Lucozade |
+| 58 | LF | Leaf, Elf, Olive, Loaf, Wolf | Levi's |
 | 59 | LP | Lobe, Lip, Lab, Loop | Lipton |
 | 60 | SHS/CHS | Shoes, Chess, Juice, Cheese | — |
 | 61 | SHT/CHT | Sheet, Jet, Shuttle *(rlx)* | — |
-| 62 | SHN/CHN | Chin, Chain, Genie | Chanel |
+| 62 | SHN/CHN | Chin, Chain, Genie, Ocean | Chanel |
 | 63 | SHM/CHM | Chime, Gem, Chum, Jam, Chimney *(rlx)* | — |
-| 64 | SHR/CHR | Chair, Shore, Cherry | — |
+| 64 | SHR/CHR | Chair, Shore, Cherry, Sherry, Shire | — |
 | 65 | SHL/CHL | Shell, Jail, Shawl, Jewel, Jelly | Shell |
 | 66 | JJ | Judge, Jujube | Johnson & Johnson (J&J) |
-| 67 | SHK/CHK | Chalk *(L is silent — CH,K)*, Cheque, Shack, Jockey, Jug, Jag | Jaguar *(rlx — trailing R dropped)* |
-| 68 | SHF/CHF | Chef, Chief, George Foreman *(rlx)* | — |
+| 67 | SHK/CHK | Chalk *(L is silent — CH,K)*, Cheque, Shack, Jockey, Jug, Jag, Chick | Jaguar *(rlx — trailing R dropped)* |
+| 68 | SHF/CHF | Chef, Chief, Sheaf, George Foreman *(rlx)* | — |
 | 69 | SHP/CHP | Ship, Shop, Sheep, Chip, Chop, Jeep | Chupa Chups |
 | 70 | KS/GS | Case, Goose, Gauze | Casio |
 | 71 | KT/GT | Cat, Coat, Kite, Goat, Kid | Kit Kat |
 | 72 | KN/GN | Cane, Coin, Gun, Can, Queen, Canoe | Canon |
-| 73 | KM/GM | Comb, Gum, Camel *(rlx)* | Camel *(cigarettes)* |
-| 74 | KR/GR | Car, Core, Gear, Choir, Screw *(rlx)* | Corona, Carlsberg |
-| 75 | KL/GL | Coal, Coil, Eagle, Gold *(rlx)* | Colgate, Kellogg's |
+| 73 | KM/GM | Comb, Gum, Cameo, Camel *(rlx)* | Camel *(cigarettes)* |
+| 74 | KR/GR | Car, Core, Gear, Choir, Crow, Screw *(rlx)* | Corona, Carlsberg |
+| 75 | KL/GL | Coal, Coil, Eagle, Koala, Clay, Gold *(rlx)* | Colgate, Kellogg's |
 | 76 | KJ/KSH/KCH | Cash, Coach, Couch, Cage | Gucci |
-| 77 | KK | Cook, Kayak, Cake, Cog | Coke, Coca-Cola |
+| 77 | KK | Cook, Kayak, Cake, Cog, Cocoa, Cuckoo | Coke, Coca-Cola |
 | 78 | KF/GF | Cave, Coffee, Cuff, Cove | KFC |
-| 79 | KP/GP | Cap, Cub, Cop, Cab, Cape | — |
+| 79 | KP/GP | Cap, Cub, Cop, Cab, Cape, Cup | — |
 | 80 | FS | Vase, Fuse, Face, Fez | Fisher-Price |
-| 81 | FT | Foot, Vet, Vat | Fiat, Fitbit |
-| 82 | FN | Van, Fan, Phone | Fanta |
+| 81 | FT | Foot, Vet, Vat, Photo | Fiat, Fitbit |
+| 82 | FN | Van, Fan, Phone, Vine, Fin | Fanta |
 | 83 | FM | Foam, Femur *(rlx)*, Vomit *(rlx)* | Famous Grouse |
-| 84 | FR | Fire, Fur, Ferry | Ferrari |
-| 85 | FL | Foil, File | Volvo |
+| 84 | FR | Fire, Fur, Ferry, Fairy | Ferrari |
+| 85 | FL | Foil, File, Fly, Flea, Veil | Volvo |
 | 86 | FSH/FCH | Fish, Fisherman *(rlx)* | Fisherman's Friend |
 | 87 | FK | Fig, Fog | Facebook |
 | 88 | FF | Fife, Fiver *(rlx)*, FF *(rlx)* | FIFA |
 | 89 | FP | Fob, Fop, Fibre-optic *(rlx)*, FB *(rlx)* | Fab |
-| 90 | BS/PS | Bus, Bees, Bass, Boss | Bose |
+| 90 | BS/PS | Bus, Bees, Bass, Boss, Peas | Bose |
 | 91 | BT/PT | Boat, Bat, Bud, Pot, Pad, Boot, Bed, Butt, Booty | Budweiser, BT |
-| 92 | BN/PN | Bone, Pin, Pen, Bun, Pony | Bounty |
+| 92 | BN/PN | Bone, Pin, Pen, Bun, Pony, Bean, Piano | Bounty |
 | 93 | BM/PM | Bomb, Beam, Puma, Pom | BMW |
-| 94 | BR/PR | Bear, Pear, Boar, Beer | Burger King |
-| 95 | BL/PL | Ball, Bell, Pal, Pill | PlayStation |
-| 96 | BSH/PSH/BCH/PCH | Beach, Peach, Bush, Badge | Bosch |
-| 97 | BK/PK | Book, Pig, Bike, Pack, Peak | Bacardi |
+| 94 | BR/PR | Bear, Pear, Boar, Beer, Berry, Pier | Burger King |
+| 95 | BL/PL | Ball, Bell, Pal, Pill, Bull, Bowl, Apple | PlayStation |
+| 96 | BSH/PSH/BCH/PCH | Beach, Peach, Bush, Badge, Pouch | Bosch |
+| 97 | BK/PK | Book, Pig, Bike, Pack, Peak, Beak, Puck | Bacardi |
 | 98 | BF/PF | Beef, Puffin *(rlx)*, Beaver *(rlx)*, Pavarotti *(rlx)* | Beefeater |
-| 99 | BB/PB/PP | Baby, Poppy, Pipe, Puppy | Pepsi |
+| 99 | BB/PB/PP | Baby, Poppy, Pipe, Puppy, Bib, Pub | Pepsi |
 | 100 | DSS/TSS | Daisies, Tissues | — |
 
 ---
@@ -196,14 +196,14 @@ Only for years whose last two digits are 00–09, where the tens-place zero must
 
 | # | Sounds | Words | Brands |
 |---|--------|-------|--------|
-| 00 | SS/SZ | Sauce | — |
+| 00 | SS/SZ | Sauce, Oasis | — |
 | 01 | ST/SD | Seed, Suit | — |
 | 02 | SN | Sun | Snickers |
 | 03 | SM | Seam, Sum *(accepted exception — abstract, kept for the finance pun)* | Samsung |
 | 04 | SR | Sewer, Sari | — |
-| 05 | SL | Seal, Sail | Solero |
-| 06 | SSH/SCH | Sash | — |
-| 07 | SK/SG | Sack, Sock | Skoda |
+| 05 | SL | Seal, Sail, Silo | Solero |
+| 06 | SSH/SCH | Sash, Sushi | — |
+| 07 | SK/SG | Sack, Sock, Ski | Skoda |
 | 08 | SF/SV | Safe, Sofa, Sieve | — |
 | 09 | SP/SB | Soap, Ape *(accepted exception — single sound, missing the tens-zero; year-ending pegs only, see instances #8)* | Subway |
 
