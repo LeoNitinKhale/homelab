@@ -851,6 +851,63 @@ From a waking nightmare, the teenage Mary produced Frankenstein — the tale of 
 
 ---
 
+## 118. Caravaggio 🟢 (1571–1610)
+
+- Birth peg: **71 → Kid**
+- Death peg: **10 → Dice**
+- Role: artist
+- Field: arts
+- Era: early-modern
+- Region: italian
+- End: illness
+- Scene: A brawling street **kid** of a genius, Caravaggio drags saints and beggars out of pitch-black shadow into a single harsh shaft of light, changing painting forever — then knifes a man dead in a duel and flees. On the run, feverish and alone, he throws his last **dice** and dies on a lonely beach.
+- Position: The violent young kid painting in the studio, in front — birth (creating) action; carries 71. The final dice thrown low as fever takes him on the beach; carries 10.
+- Master of dramatic light (chiaroscuro/tenebrism); a murderer who died a fugitive at Porto Ercole in 1610.
+
+**Facts:** Michelangelo Merisi da Caravaggio revolutionised European painting with his violent realism and his trademark tenebrism — figures hauled out of deep darkness by a single dramatic beam of light. He used prostitutes and street people as models for the Virgin and the saints, giving his religious scenes a shocking, dirty-fingernailed immediacy that scandalised and electrified Rome.
+
+His life was as extreme as his art: a hot-tempered brawler perpetually in trouble with the law, he killed a man in a duel (possibly over a bungled bet) in 1606 and spent his last years as a fugitive, painting furiously between scrapes. In 1610, chasing a papal pardon, he died alone and feverish on a beach at Porto Ercole, aged just 38 — his death, like much of his life, wrapped in mystery.
+
+---
+
+## 124. Scipio Africanus 🟢 (236 BC–183 BC)
+
+- Birth peg: **36 → Match**
+- Death peg: **83 → Femur**
+- Role: general
+- Field: military
+- Era: ancient
+- Region: roman
+- End: illness
+- Scene: Scipio, Rome's boldest young general, engineers the great grudge **match** against Hannibal — meeting him at last on the field of Zama and beating the unbeatable Carthaginian. Yet a jealous Rome turns on its saviour; embittered and self-exiled, he dies swearing his ungrateful homeland shall not even have his bones — his **femur**s left far from Rome.
+- Position: The great match against Hannibal engineered and won, in front — birth (creating) action; carries 36. His femurs laid low in exile, denied to Rome, as he dies; carries 83.
+- Defeated Hannibal at Zama (202 BC), ending the Second Punic War; died bitter in self-imposed exile.
+
+**Facts:** Publius Cornelius Scipio, called 'Africanus', was the Roman general who finally defeated Hannibal, the terror who had rampaged through Italy for over a decade. Rather than fight Hannibal in Italy, the young Scipio boldly carried the war to Carthage's own territory in North Africa, forcing Hannibal home to defend it — and there, at the Battle of Zama in 202 BC, he crushed him and ended the Second Punic War, winning his honorific 'Africanus'.
+
+Despite saving Rome, he was later hounded by political rivals who accused him and his brother of corruption. Disgusted by the ingratitude of the state he had served so brilliantly, he withdrew to his country estate in bitter self-imposed exile and, dying around 183 BC (the same year as Hannibal), reportedly ordered that his body be buried there rather than in Rome, with the epitaph 'Ungrateful fatherland, you shall not even have my bones.'
+
+---
+
+## 208. Euclid 🟢 (325 BC–265 BC)
+
+- Birth peg: **25 → Nail**
+- Death peg: **65 → Jewel**
+- Role: mathematician
+- Field: science
+- Era: ancient
+- Region: greek
+- End: natural
+- Scene: Euclid **nail**s down the whole of geometry with iron logic, building theorem upon theorem from a handful of self-evident axioms in his Elements — and, when a king asks for an easier route, insists 'there is no royal road to geometry'. His crystalline proofs remain a **jewel** of human reason, still taught two thousand years after the old geometer dies in Alexandria.
+- Position: Geometry nailed down proof by proof, in front — birth (creating) action; carries 25. The jewel of the Elements set as he sinks low in death; carries 65.
+- BC. 'Father of geometry'; his Elements was the world's main geometry textbook for over 2,000 years; 'no royal road to geometry'.
+
+**Facts:** Euclid was the ancient Greek mathematician known as the 'father of geometry', who worked in Alexandria around 300 BC and produced the Elements — one of the most influential books ever written. In it he gathered and systematised the geometry and number theory of his age, but his true genius lay in the method: starting from a tiny set of self-evident 'axioms' and definitions, he derived hundreds of theorems in a rigorous logical chain, creating the model of deductive proof that underpins all mathematics.
+
+The Elements served as the standard geometry textbook for well over two thousand years, studied by everyone from medieval scholars to Abraham Lincoln, and its structure shaped how Western thinkers reasoned about everything from science to philosophy. Almost nothing is known of Euclid's life, but one famous story has him telling King Ptolemy, who wanted a shortcut to mastering the subject, that 'there is no royal road to geometry'.
+
+---
+
 ## Open items
 
 - **Faraday (26)** — birth peg mis-encoded (pin/pan = 92, not 91); Pot proposed, needs confirming.
